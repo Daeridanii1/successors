@@ -1,10 +1,52 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: {{your plugin name here}}
-Upstream-Contact: {{your name here}} <{{your email here}}>
-Source: {{your plugin github url here}}
+Upstream-Name: Successors
+Upstream-Contact: Daeridanii (daeridanii44@gmail.com)
+Source: https://github.com/Daeridanii1/successors
 
-Files: *
-Copyright: {{your name and email again}}
+Files:
+ images/outfit/bimodal?railgun*
+ images/outfit/bimodal?railgun?turret*
+ images/outfit/burst?anti?missile*
+ images/outfit/corrosive?torpedo*
+ images/outfit/corrosive?torpedo?launcher*
+ images/outfit/fuel?sail*
+ images/outfit/ic?fusion?small*
+ images/outfit/ic?fusion*
+ images/outfit/large?betavoltaic*
+ images/outfit/large?ic?fusion*
+ images/outfit/large?successor?repair*
+ images/outfit/large?successor?reverse*
+ images/outfit/large?successor?steering*
+ images/outfit/large?successor?thruster*
+ images/outfit/medium?betavoltaic*
+ images/outfit/medium?successor?repair*
+ images/outfit/medium?successor?reverse*
+ images/outfit/medium?successor?steering*
+ images/outfit/medium?successor?thruster*
+ images/outfit/overcharged?betavoltaic*
+ images/outfit/overcharged?pulse?laser*
+ images/outfit/overcharged?pulse?laser?turret*
+ images/outfit/photon?lance*
+ images/outfit/shatter?cannon*
+ images/outfit/small?betavoltaic*
+ images/outfit/small?successor?repair*
+ images/outfit/small?successor?reverse*
+ images/outfit/small?successor?steering*
+ images/outfit/small?successor?thruster*
+ images/outfit/successor?armor?heavy*
+ images/outfit/successor?armor?regen*
+ images/outfit/successor?armor?resilient*
+ images/outfit/successor?armor?stealth*
+ images/outfit/successor?cooling*
+ images/outfit/successor?engines?tiny*
+ images/outfit/successor?pulse?laser*
+ images/outfit/successor?pulse?laser?turret*
+ images/outfit/successor?scanner*
+ images/outfit/tiny?successor?shield*
+
+Copyright: Daeridanii (https://github.com/Daeridanii1)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (under the same license).
 
 Files:
  icon*.png
