@@ -47,8 +47,8 @@ ship `Kvelqde`
 	description "This tiny shuttle is the smallest vessel operating in Successor space, and the first ship that new Successor pilots are able to get their arms on. Despite their small size, they are capable multipurpose vessels, and are frequently used for transporting passengers and cargo, for short-duration research expeditions, and even as very light combat craft, capable of just barely fitting one fixed and one turreted pulse laser."
 
 ship `Myaede`
-	sprite "ship/successor freighter"
-	thumbnail "thumbnail/successor freighter"
+	sprite "ship/successor light freighter"
+	thumbnail "thumbnail/successor light freighter"
 	attributes
 		licenses
 			"Successor"
@@ -706,8 +706,8 @@ ship `Veusade`
 	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight shatter cannons as close to an enemy ship's hull as possible, something which it unquestionably delivers on, for better or worse. The designers shaved off additional mass by excluding turrets; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down.`
 
 ship `Kaskhorade`
-	sprite "ship/successor heavy warship"
-	thumbnail "thumbnail/successor heavy warship"
+	sprite "ship/successor cruiser"
+	thumbnail "thumbnail/successor cruiser"
 	attributes
 		licenses
 			"High Houses"

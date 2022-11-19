@@ -43,6 +43,46 @@ Files:
  images/outfit/successor?pulse?laser?turret*
  images/outfit/successor?scanner*
  images/outfit/tiny?successor?shield*
+ images/ship/successor?carrier*
+ images/ship/successor?cruiser*
+ images/ship/successor?destroyer*
+ images/ship/successor?escort*
+ images/ship/successor?fighter*
+ images/ship/successor?light?freighter*
+ images/ship/successor?heavy?freighter*
+ images/ship/successor?heavy?freighter?0*
+ images/ship/successor?heavy?freighter?1*
+ images/ship/successor?heavy?freighter?2*
+ images/ship/successor?heirloom?med?warship*
+ images/ship/successor?med?warship*
+ images/ship/successor?mod?freighter*
+ images/ship/successor?mod?heavy?freighter*
+ images/ship/successor?raider*
+ images/ship/successor?shuttle*
+ images/thumbnail/successor?transport*
+ images/thumbnail/successor?carrier*
+ images/thumbnail/successor?cruiser*
+ images/thumbnail/successor?destroyer*
+ images/thumbnail/successor?escort*
+ images/thumbnail/successor?fighter*
+ images/thumbnail/successor?light?freighter*
+ images/thumbnail/successor?heavy?freighter*
+ images/thumbnail/successor?heavy?freighter?0*
+ images/thumbnail/successor?heavy?freighter?1*
+ images/thumbnail/successor?heavy?freighter?2*
+ images/thumbnail/successor?heirloom?med?warship*
+ images/thumbnail/successor?med?warship*
+ images/thumbnail/successor?mod?freighter*
+ images/thumbnail/successor?mod?heavy?freighter*
+ images/thumbnail/successor?raider*
+ images/thumbnail/successor?shuttle*
+ images/thumbnail/successor?transport*
+ images/label/successors*
+ images/effect/successor?flare/large*
+ images/effect/successor?flare/medium*
+ images/effect/successor?flare/small*
+ images/projectile/bimodal*
+ images/projectile/bimodal_switch*
 
 Copyright: Daeridanii (https://github.com/Daeridanii1)
 License: CC-BY-SA-4.0
