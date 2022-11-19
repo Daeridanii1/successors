@@ -1,0 +1,309 @@
+#	`Kvelqde`
+#	`Stolsaqra`
+#	`Myaede`
+#	`Veusade`
+#	`Seiitej`
+#	`Aaulqra`
+#	`Khorade`
+#	`Valsaqra`
+
+fleet "Light Successor Freight"
+    government "Successor"
+    names "successor"
+    personality timid appeasing
+    variant 240
+        `Kvelqde`
+    variant 160
+        `Kvelqde` 2
+    variant 120
+        `Kvelqde`
+        `Myaede`
+    variant 80
+        `Kvelqde` 2
+        `Myaede`
+    variant 180
+        `Myaede`
+    variant 20
+        "Ojde"
+    variant 20
+        "Ojde 0"
+    variant 20
+        "Ojde 2"
+    variant 20
+        "Ojde 1"
+    variant 20
+        "Ojde"
+        `Kvelqde`
+    variant 20
+        "Ojde 2"
+        `Kvelqde`
+    variant 20
+        "Ojde 1"
+        `Kvelqde`
+    variant 20
+        "Ojde 0"
+        `Kvelqde`
+    variant 10
+        "Ojde"
+        `Kvelqde` 2
+    variant 10
+        "Ojde 2"
+        `Kvelqde` 2
+    variant 10
+        "Ojde 1"
+        `Kvelqde` 2
+    variant 10
+        "Ojde 0"
+        `Kvelqde` 2
+
+fleet "Medium Successor Freight"
+    government "Successor"
+    names "successor"
+    personality timid appeasing
+    variant 80
+        `Kvelqde` 4
+        `Myaede`
+        "Ojde"
+    variant 20
+        `Kvelqde` 4
+        `Myaede`
+        "Ojde 2"
+    variant 20
+        `Kvelqde` 4
+        `Myaede`
+        "Ojde 1"
+    variant 20
+        `Kvelqde` 4
+        `Myaede`
+        "Ojde 0"
+    variant 10
+        `Kvelqde` 2
+        `Myaede` 2 
+        "Ojde" 2
+    variant 10
+        `Kvelqde` 2
+        `Myaede` 2 
+        "Ojde"
+        "Ojde 1"
+    variant 10
+        `Kvelqde` 2
+        `Myaede` 2 
+        "Ojde 1"
+        "Ojde 2"
+    variant 10
+        `Kvelqde` 2
+        `Myaede` 2 
+        "Ojde 1"
+        "Ojde 0"
+    variant 10
+        `Kvelqde` 3
+        `Myaede`
+        "Ojde"
+        "Stolsaqra" 4
+    variant 10
+        `Kvelqde` 3
+        `Myaede`
+        "Ojde 2"
+        "Stolsaqra" 4
+    variant 10
+        `Kvelqde` 3
+        `Myaede`
+        "Ojde 1"
+        "Stolsaqra" 4
+    variant 20
+        `Kvelqde` 4
+        "Ojde" 3
+        "Stolsaqra" 2
+    variant 20
+        `Kvelqde` 4
+        "Ojde"
+        "Ojde 2"
+        "Ojde 1"
+        "Stolsaqra" 2
+    variant 20
+        `Kvelqde` 4
+        "Ojde"
+        "Ojde 1" 2
+        "Ojde 0"
+        "Stolsaqra" 2
+
+fleet "Small Successor Transport"
+    government "Successor"
+    names "successor"
+    personality timid
+    variant 50
+        "Kvelqde"
+    variant 33
+        "Kvelqde" 2
+    variant 25
+        "Kvelqde" 3
+    variant 50
+        "Ejniisde"
+    variant 33
+        "Ejniisde" 2
+
+fleet "People's Houses"
+    government "People's Houses"
+    names "successor"
+    personality harvests disables plunders mining
+    variant 60
+        `Kvelqde (Violent)`
+    variant 60
+        `Stolsaqra (OC Laser)`
+    variant 50
+        `Kvelqde (Violent)` 2
+    variant 30
+        `Stolsaqra (OC Laser)` 2
+    variant 30
+        `Myaede-Khora`
+    variant 30
+        `Myaede`
+    variant 10
+        `Myaede-Khora` 2
+
+fleet "People's Houses Raiders"
+    government "People's Houses (Hostile)"
+    names "successor"
+    personality harvests disables plunders
+    variant 30
+        `Kvelqde (Violent)` 4
+    variant 50
+        `Stolsaqra (OC Laser)` 2
+    variant 50
+        `Myaede-Khora`
+    variant 30
+        `Myaede-Khora` 2
+    variant 15
+        `Myaede-Khora` 2
+        `Stolsaqra (OC Laser)` 3
+    
+fleet "Small Old Houses"
+    personality
+        heroic
+    government "Old Houses"
+    names "high houses"
+    variant 60
+        "Stolsaqra"
+    variant 20
+        "Veusade" 3
+    variant 20
+        "Seiitej" 2
+        "Aaulqra"
+    variant 20
+        "Aaulqra" 2
+    variant 40
+        "Veusade"
+    variant 40
+        "Seiitej"
+    variant 40
+        "Aaulqra"
+
+fleet "Large Old Houses"
+    government "Old Houses"
+    names "high houses"
+    personality
+        heroic
+    variant 50
+        "Kaskhorade" 2
+        "Aaulqra" 2
+    variant 20
+        "Aaulqra" 3
+        "Veusade" 2
+        "Seiitej" 2
+    variant 50
+        "Kaskhorade" 3
+    variant 25
+        "Valsaqra"
+    variant 25
+        "Valsaqra" 2
+    variant 25
+        "Valsaqra"
+        "Kaskhorade"
+        "Aaulqra"
+    variant 1
+        "Valkkyiara-Khorasaqra"
+        "Valsaqra" 2
+        "Kaskhorade" 2
+        "Aaulqra" 4
+
+fleet "Old Houses Police"
+    government "Old Houses"
+    names "high houses"
+    personality
+        heroic opportunistic
+    variant 50
+        "Stolsaqra"
+    variant 50
+        "Seiitej"
+    variant 25
+        "Seiitej" 2
+
+fleet "Small New Houses"
+    personality
+        heroic
+    government "New Houses"
+    names "high houses"
+    variant 60
+        "Stolsaqra"
+    variant 20
+        "Veusade" 3
+    variant 20
+        "Seiitej" 2
+        "Aaulqra"
+    variant 20
+        "Aaulqra" 2
+    variant 40
+        "Veusade"
+    variant 40
+        "Seiitej"
+    variant 40
+        "Aaulqra"
+
+fleet "Large New Houses"
+    government "New Houses"
+    names "high houses"
+    personality
+        heroic
+    variant 50
+        "Kaskhorade" 2
+        "Aaulqra" 2
+    variant 20
+        "Aaulqra" 3
+        "Veusade" 2
+        "Seiitej" 2
+    variant 50
+        "Kaskhorade" 3
+    variant 25
+        "Joruuvaqra"
+        "Naapojde" 8
+    variant 25
+        "Valsaqra"
+        "Joruuvaqra"
+        "Naapojde" 8
+    variant 25
+        "Joruuvaqra"
+        "Naapojde" 8
+        "Kaskhorade"
+        "Aaulqra"
+    variant 1
+        "Valkkyiara-Khorasaqra"
+        "Joruuvaqra" 2
+        "Naapojde" 16
+        "Kaskhorade" 2
+        "Aaulqra" 4
+
+fleet "Successor Miners"
+    government "Successor"
+    names "successor"
+    personality
+        staying appeasing mining harvests frugal
+    variant 50
+        `Kvelqde`
+    variant 20
+        `Myaede`
+    variant 30
+        `Kvelqde` 2
+    variant 10
+        `Myaede`
+        `Kvelqde` 2
+

@@ -1,0 +1,356 @@
+outfit "Bimodal Railgun"
+	category "Guns"
+	cost 1370000
+	thumbnail "outfit/bimodal railgun"
+	licenses
+		"High Houses"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		sprite "projectile/bimodal"
+			"frame rate" 5
+			"start frame" 0
+			"no repeat"
+		sound "pulse"
+		"hit effect" "seeker impact"
+		"hit effect" "electron impact" 3
+		"fire effect" "moonbeam fleck" 4
+		"inaccuracy" 1
+		"velocity" 30
+		"lifetime" 15
+		"range override" 900
+		"burst count" 5
+		"burst reload" 10
+		"reload" 30
+		"firing energy" 65
+		"firing heat" 120
+		"shield damage" 5
+		"hull damage" 135
+		"hit force" 30
+		"cluster"
+		"submunition" "Bimodal Switch" 3
+	description `The Bimodal Railgun was designed, quite simply, as a perfect weapon; and indeed, it is said that by the time the empire of the Predecessors fell, they had seen no need to install any other weapon on their ships for over a thousand years.`
+	description `It fires a condensed packet of heavy metal ions that disperse as they travel: up close the concentrated bolt pierces armor, while at a distance the ionic spray destabilizes shielding. Together, a ship equipped with these can adjust its damage profile just by changing its engagement range, allowing it to be highly effective against any foe.`
+
+outfit "Bimodal Railgun Turret"
+	category "Turrets"
+	cost 2950000
+	thumbnail "outfit/bimodal railgun turret"
+	licenses
+		"High Houses"
+	"mass" 55
+	"outfit space" -55
+	"weapon capacity" -55
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pulse turret"
+		"hardpoint offset" 9.
+		sprite "projectile/bimodal"
+			"frame rate" 5
+			"start frame" 0
+			"no repeat"
+		sound "pulse"
+		"hit effect" "seeker impact"
+		"hit effect" "electron impact" 3
+		"fire effect" "moonbeam fleck" 4
+		"inaccuracy" 1
+		"velocity" 30
+		"lifetime" 15
+		"range override" 900
+		"turret turn" 3.5
+		"burst count" 10
+		"burst reload" 5
+		"reload" 15
+		"firing energy" 65
+		"firing heat" 120
+		"firing force" 25
+		"shield damage" 5
+		"hull damage" 135
+		"hit force" 30
+		"cluster"
+		"submunition" "Bimodal Switch" 3
+	description `Successor warships have traditionally relied on fixed weaponry to deal with their foes, but the High Houses do produce a turreted version of the Bimodal Railgun so that their larger and slower vessels can maintain combat effectiveness against manuverable targets. It mounts two railguns side by side, rigged to fire double the amount of shots per burst to keep them in sync with the fixed hardpoints.`
+
+outfit "Bimodal Switch"
+	weapon
+		sprite "projectile/bimodal_switch"
+			"random start frame"
+			"frame rate" 20
+		"hit effect" "ion rain impact" 3
+		"inaccuracy" 10
+		"velocity" 30
+		"lifetime" 6
+		"random lifetime" 3
+		"shield damage" 48
+		"hull damage" 4
+
+outfit "Shatter Cannon"
+	category "Guns"
+	cost 455000
+	thumbnail "outfit/shatter cannon"
+	licenses
+		"High Houses"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sound "pulse"
+		"velocity" 0
+		"lifetime" 0
+		"range override" 375
+		"velocity override" 25
+		"burst count" 5
+		"burst reload" 3
+		"reload" 45
+		"firing energy" 30
+		"firing heat" 55
+		"cluster"
+		"submunition" "Shatter Projectile" 3
+	description `The Successors have a historical affinity for projectile weaponry which persists to the modern day with the Shatter Cannon. It fires a short-ranged, highly inaccurate blast of projectiles that not only deal substantial damage but also temporarily disrupt the target's engines.`
+	description `While it is ultimately inelegant in comparison to the Bimodal Railgun, and therefore less appreciated, the Shatter Cannon has found a place on the Successors' fast attack craft both as a tool for slowing down enemy vessels, and a potent weapon in its own right.`
+
+outfit "Shatter Projectile"
+	weapon
+		sprite "projectile/ion rain"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 20
+		"velocity" 25
+		"lifetime" 10
+		"random lifetime" 5
+		"slowing damage" 0.45
+		"shield damage" 52
+		"hull damage" 48
+
+outfit "Successor Pulse Laser"
+	category "Guns"
+	cost 69000
+	thumbnail "outfit/successor pulse laser"
+	licenses
+		"Successor"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/moonbeam"
+			"random start frame"
+		sound "laser"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "electron impact"
+		"inaccuracy" 3.5
+		"velocity" 490
+		"lifetime" 1
+		"burst count" 4
+		"burst reload" 1
+		"reload" 9
+		"firing energy" 8.7
+		"firing heat" 20
+		"shield damage" 12.5
+		"hull damage" 15
+		"piercing" 0.1
+		"cluster"
+	description "This shield-penetrating laser is one of the few weapons manufactured independently in Successor space, rather than under the auspices—and restrictions—of the High Houses. Unfortunately, and perhaps as a result, it is neither especially powerful nor efficient, though its low cost and space requirements make it a nonetheless relatively appealing defensive choice for those without access to the High Houses' more potent weaponry."
+
+outfit "Pulse Laser Turret"
+	category "Turrets"
+	cost 145000
+	thumbnail "outfit/successor pulse laser turret"
+	licenses
+		"Successor"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		sprite "projectile/moonbeam"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/heavy laser turret"
+		sound "laser"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "electron impact"
+		"inaccuracy" 3.5
+		"velocity" 490
+		"turret turn" 2.5
+		"lifetime" 1
+		"burst count" 4
+		"burst reload" 1
+		"reload" 4.5
+		"firing energy" 8.7
+		"firing heat" 20
+		"shield damage" 12.5
+		"hull damage" 15
+		"piercing" 0.1
+		"cluster"
+	description "The invention of the Pulse Laser was a wake-up call for the more astute in the High Houses, as it was the first time in hundreds of years that weapons were being manufactured by groups other than themselves. Most Successors see the turreted version as a continuation of this democratization of violence, while the more paranoid claim that the High Houses have infiltrated production and intentionally sabotaged the design."
+
+outfit "Overcharged Pulse Laser"
+	category "Guns"
+	cost 84000
+	thumbnail "outfit/overcharged pulse laser"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/moonbeam"
+			"random start frame"
+		sound "laser"
+		"fire effect" "moonbeam fleck" 3
+		"hit effect" "electron impact"
+		"inaccuracy" 5.5
+		"velocity" 490
+		"lifetime" 1
+		"burst count" 4
+		"burst reload" 1
+		"reload" 7
+		"firing energy" 9.2
+		"firing heat" 38
+		"shield damage" 12.5
+		"hull damage" 18.5
+		"piercing" 0.1
+		"cluster"
+	description `Unable to access large quantities of the high-quality weaponry produced by the High Houses, the "People's Houses" have had to work with what's available to them: mostly the relatively low-powered pulse lasers produced independently in Successor space. This pulse laser has had its safeties bypassed and its optics upgraded, allowing it to do more damage at a higher rate of fire in exchange for requiring more power and producing much more heat.`
+
+outfit "Overcharged Laser Turret"
+	category "Turrets"
+	cost 136000
+	thumbnail "outfit/overcharged pulse laser turret"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"turret mounts" -1
+	weapon
+		sprite "projectile/moonbeam"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/laser turret"
+		sound "laser"
+		"fire effect" "moonbeam fleck" 3
+		"hit effect" "electron impact"
+		"inaccuracy" 5.5
+		"velocity" 490
+		"lifetime" 1
+		"turret turn" 3.5
+		"burst count" 4
+		"burst reload" 1
+		"reload" 5
+		"firing energy" 9.2
+		"firing heat" 38
+		"shield damage" 12.5
+		"hull damage" 18.5
+		"piercing" 0.1
+		"cluster"
+	description `Hand-crafted by the more colorful members of the People's Houses, this bespoke overcharged Pulse Laser turret is tuned to fire even faster than the fixed version, producing a truly prodigious amount of heat for a weapon of its size. Despite its crude design, it is nonetheless a fearsome weapon, especially considering that it retains the ability to punch through shielding.`
+
+outfit "Corrosive Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 350000
+	licenses
+		"High Houses"
+	thumbnail "outfit/corrosive torpedo launcher"
+	"mass" 30
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	"corrosive torpedo capacity" 120
+	weapon
+		sprite "projectile/typhoon"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "Corrosive Torpedo"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 6
+		"velocity override" 6
+		"lifetime" 600
+		"range override" 6600
+		"burst count" 3
+		"burst reload" 5
+		"reload" 40
+		"firing energy" 4
+		"firing heat" 50
+		"turn" 16.6
+		"acceleration" .5
+		"drag" .02
+		"homing" 3
+		"optical tracking" .5
+		"radar tracking" .8
+		"shield damage" 31
+		"hull damage" 68
+		"corrosion damage" 4.8
+		"hit force" 150
+		"missile strength" 40
+	description "Rather than a conventional explosive payload, Corrosive Torpedoes carry a highly volatile gel that reacts violently with the metal that makes up a ship's hull. They are very powerful against unshielded targets, but their lack of direct damage makes them ineffective while a target's shields are active. In order to ensure that the torpedoes reach their target, they are fired in bursts of three."
+
+outfit "Corrosive Torpedo"
+	plural "Corrosive Torpedoes"
+	category "Ammunition"
+	licenses
+		"High Houses"
+	cost 2700
+	thumbnail "outfit/corrosive torpedo"
+	"mass" .5
+	"corrosive torpedo capacity" -1
+	description "Corrosive Torpedoes are ammunition for the Corrosive Torpedo Launcher. You cannot install Corrosive Torpedoes unless you have also installed a launcher to fire them from."
+
+outfit "Burst Anti-Missile Turret"
+	category "Turrets"
+	cost 135000
+	thumbnail "outfit/burst anti missile"
+	licenses
+		"Successor"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 20
+		"velocity" 200
+		"lifetime" 1
+		"burst count" 10
+		"burst reload" 3
+		"reload" 28
+		"firing energy" 10
+		"firing heat" 56
+	description "The Burst Anti-Missile Turret is intended as an elegant counter to cluster-fired missiles: it can fire very quickly for a short duration before entering a longer cooldown period, during which the ship carrying it is vulnerable. This tradeoff synergizes with the combat cadence of the Successors, who use it to cover their quick attack runs and endure the cooldown during the retreat phase."
+
+outfit "Conductance Turret"
+	category "Turrets"
+	licenses
+		"High Houses"
+	cost 2549000
+	thumbnail "outfit/heliarch attractor"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"required crew" 1
+	"turret mounts" -1
+	"heat generation" 15.0
+	weapon
+		sprite "projectile/repulsor"
+			"frame rate" 3.2
+			"random start frame"
+		"hardpoint sprite" "hardpoint/heliarch repulsor"
+		"hardpoint offset" 9.
+		sound "heliarch repulsor"
+		"hit effect" "repulsor impact"
+		"inaccuracy" 3
+		"turret turn" 3.4
+		"velocity" 560
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.8
+		"firing heat" -45.0
+		"heat damage" 45.0
+		"shield damage" 4.1
+		"hull damage" 1.2
+	description "The engineers in the employ of the High Houses have developed this turret as a clever way of dealing with the heat produced by a ship's systems while in combat, conducting it along the particle beam generated by the weapon into a target. While it generates a substantial amount of resting heat, this weapons is capable of rapidly overheating an unprepared enemy ship, and the High Houses often use it as a policing tool to force a target's reactor to shut down."

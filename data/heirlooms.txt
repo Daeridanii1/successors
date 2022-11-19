@@ -1,0 +1,224 @@
+ship "Valkkyiara-Khorasaqra"
+	sprite "ship/successor heirloom med warship"
+	thumbnail "thumbnail/successor heirloom med warship"
+	"plural" "Valkkyiara-Khorasaqran"
+	attributes
+		licenses
+			"Heirloom"
+		category "Medium Warship"
+		"cost" 785000000
+		"shields" 12500
+		"hull" 115000
+		"required crew" 22
+		"bunks" 30
+		"mass" 315
+		"drag" 2.4
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 25
+		"outfit space" 570
+		"weapon capacity" 255
+		"engine capacity" 120
+		"spinal mount" 1
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
+		`"Veusa" Inductive Reverser`
+		"Heirloom Reactor"
+		"Heirloom Shielding"
+		"Hyperdrive"
+		"Tactical Scanner"
+		"Successor Cooling" 2
+		"Heirloom Railgun" 6
+		"Heirloom Point Defense" 4
+		"Photon Lance"
+		"Photon Battery" 5
+		"Heirloom Hunter-Killer Drones" 20
+	engine -5 69
+	engine 5 69
+	gun -27 -17
+	gun -23 -23
+	gun -19 -30
+	gun 27 -17
+	gun 23 -23
+	gun 19 30
+	gun 0 -94 "Photon Lance"
+	turret 0 52 "Heirloom Point Defense"
+	turret 0 67 "Heirloom Point Defense"
+	turret -31 31 "Heirloom Point Defense"
+	turret 31 31 "Heirloom Point Defense"
+	"steering engine" -10 -65 
+		zoom .5
+		angle 45
+		right
+	"steering engine" 10 -65 
+		zoom .5
+		angle 315
+		left
+	"steering engine" -30 -5 
+		left
+		angle 180
+		zoom .7
+	"steering engine" 30 -5 
+		right
+		angle 180
+		zoom .7
+	"reverse engine" -30 -5 
+		zoom .7
+	"reverse engine" 30 -5 
+		zoom .7
+	leak "leak" 50 50
+	leak "flame" 30 80
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "During the collapse of the Predecessors' empire, the high houses stored away as much of their wealth and property as they could manage, including their private fleets of warships, which were ultimately passed down for over a thousand years as priceless family heirlooms. Despite being far more powerful than anything else in Successor space, these vessels almost never leave the ground, since the high houses have no desire to risk these priceless and irreplacable ships that are so deeply intertwined with their family history."
+
+outfit "Photon Lance"
+	category "Secondary Weapons"
+	cost 1370000
+	licenses
+		"Heirloom"
+	thumbnail "outfit/photon lance"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	"photon capacity" 5
+	"spinal mount" -1
+	"unplunderable" 1
+	weapon
+		sprite "projectile/photon lance"
+			"frame rate" 60
+		sound "proton" 10
+		ammo "Photon Battery"
+		icon "icon/dragonflame"
+		"fire effect" "ionball ring" 8
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame debris" 10
+		"hit effect" "dragonflame plasma" 10
+		"inaccuracy" .3
+		"velocity" 1800
+		"lifetime" 1
+		"reload" 200
+		"firing energy" 2000
+		"firing heat" 12000
+		"shield damage" 16000
+		"hull damage" 22000
+		"ion damage" 40
+		"blast radius" 120
+		"phasing" 1
+	description `This weapon is, in its basic principle, no different from the beam lasers produced in human space by Deep Sky. What distinguishes it from those weapons is that this one uses more energy in a single shot than a mid-sized city does in a year, and that the beam it produces is more than sufficient to level that city and the surrounding countryside. Naturally, no ship has the battery capacity necessary to fire one of these from its on-board reserves, so the Successors have resorted to powering them via massive single-use batteries. Unsurprisingly, these weapons are not used carelessly, nor are they distributed among the general populace.`
+
+outfit "Photon Battery"
+	plural "Photon Batteries"
+	category "Ammunition"
+	cost 32000
+	thumbnail "outfit/finisher"
+	"mass" .5
+	"photon capacity" -1
+	description `This single-use battery powers the Photon Lance.`
+
+outfit "Heirloom Railgun"
+	category "Guns"
+	cost 25250000
+	thumbnail "outfit/bimodal railgun"
+	licenses
+		"Heirloom"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 60
+		sound "pulse"
+		"hit effect" "ion rain impact" 3
+		"inaccuracy" 1
+		"velocity" 45
+		"lifetime" 10
+		"range override" 900
+		"burst count" 5
+		"burst reload" 10
+		"reload" 25
+		"firing energy" 40
+		"firing heat" 65
+		"firing force" 25
+		"shield damage" 5
+		"hull damage" 185
+		"hit force" 60
+		"cluster"
+		"submunition" "Bimodal Switch" 4
+	description `Secretly stashed away by the high houses since the collapse of the old empire, this lovingly-maintained railgun is far more powerful than any of the Successors' modern technology.`
+
+outfit "Heirloom Point Defense"
+	category "Turrets"
+	cost 12500000
+	thumbnail "outfit/burst anti missile"
+	licenses
+		"Heirloom"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 25
+		"velocity" 200
+		"lifetime" 1
+		"burst count" 10
+		"burst reload" 2
+		"reload" 20
+		"firing energy" 10
+		"firing heat" 32
+	description "The Predecessors did not use missile weapons, but the foes they faced did, and so they spent a great deal of time developing highly efficient point defense systems."
+
+outfit `Heirloom Reactor`
+	category "Power"
+	cost 65500000
+	thumbnail "outfit/ic fusion"
+	licenses
+		"Heirloom"
+	"mass" 100
+	"outfit space" -100
+	"energy generation" 26.0
+	"heat generation" 25
+	"energy capacity" 18000
+	"shield energy multiplier" -0.5
+	"hull energy multiplier" -0.5
+	description `The Predecessors viewed the mastery of technology as an art rather than a science, and this reactor is a perfect example of that: a graceful, elegant machine easily mistaken for a sculpture. It is also, of course, an extremely efficient and powerful fusion reactor that far outstrips the modern Successors' attempts at replicating it.`
+
+outfit "Heirloom Shielding"
+	category "Systems"
+	cost 32500000
+	thumbnail "outfit/large successor shield"
+	licenses
+		"Heirloom"
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 14.0
+	"shield protection" -0.21
+	"shield energy" 15.0
+	"description" "Polished to gleaming for over a thousand years, this ancient shield generator yearns to see combat once again."
+
+outfit "Heirloom Hunter-Killer Drones"
+	plural "Heirloom Hunter-Killer Drones"
+	category "Hand to Hand"
+	cost 7250000
+	thumbnail "outfit/piercer"
+	licenses
+		"Heirloom"
+	"mass" 1
+	"outfit space" -1
+	"capture defense" 50
+	"unplunderable" 1
+	"description" "One of the nastier inventions of the Predecessors were these miniaturized auto-targeting killer drones, which they used as a defense system on their ships. When intruders are detected, thousands of these will pour out of bulkhead-mounted sockets and hunt down any life-form not entered into their biometric friendlies list, targeting organs if possible but simply perforating the target hundreds of times as a fallback strategy."

@@ -1,0 +1,495 @@
+government Predecessor
+	color 1 1 1
+
+government Successor
+	swizzle 0
+	color 0 1 0.853
+	language "successor"
+	"friendly hail" "successor friendly hail"
+
+government "New Houses"
+	swizzle 3
+	color 1 0 0.5
+	language "successor"
+	"friendly hail" "new houses friendly hail"
+	"hostile hail" "high houses hostile hail"
+	"attitude toward"
+		Successor 1
+		"People's Houses (Hostile)" -0.01
+	"penalty for"
+		assist 0
+
+government "Old Houses"
+	swizzle 4
+	color 0.375 0.316 0.99
+	language "successor"
+	"friendly hail" "old houses friendly hail"
+	"hostile hail" "high houses hostile hail"
+	"attitude toward"
+		Successor 1
+		"People's Houses (Hostile)" -0.01
+	"penalty for"
+		assist 0
+
+government "New Houses (Partisan)"
+	swizzle 3
+	color 1 0 0.5
+	"player reputation" -999
+	language "successor"
+	"attitude toward"
+		"New Houses" 0.01
+		"Old Houses" -0.01
+		"Old Houses (Partisan)" -0.01
+
+government "Old Houses (Partisan)"
+	swizzle 4
+	color 0.375 0.316 0.99
+	"player reputation" -999
+	language "successor"
+	"attitude toward"
+		"Old Houses" 0.01
+		"New Houses" -0.01
+		"New Houses (Partisan)" -0.01
+
+government "People's Houses"
+	swizzle 6
+	color 0.92 0.29 0.20
+	language "successor"
+	"friendly hail" "successor friendly hail"
+	"hostile hail" "people's houses hostile hail"
+
+government "People's Houses (Hostile)"
+	"display name" "People's Houses"
+	swizzle 6
+	color 0.92 0.29 0.20
+	"player reputation" -999
+	"attitude toward"
+		Author -0.01
+		Successor -0.01
+		"People's Houses" 0.01
+	"friendly hail" "successor friendly hail"
+	"hostile hail" "people's houses hostile hail"
+	bribe 0.05
+	fine 0
+
+shipyard "Successor Basics"
+	Kvelqde
+	Stolsaqra
+
+shipyard "Successor Civilian"
+	Myaede
+	Ejniisde
+	Ojde
+	"Ojde 0"
+	"Ojde 1"
+	"Ojde 2"
+
+shipyard "High Houses"
+	Aaulqra
+	Kaskhorade
+	Seiitej
+	Valsaqra
+	Veusade
+
+shipyard "Successor Carrier"
+	Naapojde
+	Joruuvaqra
+
+shipyard "Peoples Houses"
+	"Myaede-Khora"
+	"Ojde-Khora"
+
+shipyard Heirloom
+	Valkkyiara-Khorasaqra
+
+outfitter "Successor Basics"
+	"Sniper Railgun"
+	`"Aqra" Inductive Reverser`
+	`"Aqra" Inductive Steering`
+	`"Aqra" Inductive Thruster`
+	`1-"Uurau" Betavoltaic Cell`
+	`3-"Kaska" Betavoltaic Cell`
+	`"Ej" Shield Cortex`
+	Hyperdrive
+	"Successor Pulse Laser"
+
+outfitter "Successor Civilian"
+	`"Chyyra" Inductive Reverser`
+	`"Chyyra" Inductive Steering`
+	`"Chyyra" Inductive Thruster`
+	`"Niis" Inductive Engines`
+	`"Byiaa" Shield Cortex`
+	`6-"Ruuv" Betavoltaic Cell`
+	"Bunk Room"
+	"Successor Fuel Sail"
+	"Burst Anti-Missile Turret"
+	"Cargo Expansion"
+	"Outfits Expansion"
+	"Pulse Laser Turret"
+	"Resistance Module"
+	"Small Bunk Room"
+	"Successor Cooling"
+	"Successor Scanner"
+
+outfitter "High Houses"
+	`"Nnesa" Inertial Core`
+	`"Ryuit" Inertial Core`
+	`"Uuravej" Inertial Core`
+	`"Veusa" Inductive Reverser`
+	`"Veusa" Inductive Steering`
+	`"Veusa" Inductive Thruster`
+	"Bimodal Railgun"
+	"Bimodal Railgun Turret"
+	`Shatter Cannon`
+	"Conductance Turret"
+	"Corrosive Torpedo"
+	"Corrosive Torpedo Launcher"
+	`"Jaase" Shield Cortex`
+	`OC-"Mavra" Betavoltaic Cell`
+	`"Jorv" Shield Cortex`
+	"Multimodal Armor: Heavy"
+	"Multimodal Armor: Stealth"
+	"Multimodal Armor: Regen"
+	"Multimodal Armor: Resilient"
+	`"Viir" Repair Module`
+	`"Vyraa" Repair Module`
+	"0 Hypermap"
+	"0 Hyperjump Drive"
+
+outfitter "Peoples Houses"
+	"Overcharged Pulse Laser"
+	"Overcharged Laser Turret"
+
+outfitter Heirloom
+	"Heirloom Hunter-Killer Drones"
+	"Heirloom License"
+	"Heirloom Point Defense"
+	"Heirloom Railgun"
+	"Heirloom Reactor"
+	"Heirloom Shielding"
+	"High Houses License"
+	"Photon Battery"
+	"Photon Lance"
+	"Shatter Cannon"
+	"Successor License"
+
+phrase "successor start"
+	word
+		"Uuoru-"
+		"Veldt-"
+		"Nnesa-"
+		"Ryuit-"
+		"Uurau-"
+		"Kvelq-"
+		"Uur-"
+		"Naaja-"
+		"Kejn-"
+		"Yejn-"
+		"Vesua-"
+		"Raaqa-"
+		"Staje-"
+		"Aaura-"
+		"Saqra-"
+		"Stiiqa-"
+		"Kasii-"
+		"Oj-"
+		"Ruuv-"
+phrase "successor middle"
+	word
+		"o-"
+		"sol-"
+		"e-"
+		"paag-"
+		"ag"
+		"ag-"
+		"iis-"
+		"i-"
+		"" 8
+phrase "successor end"
+	word
+		"saqrade"
+		"de"
+		"saqra"
+		"taja"
+		"kaati"
+		"ket"
+		"tej"
+		"pua"
+		"kuj"
+		"stid"
+phrase "successor"
+	phrase
+		"successor start"
+	phrase
+		"successor middle"
+	phrase
+		"successor end"
+
+phrase "high houses start"
+	word
+		"Stiidej-"
+		"Khosa-"
+		"Khora-"
+		"Jorv-"
+		"Val-"
+		"Valkkra-"
+		"Ruuv-"
+		"Aaul-"
+		"Myiara-"
+		"Myuret-"
+		"Chyyra-"
+		"Veusa-"
+phrase "high houses end"
+	word
+		"khora"
+		"khosa"
+		"khorade"
+		"khosade"
+		"saqrade"
+		"saqra"
+		"sora"
+		"yaau"
+		"prua"
+		"qau"
+		"pe"
+		"de"
+		"brue"
+		"ha"
+phrase "high houses"
+	phrase
+		"high houses start"
+	phrase 
+		"successor middle"
+	phrase
+		"high houses end"
+
+phrase "old houses"
+	word
+		"House Aqrabe"
+		"House Sioeora"
+		"House Chydiyi"
+		"House Myurej"
+		"The Old Houses" 2
+
+phrase "new houses"
+	word
+		"House Seineq"
+		"House Kaatrij"
+		"House Haeora"
+		"House Kvasq"
+		"The New Houses" 2
+
+phrase "relations"
+	word
+		"child"
+		"parent"
+		"sibling"
+		"neighbor"
+		"lover"
+		"doctor"
+		"teacher"
+
+phrase "occupation"
+	word
+		"sculptor"
+		"trader"
+		"painter"
+		"singer"
+		"actor"
+		"dancer"
+		"doctor"
+		"scholar"
+		"captain"
+		"ranger"
+
+phrase "successor friendly hail"
+	word
+		"Art thou the 'noble visitor' of whom the Houses speak?"
+		"Art thou the 'honored guest' the Houses do parade?"
+		"Art thou the fiendish creature that hails from distant lands?"
+		"Art thou the strange-ish traveler that hails from distant stars?"
+	word
+		" / "
+	word
+		"I note thy presence and yet remain thee distant."
+		"If corrupted be thy soul, then prithee keep thy distance."
+		"If thou art friend to me, so I shall be to thee."
+		"What is thy goal within these stars? To wander in delight?"
+		"To whom and what thou does thou lend thy own strength?"
+		"What is thy goal within these stars? To observe or interfere?"
+		"What is thy goal within these stars? Be a trader or a traitor?"
+phrase "successor friendly hail"
+	word
+		"My "
+	phrase
+		"relations"
+	word
+		" always told me: be a "
+		" has just earned the title: "
+	phrase
+		"occupation"
+	word
+		" / "
+	word
+		"With these long days, I wish that they were me."
+		"A noble job, and yet not one for me."
+		"It's not my place to give critique, and yet..."
+		"I hope that I will see them soon again."
+		"Hast thou met them? Do they carry any news?"
+phrase "successor friendly hail"
+	word
+		"I hope that thou will keep this thought between us:"
+		"A friend of mine had told me once in secret:"
+		"I have heard from good reputed, honest lips that"
+		"The High Houses try to hide it, but I know that"
+	word
+		" / "
+	word
+		"It's the Drak who caused the end of the old empire."
+		"It's the Quarg who caused the end of the old empire."
+		"It's the Hai who caused the end of the old empire."
+		"It's the Korath caused the end of the old empire."
+		"The High Houses by themselves destroyed the empire."
+		"The best trade routes are ones not prone to scanning." 5
+		"The best trade routes are those that make thy money." 5
+		"The best trade routes are hidden from thy sensors." 2
+		"There are nightmares in the void the Houses fear."
+		"The empty systems here are prone to strangeness." 
+
+phrase "old houses friendly hail"
+	word
+		"We welcome thee to join us in our space" 
+		"Thy presence in our lovely space is welcome"
+		"We note thy visitation and accept"
+		"'Noble friend', thou art by our decree"
+		"'Honored guest,' within our skies thou art"
+		"'Regal sojourner,' thy name shall be with us"
+	word
+		" / "
+	word
+		"So that thou might enjoy our pleasant worlds."
+		"So that thou might enjoy our verdant worlds."
+		"So that thou might make note of our advance."
+		"So that thou might find joy in our success."
+		"So that thou may bear witness to our joy."
+phrase "old houses friendly hail"
+	word
+		"By noble lineage do we exalt us all"
+		"With joyful strength and honest might we fly"
+		"No evil shall impede our noble goal"
+	word
+		" / "
+	word
+		"To build for all a great and lasting peace."
+		"To make for all a true and joyful peace."
+phrase "old houses friendly hail"
+	word
+		"The"
+	word
+		" arm of "
+		" spear of "
+		" sword of "
+		" shield of "
+		" prime of "
+		" best of "
+	phrase
+		"old houses"
+	word
+		" in joy"
+		" with pride"
+		" with joy"
+	word
+		" we are;"
+	word
+		" / "
+	word
+		"A simple truth in which we take our pride."
+		"An honest fact 'tis plain for all to see."
+		"A simple truth in which we take our joy."
+
+phrase "high houses hostile hail"
+	word
+		"Thy deception marks the apex of thy ill,"
+		"Thy cowardice is the basis of thy fame,"
+		"Our foolishness it was, we see, to trust thee;"
+		"A knave and coward thou hast clearly proved thyself;"
+		"Cowards die many times before their deaths,"
+	word
+		" / "
+	word
+		"Our duty shall relieve thee of thy life."
+		"May thou in death find peace thou lacked in life."
+		"May thy death be valorous and quick."
+		"May, in death, thou recognize thy wrongs."
+		"Enlightened now, we are to thy malignity."
+		"May thy knavish and deceptive heart now cease."
+		"The valiant never taste of death but once."
+
+phrase "new houses friendly hail"
+	word
+		"We welcome thee to join us in our space" 
+		"Thy presence in our lovely space is welcome"
+		"We note thy visitation and accept"
+		"'Noble friend', thou art by our decree"
+		"'Honored guest,' within our skies thou art"
+		"'Regal sojourner,' thy name shall be with us"
+	word
+		" / "
+	word
+		"So that thou might enjoy our pleasant worlds."
+		"So that thou might enjoy our verdant worlds."
+		"So that thou might make note of our advance."
+		"So that thou might find joy in our success."
+		"So that thou may bear witness to our joy."
+phrase "new houses friendly hail"
+	word
+		"By noble lineage do we exalt us all"
+		"With joyful strength and honest might we fly"
+		"No evil shall impede our noble goal"
+	word
+		" / "
+	word
+		"To build for all a great and lasting peace."
+		"To make for all a true and joyful peace."
+phrase "new houses friendly hail"
+	word
+		"The"
+	word
+		" arm of "
+		" spear of "
+		" sword of "
+		" shield of "
+		" prime of "
+		" best of "
+	phrase
+		"new houses"
+	word
+		" in joy"
+		" with pride"
+		" with joy"
+	word
+		" we are;"
+	word
+		" / "
+	word
+		"A simple truth in which we take our pride."
+		"An honest fact 'tis plain for all to see."
+		"A simple truth in which we take our joy."
+
+phrase "people's houses hostile hail"
+	word
+		"Art thou a knave in title same as action!?"
+		"Thou art nothing but a foolish slave to power!"
+		"Art thou blind and deaf to suff'ring or just evil?"
+		"If thou wouldst drop thy cargo, we'll be going."
+		"No harm shall come to those who drop their cargo."
+		"Thou art knavish in thy friendships and thy action."
+	word
+		" / "
+	word
+		"Thy blood shall grace the inside of thy starship."
+		"Resistance shall be met with execution."
+		"I hope thy pain is great and everlasting."
+		"Allow me to unburden thee of mortality."
+		"Prepare to shuffle off thy mortal coil."
+		"The sudden hand of Death close up thy eye."

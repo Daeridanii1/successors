@@ -1,0 +1,127 @@
+ship `Aaulqra` `Aaulqra (Rails)`
+	outfits
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
+		`"Aqra" Inductive Reverser`
+		`"Nnesa" Inertial Core` 2
+		`"Jaase" Shield Cortex`
+		"Hyperdrive"
+		"Successor Cooling"
+		"Bimodal Railgun" 5
+		"Burst Anti-Missile Turret" 2
+
+ship `Aaulqra` `Aaulqra (Support)`
+	outfits
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
+		`"Aqra" Inductive Reverser`
+		`"Nnesa" Inertial Core` 2
+		`"Jaase" Shield Cortex`
+		"Hyperdrive"
+		"Successor Cooling" 2
+		"Shatter Cannon" 3
+		"Conductance Turret" 3
+
+ship `Stolsaqra` `Stolsaqra (OC Laser)`
+	outfits
+		`"Aqra" Inductive Thruster`
+		`"Aqra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
+		`3-"Kaska" Betavoltaic Cell`
+		"Overcharged Pulse Laser" 3
+		`"Ej" Shield Cortex`
+		"Hyperdrive"
+		"Overcharged Laser Turret"
+
+ship `Stolsaqra` `Stolsaqra (Short-Range)`
+	outfits
+		`"Aqra" Inductive Thruster` 2
+		`"Aqra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
+		`OC-"Mavra" Betavoltaic Cell` 2
+		"Shatter Cannon" 3
+		`"Ej" Shield Cortex`
+		"Hyperdrive"
+		"Burst Anti-Missile Turret"
+
+ship `Kvelqde` `Kvelqde (Violent)`
+	outfits
+		`"Aqra" Inductive Thruster`
+		`"Aqra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
+		`1-"Uurau" Betavoltaic Cell` 2
+		"Overcharged Pulse Laser"
+		`"Ej" Shield Cortex`
+		"Hyperdrive"
+		"Overcharged Laser Turret"
+
+ship "Ojde" "Ojde 2"
+	sprite "ship/successor heavy freighter 2"
+	add attributes
+		"mass" -100
+		"cargo space" -100
+ship "Ojde" "Ojde 1"
+	sprite "ship/successor heavy freighter 1"
+	add attributes
+		"mass" -200
+		"cargo space" -200
+ship "Ojde" "Ojde 0"
+	sprite "ship/successor heavy freighter 0"
+	add attributes
+		"mass" -300
+		"cargo space" -300
+
+ship `Naapojde` `Successor Bomber`
+	outfits
+		`"Niis" Inductive Engines`
+		`OC-"Mavra" Betavoltaic Cell`
+		"Corrosive Torpedo Launcher"
+		"Corrosive Torpedo" 120
+		`"Ej" Shield Cortex`
+ship `Naapojde` `Successor Ace`
+	outfits
+		`"Niis" Inductive Engines`
+		`OC-"Mavra" Betavoltaic Cell`
+		"Bimodal Railgun" 2
+		`"Byiaa" Shield Cortex`
+
+ship `Kaskhorade` `Kaskhorade (Rails)`
+	outfits
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
+		`"Ryuit" Inertial Core`
+		`"Jorv" Shield Cortex`
+		"Hyperdrive"
+		"Successor Cooling"
+		"Bimodal Railgun" 2
+		"Bimodal Railgun Turret" 4
+		`Outfits Expansion` 5
+
+ship `Kaskhorade` `Kaskhorade (Bomber)`
+	outfits
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
+		`"Ryuit" Inertial Core`
+		`"Jorv" Shield Cortex`
+		"Hyperdrive"
+		"Successor Cooling"
+		"Corrosive Torpedo Launcher" 5
+		"Corrosive Torpedo" 600
+		"Burst Anti-Missile Turret" 2
+		`Outfits Expansion` 2
+
+ship `Valsaqra` `Valsaqra (Rails)`
+		outfits
+		`"Veusa" Inductive Thruster`
+		`"Veusa" Inductive Steering`
+		`"Veusa" Inductive Reverser`
+		`"Ryuit" Inertial Core`
+		`"Nnesa" Inertial Core`
+		`"Jorv" Shield Cortex`
+		`1-"Uurau" Betavoltaic Cell` 2
+		"Hyperdrive"
+		"Successor Cooling" 2
+		"Bimodal Railgun" 6
+		"Bimodal Railgun Turret" 3
+		"Burst Anti-Missile Turret"
+

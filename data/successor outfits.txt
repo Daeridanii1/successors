@@ -1,0 +1,479 @@
+outfit "Successor License"
+	category "Licenses"
+	thumbnail "outfit/remnant license"
+	"description" "You have earned the trust of the Successors, and with it, the ability to purchase their civilian-grade technology."
+
+outfit "High Houses License"
+	category "Licenses"
+	thumbnail "outfit/remnant capital license"
+	"description" "The High Houses produce most of the advanced technology present in Successor space, and are willing to sell it only to those who support their interests. By aligning yourself with one of the houses, you have earned the right to purchase this exclusive technology."
+
+outfit "Heirloom License"
+	category "Licenses"
+	thumbnail "outfit/remnant capital license"
+	"description" "To obtain one of these, you would have to become an honorary scion of one of the High Houses, and that's for future content."
+
+outfit `"Byiaa" Shield Cortex`
+	category "Systems"
+	licenses
+		"Successor"
+	cost 225000
+	thumbnail "outfit/tiny successor shield"
+	"mass" 7
+	"outfit space" -7
+	"shield generation" 0.95
+	"shield protection" -0.33
+	"shield energy" 1.2
+	"cooling" 1.1
+	"description" "Despite its diminuitive scale, this tiny Successor shield cortex repairs shielding at an impressive rate, though like all Successor shields, the shielding it generates is more susceptible to damage than usual. Since this unit was designed for use on small craft where space is at a premium, it comes with integrated heat sinks that allow it to cool the ship it is installed on by a small amount."
+
+outfit `"Ej" Shield Cortex`
+	category "Systems"
+	licenses
+		"Successor"
+	cost 565000
+	thumbnail "outfit/small successor shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 2.1
+	"shield protection" -0.33
+	"shield energy" 2.6
+	"description" "At their peak, the Predecessors were feared not by how quickly they could overpower their enemies, but in how effectively they could outlast them. Many generations later, this philosophy is still reflected in modern Successor shield cortices, which are exceptionally powerful for their size but weaken the shield's resistance to incoming fire, allowing Successor ships to recover quickly from sustained damage, even if they are slightly more vulnerable to it."
+
+outfit `"Jaase" Shield Cortex`
+	category "Systems"
+	licenses
+		"High Houses"
+	cost 3550000
+	thumbnail "outfit/medium successor shield"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 4.8
+	"shield protection" -0.33
+	"shield energy" 7.8
+	"description" "Traditional Predecessor technology was not nearly as modular as the modern Successor equivalents, which must be built with more limited resources and comparatively primitive manufacturing techniques. Nontheless, this medium-sized shield cortex is powerful enough to shrug off the combined damage output of several lesser attackers, and consequently is reserved by the High Houses for use in their private navies."
+
+outfit `"Jorv" Shield Cortex`
+	category "Systems"
+	cost 8250000
+	thumbnail "outfit/large successor shield"
+	licenses
+		"High Houses"
+	"mass" 55
+	"outfit space" -55
+	"shield generation" 10.5
+	"shield protection" -0.33
+	"shield energy" 15.0
+	"description" "Bristling with regeneration nodes, this large Successor shield cortex requires a power budget greater than most human warships in their entirety. Many in the High Houses disapprove of its design, suggesting that such a powerful piece of technology deserves a more artful form, but there has ultimately been little desire to invest the time and money for a redesign for purely aesthetic reasons."
+
+outfit `"Viir" Repair Module`
+	category "Systems"
+	licenses
+		"High Houses"
+	cost 2250000
+	thumbnail "outfit/small successor repair"
+	"mass" 14
+	"outfit space" -14
+	"hull repair rate" 0.55
+	"hull energy" 3.1
+	"description" "The Successors are masters of materials science, and since the days of the Predecessors, their ships have relied on heavy armor rather than shields as their primary defensive layer. During these current peaceful times, there has been little need for in-flight armor repair systems, but the High Houses still install these on their warships both as a precaution and as a justification for the cost of producing them."
+
+outfit `"Vyraa" Repair Module`
+	category "Systems"
+	cost 6400000
+	thumbnail "outfit/large successor repair"
+	licenses
+		"High Houses"
+	"mass" 30
+	"outfit space" -30
+	"hull repair rate" 1.3
+	"hull energy" 7.4
+	"description" "Much of the stunning power consumption of this large armor repair module comes from the powerful computers it contains, which constantly monitor the ship's hull for damage or wear before rapidly routing thousands of biomechanical repair microbots to the damaged areas as efficiently as possible. When they have completed repairs, the microbots travel back to the module along a sort of artificial vasculature, where their batteries are recharged and their own structures checked for damage before being dispatched again."
+
+outfit `1-"Uurau" Betavoltaic Cell`
+	category "Power"
+	licenses
+		Successor
+	cost 120000
+	thumbnail "outfit/small betavoltaic"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 0.85
+	"heat generation" .65
+	"energy capacity" 1200
+	description "Unlike most radioisotope generators, this power cell operates by extracting electricity directly from beta particles produced by radioactive decay. While this process yields less energy per unit of material, it also produces very little waste heat."
+
+outfit `OC-"Mavra" Betavoltaic Cell`
+	category "Power"
+	licenses
+		Successor
+	cost 540000
+	thumbnail "outfit/overcharged betavoltaic"
+	"mass" 17
+	"outfit space" -17
+	"energy generation" 2.25
+	"heat generation" 3.8
+	"energy capacity" 2222
+	description "In an effort to produce a high-density power source smaller than their inertial fusion reactors, the Successors have created this overcharged betavoltaic cell, which contains particularly high-density radioactive material and lacks much of the radiation shielding of the standard models. While it has technically passed safety inspection, most Successor pilots understandably prefer to keep a bulkhead between themselves and one of these potent little cores at all times."
+
+outfit `3-"Kaska" Betavoltaic Cell`
+	category "Power"
+	licenses
+		Successor
+	cost 455000
+	thumbnail "outfit/medium betavoltaic"
+	"mass" 35
+	"outfit space" -35
+	"energy generation" 3.5
+	"heat generation" 2.6
+	"energy capacity" 3100
+	description "The Successors' betavoltaic generators are products of a time shortly after the collapse of the Predecessors' empire, marked by thriftiness and necessity. Their rugged designs did not appeal to the traditional Successor values of beauty or heritage, but instead to the sad new reality of need and loneliness that their first operators found themselves mired in."
+
+outfit `6-"Ruuv" Betavoltaic Cell`
+	category "Power"
+	licenses
+		Successor
+	cost 950000
+	thumbnail "outfit/large betavoltaic"
+	"mass" 75
+	"outfit space" -75
+	"energy generation" 8.1
+	"heat generation" 5.3
+	"energy capacity" 8500
+	description "This large modular betavoltaic generator is designed to be resilient and dependable: if one of its component cells fails, it can continue to operate at only a slightly reduced output. The Successors eschew its use on warships because of its low energy density, but it sees substantial use aboard their merchant, archaeological, and other civilian craft."
+
+outfit `"Nnesa" Inertial Core`
+	category "Power"
+	cost 4754000
+	thumbnail "outfit/ic fusion small"
+	licenses
+		"High Houses"
+	"mass" 55
+	"outfit space" -55
+	"energy generation" 8.25
+	"heat generation" 9.5
+	"energy capacity" 2200
+	"shield energy multiplier" -0.16
+	"hull energy multiplier" -0.16
+	description "The High Houses use inertial confinement fusion power in their warships, and while these reactors are less energy-dense than other alternatives, they are very heat-efficient and come with a modest amount of integrated energy storage. Additionally, they are designed to channel power more efficiently to a ship's defensive systems, manifested as a reduction in the power draw of the associated outfits."
+
+outfit `"Ryuit" Inertial Core`
+	category "Power"
+	cost 12250000
+	thumbnail "outfit/ic fusion"
+	licenses
+		"High Houses"
+	"mass" 95
+	"outfit space" -95
+	"energy generation" 16.0
+	"heat generation" 12.0
+	"energy capacity" 6500
+	"shield energy multiplier" -0.32
+	"hull energy multiplier" -0.32
+	description "Like most Successor technology, these reactors are based on similar ones secreted away by the High Houses during the collapse of the Predecessors' empire. Even after all these generations, the designs remain elegant and powerful, and instill in the beholder a deep-set curiosity of what the originals would have been like, or indeed, whether or not a few of those originals still exist, kept in prime condition for when they are needed once again."
+
+outfit `"Uuravej" Inertial Core`
+	category "Power"
+	cost 17754000
+	thumbnail "outfit/large ic fusion"
+	licenses
+		"High Houses"
+	"mass" 140
+	"outfit space" -140
+	"energy generation" 24.5
+	"heat generation" 26
+	"energy capacity" 12000
+	"shield energy multiplier" -0.48
+	"hull energy multiplier" -0.48
+	description `The largest and most powerful of the High Houses' inertial confinement fusion cores, this monstrous but surprisingly efficient reactor far outstrips any comparable human technology. Most impressive of all is its remarkably clever power distribution network, which massively reduces the draw of the Successors' energy-hungry defensive outfits.`
+
+outfit "Successor Cooling"
+	category "Systems"
+	cost 94000
+	thumbnail "outfit/successor cooling"
+	licenses
+		"Successor"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 4.5
+	"active cooling" 10.5
+	"cooling energy" 1.1
+	description "Like much of their technology, Successor cooling is bimodal, running a constant low-flow coolant loop that can be increased in both volume and heat rejection when the situation demands it."
+
+outfit "Successor Fuel Sail"
+	category "Systems"
+	cost 112000
+	thumbnail "outfit/fuel sail"
+	licenses
+		"Successor"
+	"mass" 8
+	"outfit space" -8
+	"ramscoop" 1.5
+	"fuel capacity" 100
+	"solar heat" 6.0
+	description "The Successors maintain a strong connection to their maritime tradition, exemplified in this strangely rustic fuel collector. Rather than the comparatively brutish action of a traditional ramscoop, this sail gently collects hydrogen from stellar coronae and condenses it into integrated fuel storage. Pilots should note, however, that the large surface area of the deployed sail also absorbs a lot of heat."
+
+outfit "Successor Scanner"
+	category "Systems"
+	cost 220000
+	thumbnail "outfit/successor scanner"
+	licenses
+		"Successor"
+	"mass" 6
+	"outfit space" -6
+	"energy consumption" 0.12
+	"tactical scan power" 40
+	"cargo scan power" 40
+	"asteroid scan power" 40
+	"atmosphere scan" 100
+	description "There has been talk that the High Houses plan to start restricting the sale of these high-powered scanners in an effort to combat piracy, but for the moment, they remain available to civilian Successors. Much of their popularity stems from their use in the scientific and industrial sectors as tools for planetary analysis, and the High Houses are loathe to quash this small but reliable income stream."
+
+outfit `"Niis" Inductive Engines`
+	category "Engines"
+	"cost" 255000
+	thumbnail "outfit/successor engines tiny"
+	licenses
+		"Successor"
+	"mass" 28
+	"outfit space" -28
+	"engine capacity" -38
+	"thrust" 9.0
+	"thrusting energy" 0.6
+	"thrusting heat" 0.8
+	"afterburner thrust" 13.5
+	"afterburner shields" 3.0
+	"afterburner heat" 1.6
+	"afterburner effect" "successor afterburner"
+	"flare sprite" "effect/ion flare/tiny"
+		"frame rate" 14
+	"flare sound" "ion tiny"
+	"turn" 270
+	"turning energy" 0.24
+	"turning heat" 0.4
+	"steering flare sprite" "effect/ion flare/tiny"
+		"frame rate" 14
+	"steering flare sound" "ion tiny"
+	description "This tiny set of inductive engines is just enough to push around a Successor fighter. They retain the dual-mode capabilities of the larger models, albeit at a much smaller scale."
+
+outfit `"Aqra" Inductive Thruster`
+	category "Engines"
+	"cost" 150000
+	thumbnail "outfit/small successor thruster"
+	licenses
+		"Successor"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"thrust" 16.0
+	"thrusting energy" 1.3
+	"thrusting heat" 1.1
+	"afterburner thrust" 24.0
+	"afterburner shields" 4.5
+	"afterburner heat" 2.2
+	"afterburner effect" "successor afterburner"
+	"flare sprite" "effect/successor flare/small"
+		"frame rate" 40
+	"flare sound" "ion small"
+	description "Successor thrusters are bimodal: most of the time, they are run in an energy-efficient low-power state, but when the time comes to flee or fight, they can be switched to a somewhat less efficient but very powerful high-thrust mode that draws power from the ship's shields."
+
+outfit `"Aqra" Inductive Steering`
+	category "Engines"
+	"cost" 120000
+	thumbnail "outfit/small successor steering"
+	licenses
+		"Successor"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 505
+	"turning energy" 1.1
+	"turning heat" 0.8
+	"steering flare sprite" "effect/successor flare/small"
+		"frame rate" 40
+	"steering flare sound" "ion small"
+	description "Since their steering thrusters lack the mode switch emblematic of their linear propulsion, the Successors have invested their efforts into making these thrusters both powerful for their size and relatively efficient."
+
+outfit `"Aqra" Inductive Reverser`
+	category "Engines"
+	"cost" 140000
+	thumbnail "outfit/small successor reverse"
+	licenses
+		"Successor"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"reverse thrust" 13.2
+	"reverse thrusting energy" 0.9
+	"reverse thrusting heat" 0.7
+	"reverse flare sprite" "effect/successor flare/small"
+		"frame rate" 40
+	"reverse flare sound" "ion small"
+	description "The inductive thruster technology used by the Successors is most similar to the ion thrusters used in human space, but the more powerful magnetic fields utilized by these thrusters lets them generate substantially more thrust than any human ion thruster."
+	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+
+outfit `"Chyyra" Inductive Thruster`
+	category "Engines"
+	"cost" 680000
+	thumbnail "outfit/medium successor thruster"
+	licenses
+		"Successor"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 32.0
+	"thrusting energy" 2.0
+	"thrusting heat" 1.8
+	"afterburner thrust" 48.0
+	"afterburner shields" 8.0
+	"afterburner heat" 4.0
+	"afterburner effect" "successor afterburner"
+	"flare sprite" "effect/successor flare/medium"
+		"frame rate" 40
+	"flare sound" "ion medium"
+	description "This larger set of inductive thrusters is impressively efficient under low power, and produces an equally impressive amount of thrust in its high-power mode. With these, even large and apparently lumbering Successor ships can suddenly become substantially more agile when under threat."
+
+outfit `"Chyyra" Inductive Steering`
+	category "Engines"
+	"cost" 560000
+	thumbnail "outfit/medium successor steering"
+	licenses
+		"Successor"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"turn" 905
+	"turning energy" 2.3
+	"turning heat" 1.7
+	"steering flare sprite" "effect/successor flare/medium"
+		"frame rate" 40
+	"steering flare sound" "ion medium"
+	description "The Predecessors employed hit-and-run tactics to wear down enemy ships, and so fast rotational speed was never something they prioritized. Even all these years later, the Successors seem to be equally biased, perhaps even more so as their present technology fails to live up to their lofty historical precedents."
+
+outfit `"Chyyra" Inductive Reverser`
+	category "Engines"
+	"cost" 590000
+	thumbnail "outfit/medium successor reverse"
+	licenses
+		"Successor"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"reverse thrust" 22.0
+	"reverse thrusting energy" 2.1
+	"reverse thrusting heat" 1.6
+	"reverse flare sprite" "effect/successor flare/medium"
+		"frame rate" 40
+	"reverse flare sound" "ion medium"
+	description "This large reverse thruster sees use in both commerce and warfare, speeding up trade routes for the former and enhancing agility for the latter."
+	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+
+outfit `"Veusa" Inductive Thruster`
+	category "Engines"
+	"cost" 9550000
+	thumbnail "outfit/large successor thruster"
+	licenses
+		"High Houses"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"thrust" 52.0
+	"thrusting energy" 3.4
+	"thrusting heat" 3.0
+	"afterburner thrust" 78.0
+	"afterburner shields" 11.0
+	"afterburner heat" 7.5
+	"afterburner effect" "successor afterburner"
+	"flare sprite" "effect/successor flare/large"
+		"frame rate" 40
+	"flare sound" "ion large"
+	description `While this thruster is, on the surface, hard to distinguish from the much less expensive "Chyyra", it becomes easy to see the difference once it switches to its high-power mode, which produces over double the thrust of the lesser engine. This extra performance comes at a cost, however, as the "Veusa" is somewhat less efficient, especially under high power.`
+
+outfit `"Veusa" Inductive Steering`
+	category "Engines"
+	"cost" 8030000
+	thumbnail "outfit/large successor steering"
+	licenses
+		"High Houses"
+	"mass" 42
+	"outfit space" -42
+	"engine capacity" -42
+	"turn" 1512
+	"turning energy" 3.8
+	"turning heat" 3.1
+	"steering flare sprite" "effect/successor flare/large"
+		"frame rate" 40
+	"steering flare sound" "ion large"
+	description `The similarity in design between the "Chyyra" and the "Veusa" is not coincidental: they are both variations on an ancient and venerable Predecessor design. Unfortunately, modern Successor engineers have been unable to replicate both the efficiency and power of the original in a single unit, and so have separated out the high-performance "Veusa" for the high houses, and the high-efficiency "Chyyra" for civilians.`
+
+outfit `"Veusa" Inductive Reverser`
+	category "Engines"
+	"cost" 8125000
+	thumbnail "outfit/large successor reverse"
+	licenses
+		"High Houses"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"reverse thrust" 36.5
+	"reverse thrusting energy" 3.7
+	"reverse thrusting heat" 3.0
+	"reverse flare sprite" "effect/successor flare/large"
+		"frame rate" 40
+	"reverse flare sound" "ion large"
+	description "While the invertebrate Successors are relatively unaffected, human pilots must take care when using a reverse thruster this large to avoid g-force stresses on the body."
+	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+
+effect "successor afterburner"
+	sprite "effect/ionic afterburner"
+		"frame rate" 14
+		"random start frame"
+		"no repeat"
+	lifetime 6
+	sound "plasma tiny"
+
+effect "successor engine large"
+	sprite "effect/successor flare/large"
+		"frame rate" 14
+	lifetime 6
+
+outfit "Multimodal Armor: Heavy"
+	category "Systems"
+	thumbnail "outfit/successor armor heavy"
+	"hull protection" .20
+	"multimodal armor" -1
+	"unplunderable"
+	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
+	description "This configuration strengthens the bonds between the atoms making up the armor, increasing its resistance to direct damage."
+
+outfit "Multimodal Armor: Stealth"
+	category "Systems"
+	thumbnail "outfit/successor armor stealth"
+	"cloak" 0.006
+	"cloaking energy" 16.0
+	"radar jamming" 12.0
+	"multimodal armor" -1
+	"unplunderable"
+	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
+	description "This configuration allows the armor to constantly deflects radar locks and to bend light around it when innervated."
+
+outfit "Multimodal Armor: Regen"
+	category "Systems"
+	thumbnail "outfit/successor armor regen"
+	"hull repair multiplier" 1.0
+	"multimodal armor" -1
+	"unplunderable"
+	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
+	description "This configuration increases the plasticity of the armor, increasing the effectiveness of in-combat repair efforts."
+
+outfit "Multimodal Armor: Resilient"
+	category "Systems"
+	thumbnail "outfit/successor armor resilient"
+	"slowing protection" 0.6
+	"ion protection" 0.6
+	"corrosion protection" 0.6
+	"leak protection" 0.6
+	"burn protection" 0.6
+	"multimodal armor" -1
+	"unplunderable"
+	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
+	description "This configuration increases the armor's resilience against certain special types of damage."

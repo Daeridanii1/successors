@@ -1,0 +1,72 @@
+news "high houses scion"
+	to offer
+		random < 30
+	location
+		government "High Houses"
+	name
+		word
+			"Scion of House A"
+			"Scion of House B"
+	message
+		word
+			`"I hope thou has't enjoyed thy time amongst our people."`
+			`"The alien! Doth thou have news `
+
+news "high houses official"
+	location
+		government "High Houses" "Successor"
+	name
+		word
+			"High Houses official"
+	message
+		word
+			`"Protect and serve."`
+			`"If any assistance you need, at your disposal I am."`
+			`"If any trouble you find, report it to us you must."`
+			`"Saryd, Kimek, Arach, human, no matter what species, to protect all of our citizens, committed we are."`
+			`"Enjoy my post well enough, I do, but still to get a break during the Coalition Games to watch them, I am."`
+			`"Part of a Punisher crew, I am. Land, refuel, rest, and back to working on that magnificent ship, I do!"`
+			`"Offered the position of magister, I actually have been. Only, not interested in that governing activity, I am."`
+			`"Apologies, but make haste I must. Gone missing some garrison guns have, and back to cleaning Stalker engines I will be, if find them I don't!"`
+			`"Difficult sometimes it is, to be a mediator. If careful with my words I am not, a Saryd might think an Arach talking about longcows has insulted their mother."`
+			"An agent is trying to calm down a small crowd outside a local bar. After some minutes, the more agitated drunkards are convinced to accompany the agent to a nearby Heliarch office."
+			"A pair of agents passes by you. Most of the spaceport crowd gives them a wide berth."
+			`"A pilot, I once was. Learned from an older sibling, I did."`
+
+news "successor student"
+	location
+		government "High Houses" "Successor"
+		attributes education rich
+	name
+		word
+			"Successor student"
+	message
+		word
+			`"Exams, I think, shall never know their end,`
+			`"Hath I forgot my geographic terms?`
+			`"Hath I forgot my chemical reagents?`
+			`"Hyperspace Mechanics is a bore,`
+			`"Predecessors His'try is a drag,`
+			`"Plasma Flow Dynamics is a bore,`
+			`"Particle Kinetics is a bore,`
+		word
+			` / `
+		word
+			`I know not sleep nor food nor meager rest`
+			`I don't know how I even stay awake`
+			`Doth thou know any useful study tricks`
+			`But I know that I'm the best one in my class`
+		word
+			`."`
+			`!"`
+
+news "high houses propaganda"
+	location
+		not attributes quiet
+		government "Successor"
+	name
+		word
+			"High Houses broadcast"
+	message
+		word
+			`An advertisement shows a Successor warship performing a variety of deftly-executed maneuvers before encouraging the viewer to enlist in the armed forces of one of the high houses.` 
