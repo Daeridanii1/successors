@@ -9,6 +9,8 @@ ship "Valkkyiara-Khorasaqra"
 		"cost" 785000000
 		"shields" 12500
 		"hull" 115000
+		"hull repair rate" 2.8
+		"hull energy" 5.2
 		"required crew" 22
 		"bunks" 30
 		"mass" 315
@@ -32,12 +34,12 @@ ship "Valkkyiara-Khorasaqra"
 		"Heirloom Reactor"
 		"Heirloom Shielding"
 		"Hyperdrive"
-		"Tactical Scanner"
+		"Successor Scanner"
 		"Successor Cooling" 2
 		"Heirloom Railgun" 6
-		"Heirloom Point Defense" 4
-		"Photon Lance"
-		"Photon Battery" 5
+		"Heirloom Point Defense"
+		"Kinetic Lance"
+		"Kinetic Spike" 8
 		"Heirloom Hunter-Killer Drones" 20
 	engine -5 69
 	engine 5 69
@@ -46,8 +48,8 @@ ship "Valkkyiara-Khorasaqra"
 	gun -19 -30
 	gun 27 -17
 	gun 23 -23
-	gun 19 30
-	gun 0 -94 "Photon Lance"
+	gun 19 -30
+	gun 0 -94 "Kinetic Lance"
 	turret 0 52 "Heirloom Point Defense"
 	turret 0 67 "Heirloom Point Defense"
 	turret -31 31 "Heirloom Point Defense"
@@ -81,50 +83,56 @@ ship "Valkkyiara-Khorasaqra"
 	"final explode" "final explosion medium"
 	description "During the collapse of the Predecessors' empire, the high houses stored away as much of their wealth and property as they could manage, including their private fleets of warships, which were ultimately passed down for over a thousand years as priceless family heirlooms. Despite being far more powerful than anything else in Successor space, these vessels almost never leave the ground, since the high houses have no desire to risk these priceless and irreplacable ships that are so deeply intertwined with their family history."
 
-outfit "Photon Lance"
+outfit "Kinetic Lance"
 	category "Secondary Weapons"
 	cost 1370000
 	licenses
 		"Heirloom"
 	thumbnail "outfit/photon lance"
-	"mass" 36
-	"outfit space" -36
-	"weapon capacity" -36
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
 	"gun ports" -1
-	"photon capacity" 5
+	"kinetic capacity" 8
 	"spinal mount" -1
 	"unplunderable" 1
 	weapon
-		sprite "projectile/photon lance"
+		sprite "projectile/detainer"
 			"frame rate" 60
 		sound "proton" 10
-		ammo "Photon Battery"
-		icon "icon/dragonflame"
-		"fire effect" "ionball ring" 8
+		ammo "Kinetic Spike"
+		icon "icon/railgun"
+		"fire effect" "bright hit"
+		"fire effect" "moonbeam flecks" 20
+		"live effect" "ionball ring" 4
 		"hit effect" "bright hit"
 		"hit effect" "dragonflame debris" 10
 		"hit effect" "dragonflame plasma" 10
 		"inaccuracy" .3
-		"velocity" 1800
-		"lifetime" 1
+		"velocity" 300
+		"lifetime" 6
 		"reload" 200
-		"firing energy" 2000
+		"firing energy" 25000
+		"firing ion" 8.0
 		"firing heat" 12000
-		"shield damage" 16000
-		"hull damage" 22000
-		"ion damage" 40
-		"blast radius" 120
+		"shield damage" 18500
+		"hull damage" 24500
+		"firing force" 4000
+		"hit force" 4000
+		"ion damage" 120
 		"phasing" 1
-	description `This weapon is, in its basic principle, no different from the beam lasers produced in human space by Deep Sky. What distinguishes it from those weapons is that this one uses more energy in a single shot than a mid-sized city does in a year, and that the beam it produces is more than sufficient to level that city and the surrounding countryside. Naturally, no ship has the battery capacity necessary to fire one of these from its on-board reserves, so the Successors have resorted to powering them via massive single-use batteries. Unsurprisingly, these weapons are not used carelessly, nor are they distributed among the general populace.`
+	description `The largest and most powerful of the Successors' weapons, this massive railgun propels its magnetic projectiles to a sizeable fraction of the speed of light, delivering enough kinetic energy on impact to destroy a small city or alternatively, a large warship. Any vessel sturdy enough to survive even a single hit will likely have to reboot its power systems as well, as the powerful magnetic fields surrounding the projectiles are highly disruptive to electronics.`
 
-outfit "Photon Battery"
+outfit "Kinetic Spike"
 	plural "Photon Batteries"
 	category "Ammunition"
-	cost 32000
-	thumbnail "outfit/finisher"
-	"mass" .5
-	"photon capacity" -1
-	description `This single-use battery powers the Photon Lance.`
+	cost 3250000
+	licenses "Heirloom"
+	thumbnail "outfit/piercer"
+	"mass" 8.0
+	"kinetic capacity" -1
+	"energy capacity" 10000
+	description `This unit contains not only one of the high-velocity projectiles used by the Kinetic Lance, but also the massive single-use battery banks used to provide enough energy to power the railgun. Unfortunately for the High Houses, the techniques for constructing these have been lost to time and there are therefore only a limited number in their reserves.`
 
 outfit "Heirloom Railgun"
 	category "Guns"
@@ -137,10 +145,12 @@ outfit "Heirloom Railgun"
 	"weapon capacity" -22
 	"gun ports" -1
 	weapon
-		sprite "projectile/detainer"
-			"frame rate" 60
+		sprite "projectile/bimodal"
+			"frame rate" 5
+			"start frame" 0
+			"no repeat"
 		sound "pulse"
-		"hit effect" "ion rain impact" 3
+		"hit effect" "electron impact" 3
 		"inaccuracy" 1
 		"velocity" 45
 		"lifetime" 10

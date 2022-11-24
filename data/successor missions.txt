@@ -59,19 +59,95 @@ mission "Successors: First Contact"
 					goto end
 				`	"If it is so precious, why are you loaning it to me?"`
 			`	You can see the few guards who remain stiffen at this question, and the speaker grows noticeably quieter and more uncomfortable. They eventually reply, haltingly.`
-			`	"Thou art a ... notable and honored visitor. T'is a gesture of ... hospitality and goodwill from the rulers of this space."`
+			`	"Thou art a ... notable and honored visitor. 'Tis a gesture of ... hospitality and goodwill from the rulers of this space."`
 				goto curious_end
 			label end
 			`	You place the pin on your jacket and you notice that it begins to move: the sailing ship is now gently rocking on the shoal. When the alien speaks again, they sound markedly different, like their words are being carried by the wind. They explain that their race, the Successors, are the heirs to an ancient and long-dead empire, their Predecessors, and that you are the first alien visitor they have had in many years.`
 			`	While most of their planets will be open to you, several have been restricted by the "High Houses," the ruling families of Successor space, until you have "proven yourself an ally to their interests."`
 			`	Finally, your interpreter gives their name as "Sieasej", and encourages you to spend some time exploring the Successors' worlds, and right before they leave, they suggest you familiarize yourself with the High Houses.`
-			`	"Thou art a person of great interest to them, and it is easy for even the cleverest among us to fall victim to their politics."`
+			`	"Thou art a person of great interest to them, and 'tis easy for even the cleverest among us to fall victim to their politics."`
 			label curious_end
 			`	They say nothing more, so you place the pin on your jacket and you notice that it begins to move: the sailing ship is now gently rocking on the shoal. When the alien speaks again, they sound markedly different, like their words are being carried by the wind. They explain, regaining some of their confidence, that their race, the Successors, are the heirs to an ancient and long-dead empire, their Predecessors, and that you are the first alien visitor they have had in many years.`
 			`	While most of their planets will be open to you, several have been restricted by the "High Houses," the ruling families of Successor space, and the ones who "loaned" you the translation device, until you have "proven yourself an ally to their interests."`
 			`	Finally, your interpreter gives their name as "Sieasej", and encourages you to spend some time exploring the Successors' worlds, both to learn more about them, and to assist their people. Right before they leave, they suggest with a similar hue of discomfort as before that you familiarize yourself with the High Houses.`
-			`	"Thou art a person of great interest to them, and it is easy for even the cleverest among us to fall victim to their politics."`
+			`	"Thou art a person of great interest to them, and 'tis easy for even the cleverest among us to fall victim to their politics."`
 
+mission "Successors: Trusted"
+	landing
+	name "Go to the Uuoru-Kella system to meet with the High Houses"
+	description "The High Houses are pleased with how you've conducted yourself in Successor space, and wish to meet with you to strengthen your relationship. You have been given clearance to land."
+	source
+		government "Successor" "Old Houses" "New Houses"
+		not attributes "quiet" "crime"
+	destination "Aava-Aasa-Khora"
+	to offer
+		has "successor jobs" >= 20
+	on offer
+		"reputation: Old Houses" += 1
+		"reputation: New Houses" += 1
+		conversation
+			`Shortly after you set down in the spaceport here, you are approached by a group of Successors in naval uniforms, clearly in the employ of one or several of the High Houses, as there is some variance in the design of their uniforms that you've come to associate with the differences between the various houses. Their leader addresses you in a calm tone with the unmistakable coolness that military officers seem to hold regardless of species. Their skin remains a flat grey throughout.`
+			`	"Captain <last>. The High Houses have noted thy actions in their space, and wishing to make thee a stronger ally to their cause, have summoned thee to meet them in council. Thou art encouraged to make haste to the Uuoru-Kella system.`
+			choice
+				`	"Thank you for telling me. I'll prepare to travel there immediately."`
+					accept
+				`	"What do you mean 'meet them in council?'"`
+			`   "Thy presence here is notable, Captain. Several representatives of the High Houses hath gathered to decide what is to be done with thee now that thou hast proved thy benevolence and usefulness. More than that, I cannot say."`
+				accept
+	on complete
+		outfit "Successor License"
+		"reputation: Successor" += 10
+		set "trusted by the successors"
+		conversation
+			`Once you have set down at the spaceport, you are met by another group of Successor naval officers. You notice that this group appears even more diverse than the last, representing several different uniform styles and liveries. Unifying them, however, is their wearing a small white and blue pin on their outfits that does not seem to correspond to the insignia of any one of the High Houses. They guide you, politely but firmly, to one of the monorail trains snaking out from the spaceport to other installations on the planet, and you all shuffle together into one of the cars, which appears to have been completely cleared of normal passengers.`
+			`	Several minutes later, the monorail deposits you at an especially large and well-decorated complex that swarms with both military and well-dressed civilians, some of whom appear so opulent and bejewelled that you suspect their personal effects are worth more than your ship. Each of them without exception wears the same white and blue insignia as your escorts, though many have incorporated it into their clothes' design or even display it as a pattern in skin coloration. As your escort peels off into the crowd, you see a familiar face in the distance: Sieasej, the Successor scholar, who visibly perks up when they see you and approaches.`
+			`	"Captain! Thou hast arrived at a fortuitious time! There are still some minutes before this day's meetings—including thy own audience with the Houses—are scheduled to begin." `
+			choice
+				`	"I'm ready to start.`
+					goto start
+				`	"Can you explain what's going on here?"`
+					goto explain
+				`	"What are you doing here?"`
+					goto seiasej
+			label explain
+			`	"This is a diplomatic world for representatives of the High Houses to meet in council, resolve disputes, bicker over policy, and I suspect in as it shall be in thy own case, to offer special dispensation to citizens. I had told thou when we first met that they would be keeping their eyes upon thee, and since they have summoned thou here today, they must clearly want to involve thee in the next stage of their plans."`
+			choice
+				`	"I see. We'd better begin, then."`
+					goto start
+				`	"What are you doing here?"`
+					goto sieasej
+			label seiasej
+			`	Sieasej briefly turns a shade of green in a display you might almost characterize as blushing. "I was summoned as well. I suspect the Houses wish to reflect on my involvement as well."`
+			choice
+				`	"Indeed. I'm ready to begin, then."`
+				goto start
+			label start
+			`	"Good! We would be wise to be early."`
+			`	Together with Sieasej, you make your way to one of the smaller rooms branching off from the lobby. The doors open to reveal a garden-like area, filled with large long-leafed plants surrounding a centrally-located depression half-filled with water. Several Successors, many well-dressed like before, are gathered in the pool, and while Sieasej takes to it happily, you can't help but wince a little as the frigid water floods your boots.`
+			`	After a few minutes and other Successors have trickled in, the meeting begins in earnest. One of the Successors moves to the center of the pool and addresses you directly.`
+			`	"Captain. House Sioeora, who has supported thee with the gift of our translation device, and continues to recognize thy potential as an ally, wishes to recognize the good thy has done in our space, and proposes thy be awarded purchase rights for our general technology."`
+			`	That representative then returns to the outer rim of the circle and another takes the center, this time facing the representative who just spoke.`
+			`	"House Sioeora. House Chydiyi recognizes thy perspicacity and the value demonstrated by the captain, and supports thy proposal. The captain has proven themselves a valuable ally."`
+			`	A third representative now takes the center position, addressing the two previous speakers.`
+			`	"Houses Sioeora and Chydiyi. House Seineq proposes this alien be given no further rights nor gifts until they have proved themselves neutral. The Old Houses, which Sioeora and Chydiyi do today here represent, doth clearly seek to sway the alien's favor through brib'ry and deceit, and House Seineq stands with the New Houses in opposing this corruption."`
+			`	That representative then returns to the edge of the circle, where they continue to eye you with suspicion. There is a pause in the conversation.`
+			choice
+				`	Remain silent.`
+					goto silent
+				`	"I have no interest in taking sides."`
+					goto no
+			label no
+			`	This sparks some murmuring among the gathered Successors, both the representatives themselves and the other, quieter members who continue to stand around the periphery of the pool. There is no direct reply for some time until, after what seems like several minutes, the representative from House Seineq returns to the center and speaks.`
+			`	"Guest. House Seineq recognizes thy noble words, even if we hold no reason for belief in them. We will permit the others to let thee buy our trinkets, and we shall watch thee closely to see if thy word is matched in action."`
+			`	With no further comments from any of the Successors, the representative from House Sioeora calls for a vote from among the gathered representatives. Sioeora and Chydiyi vote for the proposition and Seineq abstains from the vote, remaining at the rim of the pool, inspecting your behavior closely. The representative from Sioeora then promptly produces another small box from within their outfit and presents it to you. You open it to reveal one of the pin insignias that you have seen throughout this meeting.`
+			`	"This is the mark of our diplomats and our symbol of trust and cooperation. Our people may remain wary of an alien in their midst, but wherever thou displays this, it shall be known that thou hast recieved the blessing of the High Houses in council and that they made trade with you in amity and without fear. Do not abuse this trust."`
+			`	With a somewhat suspicious air, Sioeora then leaves the room, followed by the other representatives and gathered members, all of whom keep their eyes focused on you on the way out. Eventually, when only ones remaining are Sieasej and yourself, you pin the insignia on your jacket beside the translation device and exit as well, when you are directed back to the monorail station.`
+				accept
+			label silent
+			`	With no further comments from any of the Successors, the representative from House Sioeora calls for a vote from among the gathered representatives. Unsurprisingly, Sioeora and Chydiyi vote for the proposition and Seineq votes against it, and the representative from Sioeora promptly produces another small box from within their outfit and presents it to you. You open it to reveal one of the pin insignias that you have seen throughout this meeting.`
+			`	"This is the mark of our diplomats and our symbol of trust and cooperation. Our people may remain wary of an alien in their midst, but wherever thou displays this, it shall be known that thou hast recieved the blessing of the High Houses in council and that they made trade with you in amity and without fear."`
+			`	Sioeora then leaves the room, followed by the other representatives and gathered members, all of whom keep their eyes focused on you on the way out. Eventually, when only ones remaining are Sieasej and yourself, you pin the insignia on your jacket beside the translation device and exit as well, when you are directed back to the monorail station.`
+				
 mission "Successors: People's Houses, First Contact"
 	landing
 	source "Kasii-Tuur-Saqru"
@@ -126,7 +202,7 @@ mission "Successors: Predecessor Research 1"
 	passengers 7
 	deadline 30
 	to offer
-		has "known to the successors"
+		has "trusted by the successors"
 		random < 40
 	source "Staja-Kella-Oa"
 	stopover "Kella-Uuoru-Sossa"

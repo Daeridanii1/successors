@@ -264,6 +264,7 @@ outfit `"Aqra" Inductive Thruster`
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
+	"energy capacity" 1200
 	"thrust" 16.0
 	"thrusting energy" 1.3
 	"thrusting heat" 1.1
@@ -285,13 +286,14 @@ outfit `"Aqra" Inductive Steering`
 	"mass" 18
 	"outfit space" -18
 	"engine capacity" -18
+	"energy capacity" 1200
 	"turn" 505
 	"turning energy" 1.1
 	"turning heat" 0.8
 	"steering flare sprite" "effect/successor flare/small"
 		"frame rate" 40
 	"steering flare sound" "ion small"
-	description "Since their steering thrusters lack the mode switch emblematic of their linear propulsion, the Successors have invested their efforts into making these thrusters both powerful for their size and relatively efficient."
+	description "Since their steering thrusters lack the mode switch emblematic of their linear propulsion, the Successors have invested their efforts into making these thrusters both powerful for their size and relatively efficient. In addition, the capacitors used to power the engine can be tied into the larger power grid, allowing each engine to slightly increase the energy capacity of the ship."
 
 outfit `"Aqra" Inductive Reverser`
 	category "Engines"
@@ -302,6 +304,7 @@ outfit `"Aqra" Inductive Reverser`
 	"mass" 15
 	"outfit space" -15
 	"weapon capacity" -15
+	"energy capacity" 1200
 	"reverse thrust" 13.2
 	"reverse thrusting energy" 0.9
 	"reverse thrusting heat" 0.7
@@ -320,6 +323,7 @@ outfit `"Chyyra" Inductive Thruster`
 	"mass" 40
 	"outfit space" -40
 	"engine capacity" -40
+	"energy capacity" 2500
 	"thrust" 32.0
 	"thrusting energy" 2.0
 	"thrusting heat" 1.8
@@ -341,13 +345,14 @@ outfit `"Chyyra" Inductive Steering`
 	"mass" 32
 	"outfit space" -32
 	"engine capacity" -32
+	"energy capacity" 2500
 	"turn" 905
 	"turning energy" 2.3
 	"turning heat" 1.7
 	"steering flare sprite" "effect/successor flare/medium"
 		"frame rate" 40
 	"steering flare sound" "ion medium"
-	description "The Predecessors employed hit-and-run tactics to wear down enemy ships, and so fast rotational speed was never something they prioritized. Even all these years later, the Successors seem to be equally biased, perhaps even more so as their present technology fails to live up to their lofty historical precedents."
+	description "While not especially powerful for its size, this set of inductive steering engines is extraordinarily efficient, allowing large Successor vessels to maneuver relatively quickly even with very small generators."
 
 outfit `"Chyyra" Inductive Reverser`
 	category "Engines"
@@ -358,6 +363,7 @@ outfit `"Chyyra" Inductive Reverser`
 	"mass" 24
 	"outfit space" -24
 	"weapon capacity" -24
+	"energy capacity" 2500
 	"reverse thrust" 22.0
 	"reverse thrusting energy" 2.1
 	"reverse thrusting heat" 1.6
@@ -372,10 +378,11 @@ outfit `"Veusa" Inductive Thruster`
 	"cost" 9550000
 	thumbnail "outfit/large successor thruster"
 	licenses
-		"High Houses"
+		"Successor"
 	"mass" 65
 	"outfit space" -65
 	"engine capacity" -65
+	"energy capacity" 4000
 	"thrust" 52.0
 	"thrusting energy" 3.4
 	"thrusting heat" 3.0
@@ -386,41 +393,43 @@ outfit `"Veusa" Inductive Thruster`
 	"flare sprite" "effect/successor flare/large"
 		"frame rate" 40
 	"flare sound" "ion large"
-	description `While this thruster is, on the surface, hard to distinguish from the much less expensive "Chyyra", it becomes easy to see the difference once it switches to its high-power mode, which produces over double the thrust of the lesser engine. This extra performance comes at a cost, however, as the "Veusa" is somewhat less efficient, especially under high power.`
+	description `The largest of the Successors' pulsed inductive thrusters, the "Veusa" is used primarily in their large warships and freighters. While its high-performance mode is powerful indeed, it drains a ship's shielding remarkably quickly; this is clearly meant to be paired with one of the Successors' fast-recharging shield generators.`
 
 outfit `"Veusa" Inductive Steering`
 	category "Engines"
 	"cost" 8030000
 	thumbnail "outfit/large successor steering"
 	licenses
-		"High Houses"
+		"Successor"
 	"mass" 42
 	"outfit space" -42
 	"engine capacity" -42
+	"energy capacity" 4000
 	"turn" 1512
 	"turning energy" 3.8
 	"turning heat" 3.1
 	"steering flare sprite" "effect/successor flare/large"
 		"frame rate" 40
 	"steering flare sound" "ion large"
-	description `The similarity in design between the "Chyyra" and the "Veusa" is not coincidental: they are both variations on an ancient and venerable Predecessor design. Unfortunately, modern Successor engineers have been unable to replicate both the efficiency and power of the original in a single unit, and so have separated out the high-performance "Veusa" for the high houses, and the high-efficiency "Chyyra" for civilians.`
+	description `The "Veusa" series is significantly smaller than many comparable human engines, allowing the Successors to gain some versatility in the engine layouts of their large ships.`
 
 outfit `"Veusa" Inductive Reverser`
 	category "Engines"
 	"cost" 8125000
 	thumbnail "outfit/large successor reverse"
 	licenses
-		"High Houses"
+		"Successor"
 	"mass" 35
 	"outfit space" -35
 	"weapon capacity" -35
+	"energy capacity" 4000
 	"reverse thrust" 36.5
 	"reverse thrusting energy" 3.7
 	"reverse thrusting heat" 3.0
 	"reverse flare sprite" "effect/successor flare/large"
 		"frame rate" 40
 	"reverse flare sound" "ion large"
-	description "While the invertebrate Successors are relatively unaffected, human pilots must take care when using a reverse thruster this large to avoid g-force stresses on the body."
+	description "While the invertebrate Successors are relatively unaffected, human pilots must take care when using a reverse thruster this large to avoid dangerous g-force stress on the body."
 	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
 
 effect "successor afterburner"
@@ -477,3 +486,13 @@ outfit "Multimodal Armor: Resilient"
 	"unplunderable"
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
 	description "This configuration increases the armor's resilience against certain special types of damage."
+
+outfit "Gauss Rifle"
+	category "Hand to Hand"
+	thumbnail "outfit/railgun h2h"
+	licenses "Successor"
+	cost 72000
+	"capture attack" 1.9
+	"capture defense" 3.2
+	"unplunderable"
+	description "While projectile weapons of this scale are considered obsolete in human space, having been superceded by laser weaponry, the Successors' generations of experience with high-power railguns have yielded this particularly terrifying hand-to-hand weapon, firing projectiles capable of almost entirely ignoring body armor and even intervening bulkheads."

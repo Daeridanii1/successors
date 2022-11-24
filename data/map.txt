@@ -1390,23 +1390,23 @@ planet Raaqa-Kvelq-Ryuit
 	bribe 0
 
 planet Raaqa-Puan-Uuoru
-	attributes quiet rich successor
+	attributes successor quiet rich
 	landscape land/beach3
 	description "After the collapse, many Successors found themselves without a family, or without the knowledge of unbroken lineage that others took comfort in. House Kaatrij, which had lost many of its scions in the collapse, took the previously unprecedented step of welcoming these otherwise-outcasts into its familial order, earning its reputation as perhaps the most open and progressive of the High Houses. While it still remains the smallest of the High Houses, it has also done the best job of preserving and growing its wealth, and has earned a reputation as an unpredictable power player largely separated from the Old/New divide."
 	description "Its home planet is small, rainy, and mostly covered by ocean. Widely regarded as one of the most beautiful planets in Successor space, settlement here is tightly regulated by House Kaatrij."
 	spaceport "Upon setting down, the landing pad releases a billowing sheet of clear water-repellant material that covers your ship, presumably as some sort of protection against the rain. The spaceport itself is low and small and decorated with strips of the same material that gently ruffle in the wind, almost like the sails of an ancient ocean-going ship."
 	spaceport "The few Successors you see appear attentive to but not surprised by your presence, clearly already well-informed about the arrival of the new alien traveler."
 	shipyard Heirloom
-	shipyard "High Houses"
+	shipyard "High Houses Heavy"
 	shipyard "Peoples Houses"
-	shipyard "Successor Basics"
+	shipyard "Successor Heavy"
 	shipyard "Successor Carrier"
-	shipyard "Successor Civilian"
 	outfitter Heirloom
 	outfitter "High Houses"
 	outfitter "Peoples Houses"
-	outfitter "Successor Basics"
 	outfitter "Successor Civilian"
+	outfitter "Successor Heavy"
+	outfitter "Successor High Tech"
 	"required reputation" 10
 	bribe 0
 

@@ -77,67 +77,97 @@ shipyard "Successor Basics"
 	Stolsaqra
 
 shipyard "Successor Civilian"
+	Kvelqde
+	Stolsaqra
+
 	Myaede
 	Ejniisde
-	Ojde
-	"Ojde 0"
-	"Ojde 1"
-	"Ojde 2"
 
-shipyard "High Houses"
+shipyard "Successor Heavy"
+	Kvelqde
+	Stolsaqra
+	Myaede
+	Ejniisde
+
+	Ojde
+
+shipyard "High Houses Light"
 	Aaulqra
-	Kaskhorade
 	Seiitej
-	Valsaqra
 	Veusade
+	Kaskhorade
+
+shipyard "High Houses Heavy"
+	Aaulqra
+	Seiitej
+	Veusade
+	Kaskhorade
+
+	Valsaqra
 
 shipyard "Successor Carrier"
 	Naapojde
 	Joruuvaqra
 
 shipyard "Peoples Houses"
-	"Myaede-Khora"
-	"Ojde-Khora"
+	Myaede-Khora
+	Ojde-Khora
 
 shipyard Heirloom
 	Valkkyiara-Khorasaqra
 
 outfitter "Successor Basics"
-	"Sniper Railgun"
 	`"Aqra" Inductive Reverser`
 	`"Aqra" Inductive Steering`
 	`"Aqra" Inductive Thruster`
 	`1-"Uurau" Betavoltaic Cell`
-	`3-"Kaska" Betavoltaic Cell`
 	`"Ej" Shield Cortex`
-	Hyperdrive
+	"Hyperdrive"
 	"Successor Pulse Laser"
 
 outfitter "Successor Civilian"
+	`"Aqra" Inductive Reverser`
+	`"Aqra" Inductive Steering`
+	`"Aqra" Inductive Thruster`
+	`1-"Uurau" Betavoltaic Cell`
+	`"Ej" Shield Cortex`
+	"Hyperdrive"
+	"Successor Pulse Laser"
+
 	`"Chyyra" Inductive Reverser`
 	`"Chyyra" Inductive Steering`
 	`"Chyyra" Inductive Thruster`
-	`"Niis" Inductive Engines`
-	`"Byiaa" Shield Cortex`
-	`6-"Ruuv" Betavoltaic Cell`
+
+	`3-"Kaska" Betavoltaic Cell`
 	"Bunk Room"
+	"Small Bunk Room"
 	"Successor Fuel Sail"
+	"Pulse Laser Turret"
 	"Burst Anti-Missile Turret"
 	"Cargo Expansion"
 	"Outfits Expansion"
-	"Pulse Laser Turret"
-	"Resistance Module"
-	"Small Bunk Room"
 	"Successor Cooling"
-	"Successor Scanner"
+	"Gauss Rifle"
 
-outfitter "High Houses"
-	`"Nnesa" Inertial Core`
-	`"Ryuit" Inertial Core`
-	`"Uuravej" Inertial Core`
+outfitter "Successor Heavy"
+	`6-"Ruuv" Betavoltaic Cell`
 	`"Veusa" Inductive Reverser`
 	`"Veusa" Inductive Steering`
 	`"Veusa" Inductive Thruster`
+
+outfitter "Successor High Tech"
+	`OC-"Mavra" Betavoltaic Cell`
+	"Successor Scanner"
+	`"Niis" Inductive Engines`
+	`"Byiaa" Shield Cortex`
+
+outfitter "High Houses"
+	"0 Hypermap"
+	"0 Hyperjump Drive"
+
+	`"Nnesa" Inertial Core`
+	`"Ryuit" Inertial Core`
+	`"Uuravej" Inertial Core`
 	"Bimodal Railgun"
 	"Bimodal Railgun Turret"
 	`Shatter Cannon`
@@ -145,7 +175,6 @@ outfitter "High Houses"
 	"Corrosive Torpedo"
 	"Corrosive Torpedo Launcher"
 	`"Jaase" Shield Cortex`
-	`OC-"Mavra" Betavoltaic Cell`
 	`"Jorv" Shield Cortex`
 	"Multimodal Armor: Heavy"
 	"Multimodal Armor: Stealth"
@@ -153,23 +182,24 @@ outfitter "High Houses"
 	"Multimodal Armor: Resilient"
 	`"Viir" Repair Module`
 	`"Vyraa" Repair Module`
-	"0 Hypermap"
-	"0 Hyperjump Drive"
 
 outfitter "Peoples Houses"
 	"Overcharged Pulse Laser"
 	"Overcharged Laser Turret"
+	`OC-"Mavra" Betavoltaic Cell`
+	"Successor Scanner"
 
 outfitter Heirloom
-	"Heirloom Hunter-Killer Drones"
 	"Heirloom License"
+
+	"Heirloom Hunter-Killer Drones"
 	"Heirloom Point Defense"
 	"Heirloom Railgun"
 	"Heirloom Reactor"
 	"Heirloom Shielding"
 	"High Houses License"
-	"Photon Battery"
-	"Photon Lance"
+	"Kinetic Spike"
+	"Kinetic Lance"
 	"Shatter Cannon"
 	"Successor License"
 
