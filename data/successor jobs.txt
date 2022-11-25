@@ -266,7 +266,7 @@ mission "Successor: Researchers Out 1"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		payment 22000 2000
+		payment 41000 200
 		dialog phrase "successor researchers in"
 		"successor jobs" ++
 
@@ -289,7 +289,7 @@ mission "Successor: Large Researchers Out 1"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		payment 24000 2000
+		payment 34000 200
 		dialog phrase "successor researchers in"
 		"successor jobs" ++
 
@@ -304,15 +304,17 @@ mission "Successor: Home Researchers Out 1"
 		random < 40
 	source
 		government "Successor"
+		attributes "education"
 	stopover
-		government "Successor"
-		attributes "uninhabited"
+		attributes "uninhabited" 
+		attributes "successor"
+		not attributes "station"
 	on stopover
 		dialog phrase "successor researchers out"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		payment 18000 2000
+		payment 11000 200
 		dialog phrase "successor researchers in"
 		"successor jobs" ++
 

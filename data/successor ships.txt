@@ -706,8 +706,11 @@ ship `Veusade`
 	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight shatter cannons as close to an enemy ship's hull as possible, something which it unquestionably delivers on, for better or worse. The designers shaved off additional mass by excluding turrets; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down.`
 
 ship `Kaskhorade`
-	sprite "ship/successor cruiser"
-	thumbnail "thumbnail/successor cruiser"
+	sprite "ship/kaskhorade"
+		"frame time" 5
+		"random start frame"
+	thumbnail "thumbnail/kaskhorade"
+	"frame rate" 20
 	attributes
 		licenses
 			"High Houses"
@@ -742,31 +745,17 @@ ship `Kaskhorade`
 		"Bimodal Railgun" 5
 		"Burst Anti-Missile Turret" 4
 		"Multimodal Armor: Heavy"
-	gun -43 -28
-	gun -38 -45
-	gun 38 -45
-	gun 43 -28
+	turret -46 12
+	turret 46 12
+	turret 0 -90
+	turret 0 33
+	gun -42 -72
+	gun -36 -86
+	gun 42 -72
+	gun 36 -86
 	gun 0 -140
-	turret -18 -12
-	turret 18 -12
-	turret -50 30
-	turret 50 30
-	engine -33 125
-	engine 33 125
-	"reverse engine" -28 -48
-		zoom .7
-		angle -22
-	"reverse engine" 28 -48
-		zoom .7
-		angle 22
-	"steering engine" -28 -48
-		left
-		angle 168
-		zoom .7
-	"steering engine" 28 -48
-		right
-		angle 202
-		zoom .7
+	engine -36 94
+	engine 36 94
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
@@ -774,7 +763,7 @@ ship `Kaskhorade`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Serving as the strong multipurpose backbone of the fleets of the High Houses, the "Kaskhorade" trades some of the maneuverability of its smaller siblings for greater defenses and non-combat capabilities; in addition to being a capable warship, it also holds sizable free cargo and bunk space for use in a wide variety of missions.These are frequently used to transport high-ranking members of the High Houses, as they are well-defended while retaining the capacity for luxurious travel.`
+	description `Serving as the strong multipurpose backbone of the fleets of the High Houses, the "Kaskhorade" trades some of the maneuverability of its smaller siblings for greater defenses and non-combat capabilities; in addition to being a capable warship, it also holds sizable free cargo and bunk space for use in a wide variety of missions. These are frequently used to transport high-ranking members of the High Houses, as they are well-defended while retaining the capacity for luxurious travel.`
 
 ship `Valsaqra`
 	sprite "ship/successor destroyer"
