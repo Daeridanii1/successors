@@ -489,8 +489,8 @@ ship `Naapojde`
 	description `Unwilling to give up on the design of the Stolsaqra, House Seineq have slightly altered the ship to function as a carrier-based fightercraft, and have found a surprising degree of success. In the absence of large and heavy components like the hyperdrive, fuel tanks, and turret mount, the "Naapojde" becomes a tough and deadly carried combat craft that the New Houses use to protect their short-range interests, and to project power at a distance with in combination with a carrier.`
 
 ship `Aaulqra`
-	sprite "ship/successor med warship"
-	thumbnail "thumbnail/successor med warship"
+	sprite "ship/aaulqra"
+	thumbnail "thumbnail/aaulqra"
 	attributes
 		licenses
 			"High Houses"
