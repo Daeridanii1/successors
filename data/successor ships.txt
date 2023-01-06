@@ -1,6 +1,6 @@
 ship `Kvelqde`
-	sprite "ship/successor shuttle"
-	thumbnail "thumbnail/successor shuttle"
+	sprite "ship/kvelqde"
+	thumbnail "thumbnail/kvelqde"
 	attributes
 		licenses
 			"Successor"
@@ -47,8 +47,8 @@ ship `Kvelqde`
 	description "This tiny shuttle is the smallest vessel operating in Successor space, and the first ship that new Successor pilots are able to get their arms on. Despite their small size, they are capable multipurpose vessels, and are frequently used for transporting passengers and cargo, for short-duration research expeditions, and even as very light combat craft, capable of just barely fitting one fixed and one turreted pulse laser."
 
 ship `Myaede`
-	sprite "ship/successor light freighter"
-	thumbnail "thumbnail/successor light freighter"
+	sprite "ship/myaede"
+	thumbnail "thumbnail/myaede"
 	attributes
 		licenses
 			"Successor"
@@ -116,8 +116,8 @@ ship `Myaede`
 	description `The "Myaede" is neither elegant nor fast, but it has remained the mainstay of Successor commerce since before the collapse of the old empire over a thousand years ago, boasting a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. Much like the grand heirlooms of the high houses, a familial "Myaede" is often passed down through the lineage of spacefaring low-born Successors, and many of the pilots flying these first took the helm as children under a grandparent's watchful gaze.`
 
 ship `Ejniisde`
-	sprite "ship/successor transport"
-	thumbnail "thumbnail/successor transport"
+	sprite "ship/ejniisde"
+	thumbnail "thumbnail/ejniisde"
 	attributes
 		licenses
 			"Successor"
@@ -376,8 +376,8 @@ ship `Ojde-Khora`
 	description `In their struggle for recognition, the People's Houses have demonstrated both their cruelty and their ingenuity. This makeshift heavy warship is ultimately no more than an amalgamation of civilian Successor designs, torn apart and reassembled into a more deadly form. While crude in both concept and excecution, these vessels are nontheless powerful enough to give even well-defended Successor convoys pause.`
 
 ship `Stolsaqra`
-	sprite "ship/successor interceptor"
-	thumbnail "thumbnail/successor interceptor"
+	sprite "ship/stolsaqra"
+	thumbnail "thumbnail/stolsaqra"
 	attributes
 		licenses
 			"Successor"
@@ -444,8 +444,8 @@ ship `Stolsaqra`
 	description "The Successors have limited experience in making warships this small, and while their attempt at an interceptor is durable and sports a surprising amount of firepower for a ship of its size, it is also plagued with power and propulsion issues as most of their existing technology was either too large or not powerful enough to yield effective performance. The result is a ship that ambitious pilots call a challenge and prudent pilots call a deathtrap, but continues to see use because of its heavy armament."
 
 ship `Naapojde`
-	sprite "ship/successor fighter"
-	thumbnail "thumbnail/successor fighter"
+	sprite "ship/naapojde"
+	thumbnail "thumbnail/naapojde"
 	attributes
 		licenses
 			"High Houses"
@@ -567,8 +567,8 @@ ship `Aaulqra`
 	description "This medium Successor warship makes up the bulk of the fleets of the various high houses. It is compact, fast, and durable for a ship of its size, but has relatively limited internal space, and a short operational range. The captains of these ships are often up-and-coming Successor pilots hoping to prove themselves to one of the high houses by demonstrating their mastery of the vessel; while most, of course, do not, the ship's ubiquity and good performance do make it an excellent starting point for those who do."
 
 ship `Seiitej`
-	sprite "ship/successor escort"
-	thumbnail "thumbnail/successor escort"
+	sprite "ship/seiitej"
+	thumbnail "thumbnail/seiitej"
 	attributes
 		licenses
 			"High Houses"
@@ -634,8 +634,8 @@ ship `Seiitej`
 	description `The "Seiitej" is a light attack craft only recently put into production by the high houses of the Successors. While it carries a relatively light armament (by Successor standards), it is capable of outrunning any other ship in Successor space, making it excellent for hunting down traitors or fugitives. It also sees service as an escort in freighter convoys, and to that end, is capable of carrying a significant amount of cargo in its own right.`
 
 ship `Veusade`
-	sprite "ship/successor raider"
-	thumbnail "thumbnail/successor raider"
+	sprite "ship/veusade"
+	thumbnail "thumbnail/veusade"
 	attributes
 		licenses
 			"High Houses"
@@ -707,10 +707,7 @@ ship `Veusade`
 
 ship `Kaskhorade`
 	sprite "ship/kaskhorade"
-		"frame time" 5
-		"random start frame"
 	thumbnail "thumbnail/kaskhorade"
-	"frame rate" 20
 	attributes
 		licenses
 			"High Houses"
@@ -766,8 +763,8 @@ ship `Kaskhorade`
 	description `Serving as the strong multipurpose backbone of the fleets of the High Houses, the "Kaskhorade" trades some of the maneuverability of its smaller siblings for greater defenses and non-combat capabilities; in addition to being a capable warship, it also holds sizable free cargo and bunk space for use in a wide variety of missions. These are frequently used to transport high-ranking members of the High Houses, as they are well-defended while retaining the capacity for luxurious travel.`
 
 ship `Valsaqra`
-	sprite "ship/successor destroyer"
-	thumbnail "thumbnail/successor destroyer"
+	sprite "ship/valsaqra"
+	thumbnail "thumbnail/valsaqra"
 	attributes
 		licenses
 			"High Houses"
@@ -846,8 +843,8 @@ ship `Valsaqra`
 	description `As the largest production warship put out by the shipyards of the High Houses for hundreds of years, the imposing "Valsaqra" is the Successors' ship of choice when they need to send a strong message, be that through violence or merely the threat thereof. The "Valsaqra" bristles with weapon hardpoints and is unnervingly quick for a ship of its size; it would dance around any human battleship easily. Naturally, the High Houses do not offer command of these vessels to any but their most trusted captains.`
 
 ship `Joruuvaqra`
-	sprite "ship/successor carrier"
-	thumbnail "thumbnail/successor carrier"
+	sprite "ship/joruuvaqra"
+	thumbnail "thumbnail/joruuvaqra"
 	attributes
 		licenses
 			"High Houses"
