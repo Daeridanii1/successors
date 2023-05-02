@@ -303,22 +303,22 @@ mission "Successors: Biology Research 1"
 	destination "Staja-Kella-Oa"
 	on offer
 		conversation
-			`While you are sitting in the spaceport, you are approached by a Successor wearing a curious green outfit and carrying several pieces of equipment, enough that it appears close to falling out of their arms. They explain that they are a Successor biologist who had chartered a flight to go and examine the primordial life on Naph-Naap-Kella, a young and still-developing planet, but that their pilot had been detained, leaving them stranded here.`
-			`	"If thou coulds't provide travel to that planet, I may still be able to gather my data before my request for leave expires."`
+			`While you are sitting in the spaceport, you are approached by a Successor wearing a curious green outfit and carrying several pieces of seemingly high-tech equipment, enough that it appears close to falling out of their arms. They explain that they are a Successor biologist who had chartered a flight to go and examine the primordial life on Naph-Naap-Kella, a young and still-developing planet, but that their pilot had been detained, leaving them stranded here.`
+			`	"If thou coulds't provide travel to that planet, I may still be able to gather my data before my period of research leave expires."`
 			choice
 				`	"Sure, I would be happy to."`
 					goto accept
 				`	"Sorry, but you'll have to find someone else to take you."`
 					decline
 			label accept
-			`	"Thou has my deep and certain thanks. Tell none, but the High Houses are beastly to us academics." The biologist, who gives their name as "Kaatiora", loads their collection of equipment into your ship, almost dropping one particularly fragile-looking item, and is eventually ready to leave.`
+			`	"Thou has my deep and certain thanks. Tell none, but the High Houses are beastly to us academics." The biologist, who introduces themselves as "Kaatiora", loads their collection of equipment into your ship---though not without almost dropping one particularly fragile-looking item---and is eventually ready to leave.`
 				accept
 	on stopover
 		conversation
-			`	On the way here, Kaatiora has been impressively inquisitive, continually asking you questions about human biology with unmatched verve and excitement. Once they exhausted your knowledge of every quirk of humans, they moved on without hesitation to every other Earth-related species they knew of from Predecessor records, from cattle to frogs to far more exotic ones that you've never heard of in your life but apparently are all the rage among the circles of Successor xenobiology.`
-			`	It is somewhat relieving when you finally arrive at the planet and Kaatiora momentarily departs, once again carrying their more-than-armful of equipment and excitedly but delicately scanning the volcanic pools and small lakes around your landing site.`
-			`	Eventually they return to your ship, satisfied with the data they have collected, but eyes still wide with the fires of learning.`
-			`	Before leaving, you realize this would be a good time to learn about the Successors from an expert. Besides, since you spent the majority of the time on the way here answering Kaatiora's questions, you are probably entitled to ask a few of your own.`
+			`	On the way here, Kaatiora has been impressively inquisitive, continually asking you questions about human biology with a level of verve and excitement you though previously impossible. Once they exhausted your knowledge of every detail of human biology, they moved on without hesitation to every other Earth-related species they knew of from Predecessor records, from cattle to frogs to far more exotic ones that you've never heard of in your life but apparently are all the rage among the circles of Successor xenobiology.`
+			`	It is somewhat relieving when you finally arrive at the planet and Kaatiora momentarily departs, once again carrying their more-than-armful of equipment and excitedly but carefully scanning the volcanic hot-water pools and small lakes around your landing site, occasionally exclaiming with excitement.`
+			`	Eventually they return to your ship, satisfied with the amount of data they have collected, but still obviously energized by the experience.`
+			`	Before leaving, you realize this would be a good time to learn more about the Successors from an expert. Besides, since you spent the majority of the time on the way here answering Kaatiora's questions, you are probably entitled to ask a few of your own.`
 			choice
 				`	(Ask about the Successors and biology.)`
 					goto ask
@@ -336,9 +336,9 @@ mission "Successors: Biology Research 1"
 				`	"I have no more questions."`
 					launch
 			label successor
-			`	"Much of our evolutionary history, we spent beneath the waves of our home planet, and while now you clearly see we breathe the same air as you, we still retain our cold and water-loving tendencies. Our respiration works just as well submerged as on dry land, though we must retain some degree of moisture on our skin."`
+			`	"Much of our evolutionary history, we spent beneath the waves of our home planet, and while now you clearly see we breathe the same air as you, we still retain our cold and water-loving tendencies. Our respiration works just as well submerged as on dry land, though we must retain some degree of moisture on our skin.`
 			`	Apart from that, we are a hermaphroditic species, like most from our home planet, and as we took to the stars, we learned that this is uncommon but not rare, and so there is some curiosity as to why our planet had such a diversity of such species while most do not. Perhaps, since we grew up under a harsh sun, the redundancy provided by our divorce from biological sex was beneficial to our evolution.`
-			`	And of course, thou hast surely noticed by now the natural camouflage of our skin. While today its use its for communication, it was long ago a useful tool for evading predators who hunted by sight, until, of course, we gained the wisdom to outsmart our predators rather than hide from them.`
+			`	And of course, thou hast surely noticed by now the natural camouflage of our skin. While today its use its for communication, it was long ago a useful tool for evading predators who hunted by sight, until, of course, we gained the wisdom to outsmart our predators rather than hide from them."`
 			choice
 				`	"Were the Predecessors any different, biologically speaking?"`
 					goto predecessor
@@ -347,7 +347,7 @@ mission "Successors: Biology Research 1"
 				`	"I have no more questions."`
 					launch
 			label predecessor
-			`	"As brevity is the soul of wit, then no, our Predecessors did not differ greatly from us in their core biology. A scion of the High Houses from the time of the collapse would not stand out in the present day. That being said, however, their understanding of it was much superior: their medical science far exceeded our own, and much of their technology was genetically coded to function only for specific families."`
+			`	"As brevity is the soul of wit, then no, our Predecessors did not differ greatly from us in their core biology. A scion of the High Houses from the time of the collapse would not stand out from the average one of us in the present day. That being said, their understanding of it was much superior: their medical science was much more advanced than our own, and much of their technology was genetically coded to function only for specific families."`
 			choice
 				`	"What can you tell me about modern Successors?"`
 					goto successor
@@ -368,5 +368,5 @@ mission "Successors: Biology Research 1"
 		"successor jobs" += 2
 		payment 200000
 		conversation
-			`	Kaatiora remains excited and talkative on the way back, though marginally less so now that they have exhausted the totality of your knowledge of biology.`
+			`	Kaatiora remains excited and talkative on the way back, though marginally less so now that they have exhausted the totality of your knowledge of the biological sciences and have the analysis of their recently-gathered data to occupy them.`
 			`	Upon landing at <destination>, they disembark from your ship, once again carrying their excess of equipment, but not before giving you your payment of <payment> and once again offering their thanks for transporting them.`

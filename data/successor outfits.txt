@@ -11,7 +11,7 @@ outfit "High Houses License"
 outfit "Heirloom License"
 	category "Licenses"
 	thumbnail "outfit/remnant capital license"
-	"description" "To obtain one of these, you would have to become an honorary scion of one of the High Houses, and that's for future content."
+	"description" "To obtain one of these, you would have to become an honorary scion of one of the High Houses, which at this point in the story, you are most definitely not."
 
 outfit `"Byiaa" Shield Cortex`
 	category "Systems"
@@ -38,7 +38,7 @@ outfit `"Ej" Shield Cortex`
 	"shield generation" 2.1
 	"shield protection" -0.33
 	"shield energy" 2.6
-	"description" "At their peak, the Predecessors were feared not by how quickly they could overpower their enemies, but in how effectively they could outlast them. Many generations later, this philosophy is still reflected in modern Successor shield cortices, which are exceptionally powerful for their size but weaken the shield's resistance to incoming fire, allowing Successor ships to recover quickly from sustained damage, even if they are slightly more vulnerable to it."
+	"description" "At their peak, the Predecessors were feared not by how quickly they could overpower their enemies, but by how effectively they could outlast them. Many generations later, this philosophy is still reflected in modern Successor shield cortices, which are exceptionally powerful for their size but weaken the shield's resistance to incoming fire, allowing Successor ships to recover quickly from sustained damage, even if they are slightly more vulnerable to it."
 
 outfit `"Jaase" Shield Cortex`
 	category "Systems"
@@ -76,7 +76,7 @@ outfit `"Viir" Repair Module`
 	"outfit space" -14
 	"hull repair rate" 0.55
 	"hull energy" 3.1
-	"description" "The Successors are masters of materials science, and since the days of the Predecessors, their ships have relied on heavy armor rather than shields as their primary defensive layer. During these current peaceful times, there has been little need for in-flight armor repair systems, but the High Houses still install these on their warships both as a precaution and as a justification for the cost of producing them."
+	"description" "The Successors are masters of materials science, and since the days of the Predecessors, their ships have relied on advanced armor rather than shields as their primary defensive layer. During these current peaceful times, there has been little need for in-flight armor repair systems, but the High Houses still install these on their warships both as a precaution and as a justification for the cost of producing them."
 
 outfit `"Vyraa" Repair Module`
 	category "Systems"
@@ -88,7 +88,7 @@ outfit `"Vyraa" Repair Module`
 	"outfit space" -30
 	"hull repair rate" 1.3
 	"hull energy" 7.4
-	"description" "Much of the stunning power consumption of this large armor repair module comes from the powerful computers it contains, which constantly monitor the ship's hull for damage or wear before rapidly routing thousands of biomechanical repair microbots to the damaged areas as efficiently as possible. When they have completed repairs, the microbots travel back to the module along a sort of artificial vasculature, where their batteries are recharged and their own structures checked for damage before being dispatched again."
+	"description" "Much of the impressive power consumption of this large armor repair module comes from the powerful computers it contains, which constantly monitor the ship's hull for damage or wear before rapidly routing thousands of biomechanical repair microbots to the damaged areas as efficiently as possible. When they have completed repairs, the microbots travel back to the module along a sort of artificial vasculature, where their batteries are recharged and their own structures checked for damage before being dispatched again."
 
 outfit `1-"Uurau" Betavoltaic Cell`
 	category "Power"
@@ -101,7 +101,7 @@ outfit `1-"Uurau" Betavoltaic Cell`
 	"energy generation" 0.85
 	"heat generation" .65
 	"energy capacity" 1200
-	description "Unlike most radioisotope generators, this power cell operates by extracting electricity directly from beta particles produced by radioactive decay. While this process yields less energy per unit of material, it also produces very little waste heat."
+	description "Unlike most radioisotope generators, this power cell operates by extracting electricity directly from beta particles produced by radioactive decay. While this process yields less energy per unit of material, it is also safer and produces very little waste heat."
 
 outfit `OC-"Mavra" Betavoltaic Cell`
 	category "Power"
@@ -127,7 +127,7 @@ outfit `3-"Kaska" Betavoltaic Cell`
 	"energy generation" 3.5
 	"heat generation" 2.6
 	"energy capacity" 3100
-	description "The Successors' betavoltaic generators are products of a time shortly after the collapse of the Predecessors' empire, marked by thriftiness and necessity. Their rugged designs did not appeal to the traditional Successor values of beauty or heritage, but instead to the sad new reality of need and loneliness that their first operators found themselves mired in."
+	description "The Successors' betavoltaic generators are products of a time shortly after the collapse of the Predecessors' empire, marked by thriftiness and necessity. Their rugged designs did not appeal to the traditional Successor values of beauty or heritage, but instead to the harsh new reality of need and loneliness that their first operators found themselves mired in."
 
 outfit `6-"Ruuv" Betavoltaic Cell`
 	category "Power"
@@ -185,7 +185,7 @@ outfit `"Uuravej" Inertial Core`
 	"energy capacity" 12000
 	"shield energy multiplier" -0.48
 	"hull energy multiplier" -0.48
-	description `The largest and most powerful of the High Houses' inertial confinement fusion cores, this monstrous but surprisingly efficient reactor far outstrips any comparable human technology. Most impressive of all is its remarkably clever power distribution network, which massively reduces the draw of the Successors' energy-hungry defensive outfits.`
+	description `The largest and most powerful of the High Houses' inertial confinement fusion cores, this monstrous but surprisingly efficient reactor far exceeds any human fusion reactor. Perhaps most impressive of all is its remarkably clever power distribution network, which massively reduces the draw of the Successors' energy-hungry defensive outfits.`
 
 outfit "Successor Cooling"
 	category "Systems"
@@ -229,6 +229,7 @@ outfit "Successor Scanner"
 	description "There has been talk that the High Houses plan to start restricting the sale of these high-powered scanners in an effort to combat piracy, but for the moment, they remain available to civilian Successors. Much of their popularity stems from their use in the scientific and industrial sectors as tools for planetary analysis, and the High Houses are loathe to quash this small but reliable income stream."
 
 outfit `"Niis" Inductive Engines`
+	plural `"Niis" Inductive Engines`
 	category "Engines"
 	"cost" 255000
 	thumbnail "outfit/successor engines tiny"
@@ -275,7 +276,7 @@ outfit `"Aqra" Inductive Thruster`
 	"flare sprite" "effect/successor flare/small"
 		"frame rate" 40
 	"flare sound" "ion small"
-	description "Successor thrusters are bimodal: most of the time, they are run in an energy-efficient low-power state, but when the time comes to flee or fight, they can be switched to a somewhat less efficient but very powerful high-thrust mode that draws power from the ship's shields."
+	description "Successor thrusters are bimodal: most of the time, they are run in an energy-efficient low-power state, but when the time comes to flee or fight, they can be switched to a less efficient but very powerful high-thrust mode that draws power from the ship's shields."
 
 outfit `"Aqra" Inductive Steering`
 	category "Engines"
@@ -311,7 +312,7 @@ outfit `"Aqra" Inductive Reverser`
 	"reverse flare sprite" "effect/successor flare/small"
 		"frame rate" 40
 	"reverse flare sound" "ion small"
-	description "The inductive thruster technology used by the Successors is most similar to the ion thrusters used in human space, but the more powerful magnetic fields utilized by these thrusters lets them generate substantially more thrust than any human ion thruster."
+	description "The inductive thruster technology used by the Successors is most similar to the ion thrusters used in human space, but the more powerful magnetic fields utilized by these thrusters lets them generate substantially more thrust than any comparable human ion thruster."
 	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
 
 outfit `"Chyyra" Inductive Thruster`
@@ -352,7 +353,7 @@ outfit `"Chyyra" Inductive Steering`
 	"steering flare sprite" "effect/successor flare/medium"
 		"frame rate" 40
 	"steering flare sound" "ion medium"
-	description "While not especially powerful for its size, this set of inductive steering engines is extraordinarily efficient, allowing large Successor vessels to maneuver relatively quickly even with very small generators."
+	description "While not particularly powerful for its size, this set of inductive steering engines is extraordinarily efficient, allowing large Successor vessels to remain relatively nimble even when equipped with very small generators."
 
 outfit `"Chyyra" Inductive Reverser`
 	category "Engines"
@@ -370,7 +371,7 @@ outfit `"Chyyra" Inductive Reverser`
 	"reverse flare sprite" "effect/successor flare/medium"
 		"frame rate" 40
 	"reverse flare sound" "ion medium"
-	description "This large reverse thruster sees use in both commerce and warfare, speeding up trade routes for the former and enhancing agility for the latter."
+	description "This large reverse thruster sees use in both commerce and warfare, speeding up the traversal of trade routes in the former situation and enhancing combat agility in the latter."
 	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
 
 outfit `"Veusa" Inductive Thruster`
@@ -393,7 +394,7 @@ outfit `"Veusa" Inductive Thruster`
 	"flare sprite" "effect/successor flare/large"
 		"frame rate" 40
 	"flare sound" "ion large"
-	description `The largest of the Successors' pulsed inductive thrusters, the "Veusa" is used primarily in their large warships and freighters. While its high-performance mode is powerful indeed, it drains a ship's shielding remarkably quickly; this is clearly meant to be paired with one of the Successors' fast-recharging shield generators.`
+	description `The largest of the Successors' pulsed inductive thrusters, the "Veusa" is used primarily to propel their large warships and freighters. While its high-performance mode is powerful indeed, it drains a ship's shielding remarkably quickly; this is clearly meant to be paired with one of the Successors' fast-recharging shield generators.`
 
 outfit `"Veusa" Inductive Steering`
 	category "Engines"
@@ -411,7 +412,7 @@ outfit `"Veusa" Inductive Steering`
 	"steering flare sprite" "effect/successor flare/large"
 		"frame rate" 40
 	"steering flare sound" "ion large"
-	description `The "Veusa" series is significantly smaller than many comparable human engines, allowing the Successors to gain some versatility in the engine layouts of their large ships.`
+	description `The "Veusa" series of Successor steering units is significantly smaller than comparable human engines, allowing the Successors to gain some flexibility in the engine layouts of their large ships.`
 
 outfit `"Veusa" Inductive Reverser`
 	category "Engines"
@@ -495,4 +496,4 @@ outfit "Gauss Rifle"
 	"capture attack" 1.9
 	"capture defense" 3.2
 	"unplunderable"
-	description "While projectile weapons of this scale are considered obsolete in human space, having been superceded by laser weaponry, the Successors' generations of experience with high-power railguns have yielded this particularly terrifying hand-to-hand weapon, firing projectiles capable of almost entirely ignoring body armor and even intervening bulkheads."
+	description "While projectile weapons of this scale are considered obsolete in human space, having been superceded by laser weaponry, the Successors' generations of experience with high-power railguns have allowed them to produce this particularly terrifying hand-to-hand weapon, firing projectiles capable of piercing body armor and even intervening bulkheads."

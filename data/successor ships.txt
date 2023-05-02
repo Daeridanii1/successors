@@ -241,7 +241,7 @@ ship `Ojde`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Although little more than a "Myaede" attached to a rack of cargo containers and expanded drive section, the "Ojde" heavy freighter is nonetheless a time-proven and well-respected design that the Successors frequently use in their larger cargo convoys. As a direct result of the ponderous nature of the "Ojde," its designers have omitted fixed weaponry, instead opting to provide it with a high-coverage turret layout.`
+	description `Although little more than a "Myaede" attached to a rack of cargo containers and expanded drive section, the "Ojde" heavy freighter is nonetheless a time-proven and well-respected design that the Successors frequently use in their larger cargo convoys. As a direct result of the ponderous nature of the "Ojde," its designers have omitted fixed weaponry, instead opting to provide it with a high-coverage turret layout for general defense.`
 
 ship `Myaede-Khora`
 	sprite "ship/successor mod freighter"
@@ -441,7 +441,7 @@ ship `Stolsaqra`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "The Successors have limited experience in making warships this small, and while their attempt at an interceptor is durable and sports a surprising amount of firepower for a ship of its size, it is also plagued with power and propulsion issues as most of their existing technology was either too large or not powerful enough to yield effective performance. The result is a ship that ambitious pilots call a challenge and prudent pilots call a deathtrap, but continues to see use because of its heavy armament."
+	description "The Successors have limited experience in making warships this small, and while their attempt at an interceptor is durable and sports a surprising amount of firepower for a ship of its size, it is also plagued with power and propulsion issues as most of their standard technology is either too large or not powerful enough to yield effective combat performance at this scale. The result is a ship that ambitious pilots call a challenge and prudent pilots call a deathtrap, but continues to see use because of its heavy armament."
 
 ship `Naapojde`
 	sprite "ship/naapojde"
@@ -486,7 +486,7 @@ ship `Naapojde`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Unwilling to give up on the design of the Stolsaqra, House Seineq have slightly altered the ship to function as a carrier-based fightercraft, and have found a surprising degree of success. In the absence of large and heavy components like the hyperdrive, fuel tanks, and turret mount, the "Naapojde" becomes a tough and deadly carried combat craft that the New Houses use to protect their short-range interests, and to project power at a distance with in combination with a carrier.`
+	description `Unwilling to give up on the design of the Stolsaqra, House Seineq have slightly altered the ship to function as a carrier-based fightercraft, and have found a surprising degree of success. With the removal of large and heavy components like the hyperdrive, fuel tanks, and turret mount, the "Naapojde" becomes a tough and deadly carried combat craft that the New Houses use to protect their short-range interests, and to project power at a distance with in combination with a carrier.`
 
 ship `Aaulqra`
 	sprite "ship/aaulqra"
@@ -631,7 +631,7 @@ ship `Seiitej`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The "Seiitej" is a light attack craft only recently put into production by the high houses of the Successors. While it carries a relatively light armament (by Successor standards), it is capable of outrunning any other ship in Successor space, making it excellent for hunting down traitors or fugitives. It also sees service as an escort in freighter convoys, and to that end, is capable of carrying a significant amount of cargo in its own right.`
+	description `The "Seiitej" is a light attack craft only recently put into production by the high houses of the Successors. While it carries a relatively light armament (by Successor standards), it is capable of outrunning any other ship in Successor space, making it excellent for hunting down traitors or fugitives. It also sees service as an escort in freighter convoys, and to that end, is capable of carrying a modest amount of cargo in its own right.`
 
 ship `Veusade`
 	sprite "ship/veusade"
@@ -703,7 +703,7 @@ ship `Veusade`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight shatter cannons as close to an enemy ship's hull as possible, something which it unquestionably delivers on, for better or worse. The designers shaved off additional mass by excluding turrets; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down.`
+	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight shatter cannons as close to an enemy ship's hull as possible, a premise which it certainly delivers on. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down.`
 
 ship `Kaskhorade`
 	sprite "ship/kaskhorade"
@@ -760,7 +760,7 @@ ship `Kaskhorade`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Serving as the strong multipurpose backbone of the fleets of the High Houses, the "Kaskhorade" trades some of the maneuverability of its smaller siblings for greater defenses and non-combat capabilities; in addition to being a capable warship, it also holds sizable free cargo and bunk space for use in a wide variety of missions. These are frequently used to transport high-ranking members of the High Houses, as they are well-defended while retaining the capacity for luxurious travel.`
+	description `Serving as the heavy multipurpose backbone of the fleets of the various high houses, the "Kaskhorade" trades some of the maneuverability of its smaller siblings for greater defenses and non-combat capabilities. In addition to being a capable warship, it also holds sizable free cargo and bunk space for use in a wide variety of missions. These vessels are frequently used to transport high-ranking members of the High Houses, as they can remain well-defended while outfitted for luxurious travel.`
 
 ship `Valsaqra`
 	sprite "ship/valsaqra"
@@ -840,7 +840,7 @@ ship `Valsaqra`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `As the largest production warship put out by the shipyards of the High Houses for hundreds of years, the imposing "Valsaqra" is the Successors' ship of choice when they need to send a strong message, be that through violence or merely the threat thereof. The "Valsaqra" bristles with weapon hardpoints and is unnervingly quick for a ship of its size; it would dance around any human battleship easily. Naturally, the High Houses do not offer command of these vessels to any but their most trusted captains.`
+	description `As the largest production warship built by the shipyards of the High Houses for hundreds of years, the imposing "Valsaqra" is the Successors' vessel of choice when they need to send a strong message through violence or merely the threat thereof. The "Valsaqra" bristles with weapon hardpoints and is unnervingly quick for a ship of its size; it would dance around any human battleship with ease. Naturally, the High Houses do not offer command of these vessels to any but their most trusted captains, and serving as the commander of one is generally considered the apex of a Successor naval officer's career.`
 
 ship `Joruuvaqra`
 	sprite "ship/joruuvaqra"
@@ -940,4 +940,4 @@ ship `Joruuvaqra`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The New Houses do not have the sheer manufacturing volume of the Old Houses, and so they try to maintain their military relevance by making use of unique designs. The "Joruuvaqra" is a massive fighter carrier, capable of unleasing a small fleet of heavily-armed fightercraft to aid it in combat. More than just a starship, it serves more like a mobile space station, capable of carrying a substantial amount of cargo and reserve crew in addition to its base loadout.`
+	description `The New Houses do not have the sheer manufacturing volume of the Old Houses, and so they try to maintain their military relevance by employing unique designs. The "Joruuvaqra" is their largest success, a massive fighter carrier capable of unleasing a small fleet of heavily-armed fightercraft to aid it in combat or power projection. More than just a starship, it serves more like a mobile space station, capable of carrying a substantial amount of cargo and reserve crew in addition to its base loadout.`

@@ -31,7 +31,7 @@ outfit "Bimodal Railgun"
 		"hit force" 30
 		"cluster"
 		"submunition" "Bimodal Switch" 3
-	description `The Bimodal Railgun was designed, quite simply, as a perfect weapon; and indeed, it is said that by the time the empire of the Predecessors fell, they had seen no need to install any other weapon on their ships for over a thousand years.`
+	description `The Bimodal Railgun was designed quite simply as a perfect weapon, and indeed, it is said that by the time the empire of the Predecessors fell, they had seen no need to install any other weapon on their ships for over a thousand years.`
 	description `It fires a condensed packet of heavy metal ions that disperse as they travel: up close the concentrated bolt pierces armor, while at a distance the ionic spray destabilizes shielding. Together, a ship equipped with these can adjust its damage profile just by changing its engagement range, allowing it to be highly effective against any foe.`
 
 outfit "Bimodal Railgun Turret"
@@ -71,7 +71,7 @@ outfit "Bimodal Railgun Turret"
 		"hit force" 30
 		"cluster"
 		"submunition" "Bimodal Switch" 3
-	description `Successor warships have traditionally relied on fixed weaponry to deal with their foes, but the High Houses do produce a turreted version of the Bimodal Railgun so that their larger and slower vessels can maintain combat effectiveness against manuverable targets. It mounts two railguns side by side, rigged to fire double the amount of shots per burst to keep them in sync with the fixed hardpoints.`
+	description `Successor warships have traditionally relied on fixed weaponry to deal with their foes, but the High Houses do produce a turreted version of the Bimodal Railgun so that their larger and slower vessels can maintain their combat effectiveness against more manuverable targets. It mounts two railguns side by side, rigged to fire double the amount of shots per burst to keep them in sync with the fixed hardpoints.`
 
 outfit "Bimodal Switch"
 	weapon
@@ -109,8 +109,8 @@ outfit "Shatter Cannon"
 		"firing heat" 55
 		"cluster"
 		"submunition" "Shatter Projectile" 3
-	description `The Successors have a historical affinity for projectile weaponry which persists to the modern day with the Shatter Cannon. It fires a short-ranged, highly inaccurate blast of projectiles that not only deal substantial damage but also temporarily disrupt the target's engines.`
-	description `While it is ultimately inelegant in comparison to the Bimodal Railgun, and therefore less appreciated, the Shatter Cannon has found a place on the Successors' fast attack craft both as a tool for slowing down enemy vessels, and a potent weapon in its own right.`
+	description `The Successors have a historical affinity for projectile weaponry which persists to the modern day. The Shatter Cannon fires a short-ranged, highly inaccurate blast of projectiles that not only deal substantial damage but also temporarily disrupt the target's engines.`
+	description `While it is an inelegant design in comparison to the time-tested Bimodal Railgun, and consequently less appreciated, the Shatter Cannon has found a place on the Successors' fast attack craft primarily as a tool for slowing down enemy vessels so that they can be engaged by a larger fleet.`
 
 outfit "Shatter Projectile"
 	weapon
@@ -151,7 +151,7 @@ outfit "Successor Pulse Laser"
 		"shield damage" 10.5
 		"hull damage" 12
 		"piercing" 0.1
-	description "This shield-penetrating laser is one of the few weapons manufactured independently in Successor space, rather than under the auspices—and restrictions—of the High Houses. Unfortunately, and perhaps as a result, it is neither especially powerful nor efficient, though its low cost and space requirements make it a nonetheless relatively appealing defensive choice for those without access to the High Houses' more potent weaponry."
+	description "This shield-penetrating laser is one of the few weapons manufactured independently in Successor space, rather than under the auspices and restrictions of the High Houses. As a consequence of this, it is neither especially powerful nor efficient, but its low cost and space requirements make it a nonetheless relatively appealing defensive choice for those without access to the High Houses' more potent weaponry."
 
 outfit "Pulse Laser Turret"
 	category "Turrets"
@@ -240,7 +240,7 @@ outfit "Overcharged Laser Turret"
 		"hull damage" 18.5
 		"piercing" 0.1
 		"cluster"
-	description `Hand-crafted by the more colorful members of the People's Houses, this bespoke overcharged Pulse Laser turret is tuned to fire even faster than the fixed version, producing a truly prodigious amount of heat for a weapon of its size. Despite its crude design, it is nonetheless a fearsome weapon, especially considering that it retains the ability to punch through shielding.`
+	description `Hand-crafted by the more colorful members of the People's Houses, this bespoke overcharged Pulse Laser turret is tuned to fire even faster than the fixed version, producing a truly prodigious amount of heat for a weapon of its size. Despite its crude design, it is nonetheless a fearsome weapon, especially considering that it retains the ability to partially punch through shielding.`
 
 outfit "Corrosive Torpedo Launcher"
 	category "Secondary Weapons"
@@ -351,4 +351,4 @@ outfit "Conductance Turret"
 		"heat damage" 45.0
 		"shield damage" 4.1
 		"hull damage" 1.2
-	description "The engineers in the employ of the High Houses have developed this turret as a clever way of dealing with the heat produced by a ship's systems while in combat, conducting it along the particle beam generated by the weapon into a target. While it generates a substantial amount of resting heat, this weapons is capable of rapidly overheating an unprepared enemy ship, and the High Houses often use it as a policing tool to force a target's reactor to shut down."
+	description "The engineers in the employ of the High Houses have developed this turret as a clever way of dealing with the heat produced by a ship's systems while in combat, conducting it along the particle beam generated by the weapon into a target. While it generates a substantial amount of resting heat, this weapon is capable of rapidly overheating an unprepared enemy ship. The High Houses often use it as a policing tool to force a target's reactor to shut down before preparing boarding parties."
