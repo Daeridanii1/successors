@@ -5,12 +5,12 @@ news "high houses scion"
 		government "High Houses"
 	name
 		word
-			"Scion of House A"
-			"Scion of House B"
+			"High Houses Scion"
+			"Child of the High Houses"
 	message
 		word
 			`"I hope thou has't enjoyed thy time amongst our people."`
-			`"The alien! Doth thou have news `
+			`"The alien! Doth thou have news from far in this endless sky?"`
 
 news "high houses official"
 	location
@@ -53,6 +53,7 @@ news "successor student"
 			` / `
 		word
 			`I know not sleep nor food nor meager rest`
+			`I wish that I could learn while I'm asleep`
 			`I don't know how I even stay awake`
 			`Doth thou know any useful study tricks`
 			`But I know that I'm the best one in my class`
@@ -70,3 +71,14 @@ news "high houses propaganda"
 	message
 		word
 			`An advertisement shows a Successor warship performing a variety of deftly-executed maneuvers before encouraging the viewer to enlist in the armed forces of one of the high houses.` 
+			`An advertisement plays showing a group of Successors standing close together against a factory backdrop, their skins all tinted a happy green. It is followed by a voiceover noting that wages have been recently increased.`
+
+news "successor merchant"
+	location
+		government "High Houses" "Successor"
+	name
+		word
+			"Successor Merchant"
+	message
+		word
+			""
