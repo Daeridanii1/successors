@@ -11,6 +11,8 @@ news "high houses scion"
 		word
 			`"I hope thou has't enjoyed thy time amongst our people."`
 			`"The alien! Doth thou have news from far in this endless sky?"`
+			`"Fair traveler, I've heard of thee. How must thy voyage weigh upon thy mind."`
+			`"Welcome to our space, honored alien. A pleasure 'tis to meet thee."`
 
 news "high houses official"
 	location
@@ -20,18 +22,7 @@ news "high houses official"
 			"High Houses official"
 	message
 		word
-			`"Protect and serve."`
-			`"If any assistance you need, at your disposal I am."`
-			`"If any trouble you find, report it to us you must."`
-			`"Saryd, Kimek, Arach, human, no matter what species, to protect all of our citizens, committed we are."`
-			`"Enjoy my post well enough, I do, but still to get a break during the Coalition Games to watch them, I am."`
-			`"Part of a Punisher crew, I am. Land, refuel, rest, and back to working on that magnificent ship, I do!"`
-			`"Offered the position of magister, I actually have been. Only, not interested in that governing activity, I am."`
-			`"Apologies, but make haste I must. Gone missing some garrison guns have, and back to cleaning Stalker engines I will be, if find them I don't!"`
-			`"Difficult sometimes it is, to be a mediator. If careful with my words I am not, a Saryd might think an Arach talking about longcows has insulted their mother."`
-			"An agent is trying to calm down a small crowd outside a local bar. After some minutes, the more agitated drunkards are convinced to accompany the agent to a nearby Heliarch office."
-			"A pair of agents passes by you. Most of the spaceport crowd gives them a wide berth."
-			`"A pilot, I once was. Learned from an older sibling, I did."`
+			`"The Houses welcome you as 'guest' among our people."`
 
 news "successor student"
 	location
@@ -55,8 +46,32 @@ news "successor student"
 			`I know not sleep nor food nor meager rest`
 			`I wish that I could learn while I'm asleep`
 			`I don't know how I even stay awake`
-			`Doth thou know any useful study tricks`
+			`I wish I knew some better study tricks`
 			`But I know that I'm the best one in my class`
+			``
+		word
+			`."`
+			`!"`
+
+news "successor merchant"
+	location
+		government "High Houses" "Successor"
+	name
+		word
+			"Successor merchant"
+	message
+		word
+			`"Taxes are unnaturally high now,`
+			`"I miss the days when I had been a pilot`
+			`"Perhaps I really should have been a pilot`
+			`"I can't afford to hire outside PR`
+		word
+			` / `
+		word
+			`But thou can find the best prices right here`
+			`But trading planetside I shall remain`
+			`But deals like these will surely never last`
+			`Are you int'rested in minerals, freshly mined`
 		word
 			`."`
 			`!"`
@@ -64,7 +79,7 @@ news "successor student"
 news "high houses propaganda"
 	location
 		not attributes quiet
-		government "Successor"
+		government "High Houses" "Successor"
 	name
 		word
 			"High Houses broadcast"
@@ -72,13 +87,20 @@ news "high houses propaganda"
 		word
 			`An advertisement shows a Successor warship performing a variety of deftly-executed maneuvers before encouraging the viewer to enlist in the armed forces of one of the high houses.` 
 			`An advertisement plays showing a group of Successors standing close together against a factory backdrop, their skins all tinted a happy green. It is followed by a voiceover noting that wages have been recently increased.`
+			`A short video plays showing the construction of a new spaceport over a prospering Successor planet. Several warships of the High Houses painted in ceremonial livery pass across the screen, showing clearly who is to be thanked.`
+			`A proud-looking Successor naval officer stands before an imposing-looking warship: "Enlist!" the caption reads, "See the stars today!"`
+			`Several short vignettes play: a group of Successors unearthing ruins, the inside of a laboratory, a calm pastoral scene. A voiceover speaks: "Uncovering our heritage; bettering our lives." Meticulously-dressed officials of the High Houses are present in each situation, presented as supportive overseers.`
+			`A advertisement plays showing the sleek lines of a Successor warship, its polished armor gleaming in the sunlight. It goes on for several minutes, showing the vessel from numberous angles while a sweeping soundtrack plays.`
 
-news "successor merchant"
+news "successor advertisements"
 	location
-		government "High Houses" "Successor"
+		not attributes quiet
+		government "Successor"
 	name
 		word
-			"Successor Merchant"
+			"Advertisement"
 	message
 		word
-			""
+			`A bowl of a stringy kelp-like food dances around a screen while various seasonings are applied to it. After about thirty seconds, a Successor is shown slurping some of the strands, and their skin turns a happy pink.`
+			`A cluster of small recreational sailing ships are shown on a pristine lake at sunset, their Succcessor crew either manning them or splashing happily in the water.A caption at the bottom encourages the viewer to purchase their own.`
+			`An advertisement plays for the Successor Pulse Laser: it is shown being constructed in a clean, bright factory, installed on a ship, and extracting minerals from asteroids. It is never shown in a combat situation.`
