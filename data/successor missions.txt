@@ -11,9 +11,9 @@ mission "Successors: First Contact"
 			`After trudging through several seemingly-dead systems, you've finally found a planet with living inhabitants. The aliens remind you most of octopi: they are substantially taller than you, rising up off of the ground by several long suckered arms. Their skin seems slightly wet and you can see it changing color and texture as several of them watch you, clearly perplexed by this strange visitor to their planet.`
 			`   After examining you for some time, one of them, an especially tall and brightly colored individual wearing a uniform of some sort, begins to move towards you; they glide slowly and gently over the ground with an unsettling absence of noise. They say something in a strange sharply flowing language that you do not understand and wait expectantly for you to reply.`
 			choice
-				`Say nothing.`
+				`	(Say nothing.)`
 					goto end
-				`Introduce yourself.`
+				`	(Introduce yourself.)`
 			`   You introduce yourself to the alien, but their expression does not change to reveal any sort of understanding.`
 			label end
 			`   After a few moments of silence, the alien grunts in a gesture something like a sigh of disappointment and then turns away and says something to another uniformed individual in the now-gathering crowd. Their skin flashes a bright blue and then they leave, gliding towards one of the nearby ships parked at the spaceport.`
@@ -42,20 +42,20 @@ mission "Successors: First Contact"
 			`	One of the guards presents you with a small ornately carved box which you gently hold before opening to reveal an equally ornately-carved pin. Upon inspecting the carving, you are surprised to see that it depicts a clearly human sailing ship, wrecked upon a shoal.`
 			`	Most of the guards now begin to leave. You begin to suspect that it was the box and its contents they were guarding rather than your ship.`
 			choice
-				`	Quietly accept it.`
+				`	(Quietly accept it.)`
 					goto accept
 				`	"What is it?."`
 			`	"T'is a device most ancient and precious, from when the theatre of thy people dids't entertain our noble Predecessors. This one was't made more than one thousand years ago for a performance of thy Shakespeare's 'The Tempest,' so that the audience might understand the work in its original form."`
 			label accept
 			`	"When thou dost place this upon thy person, it shall translate thy words to our language, and ours to thine. Thou shalt treat it kindly, though, for it is..." The speaker pauses for a second, clearly looking for the proper word. "... an artistic loan."`
 			choice
-				`	Pin it on your jacket.`
+				`	(Pin it on your jacket.)`
 					goto end	
 				`	"Wait, if this device is what translates, then how do you know my language?"`
 			`	The alien shrinks slightly, and a wave of color runs down their body.`
 			`	"I am a scholar of language at the Academy here. I learned thy language, at least as it was fifteen hundred years ago, by examining the records left by our Predecessors when they looked upon thy people."`
 			choice
-				`	Pin it on your jacket.`
+				`	(Pin it on your jacket.)`
 					goto end
 				`	"If it is so precious, why are you loaning it to me?"`
 			`	You can see the few guards who remain stiffen at this question, and the speaker grows noticeably quieter and more uncomfortable. They eventually reply, haltingly.`
@@ -66,11 +66,13 @@ mission "Successors: First Contact"
 			`	While most of their planets will be open to you, several have been restricted by the "High Houses," the ruling families of Successor space, until you have "proven yourself an ally to their interests."`
 			`	Finally, your interpreter gives their name as "Sieasej", and encourages you to spend some time exploring the Successors' worlds, and right before they leave, they suggest you familiarize yourself with the High Houses.`
 			`	"Thou art a person of great interest to them, and 'tis easy for even the cleverest among us to fall victim to their politics."`
+				decline
 			label curious_end
 			`	They say nothing more, so you place the pin on your jacket and you notice that it begins to move: the sailing ship is now gently rocking on the shoal. When the alien speaks again, they sound markedly different, like their words are being carried by the wind. They explain, regaining some of their confidence, that their race, the Successors, are the heirs to an ancient and long-dead empire, their Predecessors, and that you are the first alien visitor they have had in many years.`
 			`	While most of their planets will be open to you, several have been restricted by the "High Houses," the ruling families of Successor space, and the ones who "loaned" you the translation device, until you have "proven yourself an ally to their interests."`
 			`	Finally, your interpreter gives their name as "Sieasej", and encourages you to spend some time exploring the Successors' worlds, both to learn more about them, and to assist their people. Right before they leave, they suggest with a similar hue of discomfort as before that you familiarize yourself with the High Houses.`
 			`	"Thou art a person of great interest to them, and 'tis easy for even the cleverest among us to fall victim to their politics."`
+				decline
 
 mission "Successors: Trusted"
 	landing
@@ -132,7 +134,7 @@ mission "Successors: Trusted"
 			`	"Houses Sioeora and Chydiyi. House Seineq proposes this alien be given no further rights nor gifts until they have proved themselves neutral. The Old Houses, which Sioeora and Chydiyi do today here represent, doth clearly seek to sway the alien's favor through brib'ry and deceit, and House Seineq stands with the New Houses in opposing this corruption."`
 			`	That representative then returns to the edge of the circle, where they continue to eye you with suspicion. There is a pause in the conversation.`
 			choice
-				`	Remain silent.`
+				`	(Remain silent.)`
 					goto silent
 				`	"I have no interest in taking sides."`
 					goto no
