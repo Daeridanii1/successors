@@ -162,8 +162,8 @@ outfitter "Successor High Tech"
 	`"Byiaa" Shield Cortex`
 
 outfitter "High Houses"
-	"0 Hypermap"
-	"0 Hyperjump Drive"
+#	"0 Hypermap"
+#	"0 Hyperjump Drive"
 
 	`"Nnesa" Inertial Core`
 	`"Ryuit" Inertial Core`
@@ -174,8 +174,8 @@ outfitter "High Houses"
 	"Conductance Turret"
 	"Corrosive Torpedo"
 	"Corrosive Torpedo Launcher"
-	"Proton Saturation Torpedo"
-	"Saturation Torpedo Launcher"
+#	"Proton Saturation Torpedo"
+#	"Saturation Torpedo Launcher"
 	`"Jaase" Shield Cortex`
 	`"Jorv" Shield Cortex`
 	"Multimodal Armor: Heavy"

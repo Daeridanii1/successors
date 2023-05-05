@@ -330,7 +330,7 @@ ship `Ojde-Khora`
 		`"Aqra" Inductive Thruster`
 		`"Chyyra" Inductive Steering`
 		`"Aqra" Inductive Reverser`
-		`7-"Ruuv" Betavoltaic Cell`
+		`6-"Ruuv" Betavoltaic Cell`
 		"Pulse Laser Turret" 2
 		`"Ej" Shield Cortex`
 		"Hyperdrive"

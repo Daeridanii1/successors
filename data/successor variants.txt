@@ -111,7 +111,7 @@ ship `Kaskhorade` `Kaskhorade (Bomber)`
 		`Outfits Expansion` 2
 
 ship `Valsaqra` `Valsaqra (Rails)`
-		outfits
+	outfits
 		`"Veusa" Inductive Thruster`
 		`"Veusa" Inductive Steering`
 		`"Veusa" Inductive Reverser`

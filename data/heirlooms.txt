@@ -18,8 +18,8 @@ ship "Valkkyiara-Khorasaqra"
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 25
-		"outfit space" 570
-		"weapon capacity" 255
+		"outfit space" 604
+		"weapon capacity" 285
 		"engine capacity" 120
 		"spinal mount" 1
 		weapon
@@ -37,7 +37,7 @@ ship "Valkkyiara-Khorasaqra"
 		"Successor Scanner"
 		"Successor Cooling" 2
 		"Heirloom Railgun" 6
-		"Heirloom Point Defense"
+		"Heirloom Point Defense" 4
 		"Kinetic Lance"
 		"Kinetic Spike" 8
 		"Heirloom Hunter-Killer Drones" 20
@@ -101,9 +101,9 @@ outfit "Kinetic Lance"
 			"frame rate" 60
 		sound "proton" 10
 		ammo "Kinetic Spike"
-		icon "icon/railgun"
+		icon "icon/rail gun"
 		"fire effect" "bright hit"
-		"fire effect" "moonbeam flecks" 20
+		"fire effect" "moonbeam fleck" 20
 		"live effect" "ionball ring" 4
 		"hit effect" "bright hit"
 		"hit effect" "dragonflame debris" 10

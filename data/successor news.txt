@@ -1,8 +1,6 @@
 news "high houses scion"
-	to offer
-		random < 30
 	location
-		government "High Houses"
+#		government "High Houses"
 	name
 		word
 			"High Houses Scion"
@@ -16,7 +14,9 @@ news "high houses scion"
 
 news "high houses official"
 	location
-		government "High Houses" "Successor"
+		government
+#			"High Houses"
+			"Successor"
 	name
 		word
 			"High Houses official"
@@ -26,7 +26,9 @@ news "high houses official"
 
 news "successor student"
 	location
-		government "High Houses" "Successor"
+		government
+#			"High Houses"
+			"Successor"
 		attributes education rich
 	name
 		word
@@ -55,7 +57,9 @@ news "successor student"
 
 news "successor merchant"
 	location
-		government "High Houses" "Successor"
+		government
+#			"High Houses"
+			"Successor"
 	name
 		word
 			"Successor merchant"
@@ -79,7 +83,9 @@ news "successor merchant"
 news "high houses propaganda"
 	location
 		not attributes quiet
-		government "High Houses" "Successor"
+		government
+#			"High Houses"
+			"Successor"
 	name
 		word
 			"High Houses broadcast"

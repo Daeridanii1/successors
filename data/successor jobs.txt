@@ -244,7 +244,7 @@ mission "Successor: Data Courier 1"
 	on complete
 		payment
 		payment 1400 200
-		dialog phrase "successor data"
+#		dialog phrase "successor data"
 		"successor jobs" ++
 
 mission "Successor: Researchers Out 1"

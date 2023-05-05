@@ -481,7 +481,6 @@ system Myiara-Nnesa
 	belt 1179 3
 	link Chyyra-Osolaa
 	link Pelaa-Muora
-	link Ryuit-Saqra
 	asteroids "large metal" 10 3.062
 	minables iron 8 1.5
 	trade Clothing 264
@@ -1164,7 +1163,7 @@ planet Aava-Aasa-Khora
 	spaceport "The inside of the spaceport is very similar, with soft, rounded shapes, and flexible building materials. The floor seems to sink a little as you step on it, almost like it is actually a viscous liquid rather than a solid material."
 	government "Old Houses"
 	shipyard Heirloom
-	shipyard "High Houses"
+#	shipyard "High Houses"
 	shipyard "Successor Basics"
 	shipyard "Successor Civilian"
 	outfitter Heirloom
@@ -1264,7 +1263,7 @@ planet Khora-Vasa-Reyyaa
 	spaceport "The spaceport here is perhaps the most militarized of any you have visited in Successor space. Large industrial buildings rise up around the landing pads, casting them into deep shadow, and several small Successor warships stand ready on fast-launch pads, ready to enter orbit at a moment's notice. You pass through a security checkpoint on your way into the spaceport proper, and while the security officers have clearly been briefed to expect alien visitors, they still regard you with some degree of scrutiny."
 	spaceport "The trading posts, outfitters, and shipyard inside are all quite impressive, and the Successors you meet are all very curt and professional, including the merchant captains."
 	government Successor
-	shipyard "High Houses"
+#	shipyard "High Houses"
 	shipyard "Successor Basics"
 	shipyard "Successor Civilian"
 	outfitter "High Houses"
@@ -1308,7 +1307,7 @@ planet Mavra-Sol-Kvel
 	outfitter "Successor Basics"
 	outfitter "Successor Civilian"
 	"required reputation" 10
-    bribe 0
+	bribe 0
 
 planet Kua-Oa-Aava
 	attributes quiet successor
@@ -1317,8 +1316,8 @@ planet Kua-Oa-Aava
 	spaceport "The spaceport here is tiny and barebones, offering only minimal services. The few Successors you see are wearing military uniforms and while they show a small degree of surprise at seeing you, they nonetheless remain polite and courteous."
 	spaceport "Several tunnels from this spaceport lead off into the distance, though they are guarded by military personnel and identification stations. You presume that they lead to the military facilities established elsewhere on the moon's surface."
 	government Successor
-    "required reputation" 10
-    bribe 0
+	"required reputation" 10
+	bribe 0
 
 planet Moliia-Cosa-Vasa
 	attributes successor
@@ -1366,7 +1365,7 @@ planet O-Vasa-Oa
 	spaceport "The spaceport is built right on top of a large shipyard, allowing visitors to look on at the impressive manufacturing apparatus of the New Houses while going about their business. Despite its relatively small size, the spaceport is very busy, with ships constantly launching and landing and a general air of haste among all the Successors you see."
 	government "New Houses"
 	shipyard Heirloom
-	shipyard "High Houses"
+#	shipyard "High Houses"
 	shipyard "Successor Basics"
 	shipyard "Successor Carrier"
 	shipyard "Successor Civilian"
@@ -1451,6 +1450,11 @@ planet Staja-Kella-Oa
 
 planet "Successor Wormhole"
 	description ""
+	wormhole "Devil-Run Wormhole"
+wormhole "Successor Wormhole"
+	link "Myruet-Kvelq" "Oublaa-Khora"
+	link "Oublaa-Khora" "Myruet-Kvelq"
+	mappable
 
 planet Tuur-Aasa-Kaska
 	attributes successor
@@ -1458,7 +1462,7 @@ planet Tuur-Aasa-Kaska
 	description "As it was only very recently settled by the Successors, this large and rocky moon supports only a small population, most of whom are military personnel for the Old Houses and who live underground to avoid the powerful electrical storms on the surface. Though an undeniably hostile and uncomfortable place, the location of its star system has made it an ideal staging point for the fleets of the Old Houses to keep an eye on trade in nearby systems, and the persistent electrical storms on the surface serve to mask the energy signatures of their vessels."
 	spaceport "As a civilian, you are directed to a smaller port off to the side of one of the larger military ones. As soon as your ship touches down, the landing pad is lowered into an underground hangar and sealed off from the violent atmosphere. While this is an effective protection against the storms, you can't help but notice how it also means that you are trapped here until traffic control decides to release you."
 	government Successor
-	shipyard "High Houses"
+#	shipyard "High Houses"
 	outfitter "High Houses"
 	"required reputation" 10
 
@@ -1511,7 +1515,7 @@ planet Yoqqa-Vasa-Vasa
 	spaceport "You take care to equip a respirator before exiting your ship."
 	spaceport "The spaceport here is large and busy, situated on a platform suspended on poles above one of the equatorial jungles. Because of the thick atmosphere, much of the transport in and out is by air, and there is a near-constant drone of airplane and airship engines layered over the normal spaceport chatter. Several large tourist groups are moving to and fro, and while some regard you with surprise, most take no notice of you or your ship, already focused on their upcoming tour or expedition."
 	government Successor
-	shipyard "High Houses"
+#	shipyard "High Houses"
 	shipyard "Successor Basics"
 	shipyard "Successor Carrier"
 	shipyard "Successor Civilian"
