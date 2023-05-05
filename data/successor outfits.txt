@@ -451,7 +451,7 @@ outfit "Multimodal Armor: Heavy"
 	thumbnail "outfit/successor armor heavy"
 	"hull protection" .20
 	"multimodal armor" -1
-	"unplunderable"
+	"unplunderable" 1
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
 	description "This configuration strengthens the bonds between the atoms making up the armor, increasing its resistance to direct damage."
 
@@ -462,7 +462,7 @@ outfit "Multimodal Armor: Stealth"
 	"cloaking energy" 16.0
 	"radar jamming" 12.0
 	"multimodal armor" -1
-	"unplunderable"
+	"unplunderable" 1
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
 	description "This configuration allows the armor to constantly deflects radar locks and to bend light around it when innervated."
 
@@ -471,7 +471,7 @@ outfit "Multimodal Armor: Regen"
 	thumbnail "outfit/successor armor regen"
 	"hull repair multiplier" 1.0
 	"multimodal armor" -1
-	"unplunderable"
+	"unplunderable" 1
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
 	description "This configuration increases the plasticity of the armor, increasing the effectiveness of in-combat repair efforts."
 
@@ -484,7 +484,7 @@ outfit "Multimodal Armor: Resilient"
 	"leak protection" 0.6
 	"burn protection" 0.6
 	"multimodal armor" -1
-	"unplunderable"
+	"unplunderable" 1
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
 	description "This configuration increases the armor's resilience against certain special types of damage."
 
@@ -495,5 +495,5 @@ outfit "Gauss Rifle"
 	cost 72000
 	"capture attack" 1.9
 	"capture defense" 3.2
-	"unplunderable"
+	"unplunderable" 1
 	description "While projectile weapons of this scale are considered obsolete in human space, having been superceded by laser weaponry, the Successors' generations of experience with high-power railguns have allowed them to produce this particularly terrifying hand-to-hand weapon, firing projectiles capable of piercing body armor and even intervening bulkheads."

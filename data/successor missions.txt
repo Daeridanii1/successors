@@ -117,12 +117,12 @@ mission "Successors: Trusted"
 				`	"I see. We'd better begin, then."`
 					goto start
 				`	"What are you doing here?"`
-					goto sieasej
+					goto seiasej
 			label seiasej
 			`	Sieasej briefly turns a shade of green in a display you might almost characterize as blushing. "I was summoned as well. I suspect the Houses wish to reflect on my involvement as well."`
 			choice
 				`	"Indeed. I'm ready to begin, then."`
-				goto start
+					goto start
 			label start
 			`	"Good! We would be wise to be early."`
 			`	Together with Sieasej, you make your way to one of the smaller rooms branching off from the lobby. The doors open to reveal a garden-like area, filled with large long-leafed plants surrounding a centrally-located depression half-filled with water. Several Successors, many well-dressed like before, are gathered in the pool, and while Sieasej takes to it happily, you can't help but wince a little as the frigid water floods your boots.`
@@ -291,7 +291,6 @@ mission "Successors: Predecessor Research 1"
 			`	They almost forget to give you your payment when you return them to <destination>, but the head researcher places a chip for <payment> into your hands and thanks you before departing into the spaceport.`
 
 mission "Successors: Biology Research 1"
-	spaceport
 	name "Assist Predecessor Biologist"
 	description "Transport a Successor biologist to <stopovers> and then home to <destination> by <date>."
 	passengers 1
