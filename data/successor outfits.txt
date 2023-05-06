@@ -5,12 +5,12 @@ outfit "Successor License"
 
 outfit "High Houses License"
 	category "Licenses"
-	thumbnail "outfit/remnant capital license"
+	thumbnail "outfit/successor license"
 	"description" "The High Houses produce most of the advanced technology present in Successor space, and are willing to sell it only to those who support their interests. By aligning yourself with one of the houses, you have earned the right to purchase this exclusive technology."
 
 outfit "Heirloom License"
 	category "Licenses"
-	thumbnail "outfit/remnant capital license"
+	thumbnail "outfit/successor license"
 	"description" "To obtain one of these, you would have to become an honorary scion of one of the High Houses, which at this point in the story, you are most definitely not."
 
 outfit `"Byiaa" Shield Cortex`
@@ -145,7 +145,7 @@ outfit `6-"Ruuv" Betavoltaic Cell`
 outfit `"Nnesa" Inertial Core`
 	category "Power"
 	cost 4754000
-	thumbnail "outfit/ic fusion small"
+	thumbnail "outfit/small successor reactor"
 	licenses
 		"High Houses"
 	"mass" 55
