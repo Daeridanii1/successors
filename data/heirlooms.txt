@@ -161,8 +161,10 @@ outfit "Heirloom Railgun"
 		"firing energy" 40
 		"firing heat" 65
 		"firing force" 25
-		"shield damage" 5
-		"hull damage" 185
+		"shield damage" -122
+		#70 (parent) - 4*48 (child)
+		"hull damage" 105
+		# 185 (parent) - 4*20 (child)
 		"hit force" 60
 		"cluster"
 		"submunition" "Bimodal Switch" 4
