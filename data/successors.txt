@@ -189,7 +189,7 @@ outfitter "Peoples Houses"
 outfitter Heirloom
 	"Heirloom License"
 
-	"Heirloom Hunter-Killer Drones"
+	"Heirloom Hunter-Killers"
 	"Heirloom Point Defense"
 	"Heirloom Railgun"
 	"Heirloom Reactor"

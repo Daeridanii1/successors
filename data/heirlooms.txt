@@ -1,6 +1,6 @@
 ship "Valkkyiara-Khorasaqra"
-	sprite "ship/successor heirloom med warship"
-	thumbnail "thumbnail/successor heirloom med warship"
+	sprite "ship/valkkyiara-khorasaqra"
+	thumbnail "thumbnail/valkkyiara-khorasaqra"
 	"plural" "Valkkyiara-Khorasaqran"
 	attributes
 		licenses
@@ -40,18 +40,18 @@ ship "Valkkyiara-Khorasaqra"
 		"Heirloom Point Defense" 4
 		"Kinetic Lance"
 		"Kinetic Spike" 8
-		"Heirloom Hunter-Killer Drones" 20
+		"Heirloom Hunter-Killers" 20
 	engine -5 69
 	engine 5 69
-	gun -27 -17
-	gun -23 -23
-	gun -19 -30
-	gun 27 -17
-	gun 23 -23
-	gun 19 -30
+	gun -31 -17
+	gun -26.5 -23
+	gun -22 -30
+	gun 31 -17
+	gun 26.5 -23
+	gun 21 -30
 	gun 0 -94 "Kinetic Lance"
-	turret 0 52 "Heirloom Point Defense"
-	turret 0 67 "Heirloom Point Defense"
+	turret 0 49 "Heirloom Point Defense"
+	turret 0 71 "Heirloom Point Defense"
 	turret -31 31 "Heirloom Point Defense"
 	turret 31 31 "Heirloom Point Defense"
 	"steering engine" -10 -65 
@@ -222,8 +222,8 @@ outfit "Heirloom Shielding"
 	"shield energy" 15.0
 	"description" "Polished to gleaming for over a thousand years, this ancient shield generator yearns to see combat once again."
 
-outfit "Heirloom Hunter-Killer Drones"
-	plural "Heirloom Hunter-Killer Drones"
+outfit "Heirloom Hunter-Killers"
+	plural "Heirloom Hunter-Killers"
 	category "Hand to Hand"
 	cost 7250000
 	thumbnail "outfit/piercer"
