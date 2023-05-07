@@ -162,20 +162,15 @@ outfitter "Successor High Tech"
 	`"Byiaa" Shield Cortex`
 
 outfitter "High Houses"
-#	"0 Hypermap"
-#	"0 Hyperjump Drive"
-
 	`"Nnesa" Inertial Core`
 	`"Ryuit" Inertial Core`
-	`"Uuravej" Inertial Core`
+	`"Uoret" Inertial Core`
 	"Bimodal Railgun"
 	"Bimodal Railgun Turret"
 	`Shatter Cannon`
 	"Conductance Turret"
 	"Corrosive Torpedo"
 	"Corrosive Torpedo Launcher"
-#	"Proton Saturation Torpedo"
-#	"Saturation Torpedo Launcher"
 	`"Jaase" Shield Cortex`
 	`"Jorv" Shield Cortex`
 	"Multimodal Armor: Heavy"
@@ -231,6 +226,11 @@ phrase "successor start"
 		"Stol-"
 		"Stor-"
 		"Naph-"
+		"Uor-"
+		"Ret-"
+		"Uij-"
+		"Sjeja-"
+		"Aasqa-"
 phrase "successor middle"
 	word
 		"o-"

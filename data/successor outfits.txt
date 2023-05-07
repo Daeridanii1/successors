@@ -127,7 +127,7 @@ outfit `3-"Kaska" Betavoltaic Cell`
 	"energy generation" 3.5
 	"heat generation" 2.6
 	"energy capacity" 3100
-	description "The Successors' betavoltaic generators are products of a time shortly after the collapse of the Predecessors' empire, marked by thriftiness and necessity. Their rugged designs did not appeal to the traditional Successor values of beauty or heritage, but instead to the harsh new reality of need and loneliness that their first operators found themselves mired in."
+	description "The Successors' betavoltaic generators are products of a time shortly after the collapse of the Predecessors' empire, marked by scarcity and necessity. Their rugged designs did not appeal to the traditional Successor values of beauty or heritage, but instead to the harsh new reality of need and loneliness that their first operators found themselves mired in."
 
 outfit `6-"Ruuv" Betavoltaic Cell`
 	category "Power"
@@ -170,9 +170,10 @@ outfit `"Ryuit" Inertial Core`
 	"energy capacity" 6500
 	"shield energy multiplier" -0.32
 	"hull energy multiplier" -0.32
-	description "Like most Successor technology, these reactors are based on similar ones secreted away by the High Houses during the collapse of the Predecessors' empire. Even after all these generations, the designs remain elegant and powerful, and instill in the beholder a deep-set curiosity of what the originals would have been like, or indeed, whether or not a few of those originals still exist, kept in prime condition for when they are needed once again."
+	description "Like most Successor technology, these reactors are based on similar ones secreted away by the High Houses during the collapse of the Predecessors' empire. Even after all these generations, the designs exude elegance and power, twisting like flames and humming with energy."
+	description "	They also spark a curiosity in the viewer to those few original reactors; whether or not a few of them still exist, kept in prime condition for when they are needed once again."
 
-outfit `"Uuravej" Inertial Core`
+outfit `"Uoret" Inertial Core`
 	category "Power"
 	cost 17754000
 	thumbnail "outfit/large successor reactor"
@@ -185,7 +186,7 @@ outfit `"Uuravej" Inertial Core`
 	"energy capacity" 12000
 	"shield energy multiplier" -0.48
 	"hull energy multiplier" -0.48
-	description `The largest and most powerful of the High Houses' inertial confinement fusion cores, this monstrous but surprisingly efficient reactor far exceeds any human fusion reactor. Perhaps most impressive of all is its remarkably clever power distribution network, which massively reduces the draw of the Successors' energy-hungry defensive outfits.`
+	description `The largest and most powerful of the High Houses' inertial confinement fusion cores, this sculptural and surprisingly efficient reactor far exceds any human power plant. It is supported by a well-integrated and remarkably clever power distribution network, massively reducing the draw of the Successors' energy-hungry defensive outfits.`
 
 outfit "Successor Cooling"
 	category "Systems"
