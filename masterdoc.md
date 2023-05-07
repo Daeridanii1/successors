@@ -33,27 +33,33 @@ Each House controls its own planet, and each of the groups (Old and New) control
 
 **House Aqrabe**
 
-Of all the Old Houses, House Aqrabe is the most neutral. They are seated at the temperate moon of Mavra-Sol-Kvel, and have a strong commercial economy built on trade flowing through their system, involving both the Old and New Houses as well as the general Successors.
+Of all the Old Houses, House Aqrabe is the most neutral. They are seated at the temperate moon of Mavra-Sol-Kvel, and have a strong commercial economy built on trade flowing through their system, involving both the Old and New Houses as well as the general Successors. Because of their relative neutrality, they often work together with House Kaatrij in a sort of peacemaking coalition.
 
 **House Sioeora**
 
-The oldest and smallest of the Old Houses, House Sioeora controls the far northern planet of Staja-Kella-Oa. They are strongly connected to the educational institutions of Staja-Kella-Oa, which take a particular interest in history and the sciences and are generally regarded as the best in Successor space. While Sioeora cannot compare with the economic might of the other Old Houses, they serve as the cultural core of the group, preserving Successor history and spearheading the Old Houses' cultural and scientific development efforts, which grants them significant influence.
+The smallest of the Old Houses, House Sioeora controls the far northern planet of Staja-Kella-Oa. They are strongly connected to the educational institutions of Staja-Kella-Oa, which take a particular interest in history and the sciences and are generally regarded as the best in Successor space. While Sioeora cannot compare with the economic might of the other Old Houses, they serve as the cultural core of the group, preserving Successor history and spearheading the Old Houses' cultural and scientific development efforts, which grants them significant influence.
+
+Staja-Kella-Oa once was home to a sapient race circa 100 000 years prior to the events of the story, at which time they went extinct.
+
+Sioeora lend the player the translation device that allow them to communicate with the Successors.
 
 **House Chydiyi**
 
 Chydiyi is the richest of the Old Houses, with an economy based primarily on their position as the strongest manufacturing powerhouse in Successor space. Their seat of power is the material-rich Khora-Vasa-Reyyaa, where they have long-established mining and manufacturing projects. They are also the most militarized of the all the High Houses, contributing a majority of the Old Houses' collective fleet in exchange for a significant financial inflow from their allies.
 
+Because of their significant military and economic power over the other High Houses, Chydiyi is considered the *de facto* leader of the four.
+
 Because Khora-Vasa-Reyyaa is the most material-rich planet in Successor space, House Chydiyi is bound by several treaties that guarantee its continued raw material exports to the other High Houses, both Old and New.
 
 **House Myurej**
 
-Myurej represents the largest population of any of the High Houses in Successor space, concentrated on its familial home of Raaqa-Kvelq-Ryuit. Like Aqrabe, it enjoys an economy built on the taxation of trade passing through its system and of the diverse incomes of its members.
+Myurej represents the largest population of any of the High Houses in Successor space, concentrated on its familial home of Raaqa-Kvelq-Ryuit. Like Aqrabe, it enjoys an economy built on the taxation of trade passing through its system and of the diverse incomes of its members. It is also the oldest of the Old Houses. 
 
 ### *The New Houses*
 
 **House Seineq**
 
-Seated on the planet of Yoqqa-Vasa-Vasa, House Seineq is the wealthiest and most powerful of the New Houses.
+Seated on the planet of Yoqqa-Vasa-Vasa, House Seineq is the wealthiest and most powerful of the New Houses. They are also most proximate to the New Houses' council moon of O-Vasa-Oa (as it orbits their home planet). Seineq also operates the majority of the New Houses' shipyards.
 
 **House Haeora**
 
@@ -61,7 +67,7 @@ House Haeora represents the largest population among the New Houses, with a stro
 
 **House Kvasq**
 
-Kvasq mirrors Chydiyi with an economy based on extraction and manufacturing from its seat of power on Kasii-Cavasaa-Oa.
+Kvasq mirrors Chydiyi with an economy based on extraction and manufacturing from its seat of power on Kasii-Cavasaa-Oa. They are highly self-sufficient; while they are still connected to the other New Houses politically and economically, and generally a predictable member of that alliance, they do so more out of expedience and utility than any sense of unity.
 
 **House Kaatrij**
 
@@ -76,5 +82,14 @@ Because of its more democratic and egalitarian history, it incorporates a more d
 
 From the standpoint of Endless Sky's classification system, the goal is for the Successors to stand on roughly the same level as the Wanderers at around tier 2.2.
 
-## History
+## **History**
+*NOTE: The details of Successor history are still pretty undefined---this is something I'd like to work towards solidifying in continued development of the project. So consider what follows to be the current working premise; details subject to change.*
+
+Dominating the history of the Successors are, unsurprisingly, their Predecessors, who formed an empire in the galactic North that persisted until about the year 1700, when the radiation produced by the eruption of the star Eta Carinae several thousand years earlier began to encroach on their core territories, causing widespread famine, infertility, and infrastructural damage, leading to an eventual collapse. It's worth noting that this is supposed to be a slow, quiet downfall: the collapse did not happen overnight but over dozens or hundreds of years.
+
+At its peak, the empire of the Predecessors was both technologically and socially advanced, with an upper caste of nobles enjoying primarily ceremonial power over a larger population of commoners, who, while they lacked noble status, were generally wealthy, healthy, and both economically and socially mobile. At the time of the collapse, the empire extended far enough south for there to be extensive records of observations of humanity and the Sol system at that time.
+
+During the collapse, many of the noble houses stored away their wealth and technology for safe keeping, with the expectation that they would be able to flee and then retrieve it once the situation was safe again. However, the persistent radiation threat from Eta Carinae and violent anger toward the nobility from the residents of the irradiated territories who did not have the money to leave made this impossible.
+
+Those noble families that did escape the bedlam did so through an unstable wormhole leading to the star cluster the Successors now inhabit. Since travel through this wormhole was contingent on the possession of a quantum keystone, which only the wealthy could afford, it served as a filter such that only the high-born and a lucky few commoners made it to the cluster. There they came into conflict, both with each other, and with the noble families who had immigrated to the cluster through the wormhole prior. What had before seemed like a vast expanse of new land and territory was now in very high demand. Many of the already-established families demanded the newly arriving ones give up their titles, and since most of the arriving nobles did not have the military might to oppose the established ones, they were forced into servile positions, or at the very least, to positions of limited power and authority. This serves as the basis between the modern conflict between the Old and New Houses.
 
