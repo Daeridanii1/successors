@@ -160,7 +160,7 @@ outfit `"Nnesa" Inertial Core`
 outfit `"Ryuit" Inertial Core`
 	category "Power"
 	cost 12250000
-	thumbnail "outfit/ic fusion"
+	thumbnail "outfit/medium successor reactor"
 	licenses
 		"High Houses"
 	"mass" 95
@@ -175,7 +175,7 @@ outfit `"Ryuit" Inertial Core`
 outfit `"Uuravej" Inertial Core`
 	category "Power"
 	cost 17754000
-	thumbnail "outfit/large ic fusion"
+	thumbnail "outfit/large successor reactor"
 	licenses
 		"High Houses"
 	"mass" 140
