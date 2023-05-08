@@ -2,6 +2,14 @@ phrase "successor tourists out"
 	word
 		`The tourists thank you for bringing them to <planet> and pay you <payment>.`
 
+phrase "successor tourists in"
+	word
+		`The tourists thank you for returning them to <planet> and pay you <payment>.`
+
+phrase "successor tourists stopover"
+	word
+		`Having completed their travel itinerary, the tourists are ready to return home.`
+
 phrase "successor students out"
 	word
 		`The students thank you for bringing them to <planet> and pay you <payment>.`
@@ -14,36 +22,116 @@ phrase "successor delivery"
 	word
 		`You drop off the shipment of <commodity> and receive <payment> in payment.`
 
-phrase "successor delivery"
+phrase "successor data"
 	word
-		`You drop off the encrypted databanks and receive <payment> in payment.`
+		`You ` 
+	word
+		`deliver ` 
+		`hand over `
+		`transfer `
+	word
+		`the encrypted databanks `
+		`the secured databanks `
+		`the databanks `
+		`the data `
+	word
+		`and `
+	word
+		`receive `
+		`are given `
+	word
+		`<payment> in payment.`
 
 phrase "high houses delivery"
 	word
-		`You offload the shipment of <commodity> to several well-dressed Successor officers. They give you your payment of <payment>.`
+		`You ` 
+	word
+		`offload `
+		`deliver ` 
+		`hand off `
+		`drop off `
+	word
+		`the `
+		`your `
+	word
+		`shipment `
+		`cargo `
+	word
+		`of <commodity> to several well-dressed Successor officers. ` 
+	word
+		`They give you your `
+		`They provide you with the agreed-upon `
+		`They hand over your `
+	word
+		`payment of <payment>.`
 
-phrase "successor researchers out"
+phrase "predecessor researchers out"
 	word
-		`You deliver the researchers to <planet> where they promptly begin`
+		`You deliver the `
 	word
-		` cataloging some nearby rock formations`
-		` examining nearby ruins`
-		` scanning for artifacts`
-		` taking radiation measurements`
-		` taking soil measurements`
-		` taking atmospheric measurements`
-		` examining the local flora`
-		` examining the local fauna`
-		` cross-checking the data from a previous expedition`
+		`researchers `
+		`scientists `
+		`scholars `
 	word
-		`. `
+		`to <planet> where they `
+	word
+		`promptly `
+		`immediately `
+		`quickly `
+		``
+	word
+		`begin `
+		`start `
+	word
+		` cataloging some nearby rock formations. `
+		` examining nearby ruins. `
+		` scanning for artifacts. `
+		` taking radiation measurements. `
+		` taking soil measurements. `
+		` taking atmospheric measurements. `
+		` examining the local flora. `
+		` examining the local fauna. `
+		` cross-checking the data from a previous expedition. `
 	word
 		`After a few hours, they are ready to return home.`
 		`After several hours, they are ready to return home.`
+		`Eventually, they are ready to return home.`
+
+phrase "successor researchers out"
+	word
+		`You deliver the `
+	word
+		`researchers `
+		`scientists `
+		`experimenters `
+	word
+		`to <planet> where they `
+	word
+		`promptly `
+		`immediately `
+		`quickly `
+		``
+	word
+		`begin `
+		`start `
+	word
+		` cataloging some nearby rock formations. `
+		` taking radiation measurements. `
+		` taking soil measurements. `
+		` taking atmospheric measurements. `
+		` cross-checking the data from a previous expedition. `
+	word
+		`After a few hours, they are ready to return home.`
+		`After several hours, they are ready to return home.`
+		`Eventually, they are ready to return home.`
 
 phrase "successor researchers in"
 	word
-		`The researchers thank you for taking them to <planet> and give you <payment> in payment.`
+		`The researchers thank you for taking them to <stopovers> and give you <payment> in payment.`
+
+phrase "successor researchers transfer"
+	word
+		`The researchers readily embark for the symposium, but not before giving you <payment> in payment.`
 
 mission "Successor: Tourists Out 1"
 	job
@@ -54,7 +142,7 @@ mission "Successor: Tourists Out 1"
 	passengers 2 5 .5
 	to offer
 		has "known to the successors"
-		random < 40
+		random < 25
 	source
 		government "Successor"
 	destination
@@ -68,6 +156,64 @@ mission "Successor: Tourists Out 1"
 		dialog phrase "successor tourists out"
 		"successor jobs" ++
 
+mission "Successor: Tourists Out 2"
+	job
+	repeat
+	name "Vacationers to <planet>"
+	description "These <bunks> travelers will pay you <payment> to bring them to <destination> by <date>."
+	deadline
+	passengers 3 6 .5
+	to offer
+		has "known to the successors"
+		random < 25
+	source
+		government "Successor"
+	destination
+		government "Successor"
+		attributes "tourism" "quiet"
+		distance 5 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 22000 200
+		dialog phrase "successor tourists out"
+		"successor jobs" ++
+
+
+mission "Successor: Tourists Out 2"
+	job
+	repeat
+	name "Sightseeing expedition"
+	description "These <bunks> sightseers will pay you <payment> to take them to <stopovers> before returning them home by <date>."
+	deadline
+	deadline 4
+	passengers 2 5 .5
+	to offer
+		has "known to the successors"
+		random < 15
+	source
+		government "Successor"
+	stopover
+		attributes "successor" 
+		attributes "uninhabited" "tourism" "rich"
+		not attributes "crime"
+	stopover
+		attributes "successor"
+		attributes "tourism" "rich"
+		not attributes "crime"
+	stopover
+		attributes "successor"
+		attributes "quiet" "tourism" "rich"
+		not attributes "crime"
+	on stopover
+		dialog phrase "successor tourists stopover"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 35000 300
+		dialog phrase "successor tourists in"
+		"successor jobs" ++
+
 mission "Successor: Students Out"
 	job
 	repeat
@@ -77,7 +223,7 @@ mission "Successor: Students Out"
 	passengers 2 5 .5
 	to offer
 		has "known to the successors"
-		random < 40
+		random < 50
 	source
 		government "Successor"
 		attributes "education"
@@ -101,7 +247,7 @@ mission "Successor: Students In"
 	passengers 2 5 .5
 	to offer
 		has "known to the successors"
-		random < 40
+		random < 20
 	source
 		government "Successor"
 		not attributes "crime"
@@ -116,7 +262,7 @@ mission "Successor: Students In"
 		dialog phrase "successor students out"
 		"successor jobs" ++
 
-mission "Successor: Workers Out"
+mission "Successor: Workers Out 1"
 	job
 	repeat
 	name "Successor workers to <planet>"
@@ -125,7 +271,7 @@ mission "Successor: Workers Out"
 	passengers 2 5 .5
 	to offer
 		has "known to the successors"
-		random < 40
+		random < 20
 	source
 		government "Successor"
 	destination
@@ -139,6 +285,29 @@ mission "Successor: Workers Out"
 		dialog phrase "successor workers out"
 		"successor jobs" ++
 
+mission "Successor: Workers Out 2"
+	job
+	repeat
+	name "Successor workers to <planet>"
+	description "These <bunks> workers are looking for jobs on <destination> and will pay you <payment> to take them there."
+	deadline
+	passengers 3 6 .5
+	to offer
+		has "known to the successors"
+		random < 20
+	source
+		government "Successor"
+	destination
+		government "Successor"
+		not attributes "quiet"
+		distance 5 20
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 21500 200
+		dialog phrase "successor workers out"
+		"successor jobs" ++
+
 mission "Successor: Delivery Out 1"
 	job
 	repeat
@@ -147,7 +316,7 @@ mission "Successor: Delivery Out 1"
 	cargo random 5 10 .2
 	to offer
 		has "known to the successors"
-		random < 50
+		random < 35
 	source
 		government "Successor"
 	destination
@@ -160,6 +329,76 @@ mission "Successor: Delivery Out 1"
 		dialog phrase "successor delivery"
 		"successor jobs" ++
 
+mission "Successor: Delivery Out 2"
+	job
+	repeat
+	name "Shipment to <planet>"
+	description "A courier is needed for <tons> of supplies from <origin> to <planet>. You will be paid <payment> on delivery."
+	cargo random 6 9 .2
+	to offer
+		has "known to the successors"
+		random < 30
+	source
+		government "Successor"
+	destination
+		government "Successor"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2000 200
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+mission "Successor: High Value Delivery Out"
+	job
+	repeat
+	name "High-value shipment to <planet>"
+	description "A courier is needed for <tons> of jewellery from <origin> to <planet>. You will be paid <payment> on delivery."
+	cargo `"Red Gold" Armlets` 6 9 .2
+	to offer
+		has "known to the successors"
+		random < 10
+	source
+		government "Successor"
+		not attributes "crime"
+	destination
+		government "Successor"
+		attributes "rich"
+		not attributes "crime"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 3000 400
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+mission "Successor: Aid Delivery Out 1"
+	job
+	repeat
+	name "Aid shipment to <planet>"
+	description "A courier is needed to deliver <tons> of aid supplies from <origin> to <planet> by <date>. You will be paid <payment> on delivery."
+	deadline
+	deadline 2
+	cargo random 5 10 .2
+	to offer
+		has "known to the successors"
+		random < 10
+	source
+		government "Successor"
+		not attributes "crime"
+	destination
+		government "Successor"
+		attributes "crime"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 2400 200
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
 mission "Successor: Large Delivery Out 1"
 	job
 	repeat
@@ -168,7 +407,28 @@ mission "Successor: Large Delivery Out 1"
 	cargo random 30 80 .2
 	to offer
 		has "known to the successors"
-		random < 50
+		random < 20
+	source
+		government "Successor"
+	destination
+		government "Successor"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 1900 200
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
+mission "Successor: Large Delivery Out 2"
+	job
+	repeat
+	name "Bulk shipment to <planet>"
+	description "A courier is needed for <tons> of supplies from <origin> to <planet>. You will be paid <payment> on delivery."
+	cargo random 50 70 .2
+	to offer
+		has "known to the successors"
+		random < 20
 	source
 		government "Successor"
 	destination
@@ -190,7 +450,7 @@ mission "Successor: Rush Delivery Out 1"
 	deadline
 	to offer
 		has "known to the successors"
-		random < 50
+		random < 25
 	source
 		government "Successor"
 	destination
@@ -209,9 +469,10 @@ mission "Successor: Large Rush Delivery Out 1"
 	name "Large rush shipment to <planet>"
 	description "Due to a logistical error, <tons> of supplies were not carried on the last shipment and need to get from <origin> to <planet> by <date>. You will be paid <payment> on delivery."
 	cargo random 30 80 .2
+	deadline
 	to offer
 		has "known to the successors"
-		random < 50
+		random < 15
 	source
 		government "Successor"
 	destination
@@ -224,6 +485,30 @@ mission "Successor: Large Rush Delivery Out 1"
 		dialog phrase "successor delivery"
 		"successor jobs" ++
 
+mission "Successor: Seismic Stabilizers"
+	job
+	repeat
+	name "Seismic stabilizers to <planet>"
+	description "Following an earthquake on <planet>, the local authorities have requested that <tons> of seismic stabilizers be delivered there by <date>. You will be paid <payment> on delivery."
+	cargo "Seismic Stabilizers" 30 80 .2
+	deadline
+	deadline 2
+	to offer
+		has "known to the successors"
+		random < 6
+	source
+		government "Successor"
+	destination
+		government "Successor"
+		not attributes "station"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 3000 210
+		dialog phrase "successor delivery"
+		"successor jobs" ++
+
 mission "Successor: Data Courier 1"
 	job
 	repeat
@@ -232,7 +517,7 @@ mission "Successor: Data Courier 1"
 	deadline
 	to offer
 		has "known to the successors"
-		random < 50
+		random < 30
 	source
 		government "Successor"
 		attributes "rich" "urban" "station"
@@ -244,7 +529,7 @@ mission "Successor: Data Courier 1"
 	on complete
 		payment
 		payment 1400 200
-#		dialog phrase "successor data"
+		dialog phrase "successor data"
 		"successor jobs" ++
 
 mission "Successor: Researchers Out 1"
@@ -255,14 +540,14 @@ mission "Successor: Researchers Out 1"
 	passengers 2 5 .5
 	to offer
 		has "known to the successors"
-		random < 40
+		random < 15
 	source
 		government "Successor"
 		attributes "education"
 	stopover
 		government "Predecessor"
 	on stopover
-		dialog phrase "successor researchers out"
+		dialog phrase "predecessor researchers out"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -278,14 +563,14 @@ mission "Successor: Large Researchers Out 1"
 	passengers 10 30 .5
 	to offer
 		has "known to the successors"
-		random < 40
+		random < 10
 	source
 		government "Successor"
 		attributes "education"
 	stopover
 		government "Predecessor"
 	on stopover
-		dialog phrase "successor researchers out"
+		dialog phrase "predecessor researchers out"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -301,7 +586,7 @@ mission "Successor: Home Researchers Out 1"
 	passengers 2 5 .5
 	to offer
 		has "known to the successors"
-		random < 40
+		random < 20
 	source
 		government "Successor"
 		attributes "education"
@@ -316,6 +601,29 @@ mission "Successor: Home Researchers Out 1"
 	on complete
 		payment 11000 200
 		dialog phrase "successor researchers in"
+		"successor jobs" ++
+
+mission "Successor: Researchers Transfer"
+	job
+	repeat
+	name "Symposium on <destination>"
+	description "These <bunks> researchers going to a symposium on <planet> will pay you <payment> to bring them there before it starts on <date>."
+	passengers 2 3 .5
+	deadline
+	to offer
+		has "known to the successors"
+		random < 30
+	source
+		government "Successor"
+		not attributes "crime"
+	destination
+		government "Successor"
+		attributes "education" "rich"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 23000 200
+		dialog phrase "successor researchers transfer"
 		"successor jobs" ++
 
 mission "Successor: Old Houses Rush Delivery"
