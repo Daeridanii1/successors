@@ -186,7 +186,7 @@ outfit `"Uoret" Inertial Core`
 	"energy capacity" 12000
 	"shield energy multiplier" -0.48
 	"hull energy multiplier" -0.48
-	description `The largest and most powerful of the High Houses' inertial confinement fusion cores, this sculptural and surprisingly efficient reactor far exceds any human power plant. It is supported by a well-integrated and remarkably clever power distribution network, massively reducing the draw of the Successors' energy-hungry defensive outfits.`
+	description `The largest and most powerful of the High Houses' inertial confinement fusion cores, this sculptural and surprisingly efficient reactor far exceeds any human power plant. It is supported by a well-integrated and remarkably clever power distribution network, massively reducing the draw of the Successors' energy-hungry defensive outfits.`
 
 outfit "Successor Cooling"
 	category "Systems"
