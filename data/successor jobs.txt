@@ -179,8 +179,7 @@ mission "Successor: Tourists Out 2"
 		dialog phrase "successor tourists out"
 		"successor jobs" ++
 
-
-mission "Successor: Tourists Out 2"
+mission "Successor: Tourist Expedition"
 	job
 	repeat
 	name "Sightseeing expedition"
