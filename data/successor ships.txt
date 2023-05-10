@@ -31,7 +31,6 @@ ship `Kvelqde`
 		"Successor Pulse Laser"
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		"Burst Anti-Missile Turret"
 
 	engine -10 32
 	engine 10 32
@@ -76,14 +75,12 @@ ship `Myaede`
 		`"Aqra" Inductive Steering`
 		`"Aqra" Inductive Reverser`
 		`3-"Kaska" Betavoltaic Cell`
-		"Pulse Laser Turret"
+		"Pulse Laser Turret" 2
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		"Burst Anti-Missile Turret" 2
-
-	turret -34 -7
-	turret 0 -8 "Pulse Laser Turret"
-	turret 34 -7
+	turret -34 -7 "Pulse Laser Turret"
+	turret 0 -8
+	turret 34 -7 "Pulse Laser Turret"
 	gun -8 -58
 	gun 8 -58
 	engine -42 55
@@ -113,7 +110,7 @@ ship `Myaede`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The "Myaede" is neither elegant nor fast, but it has remained the mainstay of Successor commerce since before the collapse of the old empire over a thousand years ago, boasting a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. Much like the grand heirlooms of the high houses, a familial "Myaede" is often passed down through the lineage of spacefaring low-born Successors, and many of the pilots flying these first took the helm as children under a grandparent's watchful gaze.`
+	description `The "Myaede" is neither elegant nor fast, but it has remained the mainstay of Successor commerce since before the collapse of the old empire over a thousand years ago, boasting a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. Much like the grand heirlooms of the High Houses, a familial "Myaede" is often passed down through the lineage of spacefaring low-born Successors, and many of the pilots flying these first took the helm as children under a grandparent's watchful gaze.`
 
 ship `Ejniisde`
 	sprite "ship/ejniisde"
@@ -147,8 +144,6 @@ ship `Ejniisde`
 		`3-"Kaska" Betavoltaic Cell`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		"Burst Anti-Missile Turret" 2
-
 	gun 0 -97
 	turret -4.5 -50
 	turret 4.5 -50
@@ -173,7 +168,7 @@ ship `Ejniisde`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The Successors have a relatively small population and therefore are not in great need of large transport vessels. However, transporting passengers entirely by shuttle can be both dangerous and uncomfortable, so for longer journeys, the Successors use this dedicated transport ship. While unarmed by default, it is fast enough to escape most ships that might mean it harm.`
+	description `The Successors have a relatively small population and therefore are not in great need of large transport vessels. However, transporting passengers entirely by shuttle can lack both security and comfort, so for longer journeys, the Successors use this dedicated transport ship. While unarmed by default, it is fast enough to escape most ships that might mean it harm.`
 
 ship `Ojde`
 	sprite "ship/successor heavy freighter"
@@ -205,16 +200,14 @@ ship `Ojde`
 		`"Chyyra" Inductive Steering`
 		`"Aqra" Inductive Reverser`
 		`6-"Ruuv" Betavoltaic Cell`
-		"Pulse Laser Turret" 2
+		"Pulse Laser Turret" 4
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		"Burst Anti-Missile Turret" 3
-
 	turret -34 -99 "Pulse Laser Turret"
 	turret 34 -99 "Pulse Laser Turret"
 	turret -0 -96
-	turret -39 104
-	turret 39 104
+	turret -39 104 "Pulse Laser Turret"
+	turret 39 104 "Pulse Laser Turret"
 	engine -59 138
 	engine 59 138
 	engine -0 156
@@ -241,7 +234,7 @@ ship `Ojde`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Although little more than a "Myaede" attached to a rack of cargo containers and expanded drive section, the "Ojde" heavy freighter is nonetheless a time-proven and well-respected design that the Successors frequently use in their larger cargo convoys. As a direct result of the ponderous nature of the "Ojde," its designers have omitted fixed weaponry, instead opting to provide it with a high-coverage turret layout for general defense.`
+	description `Although little more than a "Myaede" attached to a rack of cargo containers and expanded drive section, the "Ojde" heavy freighter is nonetheless a time-proven and well-respected design that the Successors frequently use in their larger cargo convoys. As a direct result of the ponderous nature of the "Ojde," its design lacks fixed weaponry, instead defending itself with a high-coverage turret layout.`
 
 ship `Myaede-Khora`
 	sprite "ship/successor mod freighter"
@@ -331,11 +324,9 @@ ship `Ojde-Khora`
 		`"Chyyra" Inductive Steering`
 		`"Aqra" Inductive Reverser`
 		`6-"Ruuv" Betavoltaic Cell`
-		"Pulse Laser Turret" 2
+		"Pulse Laser Turret" 4
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		"Burst Anti-Missile Turret" 3
-
 	turret -0 -96
 	turret -39 104
 	turret 39 104
@@ -486,7 +477,7 @@ ship `Naapojde`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Unwilling to give up on the design of the Stolsaqra, House Seineq have slightly altered the ship to function as a carrier-based fightercraft, and have found a surprising degree of success. With the removal of large and heavy components like the hyperdrive, fuel tanks, and turret mount, the "Naapojde" becomes a tough and deadly carried combat craft that the New Houses use to protect their short-range interests, and to project power at a distance with in combination with a carrier.`
+	description `Unwilling to give up on the design of the Stolsaqra, House Seineq have altered the ship to function as a carrier-based fightercraft, and have found a surprising degree of success. With the removal of large and heavy components like the hyperdrive, fuel tanks, and turret mount, the "Naapojde" becomes a tough and deadly carried combat craft that the New Houses use to protect their short-range interests, and to project power at a distance with in combination with a carrier.`
 
 ship `Aaulqra`
 	sprite "ship/aaulqra"
@@ -564,7 +555,7 @@ ship `Aaulqra`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "This medium Successor warship makes up the bulk of the fleets of the various high houses. It is compact, fast, and durable for a ship of its size, but has relatively limited internal space, and a short operational range. The captains of these ships are often up-and-coming Successor pilots hoping to prove themselves to one of the high houses by demonstrating their mastery of the vessel; while most, of course, do not, the ship's ubiquity and good performance do make it an excellent starting point for those who do."
+	description "This medium warship is among the oldest and most reliable designs employed by the High Houses of the Successors, with a recognizable lineage dating back several thousand years. It is compact, fast, and durable for a ship of its size, but has relatively limited internal space, and a short operational range. The captains of these ships are often up-and-coming Successor officers hoping to prove themselves to one of the High Houses by demonstrating their mastery of the vessel; while most, of course, do not, the ship's ubiquity and good performance make it an excellent starting point for those who do."
 
 ship `Seiitej`
 	sprite "ship/seiitej"
@@ -703,7 +694,7 @@ ship `Veusade`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight shatter cannons as close to an enemy ship's hull as possible, a premise which it certainly delivers on. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down.`
+	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight shatter cannons as close to an enemy ship's hull as possible. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels. `
 
 ship `Kaskhorade`
 	sprite "ship/kaskhorade"
@@ -760,7 +751,7 @@ ship `Kaskhorade`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Serving as the heavy multipurpose backbone of the fleets of the various high houses, the "Kaskhorade" trades some of the maneuverability of its smaller siblings for greater defenses and non-combat capabilities. In addition to being a capable warship, it also holds sizable free cargo and bunk space for use in a wide variety of missions. These vessels are frequently used to transport high-ranking members of the High Houses, as they can remain well-defended while outfitted for luxurious travel.`
+	description `Serving as the heavy multipurpose backbone of the fleets of the various High Houses, the "Kaskhorade" trades some of the maneuverability of its smaller siblings for greater defenses and non-combat capabilities. In addition to being a capable warship, it also holds sizable free cargo and bunk space for use in a wide variety of missions. These vessels are frequently used to transport high-ranking members of the High Houses, as they can remain well-defended while outfitted for fast and luxurious travel.`
 
 ship `Valsaqra`
 	sprite "ship/valsaqra"
@@ -840,7 +831,7 @@ ship `Valsaqra`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `As the largest production warship built by the shipyards of the High Houses for hundreds of years, the imposing "Valsaqra" is the Successors' vessel of choice when they need to send a strong message through violence or merely the threat thereof. The "Valsaqra" bristles with weapon hardpoints and is unnervingly quick for a ship of its size; it would dance around any human battleship with ease. Naturally, the High Houses do not offer command of these vessels to any but their most trusted captains, and serving as the commander of one is generally considered the apex of a Successor naval officer's career.`
+	description `As the largest production warship built by the shipyards of the High Houses for hundreds of years, the imposing "Valsaqra" is the Successors' vessel of choice when they need to send a strong message through violence or merely the threat thereof. The vessel bristles with weapon hardpoints and is unnervingly quick for a ship of its size; it would dance around any human battleship with ease. Naturally, the High Houses do not offer command of these vessels to any but their most trusted captains, and serving as the commander of one is generally considered the apex of a Successor naval officer's career.`
 
 ship `Joruuvaqra`
 	sprite "ship/joruuvaqra"

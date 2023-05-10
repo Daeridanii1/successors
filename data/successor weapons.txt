@@ -305,7 +305,7 @@ outfit "Burst Anti-Missile Turret"
 	cost 135000
 	thumbnail "outfit/burst anti missile"
 	licenses
-		"Successor"
+		"High Houses"
 	"mass" 24
 	"outfit space" -24
 	"weapon capacity" -24
