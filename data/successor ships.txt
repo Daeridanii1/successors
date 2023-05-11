@@ -427,30 +427,38 @@ ship `Stolsaqra`
 		"Hyperdrive"
 		"Successor Scanner"
 
-	gun 0 -38
-	gun -7 -21
-	gun 7 -21
-	turret 0 4
+	gun 0 -35
+	gun -8.5 -17
+	gun 8.5 -17
+	turret 0 3.5
 	engine -7 40
 	engine 7 40
-	"steering engine" 18 26
-		zoom .6
+	"steering engine" 2 -34
+		zoom .3
+		over
 		left
-	"steering engine" -18 26
-		zoom .6
+		angle 270
+	"steering engine" -2 -34
+		zoom .3
+		over
 		right
-	"reverse engine" -18 5
-		zoom .6
-	"reverse engine" 18 5
-		zoom .6
-	"steering engine" -18 5
-		zoom .6
-		angle 180
+		angle 90
+	"steering engine" 12 29
+		zoom .3
+		over
+		right
+		angle 270
+	"steering engine" -12 29
+		zoom .3
+		over
 		left
-	"steering engine" 18 5
-		zoom .6
-		angle 180
-		right
+		angle 90
+	"reverse engine" 2 -34
+		zoom .3
+		over
+	"reverse engine" -2 -34
+		zoom .3
+		over
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
