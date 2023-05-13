@@ -1167,7 +1167,7 @@ planet Aava-Aasa-Khora
 	shipyard "Successor Basics"
 	shipyard "Successor Civilian"
 	outfitter Heirloom
-	outfitter "High Houses"
+	outfitter "High Houses Light"
 	outfitter "Successor Basics"
 	outfitter "Successor Civilian"
 	"required reputation" 1
@@ -1212,7 +1212,8 @@ planet Kasii-Cavasaa-Oa
 	spaceport "You gain a similar feeling from your interaction with the Successors here; they are courteous, polite, and just as cold as the biting winds. This a not a place for idle chatter or bright-eyed tourists."
 	shipyard "Successor Civilian"
 	outfitter "Successor Civilian"
-
+	outfitter "High Houses Light"
+	outfitter "High Houses Heavy"
 	"required reputation" 10
 	bribe 0
 
@@ -1237,7 +1238,6 @@ planet Kasi-Osolaa-Sossa
 	description "By far the most isolated and remote planet in Successor space, Kasi-Osolaa-Sossa is populated mainly by those who enjoy the peace and quiet that comes with solitude. For the highly familial Successors, this is a relatively small proportion, and consequently the planet only supports around twenty thousand inhabitants, though it has the highest population growth of any planet in Successor space. Most agree that this is a result of frustration with the bickering between the high houses, but it is commonly joked that it is instead a consequence of supposed especially amorous tendencies among the local population."
 	spaceport "The mountainside spaceport here is tiny and almost deserted, and the Successors who guide your ship to its dirt landing pad seem to disappear entirely immediately after you've touched down. While there are a few small shops and trading posts scattered around the area, none of them make any effort to get your attention, and a few are even completely automated, with nothing more than a few inoffensively blinking lights indicating that they are functional and open for business."
 	government Successor
-	shipyard "Successor Basics"
 	outfitter "Successor Basics"
 	"required reputation" 15
 	bribe 0
@@ -1265,8 +1265,9 @@ planet Khora-Vasa-Reyyaa
 	spaceport "The trading posts, outfitters, and shipyard inside are all quite impressive, and the Successors you meet are all very curt and professional, including the merchant captains."
 	government Successor
 	shipyard "High Houses Heavy"
-	shipyard "Successor Civilian"
-	outfitter "High Houses"
+	shipyard "Successor Basics"
+	outfitter "High Houses Light"
+	outfitter "High Houses Heavy"
 	outfitter "Successor Civilian"
 	outfitter "Successor Heavy"
 	outfitter "Successor High Tech"
@@ -1364,10 +1365,10 @@ planet O-Vasa-Oa
 	spaceport "The spaceport is built right on top of a large shipyard, allowing visitors to look on at the impressive manufacturing apparatus of the New Houses while going about their business. Despite its relatively small size, the spaceport is very busy, with ships constantly launching and landing and a general air of haste among all the Successors you see."
 	government "New Houses"
 	shipyard Heirloom
-	shipyard "High Houses Light"
+	shipyard "High Houses Heavy"
 	shipyard "Successor Carrier"
-	shipyard "Successor Civilian"
-	outfitter "High Houses"
+	shipyard "Successor Heavy"
+	outfitter "High Houses Light"
 	outfitter "Successor Civilian"
 	"required reputation" 1
 	bribe 0
@@ -1391,13 +1392,10 @@ planet Raaqa-Puan-Uuoru
 	spaceport "Upon setting down, the landing pad releases a billowing sheet of clear water-repellant material that covers your ship, presumably as some sort of protection against the rain. The spaceport itself is low and small and decorated with strips of the same material that gently ruffle in the wind, almost like the sails of an ancient ocean-going ship."
 	spaceport "The few Successors you see appear attentive to but not surprised by your presence, clearly already well-informed about the arrival of the new alien traveler."
 	shipyard Heirloom
-	shipyard "High Houses Heavy"
-	shipyard "Peoples Houses"
-	shipyard "Successor Heavy"
-	shipyard "Successor Carrier"
+	shipyard "High Houses Light"
+	shipyard "Successor Basics"
 	outfitter Heirloom
-	outfitter "High Houses"
-	outfitter "Peoples Houses"
+	outfitter "High Houses Light"
 	outfitter "Successor Civilian"
 	outfitter "Successor Heavy"
 	outfitter "Successor High Tech"
@@ -1436,8 +1434,8 @@ planet Staja-Kella-Oa
 	description "The planet itself is densely forested with a few small cities. Part of the reason that it continues to be a center for education is that it has a rich archaelogical history: this planet was home to a now presumed-extinct sapient species roughly one hundred thousand years ago, and there is a great deal of interest in uncovering the details of their society."
 	description "Staja-Kella-Oa is also home to the ancestral estate of House Sioeora, one of the Old Houses."
 	spaceport "The dense tree cover shades the landing pads of the spaceport and casts the whole area in dappled light that reflects softly off the moving ships. Much of the traffic at the spaceport is small shuttles and transports carrying Successor students to and from the planet; the interior of it is clean and colorful, and seems directed towards its more youthful audience, with several recruiting posters for the fleets of the various high houses plastered on the walls."
-	shipyard "Successor Civilian"
-	outfitter "Successor Civilian"
+	shipyard "Successor Basics"
+	outfitter "Successor Basics"
 	"required reputation" 1
 	bribe 0
 
@@ -1456,9 +1454,8 @@ planet Tuur-Aasa-Kaska
 	description "As it was only very recently settled by the Successors, this large and rocky moon supports only a small population, most of whom are military personnel for the Old Houses and who live underground to avoid the powerful electrical storms on the surface. Though an undeniably hostile and uncomfortable place, the location of its star system has made it an ideal staging point for the fleets of the Old Houses to keep an eye on trade in nearby systems, and the persistent electrical storms on the surface serve to mask the energy signatures of their vessels."
 	spaceport "As a civilian, you are directed to a smaller port off to the side of one of the larger military ones. As soon as your ship touches down, the landing pad is lowered into an underground hangar and sealed off from the violent atmosphere. While this is an effective protection against the storms, you can't help but notice how it also means that you are trapped here until traffic control decides to release you."
 	government Successor
-	shipyard "High Houses Light"
-	outfitter "High Houses"
-	outfitter "Successor High Tech"
+	shipyard "Successor Basics"
+	outfitter "High Houses Light"
 	"required reputation" 10
 
 planet Tuur-Oa-Sola
@@ -1514,6 +1511,5 @@ planet Yoqqa-Vasa-Vasa
 	shipyard "Successor Carrier"
 	shipyard "Successor Civilian"
 	outfitter "Successor Civilian"
-	outfitter "Successor High Tech"
 	"required reputation" 10
 	bribe 0

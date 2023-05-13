@@ -21,12 +21,23 @@ news "high houses official"
 			"Old Houses"
 			"New Houses"
 			"Successor"
+		not attributes crime
 	name
 		word
 			"High Houses official"
 	message
 		word
-			`"The Houses welcome you as 'guest' among our people."`
+			`"The Houses welcome thee as 'guest' among our people,"`
+			`"Please remain in concord with our people,"`
+			`"Please submit to scans if 'tis requested,"`
+			`"Taxes on transactions are collected,"`
+			`"Can I provide assistance, honored traveler?"`
+		word
+			" / "
+		word
+			`"Port rules and regulations should be posted."`
+			`"I am at thy service if 'tis needed."`
+			`"But today's been rather busy; please speak quickly."`
 
 news "successor student"
 	location

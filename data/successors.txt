@@ -161,23 +161,25 @@ outfitter "Successor High Tech"
 	`"Niis" Inductive Engines`
 	`"Byiaa" Shield Cortex`
 
-outfitter "High Houses"
+outfitter "High Houses Light"
 	`"Nnesa" Inertial Core`
-	`"Ryuit" Inertial Core`
-	`"Uoret" Inertial Core`
 	"Bimodal Railgun"
-	"Bimodal Railgun Turret"
 	`Shatter Cannon`
 	"Conductance Turret"
 	"Corrosive Torpedo"
 	"Corrosive Torpedo Launcher"
 	`"Jaase" Shield Cortex`
-	`"Jorv" Shield Cortex`
+	`"Viir" Repair Module`
+
+outfitter "High Houses Heavy"
+	`"Ryuit" Inertial Core`
+	`"Uoret" Inertial Core`
+	`Bimodal Railgun Turret`
 	"Multimodal Armor: Heavy"
 	"Multimodal Armor: Stealth"
 	"Multimodal Armor: Regen"
 	"Multimodal Armor: Resilient"
-	`"Viir" Repair Module`
+	`"Jorv" Shield Cortex`
 	`"Vyraa" Repair Module`
 
 outfitter "Peoples Houses"
@@ -187,18 +189,14 @@ outfitter "Peoples Houses"
 	"Successor Scanner"
 
 outfitter Heirloom
-	"Heirloom License"
-
 	"Heirloom Hunter-Killers"
 	"Heirloom Point Defense"
 	"Heirloom Railgun"
 	"Heirloom Reactor"
 	"Heirloom Shielding"
-	"High Houses License"
 	"Kinetic Spike"
 	"Kinetic Lance"
 	"Shatter Cannon"
-	"Successor License"
 
 phrase "successor start"
 	word
@@ -295,6 +293,14 @@ phrase "high houses start"
 		"Sioe-"
 		"Iyiq-"
 		"Trij-"
+		"Seqra-"
+		"Tordu-"
+		"Ojet-"
+		"Seqa-"
+		"Aasqa-"
+		"Forel-"
+		"Kijet-"
+
 phrase "high houses end"
 	word
 		"khora"
@@ -325,6 +331,12 @@ phrase "high houses end"
 		"kaaquiq"
 		"vasq"
 		"rej"
+		"iis"
+		"ija"
+		"uoret"
+		"ryuit"
+		"nnesa"
+		"vijet"
 
 phrase "high houses"
 	phrase
@@ -396,6 +408,7 @@ phrase "successor friendly hail" # Wary hails
 		"To whom and what thou does thou lend thy own strength?"
 		"What is thy goal within these stars? To observe or interfere?"
 		"What is thy goal within these stars? Be a trader or a traitor?"
+
 phrase "successor friendly hail" # Job hails
 	word
 		"My "
@@ -419,6 +432,7 @@ phrase "successor friendly hail" # Job hails
 		"It's not my place to give critique, and yet..."
 		"I hope that I will see them soon again."
 		"Hast thou met them? Do they carry any news?"
+
 phrase "successor friendly hail" # Conspiracy hails
 	word
 		"I hope that thou will keep this thought between us:"
@@ -442,7 +456,7 @@ phrase "successor friendly hail" # Conspiracy hails
 		"There are nightmares in the void the Houses fear."
 		"The empty systems here are prone to strangeness." 
 
-phrase "old houses friendly hail" # Welcoming hails
+phrase "old houses friendly hail" # Welcome hails
 	word
 		"We welcome thee to join us in our space" 
 		"Thy presence in our lovely space is welcome"
@@ -458,6 +472,7 @@ phrase "old houses friendly hail" # Welcoming hails
 		"So that thou might make note of our advance."
 		"So that thou might find joy in our success."
 		"So that thou may bear witness to our joy."
+
 phrase "old houses friendly hail" # Peace hails
 	word
 		"By noble lineage do we exalt us all"
@@ -468,6 +483,7 @@ phrase "old houses friendly hail" # Peace hails
 	word
 		"To build for all a great and lasting peace."
 		"To make for all a true and joyful peace."
+
 phrase "old houses friendly hail" # Boast hails
 	word
 		"The"
@@ -519,7 +535,7 @@ phrase "high houses hostile hail"
 		"May thy knavish and deceptive heart now cease."
 		"The valiant never taste of death but once."
 
-phrase "new houses friendly hail"
+phrase "new houses friendly hail" # Welcome hails
 	word
 		"We welcome thee to join us in our space" 
 		"Thy presence in our lovely space is welcome"
@@ -535,7 +551,8 @@ phrase "new houses friendly hail"
 		"So that thou might make note of our advance."
 		"So that thou might find joy in our success."
 		"So that thou may bear witness to our joy."
-phrase "new houses friendly hail"
+
+phrase "new houses friendly hail" # Peace hails
 	word
 		"By noble lineage do we exalt us all"
 		"With joyful strength and honest might we fly"
@@ -545,7 +562,8 @@ phrase "new houses friendly hail"
 	word
 		"To build for all a great and lasting peace."
 		"To make for all a true and joyful peace."
-phrase "new houses friendly hail"
+
+phrase "new houses friendly hail" # Boast hails
 	word
 		"The"
 	word
