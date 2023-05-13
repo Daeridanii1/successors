@@ -170,23 +170,27 @@ ship `Ejniisde`
 		`3-"Kaska" Betavoltaic Cell`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-	gun 0 -97
-	turret -4.5 -50
-	turret 4.5 -50
-	engine -25 30
-	engine 25 30
-	"steering engine" -25 -47
-		zoom .6
-		angle 180
+	gun 0 -96
+	turret 0 -66
+	turret 0 -50
+	engine -6 97
+	engine 6 97
+	"steering engine" 4 -90
+		zoom .3
+		over
 		left
-	"steering engine" 25 -47
-		zoom .6
-		angle 180
+		angle 270
+	"steering engine" -4 -90
+		zoom .3
+		over
 		right
-	"reverse engine" -25 -47
-		zoom .6
-	"reverse engine" 25 -47
-		zoom .6
+		angle 90
+	"reverse engine" 4 -90
+		zoom .3
+		over
+	"reverse engine" -4 -90
+		zoom .3
+		over
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
