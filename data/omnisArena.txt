@@ -1,0 +1,317 @@
+system "Successors "
+	add object "Kvelqde  "
+		distance 900
+		offset 30
+		sprite "ship/kvelqde"
+	add object "Myaede  "
+		distance 900
+		offset 60
+		sprite "ship/myaede"
+	add object "Ejniisde  "
+		distance 900
+		offset 90
+		sprite "ship/ejniisde"
+	add object "Ojde  "
+		distance 900
+		offset 120
+		sprite "ship/successor heavy freighter"
+	add object "Myaede-Khora  "
+		distance 900
+		offset 150
+		sprite "ship/successor mod freighter"
+	add object "Ojde-Khora  "
+		distance 900
+		offset 180
+		sprite "ship/successor mod heavy freighter"
+	add object "Stolsaqra  "
+		distance 900
+		offset 210
+		sprite "ship/stolsaqra"
+	add object "Naapojde  "
+		distance 900
+		offset 240
+		sprite "ship/naapojde"
+	add object "Aaulqra  "
+		distance 900
+		offset 270
+		sprite "ship/aaulqra"
+	add object "Seiitej  "
+		distance 900
+		offset 300
+		sprite "ship/seiitej"
+	add object "Veusade  "
+		distance 900
+		offset 330
+		sprite "ship/veusade"
+	add object "Kaskhorade  "
+		distance 900
+		offset 360
+		sprite "ship/kaskhorade"
+	add object "Valsaqra  "
+		distance 1500
+		offset 18
+		sprite "ship/valsaqra"
+	add object "Joruuvaqra  "
+		distance 1500
+		offset 36
+		sprite "ship/joruuvaqra"
+	add object "Valkkyiara-Khorasaqra  "
+		distance 1500
+		offset 54
+		sprite "ship/valkkyiara-khorasaqra"
+#	Ships
+planet "Kvelqde "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kvelqde "
+		threshold 0
+planet "Kvelqde  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kvelqde "
+		threshold 0
+fleet "Kvelqde "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Kvelqde"
+planet "Myaede "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Myaede "
+		threshold 0
+planet "Myaede  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Myaede "
+		threshold 0
+fleet "Myaede "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Myaede"
+planet "Ejniisde "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Ejniisde "
+		threshold 0
+planet "Ejniisde  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Ejniisde "
+		threshold 0
+fleet "Ejniisde "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Ejniisde"
+planet "Ojde "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Ojde "
+		threshold 0
+planet "Ojde  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Ojde "
+		threshold 0
+fleet "Ojde "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Ojde"
+planet "Myaede-Khora "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Myaede-Khora "
+		threshold 0
+planet "Myaede-Khora  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Myaede-Khora "
+		threshold 0
+fleet "Myaede-Khora "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Myaede-Khora"
+planet "Ojde-Khora "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Ojde-Khora "
+		threshold 0
+planet "Ojde-Khora  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Ojde-Khora "
+		threshold 0
+fleet "Ojde-Khora "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Ojde-Khora"
+planet "Stolsaqra "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Stolsaqra "
+		threshold 0
+planet "Stolsaqra  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Stolsaqra "
+		threshold 0
+fleet "Stolsaqra "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Stolsaqra"
+planet "Naapojde "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Naapojde "
+		threshold 0
+planet "Naapojde  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Naapojde "
+		threshold 0
+fleet "Naapojde "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Naapojde"
+planet "Aaulqra "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aaulqra "
+		threshold 0
+planet "Aaulqra  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aaulqra "
+		threshold 0
+fleet "Aaulqra "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aaulqra"
+planet "Seiitej "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Seiitej "
+		threshold 0
+planet "Seiitej  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Seiitej "
+		threshold 0
+fleet "Seiitej "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Seiitej"
+planet "Veusade "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Veusade "
+		threshold 0
+planet "Veusade  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Veusade "
+		threshold 0
+fleet "Veusade "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Veusade"
+planet "Kaskhorade "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kaskhorade "
+		threshold 0
+planet "Kaskhorade  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kaskhorade "
+		threshold 0
+fleet "Kaskhorade "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Kaskhorade"
+planet "Valsaqra "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Valsaqra "
+		threshold 0
+planet "Valsaqra  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Valsaqra "
+		threshold 0
+fleet "Valsaqra "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Valsaqra"
+planet "Joruuvaqra "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Joruuvaqra "
+		threshold 0
+planet "Joruuvaqra  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Joruuvaqra "
+		threshold 0
+fleet "Joruuvaqra "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Joruuvaqra"
+planet "Valkkyiara-Khorasaqra "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Valkkyiara-Khorasaqra "
+		threshold 0
+planet "Valkkyiara-Khorasaqra  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Valkkyiara-Khorasaqra "
+		threshold 0
+fleet "Valkkyiara-Khorasaqra "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Valkkyiara-Khorasaqra"
