@@ -1,6 +1,5 @@
 galaxy "label successors"
 	pos -222 1285
-	sprite label/successors
 
 system Aaura-Kaska
 	pos -222.08 1285.4

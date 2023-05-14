@@ -74,6 +74,18 @@ mission "Successors: First Contact"
 			`	"Thou art a person of great interest to them, and 'tis easy for even the cleverest among us to fall victim to their politics."`
 				decline
 
+mission "Discovered Successor Space"
+	landing
+	invisible
+	source "Staja-Kella-Oa"
+	on offer
+		event "label successor space"
+		fail
+
+event "label successor space"
+	galaxy "label successors"
+		sprite label/successors
+
 mission "Successors: Trusted"
 	landing
 	name "Go to the Uuoru-Kella system to meet with the High Houses"
