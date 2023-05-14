@@ -3,7 +3,7 @@ galaxy "label successors"
 	sprite label/successors
 
 system Aaura-Kaska
-	pos -1257.08 -451.6
+	pos -222.08 1285.4
 	government Successor
 	attributes successor
 	habitable 1313.28
@@ -64,13 +64,13 @@ system Aaura-Kaska
 		period 1878.76
 
 system Avasaa-Novaa
-	pos -794.977 -171.478
+	pos -35.98 947.52
 	government Predecessor
 	attributes predecessor
 	link Kasii-Sola
 
 system Chyyra-Osolaa
-	pos -1348.15 -327.73
+	pos -349.15 1193.27
 	government Successor
 	attributes successor
 	link Luue-Saqru
@@ -115,7 +115,7 @@ system Chyyra-Osolaa
 		period 3688
 
 system "Eta Carinae"
-	pos -891.621 -109.008
+	pos 122.38 895.99
 	government Uninhabited
 	attributes predecessor
 	habitable 2160
@@ -134,7 +134,7 @@ system "Eta Carinae"
 		period 300
 
 system Kasii-Cavaasa
-	pos -909.764 9.306
+	pos 80.24 798.31
 	government Predecessor
 	attributes predecessor
 	link Mavra-Ijsola
@@ -152,7 +152,7 @@ system Kasii-Cavaasa
 		period 3000
 
 system Kasii-Sola
-	pos -803.996 -94.019
+	pos 51 970.98
 	government Predecessor
 	attributes predecessor
 	habitable 320
@@ -204,7 +204,7 @@ system Kasii-Sola
 			period 35.011
 
 system Kasi-Vasa-Novaa
-	pos -838.903 43.389
+	pos -58.9 838.39
 	government Predecessor
 	attributes predecessor
 	haze _menu/haze-none
@@ -212,7 +212,7 @@ system Kasi-Vasa-Novaa
 		sprite planet/rock0
 
 system Kella-Uoasa
-	pos -1446.49 -464.48
+	pos -411.49 1302.52
 	government Successor
 	attributes successor
 	habitable 22300
@@ -262,12 +262,12 @@ system Kella-Uoasa
 		period 10000
 
 system Khasola-Ryuit
-	pos -932.875 -162.412
+	pos 21.13 767.59
 	government Predecessor
 	attributes predecessor
 
 system Khosa-Kaska
-	pos -1072.12 -533.48
+	pos 16.88 1320.52
 	government Successor
 	attributes successor
 	link Ofstond-Stir
@@ -301,7 +301,7 @@ system Khosa-Kaska
 		period 3000
 
 system Kkrav-Luue
-	pos -997.522 -53.338
+	pos 1.48 831.66
 	government Predecessor
 	attributes predecessor
 	link Oublaa-Khora
@@ -328,7 +328,7 @@ system Kkrav-Luue
 		period 2890
 
 system Luue-Saqru
-	pos -1446.33 -328.27
+	pos -387.33 1234.73
 	government Successor
 	attributes successor
 	link Chyyra-Osolaa
@@ -373,7 +373,7 @@ system Luue-Saqru
 			period 32
 
 system Maspa-Cavaasa
-	pos -1551.32 -153.35
+	pos -582.32 1168.65
 	government Successor
 	attributes successor
 	link Osolaa-Uuoru
@@ -418,10 +418,10 @@ system Maspa-Cavaasa
 			period 173.691
 
 system Maspa-Mavra
-	pos -1162.96 -627.05
+	pos -589.96 1295.95
 	government Uninhabited
 	attributes successor
-	link Vade-Staja
+	link Osolaa-Uuoru
 	asteroids "small metal" 1 1
 	asteroids "large metal" 1 1
 	minables gold 1 1
@@ -435,7 +435,7 @@ system Maspa-Mavra
 		period 1000
 
 system Maspa-Raaqa
-	pos -1430.69 -526.95
+	pos -488.69 1351.05
 	government Successor
 	attributes successor
 	link Kella-Uoasa
@@ -467,14 +467,14 @@ system Maspa-Raaqa
 			period 510
 
 system Mavra-Ijsola
-	pos -978.666 -13.389
+	pos 131.33 823.61
 	government Predecessor
 	attributes predecessor
 	link Kasii-Cavaasa
 	link Uuoru-Sossa
 
 system Myiara-Nnesa
-	pos -1369.38 -403.66
+	pos -277.38 1156.34
 	government "New Houses"
 	attributes successor
 	habitable 3450
@@ -547,7 +547,7 @@ system Myiara-Nnesa
 			period 489.011
 
 system Myruet-Kvelq
-	pos -1173.9 -394.63
+	pos -291.9 1327.37
 	government Successor
 	attributes successor
 	habitable 1715
@@ -591,7 +591,7 @@ system Myruet-Kvelq
 		period 400
 
 system Ofstond-Stir
-	pos -1131.46 -484.42
+	pos -66.46 1324.58
 	government Successor
 	attributes successor
 	habitable 625
@@ -673,11 +673,12 @@ system Ofstond-Stir
 			period 61.598
 
 system Osolaa-Uuoru
-	pos -1456.63 -174.38
+	pos -511.63 1235.62
 	government Successor
 	attributes successor
 	link Maspa-Cavaasa
 	link Raaqa-Ryuit
+	link Maspa-Mavra
 	asteroids "small rock" 8 7
 	asteroids "large rock" 7 8
 	trade Clothing 284
@@ -706,7 +707,7 @@ system Osolaa-Uuoru
 		period 4500
 
 system Oublaa-Khora
-	pos -1006.444 -131.356
+	pos 4.56 906.64
 	government Predecessor
 	attributes predecessor
 	link Kkrav-Luue
@@ -714,7 +715,7 @@ system Oublaa-Khora
 		sprite planet/wormhole-red
 
 system Pelaa-Muora
-	pos -1257.59 -408.17
+	pos -273.59 1220.83
 	government Successor
 	attributes successor
 	habitable 12981.236
@@ -785,7 +786,7 @@ system Pelaa-Muora
 		period 1925.801
 
 system Raaqa-Ryuit
-	pos -1379.47 -266.45
+	pos -437.47 1200.55
 	government Successor
 	attributes successor
 	link Chyyra-Osolaa
@@ -831,7 +832,7 @@ system Raaqa-Ryuit
 			period 300
 
 system Stiidej-Nnesa
-	pos -1171.18 -441.49
+	pos -142.18 1352.51
 	government Successor
 	attributes successor
 	link Aaura-Kaska
@@ -876,7 +877,7 @@ system Stiidej-Nnesa
 			period 900
 
 system Tuur-Kella
-	pos -1304.99 -509.89
+	pos -152.99 1284.11
 	government Successor
 	attributes successor
 	link Aaura-Kaska
@@ -920,7 +921,7 @@ system Tuur-Kella
 		period 10000
 
 system Uuoru-Kella
-	pos -1187.08 -502.57
+	pos -83.08 1273.43
 	government "Old Houses"
 	attributes successor
 	habitable 11350
@@ -977,7 +978,7 @@ system Uuoru-Kella
 			offset 32
 
 system Uuoru-Sossa
-	pos -936.996 -78.87
+	pos 68 863.13
 	government Predecessor
 	attributes predecessor
 	link "Eta Carinae"
@@ -999,11 +1000,10 @@ system Uuoru-Sossa
 		period 5000
 
 system Vade-Staja
-	pos -1142.71 -556.15
+	pos -20.71 1237.85
 	government Successor
 	attributes successor
 	link Khosa-Kaska
-	link Maspa-Mavra
 	link Uuoru-Kella
 	asteroids "small rock" 2 3.8
 	asteroids "medium rock" 20 5.603
@@ -1066,7 +1066,7 @@ system Vade-Staja
 		period 1466.847
 
 system Valkkra-Uuoru
-	pos -1225.56 -530.98
+	pos -127.56 1200.02
 	government Successor
 	attributes successor
 	habitable 3651.37
@@ -1133,7 +1133,7 @@ system Valkkra-Uuoru
 			period 182.831
 
 system Vasa-Oorua
-	pos -860.543 -46.028
+	pos 93.46 946.97
 	government Predecessor
 	attributes predecessor
 	link "Eta Carinae"
