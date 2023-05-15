@@ -3,8 +3,8 @@
 system "Successors "
 	"jump range" 3000
 	government "Plugin"
-	link "Human "
-	pos -594 -10252
+	link "Ka'het "
+	pos -42 -9363
 	object "  Successors"
 		sprite "asteroid/yottrite/spin"
 planet "  Successors"
@@ -15,7 +15,7 @@ planet "  Successors"
 	spaceport ""
 #	Map
 #		Override
-system "Human "
+system "Ka'het "
 	add link "Successors "
 planet "Everything "
 	shipyard "successors"
