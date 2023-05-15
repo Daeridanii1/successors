@@ -183,7 +183,7 @@ outfit "Heirloom Point Defense"
 	weapon
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
-		"hit effect" "large anti-missile"
+		"hit effect" "burst anti-missile"
 		"anti-missile" 25
 		"velocity" 200
 		"lifetime" 1

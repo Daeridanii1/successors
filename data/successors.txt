@@ -165,15 +165,16 @@ outfitter "High Houses Light"
 	`"Nnesa" Inertial Core`
 	"Bimodal Railgun"
 	`Shatter Cannon`
-	"Conductance Turret"
-	"Corrosive Torpedo"
-	"Corrosive Torpedo Launcher"
+	"Dazzle Missile Array"
+	"Dazzle Missile"
 	`"Jaase" Shield Cortex`
 	`"Viir" Repair Module`
 
 outfitter "High Houses Heavy"
 	`"Ryuit" Inertial Core`
 	`"Uoret" Inertial Core`
+	"High-Velocity Spike"
+	`"Sjeja" Puncture Rail`
 	`Bimodal Railgun Turret`
 	"Multimodal Armor: Heavy"
 	"Multimodal Armor: Stealth"

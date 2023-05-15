@@ -245,60 +245,48 @@ outfit "Overcharged Laser Turret"
 		"cluster"
 	description `Hand-crafted by the more colorful members of the People's Houses, this bespoke overcharged Pulse Laser turret is tuned to fire even faster than the fixed version, producing a truly prodigious amount of heat for a weapon of its size. Despite its crude design, it is nonetheless a fearsome weapon, especially considering that it retains the ability to partially punch through shielding.`
 
-outfit "Corrosive Torpedo Launcher"
+outfit `"Sjeja" Puncture Rail`
 	category "Secondary Weapons"
-	cost 350000
+	cost 3500000
 	licenses
 		"High Houses"
-	thumbnail "outfit/corrosive torpedo launcher"
-	"mass" 30
-	"outfit space" -35
-	"weapon capacity" -35
+	thumbnail "outfit/photon lance"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
 	"gun ports" -1
-	"corrosive torpedo capacity" 120
+	"spike capacity" 20
 	weapon
-		sprite "projectile/typhoon"
+		sprite "projectile/slicer"
 			"frame rate" 4
 			"random start frame"
 		sound "typhoon"
-		ammo "Corrosive Torpedo"
+		ammo "High-Velocity Spike"
 		icon "icon/typhoon"
-		"fire effect" "typhoon fire"
 		"hit effect" "torpedo hit"
 		"die effect" "tiny explosion"
-		"inaccuracy" 5
-		"velocity" 6
-		"velocity override" 6
-		"lifetime" 600
-		"range override" 6600
-		"burst count" 3
-		"burst reload" 5
-		"reload" 40
-		"firing energy" 4
-		"firing heat" 50
-		"turn" 16.6
-		"acceleration" .5
-		"drag" .02
-		"homing" 3
-		"optical tracking" .5
-		"radar tracking" .8
-		"shield damage" 31
-		"hull damage" 68
-		"corrosion damage" 4.8
-		"hit force" 150
-		"missile strength" 40
-	description "Rather than a conventional explosive payload, Corrosive Torpedoes carry a highly volatile gel that reacts violently with the metal that makes up a ship's hull. They are very powerful against unshielded targets, but their lack of direct damage makes them ineffective while a target's shields are active. In order to ensure that the torpedoes reach their target, they are fired in bursts of three."
+		"cluster"
+		"velocity" 320
+		"lifetime" 8
+		"reload" 160
+		"firing energy" 80
+		"firing ion" 18
+		"firing heat" 4000
+		"shield damage" 1336
+		"hull damage" 1920
+		"piercing" .25
+		"hit force" 2500
+	description "The largest and most powerful of the Successors' modern weapons, this massive railgun is elegant in its simplicity, cleanly perforating targets at extreme range. The bank of exotic electromagnets it uses would draw far too much power to be safely delivered in a single burst, so the weapon itself is supported by a complex power-distribution array that spreads this power drain out over several seconds instead."
 
-outfit "Corrosive Torpedo"
-	plural "Corrosive Torpedoes"
+outfit "High-Velocity Spike"
 	category "Ammunition"
 	licenses
 		"High Houses"
-	cost 2700
-	thumbnail "outfit/corrosive torpedo"
+	cost 4000
+	thumbnail "outfit/piercer"
 	"mass" .5
-	"corrosive torpedo capacity" -1
-	description "Corrosive Torpedoes are ammunition for the Corrosive Torpedo Launcher. You cannot install Corrosive Torpedoes unless you have also installed a launcher to fire them from."
+	"spike capacity" -1
+	description `The projectiles used by the "Sjeja" Puncture Rail are too large to be synthesized on-the-fly from the ship's reserves, and must be carried separately.`
 
 outfit "Burst Anti-Missile Turret"
 	category "Turrets"
@@ -313,7 +301,8 @@ outfit "Burst Anti-Missile Turret"
 	weapon
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
-		"hit effect" "large anti-missile"
+		"hit effect" "burst anti-missile"
+		"hit effect" "nano spark" 2
 		"anti-missile" 20
 		"velocity" 200
 		"lifetime" 1
@@ -324,34 +313,74 @@ outfit "Burst Anti-Missile Turret"
 		"firing heat" 56
 	description "The Burst Anti-Missile Turret is intended as an elegant counter to cluster-fired missiles: it can fire very quickly for a short duration before entering a longer cooldown period, during which the ship carrying it is vulnerable. This tradeoff synergizes with the combat cadence of the Successors, who use it to cover their quick attack runs and endure the cooldown during the retreat phase."
 
-outfit "Conductance Turret"
-	category "Turrets"
+effect "burst anti-missile"
+	sprite "effect/burst anti-missile"
+		"random start frame"
+		"frame rate" 40
+	sound "heavy anti-missile"
+	"lifetime" 5
+	"velocity scale" 1
+
+outfit "Dazzle Missile Array"
+	category "Secondary Weapons"
 	licenses
 		"High Houses"
-	cost 2549000
-	thumbnail "outfit/heliarch attractor"
-	"mass" 35
-	"outfit space" -35
-	"weapon capacity" -35
-	"required crew" 1
-	"turret mounts" -1
-	"heat generation" 15.0
+	cost 254900
+	thumbnail "outfit/dazzle missile array"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"dazzle missile capacity" 400
 	weapon
-		sprite "projectile/repulsor"
-			"frame rate" 3.2
-			"random start frame"
-		"hardpoint sprite" "hardpoint/heliarch repulsor"
-		"hardpoint offset" 9.
-		sound "heliarch repulsor"
-		"hit effect" "repulsor impact"
-		"inaccuracy" 3
-		"turret turn" 3.4
-		"velocity" 560
-		"lifetime" 1
-		"reload" 1
-		"firing energy" 3.8
-		"firing heat" -45.0
-		"heat damage" 45.0
-		"shield damage" 4.1
-		"hull damage" 1.2
-	description "The engineers in the employ of the High Houses have developed this turret as a clever way of dealing with the heat produced by a ship's systems while in combat, conducting it along the particle beam generated by the weapon into a target. While it generates a substantial amount of resting heat, this weapon is capable of rapidly overheating an unprepared enemy ship. The High Houses often use it as a policing tool to force a target's reactor to shut down before preparing boarding parties."
+		sprite "projectile/javelin"
+		sound "javelin"
+		"hit effect" "drak bolt impact"
+		"ammo" "Dazzle Missile"
+		icon "icon/piercer"
+		"stream"
+		"inaccuracy" 5
+		"velocity" 4
+		"turn" 12.0
+		"homing" 3
+		"optical tracking" .4
+		"lifetime" 45
+		"reload" 40
+		"burst reload" 2
+		"burst count" 6
+		"firing energy" .2
+		"firing heat" 12
+		"missile strength" 1
+		"submunition" "Activated Dazzle"
+	description "The High Houses prefer to avoid using missiles; they are brutish and inelegant in comparison to their manifestations of efficient kinetic weaponry. Nonetheless, they can be useful for delivering atypical payloads: these missiles contain densely-packed chaff designed to overwhelm an enemy ship's targeting systems. While they do very little damage, they are quite effective at jamming enemy weapons, making them a useful tool which the High Houses can use to neutralize vessels in a manner less lethal than a railgun slug through the hull."
+
+outfit "Activated Dazzle"
+	weapon 
+		sprite "projectile/javelin"
+		sound "javelin"
+		"hit effect" "nano spark" 32
+			"frame rate" 3
+		"die effect" "nano spark" 16
+			"frame rate" 3
+		"shield damage" 58
+		"hull damage" 12
+		"scrambling damage" 5
+		"trigger radius" 80
+		"blast radius" 100
+		"missile strength" 6
+		"homing" 3
+		"optical tracking" .4
+		"lifetime" 240
+		"acceleration" .2
+		"drag" .01
+		"turn" 3.0
+
+outfit "Dazzle Missile"
+	category "Ammunition"
+	licenses
+		"High Houses"
+	cost 1000
+	thumbnail "outfit/dazzle missile"
+	"mass" .02
+	"dazzle missile capacity" -1
+	description "Dazzle Missiles are ammunition for the Dazzle Missile Array. You cannot install Dazzle Missiles unless you have also installed a launcher to fire them from."
