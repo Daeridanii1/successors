@@ -101,6 +101,7 @@ outfit "Drag Cannon"
 	"gun ports" -1
 	weapon
 		sound "pulse"
+		"hit effect" "drag cannon impact" 3
 		"velocity" 0
 		"lifetime" 0
 		"range override" 375
@@ -120,7 +121,7 @@ outfit "Drag Projectile"
 		sprite "projectile/drag cannon"
 			"frame rate" 20
 			"no repeat"
-		"hit effect" "ion rain impact"
+		"hit effect" "drag cannon impact"
 		"inaccuracy" 20
 		"velocity" 25
 		"lifetime" 10
@@ -128,6 +129,14 @@ outfit "Drag Projectile"
 		"slowing damage" 0.45
 		"shield damage" 52
 		"hull damage" 48
+
+effect "drag cannon impact"
+	sprite "effect/drag cannon impact"
+		"frame rate" 10
+		"no repeat"
+	lifetime 20
+	"velocity scale" 0
+	"random velocity" 1
 
 outfit "Successor Pulse Laser"
 	category "Guns"
