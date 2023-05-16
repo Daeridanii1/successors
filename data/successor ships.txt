@@ -698,7 +698,7 @@ ship `Seiitej`
 	gun -5 -86
 	gun 5 -86
 	gun 10 -78
-	turret 0 -63
+	turret 0 16
 	engine -25 44
 	engine 25 44
 	"reverse engine" -25 -35
