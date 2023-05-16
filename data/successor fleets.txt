@@ -141,6 +141,11 @@ fleet "Small Successor Transport"
         "Ejniisde"
     variant 33
         "Ejniisde" 2
+    variant 25
+        "Nnesaarau"
+    variant 15
+        "Nnesaarau"
+        "Kvelqde" 2
 
 fleet "People's Houses"
     government "People's Houses"

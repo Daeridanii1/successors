@@ -1165,6 +1165,7 @@ planet Aava-Aasa-Khora
 	shipyard "High Houses Light"
 	shipyard "Successor Basics"
 	shipyard "Successor Civilian"
+	shipyard "Chidiyi"
 	outfitter Heirloom
 	outfitter "High Houses Light"
 	outfitter "Successor Basics"
@@ -1265,6 +1266,7 @@ planet Khora-Vasa-Reyyaa
 	government Successor
 	shipyard "High Houses Heavy"
 	shipyard "Successor Basics"
+	shipyard "Chidiyi"
 	outfitter "High Houses Light"
 	outfitter "High Houses Heavy"
 	outfitter "Successor Civilian"
