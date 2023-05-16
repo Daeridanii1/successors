@@ -898,27 +898,27 @@ ship `Valsaqra`
 	gun 34 -104
 	gun 50 -65
 	gun 56 -57 "Dazzle Missile Array"
-	turret -93 40
-	turret 93 40
-	turret 0 -92
-	turret 0 -130
-	engine -75 129
+	turret -102 28
+	turret 102 28
+	turret 0 -58
+	turret 0 52
+	engine -85 126
 		zoom .8
-	engine -57 150
+	engine -54 150
 		zoom .8
-	engine 57 150
+	engine 54 150
 		zoom .8
-	engine 75 129
+	engine 85 126
 		zoom .8
-	"reverse engine" -78 -7
+	"reverse engine" -85 -24
 		zoom .7
-	"reverse engine" 78 -7
+	"reverse engine" 85 -24
 		zoom .7
-	"steering engine" -78 -7
+	"steering engine" -85 -24
 		left
 		angle 180
 		zoom .7
-	"steering engine" 78 -7
+	"steering engine" 85 -24
 		right
 		angle 180
 		zoom .7
