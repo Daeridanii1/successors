@@ -19,8 +19,8 @@ ship `Aaulqra` `Aaulqra (Support)`
 		`"Jaase" Shield Cortex`
 		"Hyperdrive"
 		"Successor Cooling" 2
-		"Shatter Cannon" 3
-		"Conductance Turret" 3
+		"Drag Cannon" 3
+		"Dazzle Missile Array" 2
 
 ship `Stolsaqra` `Stolsaqra (OC Laser)`
 	outfits
@@ -39,7 +39,7 @@ ship `Stolsaqra` `Stolsaqra (Short-Range)`
 		`"Aqra" Inductive Steering`
 		`"Aqra" Inductive Reverser`
 		`OC-"Mavra" Betavoltaic Cell` 2
-		"Shatter Cannon" 3
+		"Drag Cannon" 3
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 		"Burst Anti-Missile Turret"
@@ -75,9 +75,10 @@ ship `Naapojde` `Successor Bomber`
 	outfits
 		`"Niis" Inductive Engines`
 		`OC-"Mavra" Betavoltaic Cell`
-		"Corrosive Torpedo Launcher"
-		"Corrosive Torpedo" 120
+		"Dazzle Missile Array"
+		"Dazzle Missile" 200
 		`"Ej" Shield Cortex`
+
 ship `Naapojde` `Successor Ace`
 	outfits
 		`"Niis" Inductive Engines`
@@ -105,8 +106,8 @@ ship `Kaskhorade` `Kaskhorade (Bomber)`
 		`"Jorv" Shield Cortex`
 		"Hyperdrive"
 		"Successor Cooling"
-		"Corrosive Torpedo Launcher" 5
-		"Corrosive Torpedo" 600
+		"Dazzle Missile Array" 5
+		"Dazzle Missile" 1000
 		"Burst Anti-Missile Turret" 2
 		`Outfits Expansion` 2
 

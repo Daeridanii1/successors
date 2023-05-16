@@ -89,10 +89,10 @@ outfit "Bimodal Switch"
 		"shield damage" 48
 		"hull damage" 20
 
-outfit "Shatter Cannon"
+outfit "Drag Cannon"
 	category "Guns"
 	cost 455000
-	thumbnail "outfit/shatter cannon"
+	thumbnail "outfit/drag cannon"
 	licenses
 		"High Houses"
 	"mass" 12
@@ -106,18 +106,20 @@ outfit "Shatter Cannon"
 		"range override" 375
 		"velocity override" 25
 		"burst count" 5
-		"burst reload" 3
+		"burst reload" 4
 		"reload" 45
 		"firing energy" 30
 		"firing heat" 55
 		"cluster"
-		"submunition" "Shatter Projectile" 3
-	description `The Successors have a historical affinity for projectile weaponry which persists to the modern day. The Shatter Cannon fires a short-ranged, highly inaccurate blast of projectiles that not only deal substantial damage but also temporarily disrupt the target's engines.`
-	description `While it is an inelegant design in comparison to the time-tested Bimodal Railgun, and consequently less appreciated, the Shatter Cannon has found a place on the Successors' fast attack craft primarily as a tool for slowing down enemy vessels so that they can be engaged by a larger fleet.`
+		"submunition" "Drag Projectile" 3
+	description `The Successors have a historical affinity for projectile weaponry which persists to the modern day. The Drag Cannon fires a short-ranged, highly inaccurate blast of projectiles that not only deal substantial damage but also temporarily disrupt the target's engines.`
+	description `While it is an inelegant design in comparison to the time-tested Bimodal Railgun, and consequently less appreciated, the Drag Cannon has found a place on the Successors' fast attack craft primarily as a tool for slowing down enemy vessels so that they can be engaged by a larger fleet.`
 
-outfit "Shatter Projectile"
+outfit "Drag Projectile"
 	weapon
-		sprite "projectile/ion rain"
+		sprite "projectile/drag cannon"
+			"frame rate" 20
+			"no repeat"
 		"hit effect" "ion rain impact"
 		"inaccuracy" 20
 		"velocity" 25
@@ -299,7 +301,7 @@ outfit "Burst Anti-Missile Turret"
 	"weapon capacity" -24
 	"turret mounts" -1
 	weapon
-		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint sprite" "hardpoint/burst anti missile"
 		"hardpoint offset" 5.
 		"hit effect" "burst anti-missile"
 		"hit effect" "nano spark" 2
@@ -331,7 +333,7 @@ outfit "Dazzle Missile Array"
 	"outfit space" -25
 	"weapon capacity" -25
 	"gun ports" -1
-	"dazzle missile capacity" 400
+	"dazzle missile capacity" 200
 	weapon
 		sprite "projectile/javelin"
 		sound "javelin"
@@ -379,7 +381,7 @@ outfit "Dazzle Missile"
 	category "Ammunition"
 	licenses
 		"High Houses"
-	cost 1000
+	cost 250
 	thumbnail "outfit/dazzle missile"
 	"mass" .02
 	"dazzle missile capacity" -1

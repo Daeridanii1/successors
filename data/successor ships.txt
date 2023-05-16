@@ -71,6 +71,66 @@ ship `Kvelqde`
 	"final explode" "final explosion medium"
 	description "This tiny shuttle is the smallest vessel operating in Successor space, and the first ship that new Successor pilots are able to get their arms on. Despite their small size, they are capable multipurpose vessels, and are frequently used for transporting passengers and cargo, for short-duration research expeditions, and even as very light combat craft, capable of just barely fitting one fixed and one turreted pulse laser."
 
+ship `Nnesaarau`
+	sprite "ship/nnesaarau"
+	thumbnail "thumbnail/nnesaarau"
+	attributes
+		licenses
+			"Successor"
+		category "Transport"
+		"cost" 1225000
+		"shields" 500
+		"hull" 2200
+		"required crew" 1
+		"bunks" 4
+		"mass" 80
+		"drag" 2.0
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 8
+		"outfit space" 155
+		"weapon capacity" 25
+		"engine capacity" 60
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		`"Chyyra" Inductive Thruster`
+		`"Aqra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
+		`3-"Kaska" Betavoltaic Cell`
+		`"Ej" Shield Cortex`
+		"Scram Drive"
+	engine 0 48
+		under
+	"steering engine" 7 -27
+		zoom .3
+		over
+		left
+		angle 270
+	"steering engine" -7 -27
+		zoom .3
+		over
+		right
+		angle 90
+	"reverse engine" 7 -27
+		zoom .3
+		over
+	"reverse engine" -7 -27
+		zoom .3
+		over
+	gun 0 -32
+	leak "leak" 50 50
+	leak "flame" 30 80
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "Quick and comfortable, the Nnesaarau is among the newest designs utilized in Successor space, having first emerged from House Chydiyi's shipyards no more than twenty years ago. For various reasons, it is also among the least popular; it was designed solely as a luxury passenger transport and sees very little use outside that role because of its high price and restrictive internals. Nonetheless, some hotshot pilots swear by these as racing or fast courier vessels."
+
 ship `Myaede`
 	sprite "ship/myaede"
 	thumbnail "thumbnail/myaede"
@@ -498,7 +558,7 @@ ship `Naapojde`
 	outfits
 		`"Niis" Inductive Engines`
 		`OC-"Mavra" Betavoltaic Cell`
-		"Shatter Cannon" 3
+		"Drag Cannon" 3
 		`"Ej" Shield Cortex`
 
 	gun 0 -38
@@ -552,8 +612,8 @@ ship `Aaulqra`
 		"Hyperdrive"
 		"Successor Cooling"
 		"Bimodal Railgun" 3
-		"Corrosive Torpedo Launcher" 2
-		"Corrosive Torpedo" 240
+		"Dazzle Missile Array" 2
+		"Dazzle Missile" 400
 		"Burst Anti-Missile Turret"
 		"Multimodal Armor: Heavy"
 	gun -26 -48 "Bimodal Railgun"
@@ -695,7 +755,7 @@ ship `Veusade`
 		`"Jaase" Shield Cortex`
 		"Hyperdrive"
 		"Successor Cooling"
-		"Shatter Cannon" 8
+		"Drag Cannon" 8
 		"Multimodal Armor: Heavy"
 	gun -30 -40
 	gun -25 -48
@@ -732,7 +792,7 @@ ship `Veusade`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight shatter cannons as close to an enemy ship's hull as possible. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels. `
+	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight drag cannons as close to an enemy ship's hull as possible. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels. `
 
 ship `Kaskhorade`
 	sprite "ship/kaskhorade"
@@ -826,18 +886,18 @@ ship `Valsaqra`
 		"Hyperdrive"
 		"Successor Cooling" 2
 		"Bimodal Railgun" 6
-		"Corrosive Torpedo Launcher" 2
-		"Corrosive Torpedo" 240
+		"Dazzle Missile Array" 2
+		"Dazzle Missile" 400
 		"Burst Anti-Missile Turret" 4
 		"Multimodal Armor: Heavy"
 	gun -27 -121
 	gun -34 -104
 	gun -50 -65
-	gun -56 -57 "Corrosive Torpedo Launcher"
+	gun -56 -57 "Dazzle Missile Array"
 	gun 27 -121
 	gun 34 -104
 	gun 50 -65
-	gun 56 -57 "Corrosive Torpedo Launcher"
+	gun 56 -57 "Dazzle Missile Array"
 	turret -93 40
 	turret 93 40
 	turret 0 -92

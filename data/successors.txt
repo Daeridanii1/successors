@@ -91,6 +91,9 @@ shipyard "Successor Heavy"
 
 	Ojde
 
+shipyard "Chydiyi"
+	Nnesaarau
+
 shipyard "High Houses Light"
 	Aaulqra
 	Seiitej
@@ -164,7 +167,7 @@ outfitter "Successor High Tech"
 outfitter "High Houses Light"
 	`"Nnesa" Inertial Core`
 	"Bimodal Railgun"
-	`Shatter Cannon`
+	`Drag Cannon`
 	"Dazzle Missile Array"
 	"Dazzle Missile"
 	`"Jaase" Shield Cortex`
@@ -197,7 +200,6 @@ outfitter Heirloom
 	"Heirloom Shielding"
 	"Kinetic Spike"
 	"Kinetic Lance"
-	"Shatter Cannon"
 
 phrase "successor start"
 	word
