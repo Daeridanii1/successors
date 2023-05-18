@@ -37,6 +37,7 @@ shipyard "successors"
 	`Stolsaqra`
 	`Valsaqra`
 	`Veusade`
+	`Nnesaarau`
 outfitter "successors"
 	"Bimodal Railgun Turret"
 	"Bimodal Railgun"
