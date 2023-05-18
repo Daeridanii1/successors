@@ -833,8 +833,8 @@ ship `Kaskhorade`
 		"Multimodal Armor: Heavy"
 	turret -46 12
 	turret 46 12
-	turret 0 -90
-	turret 0 33
+	turret 0 -40
+	turret 0 37
 	gun -42 -72
 	gun -36 -86
 	gun 42 -72
