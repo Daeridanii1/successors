@@ -164,29 +164,27 @@ ship `Myaede`
 		"Pulse Laser Turret" 2
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-	turret -34 -7 "Pulse Laser Turret"
-	turret 0 -8
-	turret 34 -7 "Pulse Laser Turret"
-	gun -8 -58
-	gun 8 -58
-	engine -42 55
-	engine -55 45
-	engine 55 45
-	engine 42 55
-	"steering engine" -55 -7
+	turret -40 10 "Pulse Laser Turret"
+	turret 0 8
+	turret 40 10 "Pulse Laser Turret"
+	gun -3 -48
+	gun 3 -48
+	engine -40 46
+	engine 40 46
+	"steering engine" -40 -25
 		zoom .6
 		angle 180
 		left
 		over
-	"steering engine" 55 -7
+	"steering engine" 40 -25
 		zoom .6
 		angle 180
 		right
 		over
-	"reverse engine" -55 -7
+	"reverse engine" -40 -25
 		zoom .6
 		over
-	"reverse engine" 55 -7
+	"reverse engine" 40 -25
 		zoom .6
 		over
 	leak "leak" 50 50
@@ -258,7 +256,7 @@ ship `Ejniisde`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The Successors have a relatively small population and therefore are not in great need of large transport vessels. However, transporting passengers entirely by shuttle can lack both security and comfort, so for longer journeys, the Successors use this dedicated transport ship. While unarmed by default, it is fast enough to escape most ships that might mean it harm.`
+	description `The Successors have a relatively small population and therefore are not in great need of large transport vessels. However, transporting passengers entirely by shuttle can be lacking in both security and comfort, so for longer journeys, the Successors use this dedicated transport ship. While unarmed by default, it is fast enough to escape most ships that might mean it harm.`
 
 ship `Ojde`
 	sprite "ship/successor heavy freighter"
@@ -531,6 +529,7 @@ ship `Stolsaqra`
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "The Successors have limited experience in making warships this small, and while their attempt at an interceptor is durable and sports a surprising amount of firepower for a ship of its size, it is also plagued with power and propulsion issues as most of their standard technology is either too large or not powerful enough to yield effective combat performance at this scale. The result is a ship that ambitious pilots call a challenge and prudent pilots call a deathtrap, but continues to see use because of its heavy armament."
+	description `	The "Stolsaqra" also has the distinction of being the only purpose-built warship manufactured by the High Houses that is made available to the general public, albeit with significantly downgraded systems compared to the military-exclusive model.`
 
 ship `Naapojde`
 	sprite "ship/naapojde"
@@ -720,7 +719,7 @@ ship `Seiitej`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The "Seiitej" is a light attack craft only recently put into production by the high houses of the Successors. While it carries a relatively light armament (by Successor standards), it is capable of outrunning any other ship in Successor space, making it excellent for hunting down traitors or fugitives. It also sees service as an escort in freighter convoys, and to that end, is capable of carrying a modest amount of cargo in its own right.`
+	description `The "Seiitej" is a light warship employed by the High Houses of the Successors, designed as a general-purpose escort and patrol ship for their standing navies. While it carries a relatively light armament (by Successor standards), it is among the fastest vessels in Successor space, and is capable of carrying a modest amount of cargo, allowing it to serve in support or transport roles if needed.`
 
 ship `Veusade`
 	sprite "ship/veusade"
@@ -792,7 +791,8 @@ ship `Veusade`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight drag cannons as close to an enemy ship's hull as possible. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels. `
+	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight drag cannons as close to an enemy ship's hull as possible. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down.`
+	description `	Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels. `
 
 ship `Kaskhorade`
 	sprite "ship/kaskhorade"
