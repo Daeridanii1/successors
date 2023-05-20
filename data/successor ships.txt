@@ -615,33 +615,27 @@ ship `Aaulqra`
 		"Dazzle Missile" 400
 		"Burst Anti-Missile Turret"
 		"Multimodal Armor: Heavy"
-	gun -26 -48 "Bimodal Railgun"
-	gun -21 -63
-	gun 21 -63
-	gun 27 -48 "Bimodal Railgun"
-	gun 0 -97 "Bimodal Railgun"
-	turret -32 -8
-	turret 32 -8
-	turret 0 -51 "Burst Anti-Missile Turret"
-	engine 32 90
+	gun -42 -25 "Bimodal Railgun"
+	gun -36 -31
+	gun 0 -99 "Bimodal Railgun"
+	gun 36 -31
+	gun 42 -25 "Bimodal Railgun"
+	turret -55 9
+	turret 0 34 "Burst Anti-Missile Turret"
+	turret 55 9
+	engine -27 86
 		zoom .7
-	engine -32 90
+	engine 27 86
 		zoom .7
-	"reverse engine" -32 -32
+	"reverse engine" -27 -22
 		zoom .7
-	"reverse engine" 32 -32
+	"reverse engine" 27 -22
 		zoom .7
-	"steering engine" 32 90
-		zoom .7
-		left
-	"steering engine" -32 90
-		zoom .7
-		right
-	"steering engine" -32 -32
+	"steering engine" -27 -22
 		zoom .7
 		angle 180
 		left
-	"steering engine" 32 -32
+	"steering engine" 27 -22
 		zoom .7
 		angle 180
 		right
