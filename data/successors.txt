@@ -108,13 +108,8 @@ shipyard "High Houses Heavy"
 
 	`Valsaqra (Naive)`
 
-shipyard "Successor Carrier"
-	Naapojde
-	Joruuvaqra
-
 shipyard "Peoples Houses"
 	Myaede-Khora
-	Ojde-Khora
 
 shipyard Heirloom
 	Valkkyiara-Khorasaqra

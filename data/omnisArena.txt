@@ -23,45 +23,33 @@ system "Successors "
 		distance 900
 		offset 180
 		sprite "ship/successor mod freighter"
-	add object "Ojde-Khora  "
-		distance 900
-		offset 210
-		sprite "ship/successor mod heavy freighter"
 	add object "Stolsaqra  "
 		distance 900
-		offset 240
+		offset 210
 		sprite "ship/stolsaqra"
-	add object "Naapojde  "
-		distance 900
-		offset 270
-		sprite "ship/naapojde"
 	add object "Aaulqra  "
 		distance 900
-		offset 300
+		offset 240
 		sprite "ship/aaulqra"
 	add object "Seiitej  "
 		distance 900
-		offset 330
+		offset 270
 		sprite "ship/seiitej"
 	add object "Veusade  "
 		distance 900
-		offset 360
+		offset 300
 		sprite "ship/veusade"
 	add object "Kaskhorade  "
-		distance 1500
-		offset 18
+		distance 900
+		offset 330
 		sprite "ship/kaskhorade"
 	add object "Valsaqra  "
-		distance 1500
-		offset 36
+		distance 900
+		offset 360
 		sprite "ship/valsaqra"
-	add object "Joruuvaqra  "
-		distance 1500
-		offset 54
-		sprite "ship/joruuvaqra"
 	add object "Valkkyiara-Khorasaqra  "
 		distance 1500
-		offset 72
+		offset 0
 		sprite "ship/valkkyiara-khorasaqra"
 #	Ships
 planet "Kvelqde "
@@ -166,23 +154,6 @@ fleet "Myaede-Khora "
 	personality "heroic"
 	variant
 		"Myaede-Khora"
-planet "Ojde-Khora "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Ojde-Khora "
-		threshold 0
-planet "Ojde-Khora  "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Ojde-Khora "
-		threshold 0
-fleet "Ojde-Khora "
-	government "Arena"
-	personality "heroic"
-	variant
-		"Ojde-Khora"
 planet "Stolsaqra "
 	bribe 0
 	government "Arena"
@@ -200,23 +171,6 @@ fleet "Stolsaqra "
 	personality "heroic"
 	variant
 		"Stolsaqra"
-planet "Naapojde "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Naapojde "
-		threshold 0
-planet "Naapojde  "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Naapojde "
-		threshold 0
-fleet "Naapojde "
-	government "Arena"
-	personality "heroic"
-	variant
-		"Naapojde"
 planet "Aaulqra "
 	bribe 0
 	government "Arena"
@@ -302,23 +256,6 @@ fleet "Valsaqra "
 	personality "heroic"
 	variant
 		"Valsaqra"
-planet "Joruuvaqra "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Joruuvaqra "
-		threshold 0
-planet "Joruuvaqra  "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Joruuvaqra "
-		threshold 0
-fleet "Joruuvaqra "
-	government "Arena"
-	personality "heroic"
-	variant
-		"Joruuvaqra"
 planet "Valkkyiara-Khorasaqra "
 	bribe 0
 	government "Arena"

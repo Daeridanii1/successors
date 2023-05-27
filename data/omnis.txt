@@ -25,13 +25,10 @@ shipyard "successors"
 	"Valkkyiara-Khorasaqra"
 	`Aaulqra`
 	`Ejniisde`
-	`Joruuvaqra`
 	`Kaskhorade`
 	`Kvelqde`
 	`Myaede-Khora`
 	`Myaede`
-	`Naapojde`
-	`Ojde-Khora`
 	`Ojde`
 	`Seiitej`
 	`Stolsaqra`

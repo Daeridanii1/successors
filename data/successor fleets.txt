@@ -279,21 +279,15 @@ fleet "Large New Houses"
     variant 50
         "Kaskhorade" 3
     variant 25
-        "Joruuvaqra"
-        "Naapojde" 8
-    variant 25
         "Valsaqra"
-        "Joruuvaqra"
-        "Naapojde" 8
-    variant 25
-        "Joruuvaqra"
-        "Naapojde" 8
-        "Kaskhorade"
-        "Aaulqra"
+    variant 10
+        "Valsaqra" 2
+    variant 10
+        "Valsaqra"
+        "Aaulqra" 2
     variant 1
         "Valkkyiara-Khorasaqra"
-        "Joruuvaqra" 2
-        "Naapojde" 16
+        "Valsaqrar" 2
         "Kaskhorade" 2
         "Aaulqra" 4
 

@@ -1367,7 +1367,6 @@ planet O-Vasa-Oa
 	government "New Houses"
 	shipyard Heirloom
 	shipyard "High Houses Heavy"
-	shipyard "Successor Carrier"
 	shipyard "Successor Heavy"
 	outfitter "High Houses Light"
 	outfitter "Successor Civilian"
@@ -1509,7 +1508,6 @@ planet Yoqqa-Vasa-Vasa
 	spaceport "The spaceport here is large and busy, situated on a platform suspended on poles above one of the equatorial jungles. Because of the thick atmosphere, much of the transport in and out is by air, and there is a near-constant drone of airplane and airship engines layered over the normal spaceport chatter. Several large tourist groups are moving to and fro, and while some regard you with surprise, most take no notice of you or your ship, already focused on their upcoming tour or expedition."
 	government Successor
 	shipyard "High Houses Heavy"
-	shipyard "Successor Carrier"
 	shipyard "Successor Civilian"
 	outfitter "Successor Civilian"
 	"required reputation" 10
