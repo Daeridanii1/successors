@@ -112,6 +112,7 @@ mission "Successors: Trusted"
 		outfit "Successor License"
 		"reputation: Successor" += 10
 		set "trusted by the successors"
+		event "no longer naive to successors"
 		conversation
 			`Once you have set down at the spaceport, you are met by another group of Successor naval officers. You notice that this group appears even more diverse than the last, representing several different uniform styles and liveries. Unifying them, however, is their wearing a small white and blue pin on their outfits that does not seem to correspond to the insignia of any one of the High Houses. They guide you, politely but firmly, to one of the monorail trains snaking out from the spaceport to other installations on the planet, and you all shuffle together into one of the cars, which appears to have been completely cleared of normal passengers.`
 			`	Several minutes later, the monorail deposits you at an especially large and well-decorated complex that swarms with both military and well-dressed civilians, some of whom appear so opulent and bejewelled that you suspect their personal effects are worth more than your ship. Each of them without exception wears the same white and blue insignia as your escorts, though many have incorporated it into their clothes' design or even display it as a pattern in skin coloration. As your escort peels off into the crowd, you see a familiar face in the distance: Sieasej, the Successor scholar, who visibly perks up when they see you and approaches.`
@@ -162,6 +163,42 @@ mission "Successors: Trusted"
 			`	"This is the mark of our diplomats and our symbol of trust and cooperation. Our people may remain wary of an alien in their midst, but wherever thou displays this, it shall be known that thou hast recieved the blessing of the High Houses in council and that they made trade with you in amity and without fear."`
 			`	Sioeora then leaves the room, followed by the other representatives and gathered members, all of whom keep their eyes focused on you on the way out. Eventually, when only ones remaining are Sieasej and yourself, you pin the insignia on your jacket beside the translation device and exit as well, when you are directed back to the monorail station.`
 				
+event "no longer naive to successors"
+	shipyard "Successor Basics"
+		remove `Kvelqde (Naive)`
+		remove `Stolsaqra (Naive)`
+		add `Kvelqde`
+		add `Stolsaqra`
+	shipyard "Successor Civilian"
+		remove `Kvelqde (Naive)`
+		remove `Stolsaqra (Naive)`
+		remove `Myaede (Naive)`
+		add `Kvelqde`
+		add `Stolsaqra`
+		add `Myaede`
+	shipyard "Successor Heavy"
+		remove `Kvelqde (Naive)`
+		remove `Stolsaqra (Naive)`
+		remove `Myaede (Naive)`
+		add `Kvelqde`
+		add `Stolsaqra`
+		add `Myaede`
+	shipyard "Chydiyi"
+		remove `Nnesaarau (Naive)`
+		add `Nnesaarau`
+	shipyard "High Houses Light"
+		remove `Aaulqra (Naive)`
+		remove `Vesuade (Naive)`
+		add `Aaulqra`
+		add `Veusade`
+	shipyard "High Houses Heavy"
+		remove `Aaulqra (Naive)`
+		remove `Vesuade (Naive)`
+		remove `Valsaqra (Naive)`
+		add `Aaulqra`
+		add `Veusade`
+		add `Valsaqra`
+
 mission "Successors: People's Houses, First Contact"
 	landing
 	source "Kasii-Tuur-Saqru"

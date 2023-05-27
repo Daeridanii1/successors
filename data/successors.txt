@@ -73,40 +73,40 @@ government "People's Houses (Hostile)"
 	fine 0
 
 shipyard "Successor Basics"
-	Kvelqde
-	Stolsaqra
+	`Kvelqde (Naive)`
+	`Stolsaqra (Naive)`
 
 shipyard "Successor Civilian"
-	Kvelqde
-	Stolsaqra
+	`Kvelqde (Naive)`
+	`Stolsaqra (Naive)`
 
-	Myaede
-	Ejniisde
+	`Myaede (Naive)`
+	`Ejniisde`
 
 shipyard "Successor Heavy"
-	Kvelqde
-	Stolsaqra
-	Myaede
-	Ejniisde
+	`Kvelqde (Naive)`
+	`Stolsaqra (Naive)`
+	`Myaede (Naive)`
+	`Ejniisde`
 
-	Ojde
+	`Ojde`
 
 shipyard "Chydiyi"
-	Nnesaarau
+	`Nnesaarau (Naive)`
 
 shipyard "High Houses Light"
-	Aaulqra
-	Seiitej
-	Veusade
-	Kaskhorade
+	`Aaulqra (Naive)`
+	`Seiitej`
+	`Veusade (Naive)`
+	`Kaskhorade`
 
 shipyard "High Houses Heavy"
-	Aaulqra
-	Seiitej
-	Veusade
-	Kaskhorade
+	`Aaulqra (Naive)`
+	`Seiitej`
+	`Veusade (Naive)`
+	`Kaskhorade`
 
-	Valsaqra
+	`Valsaqra (Naive)`
 
 shipyard "Successor Carrier"
 	Naapojde

@@ -93,3 +93,13 @@ outfitter "successors"
 	`6-"Ruuv" Betavoltaic Cell`
 	`Heirloom Reactor`
 	`OC-"Mavra" Betavoltaic Cell`
+
+mission "Successors Naive Test"
+	job
+	repeat
+	name "Set non-naive ship descriptions."
+	description "Accepting this mission will trigger the event that swaps certain Successor ship descriptions for more detailed ones, representing the player's increased knowledge."
+	source "  Successors"
+	on accept
+		event "no longer naive to successors"
+		fail

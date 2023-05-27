@@ -71,6 +71,9 @@ ship `Kvelqde`
 	"final explode" "final explosion medium"
 	description "This tiny shuttle is the smallest vessel operating in Successor space, and the first ship that new Successor pilots are able to get their arms on. Despite their small size, they are capable multipurpose vessels, and are frequently used for transporting passengers and cargo, for short-duration research expeditions, and even as very light combat craft, capable of just barely fitting one fixed and one turreted pulse laser."
 
+ship `Kvelqde` `Kvelqde (Naive)`
+	description "This tiny shuttle is the smallest vessel operating in Successsor space, and appears to fulfill much the same role as the human shuttles with which you are familiar, transporting small groups of passengers and quantities of cargo throughout their space."
+
 ship `Nnesaarau`
 	sprite "ship/nnesaarau"
 	thumbnail "thumbnail/nnesaarau"
@@ -130,6 +133,9 @@ ship `Nnesaarau`
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "Quick and comfortable, the Nnesaarau is among the newest designs utilized in Successor space, having first emerged from House Chydiyi's shipyards no more than twenty years ago. For various reasons, it is also among the least popular; it was designed solely as a luxury passenger transport and sees very little use outside that role because of its high price and restrictive internals. Nonetheless, some hotshot pilots swear by these as racing or fast courier vessels."
+
+ship `Nnesaarau` `Nnesaarau (Naive)`
+	description `These very light vessels don't have much room for passengers or cargo, but move swiftly and elegantly through Successor space. These qualities, combined with their high price and uncommon presence, suggest that these may be luxury craft of some sort, too impractical for use by the majority of Successors.`
 
 ship `Myaede`
 	sprite "ship/myaede"
@@ -195,6 +201,9 @@ ship `Myaede`
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description `The "Myaede" is neither elegant nor fast, but it has remained the mainstay of Successor commerce since before the collapse of the old empire over a thousand years ago, boasting a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. Much like the grand heirlooms of the High Houses, a familial "Myaede" is often passed down through the lineage of spacefaring low-born Successors, and many of the pilots flying these first took the helm as children under a grandparent's watchful gaze.`
+
+ship `Myaede` `Myaede (Naive)`
+	description `The "Myaede" is neither elegant nor fast, but it nonetheless serves as the backbone of Successor commerce, boasting a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. The design is robust and dependable; many of the ships you've seen appear old and worn but pass through the spaceport no less smoothly than their newer counterparts.`
 
 ship `Ejniisde`
 	sprite "ship/ejniisde"
@@ -531,6 +540,9 @@ ship `Stolsaqra`
 	description "The Successors have limited experience in making warships this small, and while their attempt at an interceptor is durable and sports a surprising amount of firepower for a ship of its size, it is also plagued with power and propulsion issues as most of their standard technology is either too large or not powerful enough to yield effective combat performance at this scale. The result is a ship that ambitious pilots call a challenge and prudent pilots call a deathtrap, but continues to see use because of its heavy armament."
 	description `	The "Stolsaqra" also has the distinction of being the only purpose-built warship manufactured by the High Houses that is made available to the general public, albeit with significantly downgraded systems compared to the military-exclusive model.`
 
+ship `Stolsaqra` `Stolsaqra (Naive)`
+	description `The Successors' attempt at an interceptor is quite compact and sports a surprising amount of firepower for a ship of its size, though restrictive internal space leaves it plagued with power and propulsion issues if it is equipped to fully utilize its weapons capacity. While it is manufactured by the High Houses, the "Stolsaqra" is made available to the general Successor public, albeit with significantly downgraded systems compared to the military-exclusive model.`
+
 ship `Naapojde`
 	sprite "ship/naapojde"
 	thumbnail "thumbnail/naapojde"
@@ -647,6 +659,9 @@ ship `Aaulqra`
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "This medium warship is among the oldest and most reliable designs employed by the High Houses of the Successors, with a recognizable lineage dating back several thousand years. It is compact, fast, and durable for a ship of its size, but has relatively limited internal space, and a short operational range. The captains of these ships are often up-and-coming Successor officers hoping to prove themselves to one of the High Houses by demonstrating their mastery of the vessel; while most, of course, do not, the ship's ubiquity and good performance make it an excellent starting point for those who do."
+
+ship `Aaulqra` `Aaulqra (Naive)`
+	description `This medium warship is among the most common designs employed by the High Houses of the Successors, compact, fast, and durable for a ship of its size. Low internal space and fuel capacity restrict it mostly to short-range patrol service.`
 
 ship `Seiitej`
 	sprite "ship/seiitej"
@@ -788,6 +803,9 @@ ship `Veusade`
 	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight drag cannons as close to an enemy ship's hull as possible. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down.`
 	description `	Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels. `
 
+ship `Veusade` `Veusade (Naive)`
+	description `The "Veusade" bristles with gun ports but has a small overall weapons capacity; jin fact, it is just enough to saturate its hardpoints with drag cannons. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels.`
+
 ship `Kaskhorade`
 	sprite "ship/kaskhorade"
 	thumbnail "thumbnail/kaskhorade"
@@ -924,6 +942,9 @@ ship `Valsaqra`
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description `As the largest production warship built by the shipyards of the High Houses for hundreds of years, the imposing "Valsaqra" is the Successors' vessel of choice when they need to send a strong message through violence or merely the threat thereof. The vessel bristles with weapon hardpoints and is unnervingly quick for a ship of its size; it would dance around any human battleship with ease. Naturally, the High Houses do not offer command of these vessels to any but their most trusted captains, and serving as the commander of one is generally considered the apex of a Successor naval officer's career.`
+
+ship `Valsaqra` `Valsaqra (Naive)`
+	description `The largest production warship built by the shipyards of the High Houses, the imposing "Valsaqra" is the apex predator of Successor space, allowing the High Houses to send the strongest of messages through violence or merely the threat thereof. The vessel bristles with weapon hardpoints and is unnervingly quick for a ship of its size; it would dance around any human battleship with ease.`
 
 ship `Joruuvaqra`
 	sprite "ship/joruuvaqra"
