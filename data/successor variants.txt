@@ -56,17 +56,17 @@ ship `Kvelqde` `Kvelqde (Violent)`
 		"Overcharged Laser Turret"
 
 ship "Ojde" "Ojde 2"
-	sprite "ship/successor heavy freighter 2"
+	sprite "ship/ojde 2"
 	add attributes
 		"mass" -100
 		"cargo space" -100
 ship "Ojde" "Ojde 1"
-	sprite "ship/successor heavy freighter 1"
+	sprite "ship/ojde 1"
 	add attributes
 		"mass" -200
 		"cargo space" -200
 ship "Ojde" "Ojde 0"
-	sprite "ship/successor heavy freighter 0"
+	sprite "ship/ojde 0"
 	add attributes
 		"mass" -300
 		"cargo space" -300

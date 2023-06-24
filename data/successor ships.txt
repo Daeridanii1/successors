@@ -268,8 +268,8 @@ ship `Ejniisde`
 	description `The Successors have a relatively small population and therefore are not in great need of large transport vessels. However, transporting passengers entirely by shuttle can be lacking in both security and comfort, so for longer journeys, the Successors use this dedicated transport ship. While unarmed by default, it is fast enough to escape most ships that might mean it harm.`
 
 ship `Ojde`
-	sprite "ship/successor heavy freighter"
-	thumbnail "thumbnail/successor heavy freighter"
+	sprite "ship/ojde"
+	thumbnail "thumbnail/ojde"
 	attributes
 		licenses
 			"Successor"
@@ -293,37 +293,33 @@ ship `Ojde`
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`"Aqra" Inductive Thruster`
+		`"Chyyra" Inductive Thruster`
 		`"Chyyra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
+		`"Chyyra" Inductive Reverser`
 		`6-"Ruuv" Betavoltaic Cell`
-		"Pulse Laser Turret" 4
+		"Pulse Laser Turret" 3
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-	turret -34 -99 "Pulse Laser Turret"
-	turret 34 -99 "Pulse Laser Turret"
-	turret -0 -96
-	turret -39 104 "Pulse Laser Turret"
-	turret 39 104 "Pulse Laser Turret"
-	engine -59 138
-	engine 59 138
-	engine -0 156
-	"steering engine" -58 -110
+	gun -54 -42
+	gun 54 -42
+	turret -51 31
+	turret 51 31
+	turret 0 17
+	engine -61 65
+	engine 61 65
+	engine 0 108
+	"steering engine" -61 -23
 		zoom .6
 		angle 180
 		left
-		over
-	"steering engine" 58 -110
+	"steering engine" 61 -23
 		zoom .6
 		angle 180
 		right
-		over
-	"reverse engine" -58 -110
+	"reverse engine" -61 -23
 		zoom .6
-		over
-	"reverse engine" 58 -110
+	"reverse engine" 61 -23
 		zoom .6
-		over
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
@@ -331,7 +327,8 @@ ship `Ojde`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Although little more than a "Myaede" attached to a rack of cargo containers and expanded drive section, the "Ojde" heavy freighter is nonetheless a time-proven and well-respected design that the Successors frequently use in their larger cargo convoys. As a direct result of the ponderous nature of the "Ojde," its design lacks fixed weaponry, instead defending itself with a high-coverage turret layout.`
+	description `Although it is the largest freighter employed by the Successors, the "Ojde" is still substantially smaller than large human freighters like the Bulk Freighter and Behemoth. While this reduces the cargo capacity of any single ship, it also allows these vessels to be surprisingly fast and maneuverable and increases the number of facilities which can effectively tend to them.`
+	description `Rather than built-in cargo holds, the "Ojde" is designed to carry an expandable rack of standardized cargo containers, increasing delivery and loading speed in busy spaceports.`
 
 ship `Myaede-Khora`
 	sprite "ship/successor mod freighter"

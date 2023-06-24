@@ -18,7 +18,7 @@ system "Successors "
 	add object "Ojde  "
 		distance 900
 		offset 150
-		sprite "ship/successor heavy freighter"
+		sprite "ship/ojde"
 	add object "Myaede-Khora  "
 		distance 900
 		offset 180
