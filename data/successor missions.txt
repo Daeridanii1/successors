@@ -109,7 +109,7 @@ mission "Successors: Trusted"
 			`   "Thy presence here is notable, Captain. Several representatives of the High Houses hath gathered to decide what is to be done with thee now that thou hast proved thy benevolence and usefulness. More than that, I cannot say."`
 				accept
 	on complete
-		outfit "Successor License"
+		set "license: Successor"
 		"reputation: Successor" += 10
 		set "trusted by the successors"
 		event "no longer naive to successors"
