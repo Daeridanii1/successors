@@ -1,2 +1,1 @@
-Enter some text that describes your plugin in this file.
-Endless Sky will then display it when the user has your plugin installed and selected.
+This plugin is an ongoing project which adds a new alien species, the Successors, to the game, located at the south of the galactic map.
