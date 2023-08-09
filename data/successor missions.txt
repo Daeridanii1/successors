@@ -1,7 +1,7 @@
 mission "Successors: First Contact"
 	landing
 	name "Go to the Vade-Staja system"
-	description "The aliens in this new area of space have indicated that you should travel to the northernmost inhabited system in their territory."
+	description "The aliens in this new area of space have indicated that you should travel to the easternmost inhabited system in their territory."
 	source
 		government "Successor" "Old Houses" "New Houses"
 	destination "Staja-Kella-Oa"
@@ -18,7 +18,7 @@ mission "Successors: First Contact"
 			label end
 			`   After a few moments of silence, the alien grunts in a gesture something like a sigh of disappointment and then turns away and says something to another uniformed individual in the now-gathering crowd. Their skin flashes a bright blue and then they leave, gliding towards one of the nearby ships parked at the spaceport.`
 			`   When they return, they are holding a small round device which they hand to the individual in charge, who then offers it to you and burbles an unintelligible phrase with what you might have characterized as an encouraging tone.`
-			`	You take it, and as soon as the device touches your skin, it begins to project a small but detailed star map of the area highlighting a system a few jumps north of here. The alien grunts energetically: it would appear that these people, whoever they are, want you to travel there.`
+			`	You take it, and as soon as the device touches your skin, it begins to project a small but detailed star map of the area highlighting a system a few jumps east of here. The alien grunts energetically: it would appear that these people, whoever they are, want you to travel there.`
 				accept
 	on complete
 		"reputation: Successor" += 10
