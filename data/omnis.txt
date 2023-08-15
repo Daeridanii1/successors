@@ -1,8 +1,13 @@
-#	Map
-#		New
+#	Map: Main
+system "Ka'het "
+	add link "Successors "
+planet "Everything "
+	shipyard "successors"
+	outfitter "successors"
+#	Map: Ancillary
 system "Successors "
 	"jump range" 3000
-	government "Plugin"
+	government "Ancillary"
 	link "Ka'het "
 	pos -42 -9363
 	object "  Successors"
@@ -13,13 +18,6 @@ planet "  Successors"
 	shipyard "successors"
 	outfitter "successors"
 	spaceport ""
-#	Map
-#		Override
-system "Ka'het "
-	add link "Successors "
-planet "Everything "
-	shipyard "successors"
-	outfitter "successors"
 #	Sales
 shipyard "successors"
 	"Valkkyiara-Khorasaqra"
