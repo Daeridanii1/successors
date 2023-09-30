@@ -368,7 +368,7 @@ ship `Myaede-Khora`
 	gun -9 -46
 	gun 9 -46
 	gun -3 -44
-	gun -3 -44
+	gun 3 -44
 	turret -21 -8
 	turret 21 -8
 	engine -40 46

@@ -261,19 +261,19 @@ outfit `"Sjeja" Puncture Rail`
 	cost 3500000
 	licenses
 		"High Houses"
-	thumbnail "outfit/photon lance"
+	thumbnail "outfit/sjeja puncture rail"
 	"mass" 60
 	"outfit space" -60
 	"weapon capacity" -60
 	"gun ports" -1
 	"spike capacity" 20
 	weapon
-		sprite "projectile/slicer"
+		sprite "projectile/sjeja puncture rail"
 			"frame rate" 4
 			"random start frame"
 		sound "typhoon"
 		ammo "High-Velocity Spike"
-		icon "icon/typhoon"
+		icon "icon/hv spike"
 		"hit effect" "torpedo hit"
 		"die effect" "tiny explosion"
 		"cluster"
@@ -281,6 +281,7 @@ outfit `"Sjeja" Puncture Rail`
 		"lifetime" 8
 		"reload" 160
 		"firing energy" 80
+		"firing force" 800
 		"firing ion" 18
 		"firing heat" 4000
 		"shield damage" 1336
@@ -294,7 +295,7 @@ outfit "High-Velocity Spike"
 	licenses
 		"High Houses"
 	cost 4000
-	thumbnail "outfit/piercer"
+	thumbnail "outfit/sjeja puncture rail"
 	"mass" .5
 	"spike capacity" -1
 	description `The projectiles used by the "Sjeja" Puncture Rail are too large to be synthesized on-the-fly from the ship's reserves, and must be carried separately.`

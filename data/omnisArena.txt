@@ -22,7 +22,7 @@ system "Successors "
 	add object "Myaede-Khora  "
 		distance 900
 		offset 180
-		sprite "ship/successor mod freighter"
+		sprite "ship/myaede-khora"
 	add object "Stolsaqra  "
 		distance 900
 		offset 210
