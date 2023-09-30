@@ -331,8 +331,8 @@ ship `Ojde`
 	description `Rather than built-in cargo holds, the "Ojde" is designed to carry an expandable rack of standardized cargo containers, increasing delivery and loading speed in busy spaceports.`
 
 ship `Myaede-Khora`
-	sprite "ship/successor mod freighter"
-	thumbnail "thumbnail/successor mod freighter"
+	sprite "ship/myaede-khora"
+	thumbnail "thumbnail/myaede-khora"
 	attributes
 		category "Light Warship"
 		"cost" 3250000
@@ -362,22 +362,17 @@ ship `Myaede-Khora`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 		"Overcharged Laser Turret" 2
-		"Overcharged Pulse Laser" 5
+		"Overcharged Pulse Laser" 4
 		"Outfits Expansion" 4
 
-	gun -4 -55
-	gun 4 -55
-	gun 0 -45
-	gun -9 -21
-	gun 9 -21
-	turret -42 18
-	turret 42 18
-	engine -55 53
-	engine -43 60
-	engine -15 67
-	engine 15 67
-	engine 43 60
-	engine 55 53
+	gun -9 -46
+	gun 9 -46
+	gun -3 -44
+	gun -3 -44
+	turret -21 -8
+	turret 21 -8
+	engine -40 46
+	engine 40 46
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
@@ -684,7 +679,7 @@ ship `Veusade`
 	description `	Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels. `
 
 ship `Veusade` `Veusade (Naive)`
-	description `The "Veusade" bristles with gun ports but has a small overall weapons capacity; jin fact, it is just enough to saturate its hardpoints with drag cannons. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels.`
+	description `The "Veusade" bristles with gun ports but has a small overall weapons capacity; in fact, it is just enough to saturate its hardpoints with drag cannons. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels.`
 
 ship `Kaskhorade`
 	sprite "ship/kaskhorade"

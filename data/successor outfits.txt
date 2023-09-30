@@ -1,7 +1,7 @@
 outfit "Successor License"
 	category "Licenses"
 	thumbnail "outfit/successor license"
-	"description" "Given to you by the High Houses, this small blue and white pin is an emblem of Successor diplomacy. Given to an alien such as yourself, it communicates their trust and confidence, and with it, their willingness to sell you their civilian-grade technology."
+	"description" "Presented to you by the High Houses, this small blue and white pin is an emblem of Successor diplomacy. Given to an alien such as yourself, it communicates their trust and confidence, and with it, their willingness to sell you their civilian-grade technology."
 
 outfit "High Houses License"
 	category "Licenses"

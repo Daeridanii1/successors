@@ -26,7 +26,7 @@ outfit "Bimodal Railgun"
 		"reload" 30
 		"firing energy" 65
 		"firing heat" 120
-		#Because parent projectiles inherit the damage of their submunitions, we must subtract the total damage of all submunitions from the parent projectile to get the desired behavior (different damage profiles over different ranges).
+		# Because parent projectiles inherit the damage of their submunitions, we must subtract the total damage of all submunitions from the parent projectile to get the desired behavior (different damage profiles over different ranges).
 		"shield damage" -94
 		# 50 (parent) - 3*48 (child)
 		"hull damage" 75
