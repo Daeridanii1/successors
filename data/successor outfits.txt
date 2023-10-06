@@ -307,7 +307,7 @@ outfit `"Aqra" Inductive Reverser`
 	"outfit space" -15
 	"weapon capacity" -15
 	"energy capacity" 1200
-	"reverse thrust" 13.2
+	"reverse thrust" 14.2
 	"reverse thrusting energy" 0.9
 	"reverse thrusting heat" 0.7
 	"reverse flare sprite" "effect/successor flare/small"
