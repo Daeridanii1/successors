@@ -196,7 +196,7 @@ outfit "Pulse Laser Turret"
 		"shield damage" 10.5
 		"hull damage" 12
 		"piercing" 0.1
-	description "The invention of the Pulse Laser was a wake-up call for the more astute in the High Houses, as it was the first time in hundreds of years that weapons were being manufactured by groups other than themselves. Most Successors see the turreted version as a continuation of this democratization of violence, while the more paranoid claim that the High Houses have infiltrated production and intentionally sabotaged the design."
+	description "The introduction of the Pulse Laser was a wake-up call for the more astute in the High Houses, as it was the first time in hundreds of years that weapons were being manufactured by groups other than themselves. Most Successors see the turreted version as a continuation of this democratization of violence, while the more paranoid claim that the High Houses have infiltrated production and intentionally sabotaged the design."
 
 outfit "Overcharged Pulse Laser"
 	category "Guns"
@@ -224,7 +224,7 @@ outfit "Overcharged Pulse Laser"
 		"hull damage" 18.5
 		"piercing" 0.1
 		"cluster"
-	description `Unable to access large quantities of the high-quality weaponry produced by the High Houses, the "People's Houses" have had to work with what's available to them: mostly the relatively low-powered pulse lasers produced independently in Successor space. This pulse laser has had its safeties bypassed and its optics upgraded, allowing it to do more damage at a higher rate of fire in exchange for requiring more power and producing much more heat.`
+	description `Unable to access large quantities of the high-quality weaponry produced by the High Houses, the Peoples' Houses have had to work with what's available to them: mostly the relatively low-powered pulse lasers produced independently in Successor space. This pulse laser has had its safeties bypassed and its optics upgraded, allowing it to do more damage at a higher rate of fire in exchange for producing much more heat than the stock model.`
 
 outfit "Overcharged Laser Turret"
 	category "Turrets"
@@ -254,7 +254,7 @@ outfit "Overcharged Laser Turret"
 		"hull damage" 18.5
 		"piercing" 0.1
 		"cluster"
-	description `Hand-crafted by the more colorful members of the People's Houses, this bespoke overcharged Pulse Laser turret is tuned to fire even faster than the fixed version, producing a truly prodigious amount of heat for a weapon of its size. Despite its crude design, it is nonetheless a fearsome weapon, especially considering that it retains the ability to partially punch through shielding.`
+	description `Hand-crafted by the more colorful members of the Peoples' Houses, this bespoke overcharged Pulse Laser turret is tuned to fire even faster than the fixed version, producing a truly prodigious amount of heat for a weapon of its size. Despite its crude design, it is nonetheless a fearsome weapon, especially considering that it retains the ability to partially punch through shielding.`
 
 outfit `"Sjeja" Puncture Rail`
 	category "Secondary Weapons"
@@ -295,7 +295,7 @@ outfit "High-Velocity Spike"
 	licenses
 		"High Houses"
 	cost 4000
-	thumbnail "outfit/sjeja puncture rail"
+	thumbnail "outfit/hv spike"
 	"mass" .5
 	"spike capacity" -1
 	description `The projectiles used by the "Sjeja" Puncture Rail are too large to be synthesized on-the-fly from the ship's reserves, and must be carried separately.`
@@ -323,7 +323,7 @@ outfit "Burst Anti-Missile Turret"
 		"reload" 28
 		"firing energy" 10
 		"firing heat" 56
-	description "The Burst Anti-Missile Turret is intended as an elegant counter to cluster-fired missiles: it can fire very quickly for a short duration before entering a longer cooldown period, during which the ship carrying it is vulnerable. This tradeoff synergizes with the combat cadence of the Successors, who use it to cover their quick attack runs and endure the cooldown during the retreat phase."
+	description "This burst-fire anti-missile turret is intended as an elegant counter to cluster-fired missiles: it can fire very quickly for a short duration before entering a longer cooldown period, during which the ship carrying it is vulnerable. This tradeoff synergizes with the combat cadence of the Successors, who use it to cover their quick attack runs and endure the cooldown during the retreat phase."
 
 effect "burst anti-missile"
 	sprite "effect/burst anti-missile"
