@@ -239,7 +239,7 @@ outfit `"Niis" Inductive Engines`
 	"mass" 28
 	"outfit space" -28
 	"engine capacity" -38
-	"thrust" 9.0
+	"thrust" 11.2
 	"thrusting energy" 0.6
 	"thrusting heat" 0.8
 	"afterburner thrust" 13.5
@@ -267,7 +267,7 @@ outfit `"Aqra" Inductive Thruster`
 	"outfit space" -25
 	"engine capacity" -25
 	"energy capacity" 1200
-	"thrust" 16.0
+	"thrust" 18.0
 	"thrusting energy" 1.3
 	"thrusting heat" 1.1
 	"afterburner thrust" 24.0
