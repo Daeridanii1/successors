@@ -88,7 +88,7 @@ outfit "Kinetic Lance"
 	cost 1370000
 	licenses
 		"Heirloom"
-	thumbnail "outfit/photon lance"
+	thumbnail "outfit/sjeja puncture rail"
 	"mass" 70
 	"outfit space" -70
 	"weapon capacity" -70
@@ -128,7 +128,7 @@ outfit "Kinetic Spike"
 	category "Ammunition"
 	cost 3250000
 	licenses "Heirloom"
-	thumbnail "outfit/piercer"
+	thumbnail "outfit/hv spike"
 	"mass" 8.0
 	"kinetic capacity" -1
 	"energy capacity" 10000
@@ -197,7 +197,7 @@ outfit "Heirloom Point Defense"
 outfit `Heirloom Reactor`
 	category "Power"
 	cost 65500000
-	thumbnail "outfit/ic fusion"
+	thumbnail "outfit/medium successor reactor"
 	licenses
 		"Heirloom"
 	"mass" 100
