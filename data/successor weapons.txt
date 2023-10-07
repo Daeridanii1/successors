@@ -149,12 +149,12 @@ outfit "Successor Pulse Laser"
 	"weapon capacity" -10
 	"gun ports" -1
 	weapon
-		sprite "projectile/moonbeam"
+		sprite "projectile/successor pulse laser"
 			"random start frame"
+			"frame rate" 5
 		sound "slicer"
-		"fire effect" "moonbeam fleck"
 		"hit effect" "electron impact"
-		"inaccuracy" 3.5
+		"inaccuracy" 0.4
 		"velocity" 490
 		"lifetime" 1
 		"burst count" 9
@@ -178,13 +178,13 @@ outfit "Pulse Laser Turret"
 	"weapon capacity" -30
 	"turret mounts" -1
 	weapon
-		sprite "projectile/moonbeam"
+		sprite "projectile/successor pulse laser"
 			"random start frame"
+			"frame rate" 5
 		"hardpoint sprite" "hardpoint/heavy laser turret"
 		sound "slicer"
-		"fire effect" "moonbeam fleck"
 		"hit effect" "electron impact"
-		"inaccuracy" 3.5
+		"inaccuracy" 0.4
 		"velocity" 490
 		"turret turn" 2.5
 		"lifetime" 1
@@ -207,8 +207,10 @@ outfit "Overcharged Pulse Laser"
 	"weapon capacity" -12
 	"gun ports" -1
 	weapon
-		sprite "projectile/moonbeam"
-			"random start frame"
+		sprite "projectile/successor pulse laser"
+			"start frame" 2
+			"frame rate" 8
+			"rewind"
 		sound "laser"
 		"fire effect" "moonbeam fleck" 3
 		"hit effect" "electron impact"
@@ -235,8 +237,10 @@ outfit "Overcharged Laser Turret"
 	"weapon capacity" -24
 	"turret mounts" -1
 	weapon
-		sprite "projectile/moonbeam"
-			"random start frame"
+		sprite "projectile/successor pulse laser"
+			"start frame" 2
+			"frame rate" 8
+			"rewind"
 		"hardpoint sprite" "hardpoint/laser turret"
 		sound "laser"
 		"fire effect" "moonbeam fleck" 3
