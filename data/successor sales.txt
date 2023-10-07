@@ -1,0 +1,123 @@
+shipyard "Successor Basics"
+	`Kvelqde (Naive)`
+	`Stolsaqra (Naive)`
+
+shipyard "Successor Civilian"
+	`Kvelqde (Naive)`
+	`Stolsaqra (Naive)`
+
+	`Myaede (Naive)`
+	`Ejniisde`
+
+shipyard "Successor Heavy"
+	`Kvelqde (Naive)`
+	`Stolsaqra (Naive)`
+	`Myaede (Naive)`
+	`Ejniisde`
+
+	`Ojde`
+
+shipyard "Chydiyi"
+	`Nnesaarau (Naive)`
+
+shipyard "High Houses Light"
+	`Aaulqra (Naive)`
+	`Seiitej`
+	`Veusade (Naive)`
+	`Kaskhorade`
+
+shipyard "High Houses Heavy"
+	`Aaulqra (Naive)`
+	`Seiitej`
+	`Veusade (Naive)`
+	`Kaskhorade`
+
+	`Valsaqra (Naive)`
+
+shipyard "Peoples Houses"
+	"Myaede-Khora"
+
+shipyard "Heirloom"
+	"Valkkyiara-Khorasaqra"
+
+outfitter "Successor Basics"
+	`"Aqra" Inductive Reverser`
+	`"Aqra" Inductive Steering`
+	`"Aqra" Inductive Thruster`
+	`1-"Uurau" Betavoltaic Cell`
+	`"Ej" Shield Cortex`
+	"Hyperdrive"
+	"Successor Pulse Laser"
+
+outfitter "Successor Civilian"
+	`"Aqra" Inductive Reverser`
+	`"Aqra" Inductive Steering`
+	`"Aqra" Inductive Thruster`
+	`1-"Uurau" Betavoltaic Cell`
+	`"Ej" Shield Cortex`
+	"Hyperdrive"
+	"Successor Pulse Laser"
+
+	`"Chyyra" Inductive Reverser`
+	`"Chyyra" Inductive Steering`
+	`"Chyyra" Inductive Thruster`
+
+	`3-"Kaska" Betavoltaic Cell`
+	"Bunk Room"
+	"Small Bunk Room"
+	"Successor Fuel Sail"
+	"Pulse Laser Turret"
+	"Burst Anti-Missile Turret"
+	"Cargo Expansion"
+	"Outfits Expansion"
+	"Successor Cooling"
+	"Gauss Rifle"
+
+outfitter "Successor Heavy"
+	`6-"Ruuv" Betavoltaic Cell`
+	`"Veusa" Inductive Reverser`
+	`"Veusa" Inductive Steering`
+	`"Veusa" Inductive Thruster`
+
+outfitter "Successor High Tech"
+	`OC-"Mavra" Betavoltaic Cell`
+	"Successor Scanner"
+	`"Niis" Inductive Engines`
+	`"Byiaa" Shield Cortex`
+
+outfitter "High Houses Light"
+	`"Nnesa" Inertial Core`
+	"Bimodal Railgun"
+	`Drag Cannon`
+	"Dazzle Missile Array"
+	"Dazzle Missile"
+	`"Jaase" Shield Cortex`
+	`"Viir" Repair Module`
+
+outfitter "High Houses Heavy"
+	`"Ryuit" Inertial Core`
+	`"Uoret" Inertial Core`
+	"High-Velocity Spike"
+	`"Sjeja" Puncture Rail`
+	`Bimodal Railgun Turret`
+	"Multimodal Armor: Heavy"
+	"Multimodal Armor: Stealth"
+	"Multimodal Armor: Regen"
+	"Multimodal Armor: Resilient"
+	`"Jorv" Shield Cortex`
+	`"Vyraa" Repair Module`
+
+outfitter "Peoples Houses"
+	"Overcharged Pulse Laser"
+	"Overcharged Laser Turret"
+	`OC-"Mavra" Betavoltaic Cell`
+	"Successor Scanner"
+
+outfitter "Heirloom"
+	"Heirloom Hunter-Killers"
+	"Heirloom Point Defense"
+	"Heirloom Railgun"
+	"Heirloom Reactor"
+	"Heirloom Shielding"
+	"Kinetic Spike"
+	"Kinetic Lance"

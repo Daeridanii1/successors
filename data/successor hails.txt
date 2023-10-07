@@ -1,0 +1,216 @@
+phrase "successor friendly hail" # Wary hails
+	word
+		"Art thou the 'noble visitor' of whom the Houses speak?"
+		"Art thou the 'honored guest' the Houses do parade?"
+		"Art thou the fiendish creature that hails from distant lands?"
+		"Art thou the strange-ish traveler that hails from distant stars?"
+		"Art thou the alien visitor within our noble lands?"
+		"Art thou the creature've history returned to seek the present?"
+		"Thy ship and countenance seem strange-ish and bizarre,"
+	word
+		" / "
+	word
+		"I note thy presence and yet remain thee distant."
+		"If corrupted be thy soul, then prithee keep thy distance."
+		"If thou art friend to me, so I shall be to thee."
+		"What is thy goal within these stars? To wander in delight?"
+		"To whom and what thou does thou lend thy own strength?"
+		"What is thy goal within these stars? To observe or interfere?"
+		"What is thy goal within these stars? Be a trader or a traitor?"
+
+phrase "successor friendly hail" # Job hails
+	word
+		"My "
+	phrase
+		"relations"
+	word
+		" always told me: be a "
+		" has just earned the title: "
+		" used to know a friendly "
+		" helped me find a friendly "
+		" just got married to a "
+		" told me: never trust a "
+		" used to be a skillful "
+	phrase
+		"occupation"
+	word
+		" / "
+	word
+		"With these long days, I wish that they were me."
+		"A noble job, and yet not one for me."
+		"It's not my place to give critique, and yet..."
+		"I hope that I will see them soon again."
+		"Hast thou met them? Do they carry any news?"
+
+phrase "successor friendly hail" # Conspiracy hails
+	word
+		"I hope that thou will keep this thought between us:"
+		"A friend of mine had told me once in secret:"
+		"I have heard from good reputed, honest lips that"
+		"The High Houses try to hide it, but I know that"
+		"I've learned in many years of honest pil'ting:"
+		"If thou art willing to believe me:"
+		"Doubt my words if knave'ry is thy goal, but:"
+	word
+		" / "
+	word
+		"It's the Drak who caused the end of the old empire."
+		"It's the Quarg who caused the end of the old empire."
+		"It's the Hai who caused the end of the old empire."
+		"It's the Korath caused the end of the old empire."
+		"The High Houses by themselves destroyed the empire."
+		"The best trade routes are ones not prone to scanning." 5
+		"The best trade routes are those that make thy money." 5
+		"The best trade routes are hidden from thy sensors." 2
+		"There are nightmares in the void the Houses fear."
+		"The empty systems here are prone to strangeness." 
+
+phrase "old houses friendly hail" # Welcome hails
+	word
+		"We welcome thee to join us in our space" 
+		"Thy presence in our lovely space is welcome"
+		"We note thy visitation and accept"
+		"'Noble friend', thou art by our decree"
+		"'Honored guest,' within our skies thou art"
+		"'Regal sojourner,' thy name shall be with us"
+	word
+		" / "
+	word
+		"So that thou might enjoy our pleasant worlds."
+		"So that thou might enjoy our verdant worlds."
+		"So that thou might make note of our advance."
+		"So that thou might find joy in our success."
+		"So that thou may bear witness to our joy."
+
+phrase "old houses friendly hail" # Peace hails
+	word
+		"By noble lineage do we exalt us all"
+		"With joyful strength and honest might we fly"
+		"No evil shall impede our noble goal"
+	word
+		" / "
+	word
+		"To build for all a great and lasting peace."
+		"To make for all a true and joyful peace."
+
+phrase "old houses friendly hail" # Boast hails
+	word
+		"The"
+	word
+		" arm of "
+		" spear of "
+		" sword of "
+		" shield of "
+		" prime of "
+		" best of "
+	phrase
+		"old houses"
+	word
+		" in"
+		" with"
+	word
+		" joy"
+		" pride"
+		" strength"
+		" glory"
+	word
+		" we are;"
+	word
+		" / "
+	word
+		"A simple truth in which we take our pride."
+		"An honest fact 'tis plain for all to see."
+		"A simple truth in which we take our joy."
+		"A truth that we wear on our sleeves."
+		"A position that we hold with utmost glee."
+		"An honor that we never shall deny."
+		"A joy in word and action, purely said."
+
+phrase "high houses hostile hail"
+	word
+		"Thy deception marks the apex of thy ill,"
+		"Thy cowardice is the basis of thy fame,"
+		"Our foolishness it was, we see, to trust thee;"
+		"A knave and coward thou hast clearly proved thyself;"
+		"Cowards die many times before their deaths,"
+	word
+		" / "
+	word
+		"Our duty shall relieve thee of thy life."
+		"May thou in death find peace thou lacked in life."
+		"May thy death be valorous and quick."
+		"May, in death, thou recognize thy wrongs."
+		"Enlightened now, we are to thy malignity."
+		"May thy knavish and deceptive heart now cease."
+		"The valiant never taste of death but once."
+
+phrase "new houses friendly hail" # Welcome hails
+	word
+		"We welcome thee to join us in our space" 
+		"Thy presence in our lovely space is welcome"
+		"We note thy visitation and accept"
+		"'Noble friend', thou art by our decree"
+		"'Honored guest,' within our skies thou art"
+		"'Regal sojourner,' thy name shall be with us"
+	word
+		" / "
+	word
+		"So that thou might enjoy our pleasant worlds."
+		"So that thou might enjoy our verdant worlds."
+		"So that thou might make note of our advance."
+		"So that thou might find joy in our success."
+		"So that thou may bear witness to our joy."
+
+phrase "new houses friendly hail" # Peace hails
+	word
+		"By noble lineage do we exalt us all"
+		"With joyful strength and honest might we fly"
+		"No evil shall impede our noble goal"
+	word
+		" / "
+	word
+		"To build for all a great and lasting peace."
+		"To make for all a true and joyful peace."
+
+phrase "new houses friendly hail" # Boast hails
+	word
+		"The"
+	word
+		" arm of "
+		" spear of "
+		" sword of "
+		" shield of "
+		" prime of "
+		" best of "
+	phrase
+		"new houses"
+	word
+		" in joy"
+		" with pride"
+		" with joy"
+	word
+		" we are;"
+	word
+		" / "
+	word
+		"A simple truth in which we take our pride."
+		"An honest fact 'tis plain for all to see."
+		"A simple truth in which we take our joy."
+
+phrase "people's houses hostile hail"
+	word
+		"Art thou a knave in title same as action!?"
+		"Thou art nothing but a foolish slave to power!"
+		"Art thou blind and deaf to suff'ring or just evil?"
+		"If thou wouldst drop thy cargo, we'll be going."
+		"No harm shall come to those who drop their cargo."
+		"Thou art knavish in thy friendships and thy action."
+	word
+		" / "
+	word
+		"Thy blood shall grace the inside of thy starship."
+		"Resistance shall be met with execution."
+		"I hope thy pain is great and everlasting."
+		"Allow me to unburden thee of mortality."
+		"Prepare to shuffle off thy mortal coil."
+		"The sudden hand of Death close up thy eye."
