@@ -34,6 +34,7 @@ shipyard "successors"
 	`Veusade`
 	`Nnesaarau`
 outfitter "successors"
+	"Deuterium Gel Sponge"
 	"Bimodal Railgun Turret"
 	"Bimodal Railgun"
 	"Bimodal Switch"

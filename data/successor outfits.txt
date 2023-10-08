@@ -155,7 +155,7 @@ outfit `"Nnesa" Inertial Core`
 	"energy capacity" 2200
 	"shield energy multiplier" -0.16
 	"hull energy multiplier" -0.16
-	description "The High Houses use inertial confinement fusion power in their warships, and while these reactors are less energy-dense than other alternatives, they are very heat-efficient and come with a modest amount of integrated energy storage. Additionally, they are designed to channel power more efficiently to a ship's defensive systems, manifested as a reduction in the power draw of the associated outfits."
+	description "While betavoltaics may be sufficient for civilian use, the more advanced technology of the High Houses is energy-hungry enough to require more powerful generators. These inertial confinement fusion reactors are less energy-dense than other reactor alternatives, but are very heat-efficient and come with a modest amount of integrated energy storage in their ignition capacitor banks. Additionally, they are designed to channel power more efficiently to a ship's defensive systems, manifested as a reduction in the power draw of the associated outfits."
 
 outfit `"Ryuit" Inertial Core`
 	category "Power"
@@ -170,8 +170,8 @@ outfit `"Ryuit" Inertial Core`
 	"energy capacity" 6500
 	"shield energy multiplier" -0.32
 	"hull energy multiplier" -0.32
-	description "Like most Successor technology, these reactors are based on similar ones secreted away by the High Houses during the collapse of the Predecessors' empire. Even after all these generations, the designs exude elegance and power, twisting like flames and humming with energy."
-	description "	They also spark a curiosity in the viewer to those few original reactors; whether or not a few of them still exist, kept in prime condition for when they are needed once again."
+	description "Like most Successor technology, their modern reactors are based on similar ones secreted away by the High Houses during the collapse of the Predecessors' empire. Even though their modern efforts don't quite match the potency of their ancestors', the designs retain a aura of elegance and power, twisting like flames and humming with energy."
+	description "	One also can't help but wonder about those few original reactors, which presumably remain locked away in the private vaults of the High Houses, kept in prime condition for if and when they are needed once again."
 
 outfit `"Uoret" Inertial Core`
 	category "Power"
@@ -207,12 +207,24 @@ outfit "Successor Fuel Sail"
 	thumbnail "outfit/fuel sail"
 	licenses
 		"Successor"
-	"mass" 8
-	"outfit space" -8
-	"ramscoop" 1.5
-	"fuel capacity" 100
+	"mass" 4
+	"outfit space" -14
+	"ramscoop" 8.0
 	"solar heat" 6.0
-	description "The Successors maintain a strong connection to their maritime tradition, exemplified in this strangely rustic fuel collector. Rather than the comparatively brutish action of a traditional ramscoop, this sail gently collects hydrogen from stellar coronae and condenses it into integrated fuel storage. Pilots should note, however, that the large surface area of the deployed sail also absorbs a lot of heat."
+	"drag" 0.1
+	description "The Successors maintain a strong connection to their maritime tradition, exemplified in this strangely rustic fuel collector. Rather than the comparatively brutish action of a traditional ramscoop, this sail gently collects hydrogen from stellar coronae and condenses it into a ship's fuel storage. Pilots should note, however, that the large surface area of the deployed sail also absorbs a lot of heat."
+
+outfit "Deuterium Gel Sponge"
+	category "Systems"
+	cost 84000
+	thumbnail "outfit/fuel pod"
+	licenses
+		"Successor"
+	"mass" 4
+	"outfit space" -8
+	"fuel capacity" 100
+	"cooling" 2.5
+	description "Successor space is small, but they understand the usefulness that comes with being able to extend the range of their ships when the situation demands it. This densified fuel storage unit stores gelled fuel within a spongelike lattice, making it much safer and wear-resistant than a traditional fuel tank. The high thermal conductivity of the lattice also allows the whole system to wick away heat from a ship's hot internals, though it is nowhere near as effective as a dedicated cooler."
 
 outfit "Successor Scanner"
 	category "Systems"
@@ -273,9 +285,9 @@ outfit `"Aqra" Inductive Thruster`
 	"afterburner thrust" 27.0
 	"afterburner shields" 4.5
 	"afterburner heat" 2.2
-	"afterburner effect" "successor afterburner"
+	"afterburner effect" "small successor afterburner"
 	"flare sprite" "effect/successor flare/small"
-		"frame rate" 40
+		"frame rate" 20
 	"flare sound" "ion small"
 	description "Successor thrusters are bimodal: most of the time, they are run in an energy-efficient low-power state, but when the time comes to flee or fight, they can be switched to a less efficient but very powerful high-thrust mode that draws power from the ship's shields."
 
@@ -293,7 +305,7 @@ outfit `"Aqra" Inductive Steering`
 	"turning energy" 1.1
 	"turning heat" 0.8
 	"steering flare sprite" "effect/successor flare/small"
-		"frame rate" 40
+		"frame rate" 20
 	"steering flare sound" "ion small"
 	description "Since their steering thrusters lack the mode switch emblematic of their linear propulsion, the Successors have invested their efforts into making these thrusters both powerful for their size and relatively efficient. In addition, the capacitors used to power the engine can be tied into the larger power grid, allowing each engine to slightly increase the energy capacity of the ship."
 
@@ -311,7 +323,7 @@ outfit `"Aqra" Inductive Reverser`
 	"reverse thrusting energy" 0.9
 	"reverse thrusting heat" 0.7
 	"reverse flare sprite" "effect/successor flare/small"
-		"frame rate" 40
+		"frame rate" 20
 	"reverse flare sound" "ion small"
 	description "The inductive thruster technology used by the Successors is most similar to the ion thrusters used in human space, but the more powerful magnetic fields utilized by these thrusters lets them generate substantially more thrust than any comparable human ion thruster."
 	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
@@ -332,9 +344,9 @@ outfit `"Chyyra" Inductive Thruster`
 	"afterburner thrust" 48.0
 	"afterburner shields" 8.0
 	"afterburner heat" 4.0
-	"afterburner effect" "successor afterburner"
+	"afterburner effect" "medium successor afterburner"
 	"flare sprite" "effect/successor flare/medium"
-		"frame rate" 40
+		"frame rate" 20
 	"flare sound" "ion medium"
 	description "This larger set of inductive thrusters is impressively efficient under low power, and produces an equally impressive amount of thrust in its high-power mode. With these, even large and apparently lumbering Successor ships can suddenly become substantially more agile when under threat."
 
@@ -352,7 +364,7 @@ outfit `"Chyyra" Inductive Steering`
 	"turning energy" 2.3
 	"turning heat" 1.7
 	"steering flare sprite" "effect/successor flare/medium"
-		"frame rate" 40
+		"frame rate" 20
 	"steering flare sound" "ion medium"
 	description "While not particularly powerful for its size, this set of inductive steering engines is extraordinarily efficient, allowing large Successor vessels to remain relatively nimble even when equipped with very small generators."
 
@@ -370,7 +382,7 @@ outfit `"Chyyra" Inductive Reverser`
 	"reverse thrusting energy" 2.1
 	"reverse thrusting heat" 1.6
 	"reverse flare sprite" "effect/successor flare/medium"
-		"frame rate" 40
+		"frame rate" 20
 	"reverse flare sound" "ion medium"
 	description "This large reverse thruster sees use in both commerce and warfare, speeding up the traversal of trade routes in the former situation and enhancing combat agility in the latter."
 	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
@@ -391,9 +403,9 @@ outfit `"Veusa" Inductive Thruster`
 	"afterburner thrust" 78.0
 	"afterburner shields" 11.0
 	"afterburner heat" 7.5
-	"afterburner effect" "successor afterburner"
+	"afterburner effect" "large successor afterburner"
 	"flare sprite" "effect/successor flare/large"
-		"frame rate" 40
+		"frame rate" 20
 	"flare sound" "ion large"
 	description `The largest of the Successors' pulsed inductive thrusters, the "Veusa" is used primarily to propel their large warships and freighters. While its high-performance mode is powerful indeed, it drains a ship's shielding remarkably quickly; this is clearly meant to be paired with one of the Successors' fast-recharging shield generators.`
 
@@ -411,7 +423,7 @@ outfit `"Veusa" Inductive Steering`
 	"turning energy" 3.8
 	"turning heat" 3.1
 	"steering flare sprite" "effect/successor flare/large"
-		"frame rate" 40
+		"frame rate" 20
 	"steering flare sound" "ion large"
 	description `The "Veusa" series of Successor steering units is significantly smaller than comparable human engines, allowing the Successors to gain some flexibility in the engine layouts of their large ships.`
 
@@ -429,23 +441,10 @@ outfit `"Veusa" Inductive Reverser`
 	"reverse thrusting energy" 3.7
 	"reverse thrusting heat" 3.0
 	"reverse flare sprite" "effect/successor flare/large"
-		"frame rate" 40
+		"frame rate" 20
 	"reverse flare sound" "ion large"
 	description "While the invertebrate Successors are relatively unaffected, human pilots must take care when using a reverse thruster this large to avoid dangerous g-force stress on the body."
 	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
-
-effect "successor afterburner"
-	sprite "effect/ionic afterburner"
-		"frame rate" 14
-		"random start frame"
-		"no repeat"
-	lifetime 6
-	sound "plasma tiny"
-
-effect "successor engine large"
-	sprite "effect/successor flare/large"
-		"frame rate" 14
-	lifetime 6
 
 outfit "Multimodal Armor: Heavy"
 	category "Systems"
@@ -498,3 +497,23 @@ outfit "Gauss Rifle"
 	"capture defense" 3.2
 	"unplunderable" 1
 	description "While projectile weapons of this scale are considered obsolete in human space, having been superceded by laser weaponry, the Successors' generations of experience with high-power railguns have allowed them to produce this particularly terrifying hand-to-hand weapon, firing projectiles capable of piercing body armor and even intervening bulkheads."
+
+effect "small successor afterburner"
+	sprite "effect/successor flare/afterburner/afterburner"
+		"frame rate" 20
+		"scale" 0.36
+	lifetime 1
+	sound "plasma tiny"
+
+effect "medium successor afterburner"
+	sprite "effect/successor flare/afterburner/afterburner"
+		"frame rate" 20
+		"scale" 0.6
+	lifetime 1
+	sound "plasma small"
+
+effect "large successor afterburner"
+	sprite "effect/successor flare/afterburner/afterburner"
+		"frame rate" 20
+	lifetime 1
+	sound "plasma medium"
