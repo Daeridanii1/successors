@@ -1,3 +1,16 @@
+mission "Successors: Safe at Last"
+	invisible
+	landing
+	to complete
+		never
+	on enter "Myruet-Kvelq"
+		fail
+		dialog phrase "safe in successor space"
+
+phrase "safe in successor space"
+	word
+		`The system on the other side of the wormhole is the first one in days that your sensors do not respond to with alarms. The clear space around you allows your ship's computer to quickly determine your galactic position; there is no sign of spatial distortions or any other anomalies apart from the wormhole.`
+
 mission "Successors: First Contact"
 	landing
 	name "Go to the Vade-Staja system"
@@ -8,18 +21,44 @@ mission "Successors: First Contact"
 	clearance
 	on offer
 		conversation
-			`After trudging through several seemingly-dead systems, you've finally found a planet with living inhabitants. The aliens remind you most of octopi: they are substantially taller than you, rising up off of the ground by several long suckered arms. Their skin seems slightly wet and you can see it changing color and texture as several of them watch you, clearly perplexed by this strange visitor to their planet.`
-			`   After examining you for some time, one of them, an especially tall and brightly colored individual wearing a uniform of some sort, begins to move towards you; they glide slowly and gently over the ground with an unsettling absence of noise. They say something in a strange sharply flowing language that you do not understand and wait expectantly for you to reply.`
+			`After trudging through several seemingly-dead systems, you've finally found a planet with living inhabitants. As you enter the upper atmosphere, your ship is surrounded by a trio of interceptors and thoroughly scanned. Apparently satisfied, the lead ship transmits an unintelligible hail to you and slowly proceeds to a spaceport complex floating on a large structure on the planet's coast, where the group corrals you onto one of the few fully-dry landing pads. After several minutes, a small crowd begins to form around your landing site.`
+			`	The aliens remind you most of octopi: they are substantially taller than you, rising up off of the ground by several long suckered arms. Their skin seems slightly wet and you can see it changing color and texture as several of them watch you through their hourglass-shaped pupils.`
+			`   After examining you for some time, one of them, an especially tall and brightly colored individual wearing a uniform of some sort, begins to move towards you; they glide slowly and gently over the ground with an unsettling absence of noise. They say something in the strange sharply flowing language that you heard over the hail and wait expectantly for you to reply.`
 			choice
 				`	(Say nothing.)`
-					goto end
-				`	(Introduce yourself.)`
+					goto map
+				`	"Hello, I'm Captain <first> <last>."`
+					goto introduce
+				`	"I come in peace."`
+					goto peace
+				`	(Shoot them.)`
+			`	You draw your weapon and fire a shot directly at the center of the uniformed alien, but it does not even manage to scorch the fabric of their clothing. Before you have time to fire a second, there is an unfathomably loud noise that pushes you back and leaves you dead before your body even makes contact with the ground.`
+				die
+			label introduce
 			`   You introduce yourself to the alien, but their expression does not change to reveal any sort of understanding.`
-			label end
-			`   After a few moments of silence, the alien grunts in a gesture something like a sigh of disappointment and then turns away and says something to another uniformed individual in the now-gathering crowd. Their skin flashes a bright blue and then they leave, gliding towards one of the nearby ships parked at the spaceport.`
-			`   When they return, they are holding a small round device which they hand to the individual in charge, who then offers it to you and burbles an unintelligible phrase with what you might have characterized as an encouraging tone.`
-			`	You take it, and as soon as the device touches your skin, it begins to project a small but detailed star map of the area highlighting a system a few jumps east of here. The alien grunts energetically: it would appear that these people, whoever they are, want you to travel there.`
+				goto map
+			label peace
+			`	You affirm your peaceful values to the alien, but their expression does not change to reveal any sort of understanding.`
+				goto map
+			label map
+			`   After a few more moments of silence, the alien grunts in a gesture something like a sigh of disappointment and then turns away and says something to another uniformed individual in the now-substantial crowd. Their skin flashes a bright blue and then they leave, gliding towards one of the interceptors now parked alongside your ship at the spaceport.`
+			`   When they return, they are holding a small round device which they hand to the individual in charge, who then in turn offers it to you and burbles an unintelligible phrase with what you might have characterized as an encouraging tone. Several individuals in the crowd by now appear to be taking pictures of the two of you, and you can see more of them gliding towards your landing site in the distance.`
+			`	You take the device from the alien, and as soon as it touches your skin, it begins to project a small but detailed holographic star map of the area highlighting a system a few jumps east of here. The alien grunts energetically as the trio of interceptors begins to hover in preparation for takeoff: it would appear that these people, whoever they are, want you to travel there.`
 				accept
+
+	npc save accompany
+		government "Old Houses"
+		personality timid launching escort
+		ship "Stolsaqra (Mission Escort)" "Kijet-i-khisa"
+		ship "Stolsaqra (Mission Escort)" "Iyiq-sora"
+		ship "Stolsaqra (Mission Escort)" "Seqra-saqra"
+
+	on fail
+		dialog `At least one of your escortsh have been destroyed. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+
+	on visit
+		dialog `You have reached <planet>, but without your escorts, you are refused landing permission at the spaceport and must return to orbit until they arrive.`
+
 	on complete
 		"reputation: Successor" += 10
 		set "known to the successors"
@@ -28,7 +67,7 @@ mission "Successors: First Contact"
 		log "Factions" "Successors" `The Successors are an alien species occupying a star cluster on the outer rim of the galaxy. They are the heirs of a large interstellar empire which collapsed at some point around a thousand years ago, that they refer to as their Predecessors. This empire extended as far south as Sol. The Successors are highly familial and display a great deal of hereditary pride.`
 		log "People" "Sieasej" `Sieasej is a Predecessor linguistics scholar at the Grand Academy of Staja-Kella-Oa who has spent some time studying human language, and is therefore one of the only Successors who can speak to and understand you without the benefit of a translation device. They are apparently somewhat wary of the High Houses and their political machinations.`
 		conversation
-			`In a similar manner to the last time, you set down your ship at a landing pad at the spaceport on this planet. Different to last time, however, you have been shuttled to a small, out-of-the way area at a great distance from the main complex, where several uniformed individuals are gathered on the landing pad, standing at attention.`
+			`In a similar manner to the last time, you set down your ship at a landing pad at the spaceport on this planet, escorted by the interceptors. Different to last time, however, you have been shuttled to a small, out-of-the way area at a great distance from the main complex, where several uniformed individuals are gathered on the landing pad, standing at attention.`
 			`	After waiting for several minutes, a shuttle lands on the pad beside yours and several individuals emerge from it. One of them is moving more quickly than the rest, and the guards allow them to pass and approach you. Their skin changes to a rough brown before they begin to speak.`
 			`	"Greetings, noble visitor. Thou art human, or do mine eyes decieve me?"`
 			choice
@@ -38,14 +77,14 @@ mission "Successors: First Contact"
 			`	"Many years past, before from the galaxy we were untimely sever'd, our people watched upon thine and did note upon thy appearence and thy potential to one day ply the stars. Thy species hath advanced much since last we observed you."`
 			`	One of the guards interrupts them, and their skin briefly glows a warm orange. They return their attention to you.`
 			label next
-			`	"If thou art human, then in the spirit of amity, I, the Old High Houses of the Successors, and the Grand Academy of Staja-Kella-Oa, offer to thee a gift, so thou might understand our language."`
-			`	One of the guards presents you with a small ornately carved box which you gently hold before opening to reveal an equally ornately-carved pin. Upon inspecting the carving, you are surprised to see that it depicts a clearly human sailing ship, wrecked upon a shoal.`
-			`	Most of the guards now begin to leave. You begin to suspect that it was the box and its contents they were guarding rather than your ship.`
+			`	"If thou art human, then in the spirit of amity, I, the Old High Houses of the Successors, and the Grand Academy of Staja-Kella-Oa, offer to thee a gift, so thou might understand our language as I understand thine."`
+			`	One of the guards approaches and presents you with a small ornately carved box which you gently hold before opening to reveal an equally ornately-carved pin. Upon inspecting the carving, you are surprised to see that it depicts a clearly human sailing ship that has been wrecked upon a shoal.`
+			`	The guards remain at attention, watching you as you look at the box. You can't help but suspect that it was the box and its contents that they have been guarding rather than your ship.`
 			choice
 				`	(Quietly accept it.)`
 					goto accept
 				`	"What is it?."`
-			`	"T'is a device most ancient and precious, from when the theatre of thy people dids't entertain our noble Predecessors. This one was't made more than one thousand years ago for a performance of thy Shakespeare's 'The Tempest,' so that the audience might understand the work in its original form."`
+			`	"T'is a device most ancient and precious, from when the theatre of thy people dids't entertain our noble Predecessors. This one was't made more than one thousand years ago for a performance of thy Shakespeare's 'The Tempest,' so that the audience might understand and appreciate the work in its original form."`
 			label accept
 			`	"When thou dost place this upon thy person, it shall translate thy words to our language, and ours to thine. Thou shalt treat it kindly, though, for it is..." The speaker pauses for a second, clearly looking for the proper word. "... an artistic loan."`
 			choice
@@ -53,12 +92,12 @@ mission "Successors: First Contact"
 					goto end	
 				`	"Wait, if this device is what translates, then how do you know my language?"`
 			`	The alien shrinks slightly, and a wave of color runs down their body.`
-			`	"I am a scholar of language at the Academy here. I learned thy language, at least as it was fifteen hundred years ago, by examining the records left by our Predecessors when they looked upon thy people."`
+			`	"I am a scholar of the languages of history at the Academy here. I learned thy language, at least as it was fifteen hundred years past, by examining the records left by our Predecessors when they looked upon thy people."`
 			choice
 				`	(Pin it on your jacket.)`
 					goto end
 				`	"If it is so precious, why are you loaning it to me?"`
-			`	You can see the few guards who remain stiffen at this question, and the speaker grows noticeably quieter and more uncomfortable. They eventually reply, haltingly.`
+			`	You can see that the remaining guards stiffen at this question, and the speaker grows noticeably quieter and more uncomfortable. They eventually reply, haltingly.`
 			`	"Thou art a ... notable and honored visitor. 'Tis a gesture of ... hospitality and goodwill from the rulers of this space."`
 				goto curious_end
 			label end

@@ -44,6 +44,18 @@ ship `Stolsaqra` `Stolsaqra (Short-Range)`
 		"Hyperdrive"
 		"Burst Anti-Missile Turret"
 
+ship `Stolsaqra` `Stolsaqra (Mission Escort)`
+	outfits
+		`"Aqra" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
+		`3-"Kaska" Betavoltaic Cell`
+		"Drag Cannon" 3
+		`"Ej" Shield Cortex`
+		`Successor Fuel Sail` 3
+		`Successor Cooling`
+		"Hyperdrive"
+
 ship `Kvelqde` `Kvelqde (Violent)`
 	outfits
 		`"Aqra" Inductive Thruster`
