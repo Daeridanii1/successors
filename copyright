@@ -4,33 +4,48 @@ Upstream-Contact: Daeridanii (daeridanii44@gmail.com)
 Source: https://github.com/Daeridanii1/successors
 
 Files:
- images/outfit/bimodal?railgun*
+ images/effect/successor?flare*
+ images/effect/burst?anti-missile*
+ images/effect/drag?cannon?impact*
+
+ images/hardpoint/burst?anti?missile*
+
+ images/icon/hv?spike*
+
+ images/label/successors*
+
  images/outfit/bimodal?railgun?turret*
+ images/outfit/bimodal?railgun*
  images/outfit/burst?anti?missile*
- images/outfit/corrosive?torpedo*
- images/outfit/corrosive?torpedo?launcher*
+ images/outfit/dazzle?missile?array*
+ images/outfit/dazzle?missile*
+ images/outfit/drag?cannon*
  images/outfit/fuel?sail*
- images/outfit/ic?fusion?small*
- images/outfit/ic?fusion*
+ images/outfit/hv?spike
  images/outfit/large?betavoltaic*
- images/outfit/large?ic?fusion*
+ images/outfit/large?successor?reactor
  images/outfit/large?successor?repair*
  images/outfit/large?successor?reverse*
+ images/outfit/large?successor?shield*
  images/outfit/large?successor?steering*
  images/outfit/large?successor?thruster*
  images/outfit/medium?betavoltaic*
+ images/outfit/medium?successor?reactor
  images/outfit/medium?successor?repair*
  images/outfit/medium?successor?reverse*
+ images/outfit/medium?successor?shield*
  images/outfit/medium?successor?steering*
  images/outfit/medium?successor?thruster*
  images/outfit/overcharged?betavoltaic*
- images/outfit/overcharged?pulse?laser*
  images/outfit/overcharged?pulse?laser?turret*
- images/outfit/photon?lance*
- images/outfit/shatter?cannon*
+ images/outfit/overcharged?pulse?laser*
+ images/outfit/railgun?h2h*
+ images/outfit/sjeja?puncture?rail*
  images/outfit/small?betavoltaic*
+ images/outfit/small?successor?reactor
  images/outfit/small?successor?repair*
  images/outfit/small?successor?reverse*
+ images/outfit/small?successor?shield*
  images/outfit/small?successor?steering*
  images/outfit/small?successor?thruster*
  images/outfit/successor?armor?heavy*
@@ -39,57 +54,46 @@ Files:
  images/outfit/successor?armor?stealth*
  images/outfit/successor?cooling*
  images/outfit/successor?engines?tiny*
- images/outfit/successor?pulse?laser*
+ images/outfit/successor?license*
  images/outfit/successor?pulse?laser?turret*
+ images/outfit/successor?pulse?laser*
  images/outfit/successor?scanner*
  images/outfit/tiny?successor?shield*
- images/ship/successor?carrier*
- images/ship/successor?cruiser*
- images/ship/successor?destroyer*
- images/ship/successor?escort*
- images/ship/successor?fighter*
- images/ship/successor?light?freighter*
- images/ship/successor?heavy?freighter*
- images/ship/successor?heavy?freighter?0*
- images/ship/successor?heavy?freighter?1*
- images/ship/successor?heavy?freighter?2*
- images/ship/successor?heirloom?med?warship*
- images/ship/successor?med?warship*
- images/ship/successor?mod?freighter*
- images/ship/successor?mod?heavy?freighter*
- images/ship/successor?raider*
- images/ship/successor?shuttle*
- images/thumbnail/successor?transport*
- images/thumbnail/successor?carrier*
- images/thumbnail/successor?cruiser*
- images/thumbnail/successor?destroyer*
- images/thumbnail/successor?escort*
- images/thumbnail/successor?fighter*
- images/thumbnail/successor?light?freighter*
- images/thumbnail/successor?heavy?freighter*
- images/thumbnail/successor?heavy?freighter?0*
- images/thumbnail/successor?heavy?freighter?1*
- images/thumbnail/successor?heavy?freighter?2*
- images/thumbnail/successor?heirloom?med?warship*
- images/thumbnail/successor?med?warship*
- images/thumbnail/successor?mod?freighter*
- images/thumbnail/successor?mod?heavy?freighter*
- images/thumbnail/successor?raider*
- images/thumbnail/successor?shuttle*
- images/thumbnail/successor?transport*
- images/label/successors*
- images/effect/successor?flare/large*
- images/effect/successor?flare/medium*
- images/effect/successor?flare/small*
- images/projectile/bimodal*
+
  images/projectile/bimodal_switch*
+ images/projectile/bimodal*
+ images/projectile/drag?cannon*
+ images/projectile/sjeja?puncture?rail*
+ images/projectile/successor?pulse?laser*
+
+ images/ship/aaulqra*
+ images/ship/ejniisde*
+ images/ship/kaskhorade*
+ images/ship/kvelqde*
+ images/ship/myaede-khora*
+ images/ship/myaede*
+ images/ship/nnesaarau*
+ images/ship/ojde*
+ images/ship/seiitej*
+ images/ship/stolsaqra*
+ images/ship/valkkyiara-khorasaqra*
+ images/ship/valsaqra*
+ images/ship/veusade*
+
+ images/thumbnail/aaulqra*
+ images/thumbnail/ejniisde*
+ images/thumbnail/kaskhorade*
+ images/thumbnail/kvelqde*
+ images/thumbnail/myaede-khora*
+ images/thumbnail/myaede*
+ images/thumbnail/nnesaarau*
+ images/thumbnail/ojde*
+ images/thumbnail/seiitej*
+ images/thumbnail/stolsaqra*
+ images/thumbnail/valkkyiara-khorasaqra*
+ images/thumbnail/valsaqra*
+ images/thumbnail/veusade*
 
 Copyright: Daeridanii (https://github.com/Daeridanii1)
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
-
-Files:
- icon*.png
-Copyright: Michael Zahniser <mzahniser@gmail.com>
-License: CC-BY-SA-4.0
-Comment: Update this when you create your plugin's icon!
