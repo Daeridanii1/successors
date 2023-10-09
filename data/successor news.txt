@@ -130,3 +130,17 @@ news "successor advertisements"
 			`An advertisement plays for the Successor Pulse Laser: it is shown being constructed in a clean, bright factory, installed on a ship, and extracting minerals from asteroids. It is never shown in a combat situation.`
 			`An advertisment plays showing a variety of attractive and expensive-looking jewellery, made of gold, silver, and other stranger metals which you cannot recognize. A variety of models display it wrapped around their arms or other parts of their body, gently undulating as the camera moves.`
 			`A display shows an advertisement for one of the Successor universities, showing elegant, sculptural buildings emerging from the ground under a rain-soaked sky.`
+
+news "local news quiet"
+	location
+		attributes quiet
+		government "Successor"
+	name
+		word
+			"Local News Report"
+	message
+		word
+			`A broadcast quietly lists out the details of a recent weather control unit failure, which resulted in a brief evacuation but no injuries. A photo shows a few dozen Successors gathered together along a shoreline while several ships swarm in the distance.`
+			`A muted advertisement plays, showing architectural renders of several small underwater homes with walls that change color and texture from simulated wood, to simulated shell, to even a dark, amorphous metal resembling the hull of a starship.`
+			`A short broadcast discusses a recent thunderstorm, showing several colorful pictures of lightning and rain taken by locals during the event.`
+			`A text-only broadcast discusses a recent touch-based art performance. The script shimmers as you move your head around, the translation device doing its best to transcribe it.`

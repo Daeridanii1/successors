@@ -65,6 +65,23 @@ phrase "successor friendly hail" # Conspiracy hails
 		"There are nightmares in the void the Houses fear."
 		"The empty systems here are prone to strangeness." 
 
+phrase "successor hostile hail"
+	word
+		"Thou hast betrayed our trust and for what!?"
+		"Our foolishness it was, we see, to trust thee;"
+		"Cruel, malignant, violent, petty creature."
+		"Vile! Thy deception is exposed now."
+		"Your death will leave no absence on the cosmos."
+		"Our friendship now, you find, has been retracted."
+	word
+		" / "
+	word
+		"So sorry thou shalt meet a violent end."
+		"The Houses will unburden thee of life."
+		"Prepare to shuffle off thy mortal coil."
+		"The gentle hand of Death close up thy eye."
+		"No satisfaction lives in our reprisal."
+
 phrase "old houses friendly hail" # Welcome hails
 	word
 		"We welcome thee to join us in our space" 
@@ -196,6 +213,19 @@ phrase "new houses friendly hail" # Boast hails
 		"A simple truth in which we take our pride."
 		"An honest fact 'tis plain for all to see."
 		"A simple truth in which we take our joy."
+
+phrase "people's houses friendly hail"
+	word
+		"Revel in thy freedom and endurance."
+		"I intend to thee no harm nor malefeasance."
+		"We fly the flag of freedom from oppression."
+		"The People's Houses offer true equality."
+	word
+		" / "
+	word
+		"Live without the chains of aristocracy."
+		"Remain unshackled from the listless norm."
+		"The People's Houses are ready to assist."
 
 phrase "people's houses hostile hail"
 	word

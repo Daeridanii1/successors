@@ -6,6 +6,7 @@ government Successor
 	color 0 .8 0.653
 	language "successor"
 	"friendly hail" "successor friendly hail"
+	"hostile hail" "successor hostile hail"
 
 government "New Houses"
 	swizzle 3
@@ -55,7 +56,7 @@ government "People's Houses"
 	swizzle 6
 	color 0.92 0.29 0.20
 	language "successor"
-	"friendly hail" "successor friendly hail"
+	"friendly hail" "people's houses friendly hail"
 	"hostile hail" "people's houses hostile hail"
 
 government "People's Houses (Hostile)"
@@ -67,7 +68,7 @@ government "People's Houses (Hostile)"
 		Author -0.01
 		Successor -0.01
 		"People's Houses" 0.01
-	"friendly hail" "successor friendly hail"
+	"friendly hail" "people's houses friendly hail"
 	"hostile hail" "people's houses hostile hail"
 	bribe 0.05
 	fine 0
@@ -103,6 +104,7 @@ phrase "successor start"
 		"Uij-"
 		"Sjeja-"
 		"Aasqa-"
+		"Sasqa-"
 phrase "successor middle"
 	word
 		"o-"
@@ -136,6 +138,12 @@ phrase "successor end"
 		"khil"
 		"deq"
 		"iil"
+		"osaqa"
+		"mijti"
+		"kaj"
+		"niq"
+		"oqi"
+
 phrase "successor"
 	phrase
 		"successor start"
