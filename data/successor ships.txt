@@ -163,15 +163,17 @@ ship `Myaede`
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`"Aqra" Inductive Thruster`
-		`"Aqra" Inductive Steering`
+		`"Chyyra" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
 		`"Aqra" Inductive Reverser`
-		`3-"Kaska" Betavoltaic Cell`
-		"Pulse Laser Turret" 2
+		`3-"Kaska" Betavoltaic Cell` 2
+		`1-"Uurau" Betavoltaic Cell`
+		"Pulse Laser Turret"
+		"Pulse Laser" 2
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-	turret -40 10 "Pulse Laser Turret"
-	turret 0 8
+	turret -40 10 
+	turret 0 8 "Pulse Laser Turret"
 	turret 40 10 "Pulse Laser Turret"
 	gun -3 -48
 	gun 3 -48
@@ -231,11 +233,13 @@ ship `Ejniisde`
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`"Chyyra" Inductive Thruster`
+		`"Veusa" Inductive Thruster`
 		`"Chyyra" Inductive Steering`
 		`"Chyyra" Inductive Reverser`
-		`3-"Kaska" Betavoltaic Cell`
+		`6-"Ruuv" Betavoltaic Cell`
 		`"Ej" Shield Cortex`
+		`Successor Fuel Sail`
+		`Successor Cooling`
 		"Hyperdrive"
 	gun 0 -96
 	turret 0 -66
@@ -334,6 +338,8 @@ ship `Myaede-Khora`
 	sprite "ship/myaede-khora"
 	thumbnail "thumbnail/myaede-khora"
 	attributes
+		licenses
+			"Successor"
 		category "Light Warship"
 		"cost" 3250000
 		"shields" 3300
@@ -409,14 +415,14 @@ ship `Stolsaqra`
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		`"Aqra" Inductive Thruster`
+		`"Aqra" Inductive Thruster` 2
 		`"Aqra" Inductive Steering`
 		`"Aqra" Inductive Reverser`
 		`3-"Kaska" Betavoltaic Cell`
-		"Bimodal Railgun" 3
+		`1-"Uurau" Betavoltaic Cell` 2
+		"Successor Pulse Laser" 3
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		"Successor Scanner"
 
 	gun 0 -35
 	gun -8.5 -17
@@ -492,9 +498,11 @@ ship `Aaulqra`
 	outfits
 		`"Chyyra" Inductive Thruster`
 		`"Chyyra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
-		`"Nnesa" Inertial Core` 2
+		`"Chyyra" Inductive Reverser`
+		`"Ryuit" Inertial Core`
+		`3-"Kaska" Betavoltaic Cell`
 		`"Jaase" Shield Cortex`
+		`"Viir" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling"
 		"Bimodal Railgun" 3
@@ -679,7 +687,7 @@ ship `Veusade`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Blessed with the honor of being named with the Successor word for "fast," the "Veusade" is designed for one thing: to carry eight drag cannons as close to an enemy ship's hull as possible. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down.`
+	description `Blessed with the honor of being named with the Successor word for swiftness, the "Veusade" is designed for one thing: to carry eight drag cannons as close to an enemy ship's hull as possible. The designers shaved off additional mass by excluding turret mounts; the presumption is that a pilot in one of these craft should be able to simply outrun incoming missiles rather than going to the trouble of shooting them down.`
 	description `	Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels. `
 
 ship `Veusade` `Veusade (Naive)`
@@ -714,16 +722,18 @@ ship `Kaskhorade`
 	outfits
 		`"Veusa" Inductive Thruster`
 		`"Veusa" Inductive Steering`
-		`"Veusa" Inductive Reverser`
-		`"Ryuit" Inertial Core`
+		`"Chyyra" Inductive Reverser`
+		`"Uoret" Inertial Core`
+		`3-"Kaska" Betavoltaic Cell`
 		`"Jorv" Shield Cortex`
+		`"Viir" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling"
 		"Bimodal Railgun" 5
-		"Burst Anti-Missile Turret" 4
+		"Burst Anti-Missile Turret" 2
 		"Multimodal Armor: Heavy"
-	turret -46 12
-	turret 46 12
+	turret -46 12 "Burst Anti-Missile Turret"
+	turret 46 12 "Burst Anti-Missile Turret"
 	turret 0 -40
 	turret 0 37
 	gun -42 -72
@@ -772,26 +782,29 @@ ship `Valsaqra`
 		`"Veusa" Inductive Thruster`
 		`"Veusa" Inductive Steering`
 		`"Veusa" Inductive Reverser`
-		`"Ryuit" Inertial Core`
+		`"Uoret" Inertial Core`
+		`"Nnesa" Inertial Core`
 		`"Jorv" Shield Cortex`
+		`"Vyraa" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling" 2
-		"Bimodal Railgun" 6
-		"Dazzle Missile Array" 2
-		"Dazzle Missile" 400
-		"Burst Anti-Missile Turret" 4
+		"Bimodal Railgun" 2
+		"Bimodal Railgun Turret" 2
+		`"Sjeja" Puncture Rail` 2
+		"High-Velocity Spike" 40
+		"Burst Anti-Missile Turret" 1
 		"Multimodal Armor: Heavy"
-	gun -27 -121
-	gun -34 -104
+	gun -27 -121 `"Sjeja" Puncture Rail`
+	gun -34 -104 `Bimodal Railgun`
 	gun -50 -65
-	gun -56 -57 "Dazzle Missile Array"
-	gun 27 -121
-	gun 34 -104
+	gun -56 -57 
+	gun 27 -121 `"Sjeja" Puncture Rail`
+	gun 34 -104	`Bimodal Railgun`
 	gun 50 -65
-	gun 56 -57 "Dazzle Missile Array"
-	turret -102 28
-	turret 102 28
-	turret 0 -58
+	gun 56 -57
+	turret -102 28 `Bimodal Railgun Turret`
+	turret 102 28 `Bimodal Railgun Turret`
+	turret 0 -58 `Burst Anti-Missile Turret`
 	turret 0 52
 	engine -85 126
 		zoom .8
