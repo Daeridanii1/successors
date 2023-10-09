@@ -34,7 +34,6 @@ shipyard "successors"
 	`Veusade`
 	`Nnesaarau`
 outfitter "successors"
-	"Deuterium Gel Sponge"
 	"Bimodal Railgun Turret"
 	"Bimodal Railgun"
 	"Bimodal Switch"
@@ -44,6 +43,7 @@ outfitter "successors"
 	`"Sjeja" Puncture Rail`
 	"High-Velocity Spike"
 	"Gauss Rifle"
+	"Phasing Laser Sidearm"
 	"Heirloom Hunter-Killers"
 	"Heirloom License"
 	"Heirloom Point Defense"

@@ -66,13 +66,13 @@ outfitter "Successor Civilian"
 	"Bunk Room"
 	"Small Bunk Room"
 	"Successor Fuel Sail"
-	"Deuterium Gel Sponge"
+	"Fuel Pod"
 	"Pulse Laser Turret"
 	"Burst Anti-Missile Turret"
 	"Cargo Expansion"
 	"Outfits Expansion"
 	"Successor Cooling"
-	"Gauss Rifle"
+	"Phasing Laser Sidearm"
 
 outfitter "Successor Heavy"
 	`6-"Ruuv" Betavoltaic Cell`
@@ -94,6 +94,7 @@ outfitter "High Houses Light"
 	"Dazzle Missile"
 	`"Jaase" Shield Cortex`
 	`"Viir" Repair Module`
+	`Gauss Rifle`
 
 outfitter "High Houses Heavy"
 	`"Ryuit" Inertial Core`

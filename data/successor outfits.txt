@@ -212,19 +212,7 @@ outfit "Successor Fuel Sail"
 	"ramscoop" 8.0
 	"solar heat" 6.0
 	"drag" 0.1
-	description "The Successors maintain a strong connection to their maritime tradition, exemplified in this strangely rustic fuel collector. Rather than the comparatively brutish action of a traditional ramscoop, this sail gently collects hydrogen from stellar coronae and condenses it into a ship's fuel storage. Pilots should note, however, that the large surface area of the deployed sail also absorbs a lot of heat."
-
-outfit "Deuterium Gel Sponge"
-	category "Systems"
-	cost 84000
-	thumbnail "outfit/fuel pod"
-	licenses
-		"Successor"
-	"mass" 4
-	"outfit space" -8
-	"fuel capacity" 100
-	"cooling" 2.5
-	description "Successor space is small, but they understand the usefulness that comes with being able to extend the range of their ships when the situation demands it. This densified fuel storage unit stores gelled fuel within a spongelike lattice, making it much safer and wear-resistant than a traditional fuel tank. The high thermal conductivity of the lattice also allows the whole system to wick away heat from a ship's hot internals, though it is nowhere near as effective as a dedicated cooler."
+	description "The Successors maintain a strong connection to their maritime tradition, exemplified in this strangely rustic fuel collector. The sail expands to a vast area when in the vicinity of a stellar corona, gently collecting hydrogen from it and condensing it into a ship's fuel storage in a fashion much more elegant than the comparatively brutish action of a traditional ramscoop. Pilots should note, however, that the large surface area of the deployed sail also absorbs a lot of heat."
 
 outfit "Successor Scanner"
 	category "Systems"
@@ -473,7 +461,7 @@ outfit "Multimodal Armor: Regen"
 	"multimodal armor" -1
 	"unplunderable" 1
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "This configuration increases the plasticity of the armor, increasing the effectiveness of in-combat repair efforts."
+	description "This configuration increases the plasticity of the armor, greatly increasing the effectiveness of in-combat repair efforts."
 
 outfit "Multimodal Armor: Resilient"
 	category "Systems"
@@ -488,10 +476,20 @@ outfit "Multimodal Armor: Resilient"
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
 	description "This configuration increases the armor's resilience against certain special types of damage."
 
+outfit "Phasing Laser Sidearm"
+	category "Hand to Hand"
+	thumbnail "outfit/successor h2h"
+	licenses "Successor"
+	cost 43000
+	"capture attack" 0.6
+	"capture defense" 2.6
+	"unplunderable" 1
+	description "Increased piracy in the western regions of Successor space have spurred interest in compact sidearms like this one, which uses the same technology as the Successors' ship-mounted pulse lasers, albeit on a much smaller scale. Specifically designed for repelling boarders, it is capable of interfacing with a Successor ship's computer and surveillance systems, routing target information to a built-in display."
+
 outfit "Gauss Rifle"
 	category "Hand to Hand"
 	thumbnail "outfit/railgun h2h"
-	licenses "Successor"
+	licenses "High Houses"
 	cost 72000
 	"capture attack" 1.9
 	"capture defense" 3.2
