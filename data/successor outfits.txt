@@ -153,8 +153,8 @@ outfit `"Nnesa" Inertial Core`
 	"energy generation" 8.25
 	"heat generation" 9.5
 	"energy capacity" 2200
-	"shield energy multiplier" -0.16
-	"hull energy multiplier" -0.16
+	"shield energy multiplier" -0.08
+	"hull energy multiplier" -0.08
 	description "While betavoltaics may be sufficient for civilian use, the more advanced technology of the High Houses is energy-hungry enough to require more powerful generators. These inertial confinement fusion reactors are less energy-dense than other reactor alternatives, but are very heat-efficient and come with a modest amount of integrated energy storage in their ignition capacitor banks. Additionally, they are designed to channel power more efficiently to a ship's defensive systems, manifested as a reduction in the power draw of the associated outfits."
 
 outfit `"Ryuit" Inertial Core`
@@ -166,10 +166,10 @@ outfit `"Ryuit" Inertial Core`
 	"mass" 95
 	"outfit space" -95
 	"energy generation" 16.0
-	"heat generation" 12.0
+	"heat generation" 18.5
 	"energy capacity" 6500
-	"shield energy multiplier" -0.32
-	"hull energy multiplier" -0.32
+	"shield energy multiplier" -0.14
+	"hull energy multiplier" -0.14
 	description "Like most Successor technology, their modern reactors are based on similar ones secreted away by the High Houses during the collapse of the Predecessors' empire. Even though their modern efforts don't quite match the potency of their ancestors', the designs retain a aura of elegance and power, twisting like flames and humming with energy."
 	description "	One also can't help but wonder about those few original reactors, which presumably remain locked away in the private vaults of the High Houses, kept in prime condition for if and when they are needed once again."
 
@@ -182,10 +182,10 @@ outfit `"Uoret" Inertial Core`
 	"mass" 140
 	"outfit space" -140
 	"energy generation" 24.5
-	"heat generation" 26
+	"heat generation" 28.2
 	"energy capacity" 12000
-	"shield energy multiplier" -0.48
-	"hull energy multiplier" -0.48
+	"shield energy multiplier" -0.22
+	"hull energy multiplier" -0.22
 	description `The largest and most powerful of the High Houses' inertial confinement fusion cores, this sculptural and surprisingly efficient reactor far exceeds any human power plant. It is supported by a well-integrated and remarkably clever power distribution network, massively reducing the draw of the Successors' energy-hungry defensive outfits.`
 
 outfit "Successor Cooling"
