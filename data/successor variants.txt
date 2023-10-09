@@ -22,17 +22,6 @@ ship `Aaulqra` `Aaulqra (Support)`
 		"Drag Cannon" 3
 		"Dazzle Missile Array" 2
 
-ship `Stolsaqra` `Stolsaqra (OC Laser)`
-	outfits
-		`"Aqra" Inductive Thruster`
-		`"Aqra" Inductive Steering`
-		`"Aqra" Inductive Reverser`
-		`3-"Kaska" Betavoltaic Cell`
-		"Overcharged Pulse Laser" 3
-		`"Ej" Shield Cortex`
-		"Hyperdrive"
-		"Overcharged Laser Turret"
-
 ship `Stolsaqra` `Stolsaqra (Short-Range)`
 	outfits
 		`"Aqra" Inductive Thruster` 2
@@ -44,6 +33,17 @@ ship `Stolsaqra` `Stolsaqra (Short-Range)`
 		"Hyperdrive"
 		"Burst Anti-Missile Turret"
 
+ship `Stolsaqra` `Stolsaqra (Military)`
+	outfits
+		`"Aqra" Inductive Thruster`
+		`"Aqra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
+		`3-"Kaska" Betavoltaic Cell`
+		"Bimodal Railgun" 3
+		`"Ej" Shield Cortex`
+		"Hyperdrive"
+		"Successor Scanner"
+
 ship `Stolsaqra` `Stolsaqra (Mission Escort)`
 	outfits
 		`"Aqra" Inductive Thruster`
@@ -51,9 +51,8 @@ ship `Stolsaqra` `Stolsaqra (Mission Escort)`
 		`"Aqra" Inductive Reverser`
 		`3-"Kaska" Betavoltaic Cell`
 		"Drag Cannon" 3
-		`"Ej" Shield Cortex`
-		`Successor Fuel Sail` 3
-		`Successor Cooling`
+		`"Byiaa" Shield Cortex`
+		`Fuel Pod` 3
 		"Hyperdrive"
 
 ship `Kvelqde` `Kvelqde (Violent)`
@@ -66,22 +65,6 @@ ship `Kvelqde` `Kvelqde (Violent)`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 		"Overcharged Laser Turret"
-
-ship "Ojde" "Ojde 2"
-	sprite "ship/ojde 2"
-	add attributes
-		"mass" -100
-		"cargo space" -100
-ship "Ojde" "Ojde 1"
-	sprite "ship/ojde 1"
-	add attributes
-		"mass" -200
-		"cargo space" -200
-ship "Ojde" "Ojde 0"
-	sprite "ship/ojde 0"
-	add attributes
-		"mass" -300
-		"cargo space" -300
 
 ship `Naapojde` `Successor Bomber`
 	outfits
@@ -137,4 +120,20 @@ ship `Valsaqra` `Valsaqra (Rails)`
 		"Bimodal Railgun" 6
 		"Bimodal Railgun Turret" 3
 		"Burst Anti-Missile Turret"
+
+ship "Ojde" "Ojde 2"
+	sprite "ship/ojde 2"
+	add attributes
+		"mass" -100
+		"cargo space" -100
+ship "Ojde" "Ojde 1"
+	sprite "ship/ojde 1"
+	add attributes
+		"mass" -200
+		"cargo space" -200
+ship "Ojde" "Ojde 0"
+	sprite "ship/ojde 0"
+	add attributes
+		"mass" -300
+		"cargo space" -300
 

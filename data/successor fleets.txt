@@ -154,11 +154,11 @@ fleet "People's Houses"
     variant 60
         `Kvelqde (Violent)`
     variant 60
-        `Stolsaqra (OC Laser)`
+        `Stolsaqra`
     variant 50
         `Kvelqde (Violent)` 2
     variant 30
-        `Stolsaqra (OC Laser)` 2
+        `Stolsaqra` 2
     variant 30
         `Myaede-Khora`
     variant 30
@@ -173,14 +173,14 @@ fleet "People's Houses Raiders"
     variant 30
         `Kvelqde (Violent)` 4
     variant 50
-        `Stolsaqra (OC Laser)` 2
+        `Stolsaqra` 2
     variant 50
         `Myaede-Khora`
     variant 30
         `Myaede-Khora` 2
     variant 15
         `Myaede-Khora` 2
-        `Stolsaqra (OC Laser)` 3
+        `Stolsaqra` 3
     
 fleet "Small Old Houses"
     personality
@@ -188,7 +188,7 @@ fleet "Small Old Houses"
     government "Old Houses"
     names "high houses"
     variant 60
-        "Stolsaqra"
+        "Stolsaqra (Military)"
     variant 20
         "Veusade" 3
     variant 20
@@ -237,7 +237,7 @@ fleet "Old Houses Police"
     personality
         heroic opportunistic
     variant 50
-        "Stolsaqra"
+        "Stolsaqra (Military)"
     variant 50
         "Seiitej"
     variant 25
@@ -249,7 +249,7 @@ fleet "Small New Houses"
     government "New Houses"
     names "high houses"
     variant 60
-        "Stolsaqra"
+        "Stolsaqra (Military)"
     variant 20
         "Veusade" 3
     variant 20
