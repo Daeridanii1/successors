@@ -34,6 +34,12 @@ shipyard "successors"
 	`Veusade`
 	`Nnesaarau`
 outfitter "successors"
+	`"Byiaa" Defensive Cortex`
+	`"Jaase" Defensive Cortex`
+	`"Seqra" Defensive Cortex`
+	"Small Shield Projection"
+	"Medium Shield Projection"
+	"Large Shield Projection"
 	"Bimodal Railgun Turret"
 	"Bimodal Railgun"
 	"Bimodal Switch"
@@ -68,13 +74,14 @@ outfitter "successors"
 	`"Aqra" Inductive Reverser`
 	`"Aqra" Inductive Steering`
 	`"Aqra" Inductive Thruster`
-	`"Byiaa" Shield Cortex`
+	#`"Byiaa" Shield Cortex`
 	`"Chyyra" Inductive Reverser`
 	`"Chyyra" Inductive Steering`
 	`"Chyyra" Inductive Thruster`
-	`"Ej" Shield Cortex`
-	`"Jaase" Shield Cortex`
-	`"Jorv" Shield Cortex`
+	#`"Ej" Shield Cortex`
+	#`"Jaase" Shield Cortex`
+	#`"Jorv" Shield Cortex`
+	#`"Seqra" Shield Cortex`
 	`"Niis" Inductive Engines`
 	`"Nnesa" Inertial Core`
 	`"Ryuit" Inertial Core`
