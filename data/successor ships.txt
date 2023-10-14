@@ -557,15 +557,15 @@ ship `Seiitej`
 		"shields" 6000
 		"hull" 33000
 		"required crew" 8
-		"bunks" 15
+		"bunks" 24
 		"mass" 200
 		"drag" 1.6
 		"heat dissipation" .80
 		"fuel capacity" 700
 		"cargo space" 65
 		"outfit space" 370
-		"weapon capacity" 180
-		"engine capacity" 120
+		"weapon capacity" 110
+		"engine capacity" 130
 		"multimodal armor" 1
 		weapon
 			"blast radius" 100
@@ -589,7 +589,7 @@ ship `Seiitej`
 	gun -5 -86
 	gun 5 -86
 	gun 10 -78
-	turret 0 16
+	turret 0 -29
 	engine -25 44
 	engine 25 44
 	"reverse engine" -25 -35
@@ -626,13 +626,13 @@ ship `Veusade`
 		"required crew" 5
 		"bunks" 10
 		"mass" 190
-		"drag" 1.9
+		"drag" 2.4
 		"heat dissipation" .80
 		"fuel capacity" 500
 		"cargo space" 15
 		"outfit space" 370
-		"weapon capacity" 110
-		"engine capacity" 140
+		"weapon capacity" 125
+		"engine capacity" 120
 		"multimodal armor" 1
 		weapon
 			"blast radius" 100
@@ -656,13 +656,13 @@ ship `Veusade`
 	gun 12 -70
 	gun -32 -34
 	gun 36 -30
-	engine -24 73
+	engine -24 54
 		zoom .8
-	engine 24 73
+	engine 24 54
 		zoom .8
 	"reverse engine" -26 -33
 		zoom .7
-	"steering engine" -37 48
+	"steering engine" -37 40
 		left
 		angle 90
 		zoom .6
@@ -672,7 +672,7 @@ ship `Veusade`
 		zoom .6
 	"reverse engine" 26 -33
 		zoom .7
-	"steering engine" 37 48
+	"steering engine" 37 40
 		right
 		angle 270
 		zoom .6
