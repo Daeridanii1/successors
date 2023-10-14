@@ -19,20 +19,6 @@ outfit `"Byiaa" Shield Cortex`
 		"Successor"
 	cost 225000
 	thumbnail "outfit/tiny successor shield"
-	"mass" 7
-	"outfit space" -7
-	"shield generation" 0.95
-	"shield protection" -0.33
-	"shield energy" 1.2
-	"cooling" 1.1
-	"description" "Despite its diminuitive scale, this tiny Successor shield cortex repairs shielding at an impressive rate, though like all Successor shields, the shielding it generates is more susceptible to damage than usual. Since this unit was designed for use on small craft where space is at a premium, it comes with integrated heat sinks that allow it to cool the ship it is installed on by a small amount."
-
-outfit `"Ej" Shield Cortex`
-	category "Systems"
-	licenses
-		"Successor"
-	cost 565000
-	thumbnail "outfit/small successor shield"
 	"mass" 15
 	"outfit space" -15
 	"shield generation" 2.1
@@ -40,17 +26,30 @@ outfit `"Ej" Shield Cortex`
 	"shield energy" 2.6
 	"description" "At their peak, the Predecessors were feared not by how quickly they could overpower their enemies, but by how effectively they could outlast them. Many generations later, this philosophy is still reflected in modern Successor shield cortices, which are exceptionally powerful for their size but weaken the shield's resistance to incoming fire, allowing Successor ships to recover quickly from sustained damage, even if they are slightly more vulnerable to it."
 
+outfit `"Ej" Shield Cortex`
+	category "Systems"
+	licenses
+		"Successor"
+	cost 565000
+	thumbnail "outfit/small successor shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 3.5
+	"shield protection" -0.33
+	"shield energy" 5.4
+	"description" "The fast regeneration rate of Successor shields is designed, in part, to support the shield-draining high-performance mode of their inductive engines, allowing their shield cortices to serve dual functions, supporting both the defense and mobility of their ships. Even this small module is substantially more powerful than any human shield generator, though its shield-softening effect makes it less valuable on vessels that are more reliant on shields as their main defensive layer than the heavily-armored vessels of the Successors."
+
 outfit `"Jaase" Shield Cortex`
 	category "Systems"
 	licenses
 		"High Houses"
 	cost 3550000
 	thumbnail "outfit/medium successor shield"
-	"mass" 30
-	"outfit space" -30
-	"shield generation" 4.8
+	"mass" 35
+	"outfit space" -35
+	"shield generation" 5.6
 	"shield protection" -0.33
-	"shield energy" 7.8
+	"shield energy" 9.1
 	"description" "Traditional Predecessor technology was not nearly as modular as the modern Successor equivalents, which must be built with more limited resources and comparatively primitive manufacturing techniques. Nontheless, this medium-sized shield cortex is powerful enough to shrug off the combined damage output of several lesser attackers, and consequently is reserved by the High Houses for use in their private navies."
 
 outfit `"Jorv" Shield Cortex`
@@ -59,12 +58,129 @@ outfit `"Jorv" Shield Cortex`
 	thumbnail "outfit/large successor shield"
 	licenses
 		"High Houses"
-	"mass" 55
-	"outfit space" -55
-	"shield generation" 10.5
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 9.5
 	"shield protection" -0.33
-	"shield energy" 15.0
+	"shield energy" 13.5
 	"description" "Bristling with regeneration nodes, this large Successor shield cortex requires a power budget greater than most human warships in their entirety. Many in the High Houses disapprove of its design, suggesting that such a powerful piece of technology deserves a more artful form, but there has ultimately been little desire to invest the time and money for a redesign for purely aesthetic reasons."
+
+outfit `"Seqra" Shield Cortex`
+	category "Systems"
+	cost 21300000
+	thumbnail "outfit/large successor shield"
+	licenses
+		"High Houses"
+	"mass" 70
+	"outfit space" -70
+	"shield generation" 14.3
+	"shield protection" -0.33
+	"shield energy" 21.5
+	"description" "There is little incentive to produce these, the largest of the Successors' shield cortices, during peacetime, but some of the more wealthy of the High Houses maintain a small stock in case they quickly need to upgrade the defenses of their most powerful ships. One of these generators is sufficient to render ineffective the attacks of an entire fleet, though its enormous power consumption means few ships are capable of supporting one."
+
+outfit `"Byiaa" Defensive Cortex`
+	category "Systems"
+	cost 225000
+	thumbnail "outfit/small successor shield"
+	licenses
+		"High Houses"
+	"mass" 5
+	"outfit space" -5
+	"shield protection" -0.33
+	"energy consumption" 0.4
+	"defense projection: small" 64
+	"description" "Conformally applied to your ship's hull, Successor defensive cortices are the end targets of shield or armor repair projections from small modular generators located deep within the ship. Each projection connected to a cortex applies its regeneration or repair to the entire vessel, but too many projections tend to reduce the efficiency of the overall system."
+	"description" "This cortex only supports the smallest projections."
+
+outfit `"Jaase" Defensive Cortex`
+	category "Systems"
+	cost 3550000
+	thumbnail "outfit/medium successor shield"
+	licenses
+		"High Houses"
+	"mass" 10
+	"outfit space" -10
+	"shield protection" -0.33
+	"energy consumption" 1.0
+	"defense projection: med" 64
+	"defense projection: small" 64
+	"description" "The development of the cortex-projection dichotomy is likely a result of the Successors' historical focus on armor rather than shields as their primary form of defense; by placing defensive systems throughout a ship's structure, taking damage to any one specific area was less likely to cripple the vessel as a whole."
+	"description" "This cortex supports small and medium projections."
+
+outfit `"Seqra" Defensive Cortex`
+	category "Systems"
+	cost 21300000
+	thumbnail "outfit/large successor shield"
+	licenses
+		"High Houses"
+	"mass" 15
+	"outfit space" -15
+	"shield protection" -0.33
+	"energy consumption" 2.0
+	"defense projection: small" 64
+	"defense projection: med" 64
+	"defense projection: large" 64
+	"description" "This, the largest of the Successors's defense cortices, is remarkably small f."
+	"description" "This cortex supports all sizes of defense projections."
+
+outfit `Small Shield Projection`
+	category "Systems"
+	cost 5
+	thumbnail "outfit/unknown"
+	licenses
+		"High Houses"
+	"mass" 2
+	"outfit space" -2
+	"shield generation" 0.4
+	"shield energy" 0.5
+	"shield energy multiplier" 0.03
+	"defense projection: small" -1
+	"description" "Small shield projection."
+
+outfit `Medium Shield Projection`
+	category "Systems"
+	cost 5
+	thumbnail "outfit/unknown"
+	licenses
+		"High Houses"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" 1.5
+	"shield energy" 1.6
+	"shield energy multiplier" 0.03
+	"defense projection: med" -1
+	"description" "Medium shield projection."
+
+outfit `Large Shield Projection`
+	category "Systems"
+	cost 5
+	thumbnail "outfit/unknown"
+	licenses
+		"High Houses"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 3.1
+	"shield energy" 3.4
+	"shield energy multiplier" 0.03
+	"defense projection: large" -1
+	"description" "Large shield projection."
+
+#Not introduced until later in the storyline: Predecessors branch
+outfit `"Iqia" Maintenance Module`
+	category "Systems"
+	licenses
+		"Successor"
+	cost 3000000
+	thumbnail "outfit/small successor repair"
+	"mass" 10
+	"outfit space" -10
+	"hull repair rate" 0.14
+	"hull energy" 0.6
+	"hull energy multiplier" -0.02
+	"shield energy multiplier" -0.02
+	"cooling" 1.2
+	"cooling energy" 0.2
+	"description" "The recent increased interest in Predecessor history has led to a consequent increase in the number of Successor ships performing long-range research missions. This compact maintenance unit, commissioned by the Grand Academy of Staja-Kella-Oa and built by House Chydiyi, is designed to offer everything necessary to make a research vessel self-sufficient: a small reservoir of hull microbots, auxiliary cooling, and even a miniscule power distributor to reduce the power draw of defensive systems."
 
 outfit `"Viir" Repair Module`
 	category "Systems"
