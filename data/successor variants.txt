@@ -42,7 +42,7 @@ ship `Stolsaqra` `Stolsaqra (Military)`
 		"Bimodal Railgun" 3
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		"Successor Scanner"
+		`"Veldt" Combat Scanner`
 
 ship `Stolsaqra` `Stolsaqra (Mission Escort)`
 	outfits
@@ -65,6 +65,17 @@ ship `Kvelqde` `Kvelqde (Violent)`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 		"Overcharged Laser Turret"
+
+ship `Kvelqde` `Kvelqde (Mining)`
+	outfits
+		`"Niis" Inductive Engines`
+		`1-"Uurau" Betavoltaic Cell`
+		`OC-"Mavra" Betavoltaic Cell`
+		`3-"Kaska" Betavoltaic Cell`
+		"Pulse Laser Turret"
+		`"Byiaa" Shield Cortex`
+		"Hyperdrive"
+		`"Tuur" Scanning Suite`
 
 ship `Kaskhorade` `Kaskhorade (Rails)`
 	outfits

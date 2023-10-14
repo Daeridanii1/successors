@@ -297,12 +297,12 @@ fleet "Successor Miners"
     personality
         staying appeasing mining harvests frugal
     variant 50
-        `Kvelqde`
+        `Kvelqde (Mining)`
     variant 20
         `Myaede`
     variant 30
-        `Kvelqde` 2
+        `Kvelqde (Mining)` 2
     variant 10
         `Myaede`
-        `Kvelqde` 2
+        `Kvelqde (Mining)` 2
 
