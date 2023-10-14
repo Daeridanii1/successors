@@ -583,7 +583,7 @@ ship `Seiitej`
 		"Successor Cooling"
 		"Bimodal Railgun" 4
 		"Burst Anti-Missile Turret"
-		"Successor Scanner"
+		`"Veldt" Combat Scanner`
 		"Multimodal Armor: Heavy"
 	gun -10 -78
 	gun -5 -86

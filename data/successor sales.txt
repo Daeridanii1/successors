@@ -68,7 +68,6 @@ outfitter "Successor Civilian"
 	"Successor Fuel Sail"
 	"Fuel Pod"
 	"Pulse Laser Turret"
-	"Burst Anti-Missile Turret"
 	"Cargo Expansion"
 	"Outfits Expansion"
 	"Successor Cooling"
@@ -82,7 +81,7 @@ outfitter "Successor Heavy"
 
 outfitter "Successor High Tech"
 	`OC-"Mavra" Betavoltaic Cell`
-	"Successor Scanner"
+	`"Tuur" Scanning Suite`
 	`"Niis" Inductive Engines`
 	`"Byiaa" Shield Cortex`
 
@@ -95,6 +94,7 @@ outfitter "High Houses Light"
 	`"Jaase" Shield Cortex`
 	`"Viir" Repair Module`
 	`Gauss Rifle`
+	`"Veldt" Combat Scanner`
 
 outfitter "High Houses Heavy"
 	`"Ryuit" Inertial Core`

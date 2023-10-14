@@ -64,7 +64,8 @@ outfitter "successors"
 	"Successor Fuel Sail"
 	"Successor License"
 	"Successor Pulse Laser"
-	"Successor Scanner"
+	`"Veldt" Combat Scanner`
+	`"Tuur" Scanning Suite`
 	`"Aqra" Inductive Reverser`
 	`"Aqra" Inductive Steering`
 	`"Aqra" Inductive Thruster`

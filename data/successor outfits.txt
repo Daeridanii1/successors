@@ -214,20 +214,34 @@ outfit "Successor Fuel Sail"
 	"drag" 0.1
 	description "The Successors maintain a strong connection to their maritime tradition, exemplified in this strangely rustic fuel collector. The sail expands to a vast area when in the vicinity of a stellar corona, gently collecting hydrogen from it and condensing it into a ship's fuel storage in a fashion much more elegant than the comparatively brutish action of a traditional ramscoop. Pilots should note, however, that the large surface area of the deployed sail also absorbs a lot of heat."
 
-outfit "Successor Scanner"
+outfit `"Veldt" Combat Scanner`
 	category "Systems"
 	cost 220000
-	thumbnail "outfit/successor scanner"
+	thumbnail "outfit/veldt combat scanner"
 	licenses
-		"Successor"
+		"High Houses"
 	"mass" 6
 	"outfit space" -6
 	"energy consumption" 0.12
-	"tactical scan power" 40
-	"cargo scan power" 40
-	"asteroid scan power" 40
+	"tactical scan power" 50
+	"cargo scan power" 50
+	"cargo scan efficiency" 15
+	description "The High Houses prefer to keep their territories well-monitored, and have a long history of developing powerful and efficient scanners to that end. This scanning system is their latest generation, used to both identify contraband and target potential foes at great distance."
+	description `While restricted for sale to the public, the sheer number of these produced has allowed a few to slip onto black markets; a persistent problem the High Houses are extremely eager to correct.`
+
+outfit `"Tuur" Scanning Suite`
+	category "Systems"
+	cost 220000
+	thumbnail "outfit/tuur scanning suite"
+	licenses
+		"Successor"
+	"mass" 4
+	"outfit space" -4
+	"energy consumption" 0.10
+	"asteroid scan power" 50
 	"atmosphere scan" 100
-	description "There has been talk that the High Houses plan to start restricting the sale of these high-powered scanners in an effort to combat piracy, but for the moment, they remain available to civilian Successors. Much of their popularity stems from their use in the scientific and industrial sectors as tools for planetary analysis, and the High Houses are loathe to quash this small but reliable income stream."
+	description "This scanning system was developed during the first years after the Predecessors' collapse, when the newly emigrated High Houses needed to find new resource deposits to replace those that they had left behind. While less efficient than human scanners, it is compact and powerful, useful for identifying materials both in asteroids and planetside."
+	description "In the modern day, with the territories of the High Houses more or less static, these scanners are primarily used either by researchers as tools for planetary analysis or by independent pilots supporting themselves via asteroid mining."
 
 outfit `"Niis" Inductive Engines`
 	plural `"Niis" Inductive Engines`
