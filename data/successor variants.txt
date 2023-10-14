@@ -66,21 +66,6 @@ ship `Kvelqde` `Kvelqde (Violent)`
 		"Hyperdrive"
 		"Overcharged Laser Turret"
 
-ship `Naapojde` `Successor Bomber`
-	outfits
-		`"Niis" Inductive Engines`
-		`OC-"Mavra" Betavoltaic Cell`
-		"Dazzle Missile Array"
-		"Dazzle Missile" 200
-		`"Ej" Shield Cortex`
-
-ship `Naapojde` `Successor Ace`
-	outfits
-		`"Niis" Inductive Engines`
-		`OC-"Mavra" Betavoltaic Cell`
-		"Bimodal Railgun" 2
-		`"Byiaa" Shield Cortex`
-
 ship `Kaskhorade` `Kaskhorade (Rails)`
 	outfits
 		`"Veusa" Inductive Thruster`
