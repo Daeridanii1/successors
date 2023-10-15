@@ -202,6 +202,8 @@ outfit "Overcharged Pulse Laser"
 	category "Guns"
 	cost 84000
 	thumbnail "outfit/overcharged pulse laser"
+	licenses
+		"Successor"
 	"mass" 12
 	"outfit space" -12
 	"weapon capacity" -12
@@ -232,6 +234,8 @@ outfit "Overcharged Laser Turret"
 	category "Turrets"
 	cost 136000
 	thumbnail "outfit/overcharged pulse laser turret"
+	licenses
+		"Successor"
 	"mass" 24
 	"outfit space" -24
 	"weapon capacity" -24
