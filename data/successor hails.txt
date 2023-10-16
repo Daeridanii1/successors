@@ -10,13 +10,35 @@ phrase "successor friendly hail" # Wary hails
 	word
 		" / "
 	word
-		"I note thy presence and yet remain thee distant."
+		"I note thy presence but remain thee wary."
 		"If corrupted be thy soul, then prithee keep thy distance."
 		"If thou art friend to me, so I shall be to thee."
 		"What is thy goal within these stars? To wander in delight?"
 		"To whom and what thou does thou lend thy own strength?"
 		"What is thy goal within these stars? To observe or interfere?"
 		"What is thy goal within these stars? Be a trader or a traitor?"
+
+phrase "successor friendly hail" # Brag hails 1
+	word
+		"I never fly without"
+	word
+		" "
+	word
+		"a trusty scanner"
+		"my trusty scanner"
+		"a larger fuel tank"
+		"communications"
+		"some conversation"
+		"a stock of crab-cubes"
+		"a stock of kelp-packs"
+		"a week's supply-cache"
+	word
+		", / "
+	word
+		"I suggest you do the same if you have interest."
+		"It makes the many hours pass by quickly."
+		"The dark of space is lightened by its presence."
+		"There's little point in taking off without it."
 
 phrase "successor friendly hail" # Job hails
 	word
@@ -67,7 +89,7 @@ phrase "successor friendly hail" # Conspiracy hails
 
 phrase "successor hostile hail"
 	word
-		"Thou hast betrayed our trust and for what!?"
+		"Thou hast betrayed our trust and for what purpose!?"
 		"Our foolishness it was, we see, to trust thee;"
 		"Cruel, malignant, violent, petty creature."
 		"Vile! Thy deception is exposed now."
