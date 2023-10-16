@@ -425,37 +425,36 @@ ship `Stolsaqra`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 
-	gun 0 -35
-	gun -8.5 -17
-	gun 8.5 -17
-	turret 0 3.5
-	engine -7 40
-	engine 7 40
-	"steering engine" 2 -34
-		zoom .3
+	gun 0 -40
+	gun -10.5 -20
+	gun 10.5 -20
+	engine -8 35
+	engine 8 35
+	"steering engine" 4 -41
+		zoom .4
 		over
 		left
 		angle 270
-	"steering engine" -2 -34
-		zoom .3
+	"steering engine" -4 -41
+		zoom .4
 		over
 		right
 		angle 90
-	"steering engine" 12 29
-		zoom .3
+	"steering engine" 12 33
+		zoom .4
 		over
 		right
 		angle 270
-	"steering engine" -12 29
-		zoom .3
+	"steering engine" -12 33
+		zoom .4
 		over
 		left
 		angle 90
-	"reverse engine" 2 -34
-		zoom .3
+	"reverse engine" 15 -3
+		zoom .8
 		over
-	"reverse engine" -2 -34
-		zoom .3
+	"reverse engine" -15 -3
+		zoom .8
 		over
 	leak "leak" 50 50
 	leak "flame" 30 80
