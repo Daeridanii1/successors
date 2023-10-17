@@ -46,7 +46,7 @@ mission "Successors: Predecessor Research 1"
 				`	"Actually, I didn't have any questions after all."`
 					launch
 			label who
-			`	"Our Predecessors were our ancestors. Until fifteen hundred years ago, they ruled this space and much more as part of a vast empire. Most of them died out during the collapse of the empire, but a small few made their way through the unstable wormhole to the star cluster where we, their Successors, now make our home."`
+			`	"Our Predecessors were our now-gone ancestors. Until the time of fifteen hundred years ago, they ruled this space and much beyond as part of their own empire. Many and their bloodlines died as much of the empire fell to ruin, but some made passage through the wormhole to the cluster that we now as their Successors, call our home."`
 			choice
 				`	"What caused the collapse?"`
 					goto collapse
@@ -57,7 +57,9 @@ mission "Successors: Predecessor Research 1"
 				`	"I have no more questions."`
 					launch
 			label collapse
-			`	The researcher sighs. "We do not know; or rather, the full extent of the truth yet remains hidden. The star Eta Carinae experienced an 'eruption' that irradiated many of their inner territories. But the reason behind this eruption is not known; perhaps twas naught but a cruel trick of nature, or perhaps twas some sinister strike upon our race by an unseen foe. The empire at the time of its collapse had awakened the destructive envy of many."`
+			`	The researcher sighs. "We do not know; or better put, the fullness of the truth yet remains obscured. The flesh of space itself was rent, distorted; the effects of this remain today: the holes embedded in the skies, the dying-out of light and even of the hyperlanes. It was a warring time; the Houses turned upon each other or they fled, and space itself was set alight with the blinks of shots and drives---"`
+			`	The researcher stops for a moment, composing themself.`
+			`	"I digress and do apologize. T'is challenging to separate the truth from fiction in this regard. Our Predecessors wielded power far beyond our modern imitations, the sort that sows the seeds of peace or chaos deep within the fabric of the world, the sort of things that poke and prod at places that must remain untouched. 'What caused the collapse?' you ask? Hubris, methinks."`
 			choice
 				`	"How large was their empire?"`
 					goto empire
@@ -66,7 +68,7 @@ mission "Successors: Predecessor Research 1"
 				`	"I have no more questions."`
 					launch
 			label empire
-			`	"The translation device thou wears upon thy clothes is testament to its scale; at its peak, our scholars had even laid eyes and ears upon Earth. These dead systems that remain where once the core of their empire stood are naught but a fraction of what once was there. Others have been ... hidden. We do not know how or why, only that the starcharts of our ancestors do not mirror those we carry today."`
+			`	"The translation device thou wears upon thy clothes speaks volumes to its scale; at its peak, our scholars had even laid eyes and ears upon Earth. These dead systems that remain where once the core of their empire stood are but a small fraction of what was there. Others, it would seem, have been obscured. We know not how nor why, only that the starcharts of our Predecessors do not mirror those we see today."`
 			choice
 				`	"What caused the collapse?"`
 					goto collapse
@@ -75,7 +77,7 @@ mission "Successors: Predecessor Research 1"
 				`	"I have no more questions."`
 					launch
 			label tech
-			`	"Glorious and beautiful; as much art as science or engineering. Our Predecessors employed exotic materials - the sort that one cannot find unless one knows exactly what to look for. We have descriptions, enough to make rudimentary copies and guesses at the processes our Predecessors used, but copies and guesses our attempts remain. We have even failed to replicate the heirlooms guarded by the High Houses - the materials they use are somehow different from how materials in this galaxy should be."`
+			`	"Glorious and beautiful; as much art as science or engineering. At their peak, the works of our Predecessors were envied and respected even by the Quarg, whose mastery knows little equal. Our Predecessors employed exotic materials - the sort that one cannot find unless one knows exactly what to look for. We have descriptions, enough to make rudimentary copies and guesses at the processes our Predecessors used, but copies and guesses our attempts remain. We have even failed to replicate the heirlooms guarded by the High Houses - the materials they use are somehow different from how materials in this galaxy should be."`
 			choice
 				`	"What caused the collapse?"`
 					goto collapse
