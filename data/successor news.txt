@@ -109,7 +109,7 @@ news "high houses propaganda"
 			"High Houses broadcast"
 	message
 		word
-			`An advertisement shows a Successor warship performing a variety of deftly-executed maneuvers before encouraging the viewer to enlist in the armed forces of one of the high houses.` 
+			`An advertisement shows a Successor warship performing a variety of deftly-executed maneuvers before encouraging the viewer to enlist in the armed forces of one of the High Houses.` 
 			`An advertisement plays showing a group of Successors standing close together against a factory backdrop, their skins all tinted a happy green. It is followed by a voiceover noting that wages have been recently increased.`
 			`A short video plays showing the construction of a new spaceport on the surface of a prospering Successor planet. Several warships of the High Houses painted in ceremonial livery pass across the screen, showing clearly who is to be thanked.`
 			`A proud-looking Successor naval officer stands before an imposing-looking warship: "Enlist!" the caption reads, "See the stars today!"`
