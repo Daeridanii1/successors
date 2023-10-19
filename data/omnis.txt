@@ -34,12 +34,20 @@ shipyard "successors"
 	`Veusade`
 	`Nnesaarau`
 outfitter "successors"
+	`"Byiaa" Shield Cortex`
+	`"Ej" Shield Cortex`
+	`"Jaase" Shield Cortex`
+	`"Seqra" Shield Cortex`
+	`"Jorv" Shield Cortex`
 	`"Byiaa" Defensive Cortex`
 	`"Jaase" Defensive Cortex`
 	`"Seqra" Defensive Cortex`
 	"Small Shield Projection"
-	"Medium Shield Projection"
 	"Large Shield Projection"
+	"Small Armor Projection"
+	"Large Armor Projection"
+	`Shield Bypass Projection`
+	`Armor Delay Projection`
 	"Bimodal Railgun Turret"
 	"Bimodal Railgun"
 	"Bimodal Switch"
