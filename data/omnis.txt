@@ -34,11 +34,13 @@ shipyard "successors"
 	`Veusade`
 	`Nnesaarau`
 outfitter "successors"
-	`"Byiaa" Shield Cortex`
-	`"Ej" Shield Cortex`
-	`"Jaase" Shield Cortex`
-	`"Seqra" Shield Cortex`
-	`"Jorv" Shield Cortex`
+	#`"Byiaa" Shield Cortex`
+	#`"Ej" Shield Cortex`
+	#`"Jaase" Shield Cortex`
+	#`"Seqra" Shield Cortex`
+	#`"Jorv" Shield Cortex`
+	#`"Viir" Repair Module`
+	#`"Vyraa" Repair Module`
 	`"Byiaa" Defensive Cortex`
 	`"Jaase" Defensive Cortex`
 	`"Seqra" Defensive Cortex`
@@ -82,14 +84,9 @@ outfitter "successors"
 	`"Aqra" Inductive Reverser`
 	`"Aqra" Inductive Steering`
 	`"Aqra" Inductive Thruster`
-	#`"Byiaa" Shield Cortex`
 	`"Chyyra" Inductive Reverser`
 	`"Chyyra" Inductive Steering`
 	`"Chyyra" Inductive Thruster`
-	#`"Ej" Shield Cortex`
-	#`"Jaase" Shield Cortex`
-	#`"Jorv" Shield Cortex`
-	#`"Seqra" Shield Cortex`
 	`"Niis" Inductive Engines`
 	`"Nnesa" Inertial Core`
 	`"Ryuit" Inertial Core`
@@ -97,8 +94,6 @@ outfitter "successors"
 	`"Veusa" Inductive Reverser`
 	`"Veusa" Inductive Steering`
 	`"Veusa" Inductive Thruster`
-	`"Viir" Repair Module`
-	`"Vyraa" Repair Module`
 	`1-"Uurau" Betavoltaic Cell`
 	`3-"Kaska" Betavoltaic Cell`
 	`6-"Ruuv" Betavoltaic Cell`

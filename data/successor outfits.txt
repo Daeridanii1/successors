@@ -16,45 +16,48 @@ outfit "Heirloom License"
 outfit `"Byiaa" Defensive Cortex`
 	category "Systems"
 	cost 1250000
-	thumbnail "outfit/small successor shield"
+	thumbnail "outfit/small defensive cortex"
 	licenses
 		"Successor"
-	"mass" 3
-	"outfit space" -3
+	"mass" 18
+	"outfit space" -18
 	"shield protection" -0.33
 	"shield energy" 0.2
 	"hull energy" 0.2
 	"defense projection" 6
 	"description" "Conformally applied right underneath a ship's hull, Successor defensive cortices are the end targets of shield or armor repair projections from small modular generators located deep within the vessel. Each projection that connects to a cortex can apply its shield regeneration or armor repair effects to the entire vessel, but increasing the number of projections too much reduces the efficiency of the system."
 	description "	Altering a ship's shield geometry in this way tends to reduce its resistance to direct damage, however, which can be detrimental to the survivability of ships that rely on shielding as their main defensive layer."
+	unplunderable 1		#Integrated into the ship's hull
 
 outfit `"Jaase" Defensive Cortex`
 	category "Systems"
-	cost 6550000
-	thumbnail "outfit/medium successor shield"
+	cost 6500000
+	thumbnail "outfit/medium defensive cortex"
 	licenses
 		"High Houses"
-	"mass" 7
-	"outfit space" -7
+	"mass" 12
+	"outfit space" -12
 	"shield protection" -0.33
 	"shield energy" 0.55
 	"hull energy" 0.55
 	"defense projection" 14
 	"description" "Among the many functions of a Successor defensive cortex is its ability to monitor and react to damage all across a ship's surface; the computers incorporated in this cortex are larger and more powerful than those responsible for managing some small human ships in their entirety. The similarity of this reactive mechanism to that of a nervous system is neither incidental nor without consideration: the question of whether or not a ship equipped with one of these can feel pain is not a settled one within the philosophical conversations of Successor society."
+	unplunderable 1		#Integrated into the ship's hull
 
 outfit `"Seqra" Defensive Cortex`
 	category "Systems"
-	cost 21300000
-	thumbnail "outfit/large successor shield"
+	cost 22500000
+	thumbnail "outfit/large defensive cortex"
 	licenses
 		"High Houses"
-	"mass" 16
-	"outfit space" -16
+	"mass" 20
+	"outfit space" -20
 	"shield protection" -0.33
 	"shield energy" 1.5
 	"hull energy" 1.5
 	"defense projection" 32
-	"description" "The complex web of sensors and power conduits that forms the bulk of this, the largest of the Successors' defensive cortices, shuttles enough power and information across it to serve as the truly living second skin of a Successor warship. As the cortex comprehensively spans the underside of a ship's hull plating, installing it requires almost a complete stripping-down of the target vessel; a costly and time-consuming proposition that few independent pilots---even among those licensed to purchase it---are willing to endure."
+	"description" "The complex web of sensors and power conduits that forms the bulk of this, the largest of the Successors' defensive cortices, shuttles enough power and information across it to serve as the truly living second skin of a Successor warship. As the cortex comprehensively spans the underside of a ship's hull plating, installing it requires almost a complete stripping-down of the target vessel; a costly and time-consuming proposition that few independent pilots, even among those licensed to purchase it, are willing to endure."
+	unplunderable 1		#Integrated into the ship's hull
 
 outfit `Small Shield Projection`
 	category "Systems"
@@ -62,82 +65,82 @@ outfit `Small Shield Projection`
 	thumbnail "outfit/unknown"
 	licenses
 		"Successor"
-	"mass" 2
-	"outfit space" -2
+	"mass" 3
+	"outfit space" -3
 	"shield generation" 0.48
 	"shield energy" 0.58		# 1.2 energy / shield
-	"shield energy multiplier" 0.02
+	"shield energy multiplier" 0.08
 	"defense projection" -1
 	"description" "The small shield generator this projection extends from is extraordinarily compact for a unit handling so much power; if it were not fully integrated into the ship's power grid and a defensive cortex, it would rapidly overload as soon as it was activated. This smaller projection draws less power than its larger sibling, but becomes inefficient more rapidly when many are installed in the same cortex."
 
 outfit `Large Shield Projection`
 	category "Systems"
-	cost 1340000
+	cost 1350000
 	thumbnail "outfit/unknown"
 	licenses
 		"Successor"
-	"mass" 8
-	"outfit space" -8
+	"mass" 12
+	"outfit space" -12
 	"shield generation" 2.21		# 115% relative shield generation
-	"shield energy" 3.01			# 130% relative energy cost, 1.36 energy / shield
-	"shield energy multiplier" 0.05	# 62.5% relative efficiency cost
+	"shield energy" 3.5				# 130% relative energy cost, 1.36 energy / shield
+	"shield energy multiplier" 0.08
 	"defense projection" -4
 	"description" "The fast regeneration rate of Successor shields is designed, in part, to support the shield-draining high-performance mode of their inductive engines, allowing their shield projections to serve dual functions, supporting both the defense and mobility of their ships. This larger projection incorporates fibers from dozens of tiny shield generators, each of which is substantially more powerful than even a sizable human generator."
 
 outfit `Small Armor Projection`
 	category "Systems"
-	cost 200000
+	cost 350000
 	thumbnail "outfit/unknown"
 	licenses
 		"Successor"
-	"mass" 2
-	"outfit space" -2
+	"mass" 3
+	"outfit space" -3
 	"hull repair rate" 0.25
 	"hull energy" 0.4
-	"hull energy multiplier" 0.02
+	"hull energy multiplier" 0.08
 	"defense projection" -1
 	"description" "The Successors are masters of materials science, and since the days of the Predecessors, their ships have relied on advanced armor rather than shields as their primary defensive layer. During these current peaceful times, there is little need for in-flight armor repair systems, especially on civilian ships. Nonetheless, most research vessels and long-haul freighters employ at least one of these small projections in order to be prepared for emergencies that may occur while far from a well-equipped port."
 
 outfit `Large Armor Projection`
 	category "Systems"
-	cost 1340000
+	cost 1825000
 	thumbnail "outfit/unknown"
 	licenses
 		"Successor"
-	"mass" 8
-	"outfit space" -8
+	"mass" 12
+	"outfit space" -12
 	"hull repair rate" 1.15			# 115% relative hull repair
 	"hull energy" 1.84				# 140% relative energy cost
-	"hull energy multiplier" 0.05	# 62.5% relative efficiencys cost
+	"hull energy multiplier" 0.08
 	"defense projection" -4
-	"description" "While in theory available to civilian Successor pilots, this larger armor projection is in practice only utilized by the High Houses on their warships."
-
+	"description" "While in theory available to civilian Successor pilots, this larger armor repair projection is in practice utilized only by the High Houses on their larger warships. "
+	
 outfit `Shield Bypass Projection`
 	category "Systems"
-	cost 200000
+	cost 350000
 	thumbnail "outfit/unknown"
 	licenses
 		"Successor"
-	"mass" 1
-	"outfit space" -1
+	"mass" 3
+	"outfit space" -3
 	"high shield permeability" 0.75
 	"low shield permeability" 0.75
-	"shield generation multiplier" 0.2
+	"shield generation multiplier" 0.1
 	"defense projection" -1
-	"description" "Small armor projection."
+	"description" "The Successors have developed this shield-modifying projection for the cases in which the ability of a ship's shields to power the their inductive thrusters is more important than their ability to resist damage. While the shields it generates are much more permeable to incoming fire, they are just as effective when drawn from by the engines."
 
 outfit `Armor Delay Projection`
 	category "Systems"
-	cost 200000
+	cost 450000
 	thumbnail "outfit/unknown"
 	licenses
 		"Successor"
-	"mass" 1
-	"outfit space" -1
+	"mass" 3
+	"outfit space" -3
 	"repair delay" 240
-	"hull repair multiplier" 0.2
+	"hull repair multiplier" 0.1
 	"defense projection" -1
-	"description" "Small armor projection."
+	"description" "As their armor repair systems draw a great deal of power when active, the Successors have devised this special modification to prevent them from activating if the hull has taken damage recently, allowing their warships to operate within safer power limits in the heat of combat."
 
 #Not introduced until later in the storyline: Predecessors branch
 outfit `"Iqia" Maintenance Module`
