@@ -1192,7 +1192,7 @@ planet Chyyra-Raaqa-Tuur
 	government Uninhabited
 
 planet Giiq-Oj-Sol
-	attributes successor uninhabited
+	attributes successor uninhabited boldtourism
 	landscape land/mountain22-spfld
 	description "The specific atmosphere of this planet combined with its volcanic activity have combined to make the perfect conditions for the geological production of strands of natural glass, which are thrown into the atmosphere by volcanoes and then carried by high winds all over the planet. This makes stepping outside of one's ship without some sort of protection a very bad idea, as the ground is littered with sharp fragments and the air is filled with microscopic glass particles, both capable of rapidly destroying living tissue."
 	government Uninhabited
@@ -1282,7 +1282,7 @@ planet Khosa-Kella-Oa
 	description "Devoid of atmosphere, this small and rocky world sits at the northern end of Successor space, orbiting a dim star. Because of the Successors' location on the rim of the galaxy, this may very well be the last planet for millions of light years, the furthest child of the Milky Way."
 
 planet Kuj-Sol-Nnesa
-	attributes successor uninhabited
+	attributes successor uninhabited boldtourism
 	landscape land/desert13
 	description "This desert planet is far too hot and arid for the Successors' environmental needs, and its lack of any meaningful deposits of natural resources has precluded its exploitation by mining or industry. It is occasionally visited by Successor researchers, primarily to study the local fauna; giant millipede-like creatures are known to roam the sand here during the twilight hours, hunting anything that moves."
 	government Uninhabited
@@ -1347,7 +1347,7 @@ planet Mosaa-Ooa-Wyrdd
 	bribe 0
 
 planet Naph-Naap-Kella
-	attributes successor uninhabited
+	attributes successor uninhabited boldtourism
 	landscape land/lava1
 	description "This planet is deep in the throes of its early history, with a thick sulfurous atmosphere concealing an unstable and volcanically active surface. Despite that, the Successors have discovered very simple life forms here, possibly the very first life that has developed on this planet. Consequently, it is of some interest to Successor biologists, or at least the ones willing to brave the toxic and destructive conditions on the surface."
 	government Uninhabited
@@ -1459,7 +1459,7 @@ planet Tuur-Aasa-Kaska
 	"required reputation" 10
 
 planet Tuur-Oa-Sola
-	attributes successor uninhabited
+	attributes successor uninhabited boldtourism
 	landscape land/mars2
 	description "The atmosphere of this moon is thin but toxic, and its surface is riddled with fissures that spew hot gases. It appears to be falling below the Roche limit of the gas giant it orbits, and will probably be torn apart into a ring system within a few thousand years."
 	government Uninhabited
@@ -1483,12 +1483,12 @@ planet Uuoru-Veldt-Stir
 planet Vade-Osolaa-Kaska
 	attributes station successor uninhabited
 	landscape land/loc3
-	description "Although briefly used as a small-scale shipyard several hundred years ago, this station was eventually abandoned by the Successors because of its inconvenient location and altogether poor construction. There are occasional rumors about criminals using it as a bolt-hole or a place to hide contraband, but few Successors have the desire to go and check."
-	spaceport "The spaceport here is empty, though there are a few noticeable trails in the dust, suggesting that it may not be entirely unused."
+	description "Although briefly used as a small-scale shipyard several hundred years ago, this station was eventually abandoned by the High Houses because of its inconvenient location and altogether poor construction. There are occasional rumors about criminals using it as a bolt-hole or a place to hide contraband, but few Successors have the desire to go and check."
+	spaceport "The spaceport here is cavernous but empty, riddled with voids where vast pieces of machinery have been removed. A layer of dust covers the ground; it is disturbed in some locations with what look like trails, suggesting this place may not be entirely unused."
 	government Uninhabited
 
 planet Vyraa-Giiq-Sora
-	attributes successor uninhabited
+	attributes successor uninhabited boldtourism
 	landscape land/myrabella0
 	description "Despite the verdant and often bioluminescent life on its surface, the atmosphere of this planet is highly toxic to the Successors' biochemistry, and so they have made no permanent settlements here. While it is occasionally visited by the odd few tourists who don't mind having to wear an isolation suit, its distance from the majority of Successor space means that the Successors largely leave it alone."
 	government Uninhabited
