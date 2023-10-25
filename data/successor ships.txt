@@ -500,40 +500,44 @@ ship `Aaulqra`
 		`"Chyyra" Inductive Steering`
 		`"Chyyra" Inductive Reverser`
 		`"Ryuit" Inertial Core`
-		`3-"Kaska" Betavoltaic Cell`
+		`OC-"Mavra" Betavoltaic Cell`
+		`1-"Uurau" Betavoltaic Cell`
 		`"Jaase" Shield Cortex`
 		`"Viir" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling"
-		"Bimodal Railgun" 3
-		"Dazzle Missile Array" 2
-		"Dazzle Missile" 400
-		"Burst Anti-Missile Turret"
+		"Bimodal Railgun" 2
+		"Bimodal Railgun Turret" 2
 		"Multimodal Armor: Heavy"
-	gun -42 -25 "Bimodal Railgun"
-	gun -36 -31
-	gun 0 -99 "Bimodal Railgun"
-	gun 36 -31
-	gun 42 -25 "Bimodal Railgun"
-	turret -55 9
-	turret 0 34 "Burst Anti-Missile Turret"
-	turret 55 9
-	engine -27 86
-		zoom .7
-	engine 27 86
-		zoom .7
-	"reverse engine" -27 -22
-		zoom .7
-	"reverse engine" 27 -22
-		zoom .7
-	"steering engine" -27 -22
-		zoom .7
-		angle 180
+	gun 0 -118 
+	gun -23 -63 
+	gun -18 -72 "Bimodal Railgun"
+	gun 18 -72 "Bimodal Railgun"
+	gun 23 -63
+	turret -16 10
+	turret 16 10
+	engine -35 65
+	engine 35 65
+	"reverse engine" -35 -27
+		zoom .8
+	"reverse engine" 35 -27
+		zoom .8
+	"steering engine" -62 48
+		zoom .5
+		angle 90
 		left
-	"steering engine" 27 -22
-		zoom .7
-		angle 180
+	"steering engine" 62 48
+		zoom .5
+		angle 270
 		right
+	"steering engine" -17 -65
+		zoom .5
+		angle 90
+		right
+	"steering engine" 17 -65
+		zoom .5
+		angle 270
+		left
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18

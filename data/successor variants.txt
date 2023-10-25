@@ -1,26 +1,15 @@
-ship `Aaulqra` `Aaulqra (Rails)`
+ship `Aaulqra` `Aaulqra (Sniper)`
 	outfits
 		`"Veusa" Inductive Thruster`
 		`"Veusa" Inductive Steering`
 		`"Aqra" Inductive Reverser`
-		`"Nnesa" Inertial Core` 2
+		`"Ryuit" Inertial Core`
+		`3-"Kaska" Betavoltaic Cell`
 		`"Jaase" Shield Cortex`
 		"Hyperdrive"
 		"Successor Cooling"
-		"Bimodal Railgun" 5
-		"Burst Anti-Missile Turret" 2
-
-ship `Aaulqra` `Aaulqra (Support)`
-	outfits
-		`"Veusa" Inductive Thruster`
-		`"Veusa" Inductive Steering`
-		`"Aqra" Inductive Reverser`
-		`"Nnesa" Inertial Core` 2
-		`"Jaase" Shield Cortex`
-		"Hyperdrive"
-		"Successor Cooling" 2
-		"Drag Cannon" 3
-		"Dazzle Missile Array" 2
+		`"Sjeja" Puncture Rail`
+		"Bimodal Railgun" 4
 
 ship `Stolsaqra` `Stolsaqra (Short-Range)`
 	outfits
