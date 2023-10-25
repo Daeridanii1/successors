@@ -356,7 +356,7 @@ mission "Successors: Graffiti"
 					goto fooled
 			
 			label colorful
-				`	"Oh, thats for ... ah ... safety. Yes, 'tis very dangerous to touch if thou'r'nt trained, so 'tis bright in color as a warning." None of the three are wearing any sort of protective equipment that you can see, and by now most of the group have turned a mirthful shade of pink which one or two are clearly trying to suppress, their skin shifting in gradients in an effort to maintain their previous dull purple hue. One of the others is trying to hide a bag filled with more cans of "hull solution" behind their arms.`
+			`	"Oh, thats for ... ah ... safety. Yes, 'tis very dangerous to touch if thou'r'nt trained, so 'tis bright in color as a warning." None of the three are wearing any sort of protective equipment that you can see, and by now most of the group have turned a mirthful shade of pink which one or two are clearly trying to suppress, their skin shifting in gradients in an effort to maintain their previous dull purple hue. One of the others is trying to hide a bag filled with more cans of "hull solution" behind their arms.`
 			choice
 				`	"Well, if you're working on behalf of the port, then surely I can ask you to remove it as well."`
 					goto called
@@ -369,9 +369,11 @@ mission "Successors: Graffiti"
 				
 			label called
 			`	The trio seem rather deflated at hearing this, and after quite a bit of milling amongst themselves eventually relent and agree to remove the solution so long as you don't inform the port authority about their actions. While they put quite a bit of effort into removing it, they can't seem to scrub away the most dried-on parts, and you eventually let them go after it becomes apparent that the paint has permanently bonded to the hull.`
+				decline
 
 			label complicit
 			`	The trio brighten up at hearing this, and after some milling amongst themselves eventually glide off into the spaceport with their cans of solution in tow, though not before leaving one with you for "emergency repairs," though considering how terrible it smells it's not certain if you could ever stand trying to apply it.`
+				decline
 
 			label ignored
 			`	Upon returning from the spaceport some time later, you find that an area on the side of the <ship> has been covered in a thick, colorful solution with an incredibly noxious smell so potent you can hardly bear to approach it. The pattern forms some words in the Successor script, and while the translation device struggles to interpret the non-standard glyphs, it eventually offers a translation along the lines of "Ryiaa was here (and friends)." The defacement takes several hours for the spaceport crews to sufficiently scour off, but a small degree of discoloration remains permanently bonded to the hull plating for the foreseeable future.`
