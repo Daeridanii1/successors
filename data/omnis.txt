@@ -40,8 +40,10 @@ outfitter "successors"
 	"Burst Anti-Missile Turret"
 	"Dazzle Missile Array"
 	"Dazzle Missile"
+	"Dazzle Missile Rack"
 	`"Sjeja" Puncture Rail`
 	"High-Velocity Spike"
+	"High-Velocity Spike Rack"
 	"Gauss Rifle"
 	"Phasing Laser Sidearm"
 	"Heirloom Hunter-Killers"
@@ -94,7 +96,7 @@ outfitter "successors"
 mission "Successors Naive Test"
 	job
 	repeat
-	name "Set non-naive ship descriptions."
+	name "Successors: non-naive ship descriptions"
 	description "Accepting this mission will trigger the event that swaps certain Successor ship descriptions for more detailed ones, representing the player's increased knowledge."
 	source "  Successors"
 	on accept
