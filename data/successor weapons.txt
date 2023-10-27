@@ -273,6 +273,7 @@ outfit `"Sjeja" Puncture Rail`
 	"mass" 60
 	"outfit space" -60
 	"weapon capacity" -60
+	"energy capacity" 1900
 	"gun ports" -1
 	"spike capacity" 20
 	weapon
@@ -288,15 +289,14 @@ outfit `"Sjeja" Puncture Rail`
 		"velocity" 320
 		"lifetime" 8
 		"reload" 160
-		"firing energy" 80
 		"firing force" 800
-		"firing ion" 18
+		"firing energy" 1900
 		"firing heat" 4000
 		"shield damage" 1336
 		"hull damage" 1920
 		"piercing" .25
 		"hit force" 2500
-	description "The largest and most powerful of the Successors' modern weapons, this massive railgun is elegant in its simplicity, cleanly perforating targets at extreme range. The bank of exotic electromagnets it uses would draw far too much power to be safely delivered in a single burst, so the weapon itself is supported by a complex power-distribution array that spreads this power drain out over several seconds instead."
+	description "The largest and most powerful of the Successors' modern weapons, this massive railgun is elegant in its simplicity, cleanly perforating targets at extreme range. Because the bank of exotic electromagnets it employs requires an unusually high burst of power when firing, the weapon comes with integrated battery banks in order to supply it with a large enough reserve of electricity to function."
 
 outfit "High-Velocity Spike"
 	category "Ammunition"
@@ -307,6 +307,18 @@ outfit "High-Velocity Spike"
 	"mass" .5
 	"spike capacity" -1
 	description `The projectiles used by the "Sjeja" Puncture Rail are too large to be synthesized on-the-fly from the ship's reserves, and must be carried separately.`
+
+outfit `High-Velocity Spike Rack`
+	category "Ammunition"
+	cost 350000
+	licenses
+		"High Houses"
+	thumbnail "outfit/sjeja puncture rail"
+	"mass" 7
+	"outfit space" -15
+	"energy capacity" 800
+	"spike capacity" 20
+	description `Though few situations require the use of more shots than those carried in the built-in ammunition reserves of the "Sjeja" Puncture Rail's, the High Houses do manufacture this additional storage unit for use on their largest warships. The rack includes a small set of batteries to support the high power costs of the "Sjeja."`
 
 outfit "Burst Anti-Missile Turret"
 	category "Turrets"
@@ -351,7 +363,7 @@ outfit "Dazzle Missile Array"
 	"outfit space" -25
 	"weapon capacity" -25
 	"gun ports" -1
-	"dazzle missile capacity" 200
+	"dazzle missile capacity" 300
 	weapon
 		sprite "projectile/javelin"
 		sound "javelin"
@@ -365,9 +377,9 @@ outfit "Dazzle Missile Array"
 		"homing" 3
 		"optical tracking" .4
 		"lifetime" 45
-		"reload" 40
+		"reload" 20
 		"burst reload" 2
-		"burst count" 6
+		"burst count" 12
 		"firing energy" .2
 		"firing heat" 12
 		"missile strength" 1
@@ -382,9 +394,9 @@ outfit "Activated Dazzle"
 			"frame rate" 3
 		"die effect" "nano spark" 16
 			"frame rate" 3
-		"shield damage" 58
-		"hull damage" 12
-		"scrambling damage" 5
+		"shield damage" 33
+		"hull damage" 5
+		"scrambling damage" 2.7
 		"trigger radius" 80
 		"blast radius" 100
 		"missile strength" 6
@@ -401,6 +413,76 @@ outfit "Dazzle Missile"
 		"High Houses"
 	cost 250
 	thumbnail "outfit/dazzle missile"
-	"mass" .02
+	"mass" .04
 	"dazzle missile capacity" -1
 	description "Dazzle Missiles are ammunition for the Dazzle Missile Array. You cannot install Dazzle Missiles unless you have also installed a launcher to fire them from."
+
+outfit `Dazzle Missile Rack`
+	category "Ammunition"
+	cost 350000
+	licenses
+		"High Houses"
+	thumbnail "outfit/sjeja puncture rail"
+	"mass" 4
+	"outfit space" -12
+	"dazzle missile capacity" 200
+	description `While a sustained barrage of Dazzle Missiles can cripple a target's weapons and shield systems, particularly resilient targets can sometimes take longer than a single array's fire time to whittle down, hence the development of this reserve storage unit.`
+
+outfit `Interference Repeater`
+	category "Guns"
+	cost 1370000
+	thumbnail "outfit/bimodal railgun"
+	licenses
+		"High Houses"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"gun ports" -1
+	weapon
+		sprite "projectile/bimodal"
+			"frame rate" 5
+			"start frame" 0
+			"no repeat"
+		sound "pulse"
+		"hit effect" "seeker impact"
+		"fire effect" "moonbeam fleck" 4
+		"inaccuracy" 5
+		"velocity" 15
+		"lifetime" 20
+		"reload" 4
+		"firing energy" 11
+		"firing heat" 13
+		"shield damage" 12
+		"hull damage" 4
+		"scrambling damage" 0.25
+	description `Designed as a support weapon for use in a larger fleet, this compact linear accelerator delivers a rapid barrage of charged particle fragments that, while wholly ineffective against any sort of hull armor, deal modest shield damage and have a tendency to interfere with the targeting components of a ship's weapons. While a single one of these weapons can manage only limited disruption, several working in concert can vastly reduce the damage output of even a sizable enemy vessel.`
+
+outfit `Interference Turret`
+	category "Turrets"
+	cost 1370000
+	thumbnail "outfit/bimodal railgun"
+	licenses
+		"High Houses"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"turret mounts" -1
+	weapon
+		sprite "projectile/bimodal"
+			"frame rate" 5
+			"start frame" 0
+			"no repeat"
+		sound "pulse"
+		"hit effect" "seeker impact"
+		"fire effect" "moonbeam fleck" 4
+		"turret turn" 4.5
+		"inaccuracy" 5
+		"velocity" 15
+		"lifetime" 20
+		"reload" 3
+		"firing energy" 11
+		"firing heat" 13
+		"shield damage" 12
+		"hull damage" 4
+		"scrambling damage" 0.25
+	description `Designed as a support weapon for use in a larger fleet, this compact linear accelerator delivers a rapid barrage of charged particle fragments that, while wholly ineffective against any sort of hull armor, deal modest shield damage and have a tendency to interfere with the targeting components of a ship's weapons. While a single one of these weapons can manage only limited disruption, several working in concert can vastly reduce the damage output of even a sizable enemy vessel.`
