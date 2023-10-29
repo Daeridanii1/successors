@@ -48,7 +48,7 @@ outfit "Bimodal Railgun Turret"
 	"weapon capacity" -55
 	"turret mounts" -1
 	weapon
-		"hardpoint sprite" "hardpoint/pulse turret"
+		"hardpoint sprite" "hardpoint/bimodal turret"
 		"hardpoint offset" 9.
 		sprite "projectile/bimodal"
 			"frame rate" 5
@@ -427,62 +427,3 @@ outfit `Dazzle Missile Rack`
 	"outfit space" -12
 	"dazzle missile capacity" 200
 	description `While a sustained barrage of Dazzle Missiles can cripple a target's weapons and shield systems, particularly resilient targets can sometimes take longer than a single array's fire time to whittle down, hence the development of this reserve storage unit.`
-
-outfit `Interference Repeater`
-	category "Guns"
-	cost 1370000
-	thumbnail "outfit/bimodal railgun"
-	licenses
-		"High Houses"
-	"mass" 16
-	"outfit space" -16
-	"weapon capacity" -16
-	"gun ports" -1
-	weapon
-		sprite "projectile/bimodal"
-			"frame rate" 5
-			"start frame" 0
-			"no repeat"
-		sound "pulse"
-		"hit effect" "seeker impact"
-		"fire effect" "moonbeam fleck" 4
-		"inaccuracy" 5
-		"velocity" 15
-		"lifetime" 20
-		"reload" 4
-		"firing energy" 11
-		"firing heat" 13
-		"shield damage" 12
-		"hull damage" 4
-		"scrambling damage" 0.25
-	description `Designed as a support weapon for use in a larger fleet, this compact linear accelerator delivers a rapid barrage of charged particle fragments that, while wholly ineffective against any sort of hull armor, deal modest shield damage and have a tendency to interfere with the targeting components of a ship's weapons. While a single one of these weapons can manage only limited disruption, several working in concert can vastly reduce the damage output of even a sizable enemy vessel.`
-
-outfit `Interference Turret`
-	category "Turrets"
-	cost 1370000
-	thumbnail "outfit/bimodal railgun"
-	licenses
-		"High Houses"
-	"mass" 24
-	"outfit space" -24
-	"weapon capacity" -24
-	"turret mounts" -1
-	weapon
-		sprite "projectile/bimodal"
-			"frame rate" 5
-			"start frame" 0
-			"no repeat"
-		sound "pulse"
-		"hit effect" "seeker impact"
-		"fire effect" "moonbeam fleck" 4
-		"turret turn" 4.5
-		"inaccuracy" 5
-		"velocity" 15
-		"lifetime" 20
-		"reload" 3
-		"firing energy" 11
-		"firing heat" 13
-		"shield damage" 12
-		"hull damage" 4
-		"scrambling damage" 0.25
-	description `Designed as a support weapon for use in a larger fleet, this compact linear accelerator delivers a rapid barrage of charged particle fragments that, while wholly ineffective against any sort of hull armor, deal modest shield damage and have a tendency to interfere with the targeting components of a ship's weapons. While a single one of these weapons can manage only limited disruption, several working in concert can vastly reduce the damage output of even a sizable enemy vessel.`
