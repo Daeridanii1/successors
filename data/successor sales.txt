@@ -113,7 +113,6 @@ outfitter "Peoples Houses"
 	"Overcharged Pulse Laser"
 	"Overcharged Laser Turret"
 	`OC-"Mavra" Betavoltaic Cell`
-	"Successor Scanner"
 
 outfitter "Heirloom"
 	"Heirloom Hunter-Killers"
