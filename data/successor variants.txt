@@ -1,15 +1,33 @@
 ship `Aaulqra` `Aaulqra (Sniper)`
 	outfits
-		`"Veusa" Inductive Thruster`
-		`"Veusa" Inductive Steering`
-		`"Aqra" Inductive Reverser`
-		`"Ryuit" Inertial Core`
+		`"Chyyra" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
+		`"Veusa" Inductive Reverser`
+		`"Uoret" Inertial Core`
 		`3-"Kaska" Betavoltaic Cell`
 		`"Jaase" Shield Cortex`
-		"Hyperdrive"
-		"Successor Cooling"
+		`"Viir" Repair Module`
+		`Hyperdrive`
+		`Successor Cooling`
 		`"Sjeja" Puncture Rail`
-		"Bimodal Railgun" 4
+		`High-Velocity Spike` 20
+		`Bimodal Railgun` 4
+		`Burst Anti-Missile Turret` 2
+
+ship `Aaulqra` `Aaulqra (Brawler)`
+	outfits
+		`"Chyyra" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
+		`"Aqra" Inductive Reverser`
+		`"Uoret" Inertial Core`
+		`3-"Kaska" Betavoltaic Cell`
+		`"Jorv" Shield Cortex`
+		`"Viir" Repair Module`
+		`Hyperdrive`
+		`Successor Cooling`
+		`Bimodal Railgun` 2
+		`Bimodal Railgun Turret` 2
+		`Drag Cannon` 3
 
 ship `Stolsaqra` `Stolsaqra (Short-Range)`
 	outfits
@@ -20,7 +38,7 @@ ship `Stolsaqra` `Stolsaqra (Short-Range)`
 		"Drag Cannon" 3
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		"Burst Anti-Missile Turret"
+		`"Veldt" Combat Scanner`
 
 ship `Stolsaqra` `Stolsaqra (Military)`
 	outfits
@@ -66,17 +84,33 @@ ship `Kvelqde` `Kvelqde (Mining)`
 		"Hyperdrive"
 		`"Tuur" Scanning Suite`
 
-ship `Kaskhorade` `Kaskhorade (Rails)`
+ship `Kaskhorade` `Kaskhorade (Sniper)`
 	outfits
 		`"Veusa" Inductive Thruster`
 		`"Veusa" Inductive Steering`
-		`"Ryuit" Inertial Core`
-		`"Jorv" Shield Cortex`
+		`"Veusa" Inductive Reverser`
+		`"Uoret" Inertial Core`
+		`"Jaase" Shield Cortex`
+		`"Viir" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling"
-		"Bimodal Railgun" 2
-		"Bimodal Railgun Turret" 4
-		`Outfits Expansion` 5
+		`"Sjeja" Puncture Rail` 2
+		`High-Velocity Spike Rack`
+		`High-Velocity Spike` 60
+		"Burst Anti-Missile Turret" 2 
+
+ship `Kaskhorade` `Kaskhorade (Brawler)`
+	outfits
+		`"Chyyra" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
+		`"Chyyra" Inductive Reverser`
+		`"Uoret" Inertial Core`
+		`OC-"Mavra" Betavoltaic Cell`
+		`"Jorv" Shield Cortex`
+		`"Viir" Repair Module`
+		"Hyperdrive"
+		"Successor Cooling"
+		`Bimodal Railgun Turret` 4
 
 ship `Kaskhorade` `Kaskhorade (Bomber)`
 	outfits
@@ -86,8 +120,8 @@ ship `Kaskhorade` `Kaskhorade (Bomber)`
 		`"Jorv" Shield Cortex`
 		"Hyperdrive"
 		"Successor Cooling"
-		"Dazzle Missile Array" 5
-		"Dazzle Missile" 1000
+		"Dazzle Missile Array" 4
+		"Dazzle Missile" 800
 		"Burst Anti-Missile Turret" 2
 		`Outfits Expansion` 2
 

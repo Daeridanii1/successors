@@ -646,20 +646,19 @@ ship `Aaulqra`
 		`"Chyyra" Inductive Thruster`
 		`"Chyyra" Inductive Steering`
 		`"Chyyra" Inductive Reverser`
-		`"Ryuit" Inertial Core`
-		`OC-"Mavra" Betavoltaic Cell`
-		`1-"Uurau" Betavoltaic Cell`
-		`"Jaase" Shield Cortex`
-		`"Viir" Repair Module`
+		`"Uoret" Inertial Core`
+		`3-"Kaska" Betavoltaic Cell`
+		`"Jorv" Shield Cortex`
+		`"Vyyra" Repair Module`
 		"Hyperdrive"
-		"Successor Cooling"
-		"Bimodal Railgun" 2
-		"Bimodal Railgun Turret" 2
+		"Successor Cooling" 2
+		"Bimodal Railgun" 5
+		"Burst Anti-Missile Turret" 2
 		"Multimodal Armor: Heavy"
 	gun 0 -118 
 	gun -23 -63 
-	gun -18 -72 "Bimodal Railgun"
-	gun 18 -72 "Bimodal Railgun"
+	gun -18 -72
+	gun 18 -72
 	gun 23 -63
 	turret -16 10
 	turret 16 10
@@ -726,18 +725,18 @@ ship `Kaskhorade`
 	outfits
 		`"Veusa" Inductive Thruster`
 		`"Veusa" Inductive Steering`
-		`"Chyyra" Inductive Reverser`
+		`"Veusa" Inductive Reverser`
 		`"Uoret" Inertial Core`
-		`3-"Kaska" Betavoltaic Cell`
-		`"Jorv" Shield Cortex`
+		`1-"Uurau" Betavoltaic Cell` 3
+		`"Jaase" Shield Cortex`
 		`"Viir" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling"
-		"Bimodal Railgun" 5
-		"Burst Anti-Missile Turret" 2
+		"Bimodal Railgun" 4
+		"Burst Anti-Missile Turret" 4
 		"Multimodal Armor: Heavy"
-	turret -39 16 "Burst Anti-Missile Turret"
-	turret 39 16 "Burst Anti-Missile Turret"
+	turret -39 16
+	turret 39 16
 	turret 0 -8
 	turret 0 34
 	gun -3 -120
