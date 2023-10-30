@@ -736,17 +736,38 @@ ship `Kaskhorade`
 		"Bimodal Railgun" 5
 		"Burst Anti-Missile Turret" 2
 		"Multimodal Armor: Heavy"
-	turret -46 12 "Burst Anti-Missile Turret"
-	turret 46 12 "Burst Anti-Missile Turret"
-	turret 0 -40
-	turret 0 37
-	gun -42 -72
-	gun -36 -86
-	gun 42 -72
-	gun 36 -86
-	gun 0 -140
-	engine -36 94
-	engine 36 94
+	turret -39 16 "Burst Anti-Missile Turret"
+	turret 39 16 "Burst Anti-Missile Turret"
+	turret 0 -8
+	turret 0 34
+	gun -3 -120
+	gun 3 -120
+	gun -45 -15
+	gun 45 -15
+	engine -36 78
+	engine 36 78
+	"reverse engine" -36 -28
+		zoom .8
+	"reverse engine" 36 -28
+		zoom .8
+	"steering engine" -52 42
+		zoom .5
+		angle 90
+		left
+	"steering engine" 52 42
+		zoom .5
+		angle 270
+		right
+	"steering engine" -16 -83
+		zoom .5
+		angle 90
+		right
+		over
+	"steering engine" 16 -83
+		zoom .5
+		angle 270
+		left
+		over
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
