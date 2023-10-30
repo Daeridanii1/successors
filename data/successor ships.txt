@@ -469,87 +469,6 @@ ship `Stolsaqra`
 ship `Stolsaqra` `Stolsaqra (Naive)`
 	description `The Successors' attempt at an interceptor is quite compact and sports a surprising amount of firepower for a ship of its size, though restrictive internal space leaves it plagued with power and propulsion issues if it is equipped to fully utilize its weapons capacity. While it is manufactured by the High Houses, the "Stolsaqra" is made available to the general Successor public, albeit with significantly downgraded systems compared to the military-exclusive model.`
 
-ship `Aaulqra`
-	sprite "ship/aaulqra"
-	thumbnail "thumbnail/aaulqra"
-	attributes
-		licenses
-			"High Houses"
-		category "Medium Warship"
-		"cost" 26000000
-		"shields" 4000
-		"hull" 41500
-		"required crew" 18
-		"bunks" 25
-		"mass" 280
-		"drag" 2.4
-		"heat dissipation" .75
-		"fuel capacity" 400
-		"cargo space" 19
-		"outfit space" 450
-		"weapon capacity" 200
-		"engine capacity" 120
-		"multimodal armor" 1
-		weapon
-			"blast radius" 100
-			"shield damage" 1000
-			"hull damage" 500
-			"hit force" 1500
-	outfits
-		`"Chyyra" Inductive Thruster`
-		`"Chyyra" Inductive Steering`
-		`"Chyyra" Inductive Reverser`
-		`"Ryuit" Inertial Core`
-		`OC-"Mavra" Betavoltaic Cell`
-		`1-"Uurau" Betavoltaic Cell`
-		`"Jaase" Shield Cortex`
-		`"Viir" Repair Module`
-		"Hyperdrive"
-		"Successor Cooling"
-		"Bimodal Railgun" 2
-		"Bimodal Railgun Turret" 2
-		"Multimodal Armor: Heavy"
-	gun 0 -118 
-	gun -23 -63 
-	gun -18 -72 "Bimodal Railgun"
-	gun 18 -72 "Bimodal Railgun"
-	gun 23 -63
-	turret -16 10
-	turret 16 10
-	engine -35 65
-	engine 35 65
-	"reverse engine" -35 -27
-		zoom .8
-	"reverse engine" 35 -27
-		zoom .8
-	"steering engine" -62 48
-		zoom .5
-		angle 90
-		left
-	"steering engine" 62 48
-		zoom .5
-		angle 270
-		right
-	"steering engine" -17 -65
-		zoom .5
-		angle 90
-		right
-	"steering engine" 17 -65
-		zoom .5
-		angle 270
-		left
-	leak "leak" 50 50
-	leak "flame" 30 80
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion medium"
-	description "This medium warship is among the oldest and most reliable designs employed by the High Houses of the Successors, with a recognizable lineage dating back several thousand years. It is compact, fast, and durable for a ship of its class, but has relatively limited internal space, and a short operational range. The captains of these ships are often up-and-coming Successor officers hoping to prove themselves to one of the High Houses by demonstrating their mastery of the vessel; while most, of course, do not, the ship's ubiquity and good performance make it an excellent starting point for those who do."
-
-ship `Aaulqra` `Aaulqra (Naive)`
-	description `This medium warship is among the most common designs employed by the High Houses of the Successors. It is compact, fast, and durable for a ship of its class, but limited internal space and fuel capacity restrict it mostly to short-range patrol service.`
-
 ship `Seiitej`
 	sprite "ship/seiitej"
 	thumbnail "thumbnail/seiitej"
@@ -697,6 +616,87 @@ ship `Veusade`
 ship `Veusade` `Veusade (Naive)`
 	description `The "Veusade" bristles with gun ports but has a small overall weapons capacity; in fact, it is just enough to saturate its hardpoints with drag cannons. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels.`
 
+ship `Aaulqra`
+	sprite "ship/aaulqra"
+	thumbnail "thumbnail/aaulqra"
+	attributes
+		licenses
+			"High Houses"
+		category "Medium Warship"
+		"cost" 26000000
+		"shields" 10000
+		"hull" 55000
+		"required crew" 18
+		"bunks" 25
+		"mass" 280
+		"drag" 4.0
+		"heat dissipation" 0.7
+		"fuel capacity" 500
+		"cargo space" 19
+		"outfit space" 550
+		"weapon capacity" 240
+		"engine capacity" 120
+		"multimodal armor" 1
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		`"Chyyra" Inductive Thruster`
+		`"Chyyra" Inductive Steering`
+		`"Chyyra" Inductive Reverser`
+		`"Ryuit" Inertial Core`
+		`OC-"Mavra" Betavoltaic Cell`
+		`1-"Uurau" Betavoltaic Cell`
+		`"Jaase" Shield Cortex`
+		`"Viir" Repair Module`
+		"Hyperdrive"
+		"Successor Cooling"
+		"Bimodal Railgun" 2
+		"Bimodal Railgun Turret" 2
+		"Multimodal Armor: Heavy"
+	gun 0 -118 
+	gun -23 -63 
+	gun -18 -72 "Bimodal Railgun"
+	gun 18 -72 "Bimodal Railgun"
+	gun 23 -63
+	turret -16 10
+	turret 16 10
+	engine -35 65
+	engine 35 65
+	"reverse engine" -35 -27
+		zoom .8
+	"reverse engine" 35 -27
+		zoom .8
+	"steering engine" -62 48
+		zoom .5
+		angle 90
+		left
+	"steering engine" 62 48
+		zoom .5
+		angle 270
+		right
+	"steering engine" -17 -65
+		zoom .5
+		angle 90
+		right
+	"steering engine" 17 -65
+		zoom .5
+		angle 270
+		left
+	leak "leak" 50 50
+	leak "flame" 30 80
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description `The "Aaulqra" is the oldest warship design currently produced by the High Houses in Successor space, with a recognizable lineage continuing back several thousand years to long before the fall of the old empire. It is compact, fast, and durable for a ship of its class, but has relatively limited internal space and lacks any significant cargo or passenger facilities. The captains of these vessels are often up-and-coming Successor officers hoping to prove themselves to one of the High Houses by demonstrating their mastery of the vessel; while most, of course, do not, the ship's flexibility and ubiquitious presence make it an excellent starting point for those who do.`
+
+ship `Aaulqra` `Aaulqra (Naive)`
+	description `This medium warship is among the most common designs employed by the High Houses of the Successors. It is compact, fast, and durable for a ship of its class, but limited internal space and fuel capacity restrict it mostly to short-range patrol service.`
+
 ship `Kaskhorade`
 	sprite "ship/kaskhorade"
 	thumbnail "thumbnail/kaskhorade"
@@ -705,18 +705,18 @@ ship `Kaskhorade`
 			"High Houses"
 		category "Medium Warship"
 		"cost" 45250000
-		"shields" 10000
-		"hull" 55000
-		"required crew" 58
-		"bunks" 133
-		"mass" 555
-		"drag" 4.0
+		"shields" 7000
+		"hull" 44500
+		"required crew" 34
+		"bunks" 130
+		"mass" 480
+		"drag" 6.5
 		"heat dissipation" .75
 		"fuel capacity" 600
-		"cargo space" 100
+		"cargo space" 140
 		"outfit space" 570
-		"weapon capacity" 270
-		"engine capacity" 140
+		"weapon capacity" 280
+		"engine capacity" 110
 		"multimodal armor" 1
 		weapon
 			"blast radius" 100
@@ -775,7 +775,7 @@ ship `Kaskhorade`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Serving as the heavy multipurpose backbone of the fleets of the various High Houses, the "Kaskhorade" trades some of the maneuverability of its smaller siblings for greater defenses and non-combat capabilities. In addition to being a capable warship, it also holds sizable free cargo and bunk space for use in a wide variety of missions. These vessels are frequently used to transport high-ranking members of the High Houses, as they can remain well-defended while outfitted for fast and luxurious travel.`
+	description `Serving as the heavy multipurpose backbone of the fleets of the various High Houses, the "Kaskhorade" trades some of the maneuverability of its smaller siblings for greater flexibility; in addition to being a capable warship, it also offers sizable free cargo and bunk space that allow it to fulfill a wide variety of missions. Along with serving as convoy escorts and fleet warships, these vessels are often used to transport high-ranking members of the High Houses, as they can remain well-defended while outfitted for fast and luxurious travel.`
 
 ship `Valsaqra`
 	sprite "ship/valsaqra"
