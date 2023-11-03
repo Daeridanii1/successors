@@ -1,7 +1,7 @@
-outfit "Bimodal Railgun"
+outfit `"Ojet" Bimodal Coilgun`
 	category "Guns"
 	cost 1370000
-	thumbnail "outfit/bimodal railgun"
+	thumbnail "outfit/bimodal coilgun"
 	licenses
 		"High Houses"
 	"mass" 22
@@ -34,13 +34,13 @@ outfit "Bimodal Railgun"
 		"hit force" 80
 		"cluster"
 		"submunition" "Bimodal Switch" 3
-	description `The Bimodal Railgun was designed quite simply as a perfect weapon, and indeed, it is said that by the time the empire of the Predecessors fell, they had seen no need to install any other weapon on their ships for over a thousand years.`
-	description `It fires a condensed packet of heavy metal ions that disperse as they travel: up close the concentrated bolt pierces armor, while at a distance the ionic spray destabilizes shielding. Together, a ship equipped with these can adjust its damage profile just by changing its engagement range, allowing it to be highly effective against any foe.`
+	description `Precise and deadly, the "Ojet" Bimodal Coilgun has been the High Houses' armament of choice since long before humans ever took to the stars. It was designed quite simply as a perfect weapon; it is said that by the time the empire of the Predecessors fell, they had seen no need to install any other weapon on their ships for over a thousand years.`
+	description `The "Ojet" fires hyperdense packets of charged particles that disperse as they travel: up close the concentrated bolt pierces armor, while at a distance the ionic spray destabilizes shielding. Together, a ship equipped with these weapons can adjust its damage profile just by changing its engagement range, allowing it to be highly effective against any foe.`
 
-outfit "Bimodal Railgun Turret"
+outfit `Bimodal Coilgun Turret`
 	category "Turrets"
 	cost 2950000
-	thumbnail "outfit/bimodal railgun turret"
+	thumbnail "outfit/bimodal coilgun turret"
 	licenses
 		"High Houses"
 	"mass" 55
@@ -74,7 +74,7 @@ outfit "Bimodal Railgun Turret"
 		"hit force" 80
 		"cluster"
 		"submunition" "Bimodal Switch" 3
-	description `Successor warships have traditionally relied on fixed weaponry to deal with their foes, but the High Houses do produce a turreted version of the Bimodal Railgun so that their larger and slower vessels can maintain their combat effectiveness against more manuverable targets. It mounts two railguns side by side, rigged to fire double the amount of shots per burst to keep them in sync with the fixed hardpoints.`
+	description `Successor warships have traditionally relied on fixed weaponry to deal with their foes, but the High Houses do produce a turreted platform for the "Ojet" Coilgun so that their larger and slower vessels can maintain their combat effectiveness against more manuverable targets. It mounts two of the weapons side by side, rigged to fire double the amount of shots per burst to keep them in sync with the fixed hardpoints.`
 
 outfit "Bimodal Switch"
 	weapon
@@ -114,7 +114,7 @@ outfit "Drag Cannon"
 		"cluster"
 		"submunition" "Drag Projectile" 3
 	description `The Successors have a historical affinity for projectile weaponry which persists to the modern day. The Drag Cannon fires a short-ranged, highly inaccurate blast of projectiles that not only deal substantial damage but also temporarily disrupt the target's engines.`
-	description `While it is an inelegant design in comparison to the time-tested Bimodal Railgun, and consequently less appreciated, the Drag Cannon has found a place on the Successors' fast attack craft primarily as a tool for slowing down enemy vessels so that they can be engaged by a larger fleet.`
+	description `While it is an inelegant design in comparison to the time-tested "Ojet" Coilgun, and consequently less appreciated, the Drag Cannon has found a place on the Successors' fast attack craft primarily as a tool for slowing down enemy vessels so that they can be engaged by a larger fleet.`
 
 outfit "Drag Projectile"
 	weapon

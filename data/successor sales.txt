@@ -87,7 +87,7 @@ outfitter "Successor High Tech"
 
 outfitter "High Houses Light"
 	`"Nnesa" Inertial Core`
-	"Bimodal Railgun"
+	`"Ojet" Bimodal Coilgun`
 	`Drag Cannon`
 	"Dazzle Missile Array"
 	"Dazzle Missile"
@@ -101,7 +101,7 @@ outfitter "High Houses Heavy"
 	`"Uoret" Inertial Core`
 	"High-Velocity Spike"
 	`"Sjeja" Puncture Rail`
-	`Bimodal Railgun Turret`
+	`Bimodal Coilgun Turret`
 	"Multimodal Armor: Heavy"
 	"Multimodal Armor: Stealth"
 	"Multimodal Armor: Regen"

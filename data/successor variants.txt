@@ -46,7 +46,7 @@ ship `Stolsaqra` `Stolsaqra (Military)`
 		`"Aqra" Inductive Steering`
 		`"Aqra" Inductive Reverser`
 		`3-"Kaska" Betavoltaic Cell`
-		"Bimodal Railgun" 3
+		`"Ojet" Bimodal Coilgun` 3
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 		`"Veldt" Combat Scanner`
@@ -136,8 +136,8 @@ ship `Valsaqra` `Valsaqra (Rails)`
 		`1-"Uurau" Betavoltaic Cell` 2
 		"Hyperdrive"
 		"Successor Cooling" 2
-		"Bimodal Railgun" 6
-		"Bimodal Railgun Turret" 3
+		`"Ojet" Bimodal Coilgun` 6
+		`Bimodal Coilgun Turret` 3
 		"Burst Anti-Missile Turret"
 
 ship "Ojde" "Ojde 2"

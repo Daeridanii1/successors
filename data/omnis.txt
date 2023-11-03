@@ -34,8 +34,8 @@ shipyard "successors"
 	`Veusade`
 	`Nnesaarau`
 outfitter "successors"
-	"Bimodal Railgun Turret"
-	"Bimodal Railgun"
+	"Bimodal Coilgun Turret"
+	`"Ojet" Bimodal Coilgun`
 	"Burst Anti-Missile Turret"
 	"Dazzle Missile Array"
 	"Dazzle Missile"
