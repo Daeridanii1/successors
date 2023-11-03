@@ -78,7 +78,7 @@ outfit `Bimodal Coilgun Turret`
 
 outfit "Bimodal Switch"
 	weapon
-		sprite "projectile/bimodal_switch"
+		sprite "projectile/bimodal switch"
 			"random start frame"
 			"frame rate" 20
 		"hit effect" "ion rain impact" 3
