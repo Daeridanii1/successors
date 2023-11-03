@@ -134,6 +134,7 @@ news "successor advertisements"
 news "local news quiet"
 	location
 		attributes quiet
+		not attributes station
 		government "Successor"
 	name
 		word
