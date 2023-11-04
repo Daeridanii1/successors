@@ -153,7 +153,7 @@ outfit `Auxiliary Power Reserve`
 	"energy capacity" 3000
 	"shield energy" -0.2
 	"hull energy" -0.1
-	description "This compact battery reserves a portion of its capacity exclusively for use by shield generators and hull repair systems, reducing the amount of power they draw from a ship's total energy pool while they are active. The effect is relatively small, but the given the limited output of the Successors' betavoltaic cells, both additional battery capacity and power overhead are quite welcome."
+	description "This compact battery reserves a portion of its capacity exclusively for use by shield generators and hull repair systems, reducing the amount of power they draw from a ship's total energy pool while they are active. The effect is relatively small, but given the limited output of the Successors' betavoltaic cells, both additional battery capacity and power overhead are quite welcome."
 
 outfit `Primary Power Reserve`
 	category "Power"
