@@ -14,24 +14,24 @@ Files:
 
  images/label/successors*
 
- images/outfit/bimodal?railgun?turret*
- images/outfit/bimodal?railgun*
+ images/outfit/bimodal?coilgun?turret*
+ images/outfit/bimodal?coilgun*
  images/outfit/burst?anti?missile*
  images/outfit/dazzle?missile?array*
  images/outfit/dazzle?missile*
  images/outfit/drag?cannon*
  images/outfit/fuel?sail*
- images/outfit/hv?spike
+ images/outfit/hv?spike*
  images/outfit/large?betavoltaic*
  images/outfit/large?successor?battery*
- images/outfit/large?successor?reactor
+ images/outfit/large?successor?reactor*
  images/outfit/large?successor?repair*
  images/outfit/large?successor?reverse*
  images/outfit/large?successor?shield*
  images/outfit/large?successor?steering*
  images/outfit/large?successor?thruster*
  images/outfit/medium?betavoltaic*
- images/outfit/medium?successor?reactor
+ images/outfit/medium?successor?reactor*
  images/outfit/medium?successor?repair*
  images/outfit/medium?successor?reverse*
  images/outfit/medium?successor?shield*
@@ -44,7 +44,7 @@ Files:
  images/outfit/sjeja?puncture?rail*
  images/outfit/small?betavoltaic*
  images/outfit/small?successor?battery*
- images/outfit/small?successor?reactor
+ images/outfit/small?successor?reactor*
  images/outfit/small?successor?repair*
  images/outfit/small?successor?reverse*
  images/outfit/small?successor?shield*
@@ -64,7 +64,7 @@ Files:
  images/outfit/tuur?scanning?suite*
  images/outfit/veldt?combat?scanner*
 
- images/projectile/bimodal_switch*
+ images/projectile/bimodal?switch*
  images/projectile/bimodal*
  images/projectile/drag?cannon*
  images/projectile/sjeja?puncture?rail*
