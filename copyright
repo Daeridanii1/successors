@@ -23,6 +23,7 @@ Files:
  images/outfit/fuel?sail*
  images/outfit/hv?spike
  images/outfit/large?betavoltaic*
+ images/outfit/large?successor?battery*
  images/outfit/large?successor?reactor
  images/outfit/large?successor?repair*
  images/outfit/large?successor?reverse*
@@ -42,6 +43,7 @@ Files:
  images/outfit/railgun?h2h*
  images/outfit/sjeja?puncture?rail*
  images/outfit/small?betavoltaic*
+ images/outfit/small?successor?battery*
  images/outfit/small?successor?reactor
  images/outfit/small?successor?repair*
  images/outfit/small?successor?reverse*

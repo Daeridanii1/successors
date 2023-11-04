@@ -45,6 +45,7 @@ outfitter "Successor Basics"
 	`"Aqra" Inductive Steering`
 	`"Aqra" Inductive Thruster`
 	`1-"Uurau" Betavoltaic Cell`
+	`Auxiliary Power Reserve`
 	`"Ej" Shield Cortex`
 	"Hyperdrive"
 	"Successor Pulse Laser"
@@ -54,6 +55,7 @@ outfitter "Successor Civilian"
 	`"Aqra" Inductive Steering`
 	`"Aqra" Inductive Thruster`
 	`1-"Uurau" Betavoltaic Cell`
+	`Auxiliary Power Reserve`
 	`"Ej" Shield Cortex`
 	"Hyperdrive"
 	"Successor Pulse Laser"
@@ -63,6 +65,7 @@ outfitter "Successor Civilian"
 	`"Chyyra" Inductive Thruster`
 
 	`3-"Kaska" Betavoltaic Cell`
+	`Primary Power Reserve`
 	"Bunk Room"
 	"Small Bunk Room"
 	"Successor Fuel Sail"
@@ -86,6 +89,7 @@ outfitter "Successor High Tech"
 	`"Byiaa" Shield Cortex`
 
 outfitter "High Houses Light"
+	`Auxiliary Power Reserve`
 	`"Nnesa" Inertial Core`
 	`"Ojet" Bimodal Coilgun`
 	`Drag Cannon`
@@ -97,6 +101,7 @@ outfitter "High Houses Light"
 	`"Veldt" Combat Scanner`
 
 outfitter "High Houses Heavy"
+	`Primary Power Reserve`
 	`"Ryuit" Inertial Core`
 	`"Uoret" Inertial Core`
 	"High-Velocity Spike"

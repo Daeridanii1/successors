@@ -34,6 +34,8 @@ shipyard "successors"
 	`Veusade`
 	`Nnesaarau`
 outfitter "successors"
+	"Auxiliary Power Reserve"
+	"Primary Power Reserve"
 	"Bimodal Coilgun Turret"
 	`"Ojet" Bimodal Coilgun`
 	"Burst Anti-Missile Turret"
