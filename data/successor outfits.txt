@@ -174,14 +174,13 @@ outfit `"Nnesa" Inertial Core`
 	thumbnail "outfit/small successor reactor"
 	licenses
 		"High Houses"
-	"mass" 55
-	"outfit space" -55
+	"mass" 50
+	"outfit space" -50
 	"energy generation" 8.25
 	"heat generation" 9.5
-	"energy capacity" 2200
 	"shield energy multiplier" -0.08
 	"hull energy multiplier" -0.08
-	description "While betavoltaics may be sufficient for civilian use, the more advanced technology of the High Houses is energy-hungry enough to require more powerful generators. These inertial confinement fusion reactors are less energy-dense than other reactor alternatives, but are very heat-efficient and come with a modest amount of integrated energy storage in their ignition capacitor banks. Additionally, they are designed to channel power more efficiently to a ship's defensive systems, manifested as a reduction in the power draw of the associated outfits."
+	description "While betavoltaics may be sufficient for civilian use, the more advanced technology of the High Houses is energy-hungry enough to require more powerful generators. Rather than focusing on extracting as much power from as little space as possible, the High Houses have designed these inertial confinement fusion reactors for efficiency and portability; they produce little heat and few waste byproducts. In addition, they are designed to channel power more efficiently to a ship's defensive systems, manifested as a reduction in the power draw of the associated outfits."
 
 outfit `"Ryuit" Inertial Core`
 	category "Power"
@@ -189,11 +188,10 @@ outfit `"Ryuit" Inertial Core`
 	thumbnail "outfit/medium successor reactor"
 	licenses
 		"High Houses"
-	"mass" 95
-	"outfit space" -95
+	"mass" 85
+	"outfit space" -85
 	"energy generation" 16.0
 	"heat generation" 18.5
-	"energy capacity" 6500
 	"shield energy multiplier" -0.14
 	"hull energy multiplier" -0.14
 	description "Like most Successor technology, their modern reactors are based on similar ones secreted away by the High Houses during the collapse of the Predecessors' empire. Even though their modern efforts don't quite match the potency of their ancestors', the designs retain a aura of elegance and power, twisting like flames and humming with energy."
@@ -205,11 +203,10 @@ outfit `"Uoret" Inertial Core`
 	thumbnail "outfit/large successor reactor"
 	licenses
 		"High Houses"
-	"mass" 140
-	"outfit space" -140
+	"mass" 120
+	"outfit space" -120
 	"energy generation" 24.5
 	"heat generation" 28.2
-	"energy capacity" 12000
 	"shield energy multiplier" -0.22
 	"hull energy multiplier" -0.22
 	description `The largest and most powerful of the High Houses' inertial confinement fusion cores, this sculptural and surprisingly efficient reactor far exceeds any human power plant. It is supported by a well-integrated and remarkably clever power distribution network, massively reducing the draw of the Successors' energy-hungry defensive outfits.`
