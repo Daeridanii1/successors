@@ -504,7 +504,7 @@ ship `Seiitej`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 		"Successor Cooling"
-		"Bimodal Railgun" 4
+		`"Ojet" Bimodal Coilgun` 4
 		"Burst Anti-Missile Turret"
 		`"Veldt" Combat Scanner`
 		"Multimodal Armor: Heavy"
@@ -652,7 +652,7 @@ ship `Aaulqra`
 		`"Vyyra" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling" 2
-		"Bimodal Railgun" 5
+		`"Ojet" Bimodal Coilgun` 5
 		"Burst Anti-Missile Turret" 2
 		"Multimodal Armor: Heavy"
 	gun 0 -118 
@@ -732,7 +732,7 @@ ship `Kaskhorade`
 		`"Viir" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling"
-		"Bimodal Railgun" 4
+		`"Ojet" Bimodal Coilgun` 4
 		"Burst Anti-Missile Turret" 4
 		"Multimodal Armor: Heavy"
 	turret -39 16
@@ -812,8 +812,8 @@ ship `Valsaqra`
 		`"Vyraa" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling" 2
-		"Bimodal Railgun" 2
-		"Bimodal Railgun Turret" 2
+		`"Ojet" Bimodal Coilgun` 2
+		`Bimodal Coilgun Turret` 2
 		`"Sjeja" Puncture Rail` 2
 		"High-Velocity Spike" 40
 		"Burst Anti-Missile Turret" 1
