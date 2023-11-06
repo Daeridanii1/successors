@@ -67,6 +67,7 @@ outfitter "successors"
 	"Successor Fuel Sail"
 	"Successor License"
 	"Successor Pulse Laser"
+	`Shield Cortex Interface`
 	`"Veldt" Combat Scanner`
 	`"Tuur" Scanning Suite`
 	`"Aqra" Inductive Reverser`

@@ -25,6 +25,7 @@ outfit `"Byiaa" Shield Cortex`
 	"shield protection" -0.33
 	"shield energy" 1.2
 	"cooling" 1.1
+	"shield connection point" 1
 	"description" "Despite its diminuitive scale, this tiny Successor shield cortex repairs shielding at an impressive rate, though like all Successor shields, the shielding it generates is more susceptible to damage than usual. Since this unit was designed for use on small craft where space is at a premium, it comes with integrated heat sinks that allow it to cool the ship it is installed on by a small amount."
 
 outfit `"Ej" Shield Cortex`
@@ -38,6 +39,7 @@ outfit `"Ej" Shield Cortex`
 	"shield generation" 2.1
 	"shield protection" -0.33
 	"shield energy" 2.6
+	"shield connection point" 1
 	"description" "At their peak, the Predecessors were feared not by how quickly they could overpower their enemies, but by how effectively they could outlast them. Many generations later, this philosophy is still reflected in modern Successor shield cortices, which are exceptionally powerful for their size but weaken the shield's resistance to incoming fire, allowing Successor ships to recover quickly from sustained damage, even if they are slightly more vulnerable to it."
 
 outfit `"Jaase" Shield Cortex`
@@ -51,6 +53,7 @@ outfit `"Jaase" Shield Cortex`
 	"shield generation" 4.8
 	"shield protection" -0.33
 	"shield energy" 7.8
+	"shield connection point" 1
 	"description" "Traditional Predecessor technology was not nearly as modular as the modern Successor equivalents, which must be built with more limited resources and comparatively primitive manufacturing techniques. Nontheless, this medium-sized shield cortex is powerful enough to shrug off the combined damage output of several lesser attackers, and consequently is reserved by the High Houses for use in their private navies."
 
 outfit `"Jorv" Shield Cortex`
@@ -64,7 +67,20 @@ outfit `"Jorv" Shield Cortex`
 	"shield generation" 10.5
 	"shield protection" -0.33
 	"shield energy" 15.0
+	"shield connection point" 1
 	"description" "Bristling with regeneration nodes, this large Successor shield cortex requires a power budget greater than most human warships in their entirety. Many in the High Houses disapprove of its design, suggesting that such a powerful piece of technology deserves a more artful form, but there has ultimately been little desire to invest the time and money for a redesign for purely aesthetic reasons."
+
+outfit `Shield Cortex Interface`
+	category `Systems`
+	cost 250000
+	thumbnail "outfit/unknown"
+	licenses
+		"Successor"
+	mass 3
+	"outfit space" -3
+	"shield protection" 0.33
+	"shield connection point" -2
+	description `This small bundle of additional wiring connects two Successor shield cortices to function as a single unit, preventing the shield-softening effect of one of the generators from unduly reducing the durability of the ship's shields. The effect scales poorly past two connected generators, however.`
 
 outfit `"Viir" Repair Module`
 	category "Systems"

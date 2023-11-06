@@ -57,6 +57,7 @@ outfitter "Successor Civilian"
 	`1-"Uurau" Betavoltaic Cell`
 	`Auxiliary Power Reserve`
 	`"Ej" Shield Cortex`
+	`Shield Cortex Interface`
 	"Hyperdrive"
 	"Successor Pulse Laser"
 
@@ -96,6 +97,7 @@ outfitter "High Houses Light"
 	"Dazzle Missile Array"
 	"Dazzle Missile"
 	`"Jaase" Shield Cortex`
+	`Shield Cortex Interface`
 	`"Viir" Repair Module`
 	`Gauss Rifle`
 	`"Veldt" Combat Scanner`
