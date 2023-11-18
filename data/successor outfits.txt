@@ -90,9 +90,11 @@ outfit `"Viir" Repair Module`
 	thumbnail "outfit/small successor repair"
 	"mass" 14
 	"outfit space" -14
-	"hull repair rate" 0.55
-	"hull energy" 3.1
-	"description" "The Successors are masters of materials science, and since the days of the Predecessors, their ships have relied on advanced armor rather than shields as their primary defensive layer. During these current peaceful times, there has been little need for in-flight armor repair systems, but the High Houses still install these on their warships both as a precaution and as a justification for the cost of producing them."
+	"hull repair rate" 1.65
+	"hull energy" 8.25
+	"hull heat" 8.25
+	"repair delay" 240
+	"description" "Rather than specializing their armor repair systems for efficiency or stable performance under fire, the Successors have instead opted to extract as much sheer recovery as possible from the space available. This repair unit comprises a master controller and a complex web of nanoscale channels that rapidly synthesize and deploy new armor plating layer by layer. This process is extraordinarily energy-intensive, enough to draw a sizable portion of a ship's reactor output, so the system is designed to pause on taking hull damage such that it will not inadvertently disable the vessel it is installed on."
 
 outfit `"Vyraa" Repair Module`
 	category "Systems"
@@ -102,8 +104,10 @@ outfit `"Vyraa" Repair Module`
 		"High Houses"
 	"mass" 30
 	"outfit space" -30
-	"hull repair rate" 1.3
-	"hull energy" 7.4
+	"hull repair rate" 3.9
+	"hull energy" 19.5
+	"hull heat" 19.5
+	"repair delay" 240
 	"description" "Much of the impressive power consumption of this large armor repair module comes from the powerful computers it contains, which constantly monitor the ship's hull for damage or wear before rapidly routing thousands of biomechanical repair microbots to the damaged areas as efficiently as possible. When they have completed repairs, the microbots travel back to the module along a sort of artificial vasculature, where their batteries are recharged and their own structures checked for damage before being dispatched again."
 
 outfit `1-"Uurau" Betavoltaic Cell`
