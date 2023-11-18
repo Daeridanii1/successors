@@ -32,36 +32,36 @@ ship `Kvelqde`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 
-	engine -10 32
-	engine 10 32
-	"steering engine" 3 -28.5
-		zoom .3
+	engine -8 28
+	engine 8 28
+	"steering engine" 9 -20.5
+		zoom .5
 		over
 		left
 		angle 270
-	"steering engine" -3 -28.5
-		zoom .3
+	"steering engine" -9 -20.5
+		zoom .5
 		over
 		right
 		angle 90
-	"steering engine" 13 27.5
-		zoom .3
+	"steering engine" 6.5 29
+		zoom .5
 		over
 		right
 		angle 270
-	"steering engine" -13 27.5
-		zoom .3
+	"steering engine" -6.5 29
+		zoom .5
 		over
 		left
 		angle 90
-	"reverse engine" 3 -28.5
-		zoom .3
+	"reverse engine" 12.5 -5
+		zoom .5
 		over
-	"reverse engine" -3 -28.5
-		zoom .3
+	"reverse engine" -12.5 -5
+		zoom .5
 		over
-	turret 0 -4.5
-	gun 0 -30.5	"Successor Pulse Laser"
+	turret 0 0
+	gun 0 -32	"Successor Pulse Laser"
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
