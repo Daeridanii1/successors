@@ -647,9 +647,10 @@ ship `Aaulqra`
 		`"Chyyra" Inductive Steering`
 		`"Chyyra" Inductive Reverser`
 		`"Uoret" Inertial Core`
-		`3-"Kaska" Betavoltaic Cell`
+		`"Nnesa" Inertial Core`
+		`Primary Power Reserve`
 		`"Jorv" Shield Cortex`
-		`"Vyyra" Repair Module`
+		`"Viir" Repair Module`
 		"Hyperdrive"
 		"Successor Cooling" 2
 		`"Ojet" Bimodal Coilgun` 5
