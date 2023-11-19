@@ -736,34 +736,38 @@ ship `Kaskhorade`
 		`"Ojet" Bimodal Coilgun` 4
 		"Burst Anti-Missile Turret" 4
 		"Multimodal Armor: Heavy"
-	turret -39 16
-	turret 39 16
-	turret 0 -8
-	turret 0 34
+	turret -34 5
+	turret 34 5
+	turret 0 -15
+	turret 0 30
 	gun -3 -120
 	gun 3 -120
-	gun -45 -15
-	gun 45 -15
-	engine -36 78
-	engine 36 78
-	"reverse engine" -36 -28
+	gun -19 -74
+	gun 19 -74
+	engine -8 80
 		zoom .8
-	"reverse engine" 36 -28
+	engine 8 80
 		zoom .8
-	"steering engine" -52 42
+	"reverse engine" -40 -13
+		zoom .8
+	"reverse engine" 40 -13
+		zoom .8
+	"steering engine" -30 55
 		zoom .5
 		angle 90
 		left
-	"steering engine" 52 42
+		over
+	"steering engine" 30 55
 		zoom .5
 		angle 270
 		right
-	"steering engine" -16 -83
+		over
+	"steering engine" -16 -90
 		zoom .5
 		angle 90
 		right
 		over
-	"steering engine" 16 -83
+	"steering engine" 16 -90
 		zoom .5
 		angle 270
 		left
