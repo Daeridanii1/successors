@@ -475,17 +475,17 @@ ship `Seiitej`
 	attributes
 		licenses
 			"High Houses"
-		category "Light Warship"
-		"cost" 17250000
-		"shields" 6000
-		"hull" 33000
+		category "Utility"
+		"cost" 14250000
+		"shields" 10000
+		"hull" 28000
 		"required crew" 8
-		"bunks" 24
+		"bunks" 36
 		"mass" 200
-		"drag" 1.6
+		"drag" 2.3
 		"heat dissipation" .80
-		"fuel capacity" 700
-		"cargo space" 65
+		"fuel capacity" 800
+		"cargo space" 130
 		"outfit space" 370
 		"weapon capacity" 110
 		"engine capacity" 130
@@ -534,7 +534,8 @@ ship `Seiitej`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The "Seiitej" is a light warship employed by the High Houses of the Successors, designed as a general-purpose escort and patrol ship for their standing navies. While it carries a relatively light armament (by Successor standards), it is among the fastest vessels in Successor space, and is capable of carrying a modest amount of cargo, enabling it to serve in support or transport roles as needed.`
+	description `The "Seiitej" is the High Houses' vessel of choice for transporting small amounts of cargo and passengers throughout Successor space. Though less spacious than a dedicated civilian freighter or transport vessel, it is much more durable while remaining fast and maneuverable. While these vessels support a relatively light armament (by the standards of the High Houses), their speed and flexible internals allow them to frequently serve as patrol craft as well.`
+	description `	Their lighter armor and smaller combat systems also make them significantly less expensive to manufacture than the High Houses' purpose-built warships, which contributes to their growing ubiquity.`
 
 ship `Veusade`
 	sprite "ship/veusade"
