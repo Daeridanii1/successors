@@ -1161,12 +1161,10 @@ planet Aava-Aasa-Khora
 	spaceport "Surprisingly small for a planet of this importance, the spaceport on Aava-Aasa-Khora is composed of a number of small buildngs made out of surprisngly flexible materials. While the sensation of the landing pad bowing under your ship's weight is unsettling to say the least, it shows no signs of damage or structural fatigue."
 	spaceport "The inside of the spaceport is very similar, with soft, rounded shapes, and flexible building materials. The floor seems to sink a little as you step on it, almost like it is actually a viscous liquid rather than a solid material."
 	government "Old Houses"
-	shipyard Heirloom
 	shipyard "High Houses Light"
 	shipyard "Successor Basics"
 	shipyard "Successor Civilian"
 	shipyard "Chidiyi"
-	outfitter Heirloom
 	outfitter "High Houses Light"
 	outfitter "Successor Basics"
 	outfitter "Successor Civilian"
@@ -1229,6 +1227,7 @@ planet Kasii-Tuur-Saqru
 	outfitter "Peoples Houses"
 	outfitter "Successor Basics"
 	outfitter "Successor Civilian"
+	outfitter "Successor Weapons Heavy"
 	"required reputation" 10
 	bribe 0
 
@@ -1336,7 +1335,7 @@ planet Mosaa-Ooa-Wyrdd
 	attributes successor
 	landscape land/mountain14-sfiera
 	description "Mosaa-Oaa-Wyrdd's location in the only hyperspace link between the northern and southern parts of Successor territory has made it a hub for interstellar trade and the center of Successor commerce."
-	description "Unique among all Successor planets, its primary employer is not one of the high houses but an independent corporation responsible for manufacturing, among other things, the Pulse Laser. The high houses are understandably somewhat perturbed by this autonomy, but have allowed independent commerce to continue here in exchange for levying modest taxes on transactions that do not go through their official channels."
+	description "Unique among all Successor planets, its primary employer is not one of the High Houses but an independent corporation responsible for manufacturing, among other things, the Pulse Laser. The high houses are understandably somewhat perturbed by this autonomy, but have allowed independent commerce to continue here in exchange for levying modest taxes on transactions that do not go through their official channels."
 	spaceport "The spaceport is large and busy, situated at the foot of a mountain, and seems more haphazard than most Successor spaceports you've seen. Small shops and tents sit abreast advertisements for the latest generation of Pulse Laser and statues of important figures in the high houses, many of which seem weather-worn and unmaintained."
 	spaceport "At the edges of the port, there is a large ongoing construction project to expand it; you can count dozens of half-completed hangars each large enough for several freighters."
 	government Successor
@@ -1344,6 +1343,7 @@ planet Mosaa-Ooa-Wyrdd
 	outfitter "Successor Civilian"
 	outfitter "Successor Heavy"
 	outfitter "Successor High Tech"
+	outfitter "Successor Weapons Heavy"
 	bribe 0
 
 planet Naph-Naap-Kella
@@ -1365,7 +1365,6 @@ planet O-Vasa-Oa
 	description "Despite population surges in recent years, O-Vasa-Oa remains relatively sparsely populated. The tidal forces from the planet it orbits create high winds that sweep across the landscape, making settlement challenging in undeveloped areas, and expensive even in those that have the infrastructure to support it."
 	spaceport "The spaceport is built right on top of a large shipyard, allowing visitors to look on at the impressive manufacturing apparatus of the New Houses while going about their business. Despite its relatively small size, the spaceport is very busy, with ships constantly launching and landing and a general air of haste among all the Successors you see."
 	government "New Houses"
-	shipyard Heirloom
 	shipyard "High Houses Heavy"
 	shipyard "Successor Heavy"
 	outfitter "High Houses Light"
@@ -1382,6 +1381,7 @@ planet Raaqa-Kvelq-Ryuit
 	government Successor
 	shipyard "Successor Civilian"
 	outfitter "Successor Civilian"
+	outfitter "Successor Weapons Basics"
 	bribe 0
 
 planet Raaqa-Puan-Uuoru
@@ -1391,10 +1391,8 @@ planet Raaqa-Puan-Uuoru
 	description "Its home planet is small, rainy, and mostly covered by ocean. Widely regarded as one of the most beautiful planets in Successor space, settlement here is tightly regulated by House Kaatrij."
 	spaceport "Upon setting down, the landing pad releases a billowing sheet of clear water-repellant material that covers your ship, presumably as some sort of protection against the rain. The spaceport itself is low and small and decorated with strips of the same material that gently ruffle in the wind, almost like the sails of an ancient ocean-going ship."
 	spaceport "The few Successors you see appear attentive to but not surprised by your presence, clearly already well-informed about the arrival of the new alien traveler."
-	shipyard Heirloom
 	shipyard "High Houses Light"
 	shipyard "Successor Basics"
-	outfitter Heirloom
 	outfitter "High Houses Light"
 	outfitter "Successor Civilian"
 	outfitter "Successor Heavy"
@@ -1510,5 +1508,6 @@ planet Yoqqa-Vasa-Vasa
 	shipyard "High Houses Heavy"
 	shipyard "Successor Civilian"
 	outfitter "Successor Civilian"
+	outfitter "Successor Weapons Basics"
 	"required reputation" 10
 	bribe 0

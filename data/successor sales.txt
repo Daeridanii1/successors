@@ -48,7 +48,13 @@ outfitter "Successor Basics"
 	`Auxiliary Power Reserve`
 	`"Ej" Shield Cortex`
 	"Hyperdrive"
-	"Successor Pulse Laser"
+
+outfitter "Successor Weapons Basics"
+	`Successor Pulse Laser`
+
+outfitter "Successor Weapons Heavy"
+	`Successor Pulse Laser`
+	`Pulse Laser Turret`
 
 outfitter "Successor Civilian"
 	`"Aqra" Inductive Reverser`
@@ -59,7 +65,6 @@ outfitter "Successor Civilian"
 	`"Ej" Shield Cortex`
 	`Shield Cortex Interface`
 	"Hyperdrive"
-	"Successor Pulse Laser"
 
 	`"Chyyra" Inductive Reverser`
 	`"Chyyra" Inductive Steering`
@@ -71,7 +76,6 @@ outfitter "Successor Civilian"
 	"Small Bunk Room"
 	"Successor Fuel Sail"
 	"Fuel Pod"
-	"Pulse Laser Turret"
 	"Cargo Expansion"
 	"Outfits Expansion"
 	"Successor Cooling"
