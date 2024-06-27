@@ -534,7 +534,7 @@ mission "Successors: First Contact 3"
 			label successful
 			action
 				set "Successors FC3: captured kijra-pet"
-			`	With the larger animals dispatched, you and Sieasej dash into your ship with your quarry safe in tow. The waves of color running over Sieasej's body slowly fade. "Well done, captain," they eventually say, "I'm sure Sioeora will be pleased."`
+			`	With the larger animals dispatched, you and Sieasej dash into your ship with your quarry safe in tow. The waves of color running over Sieasej's body slowly fade. "Well done, captain," they eventually say. "I'm sure Sioeora will be pleased."`
 				goto languages
 			label released
 			`	"I confess I hadn't picked thee for such a tender soul, captain," Sieasej eventually says.`
@@ -578,7 +578,7 @@ mission "Successors: First Contact 3"
 						and
 							has "language: Hai"
 							not "language: Coalition"
-				`	"I obtained a translation device for the language of the Coalition, west of here."`
+				`	"I obtained a translation device for the language of the Coalition, northwest of here."`
 					goto coalition
 					to display
 						and
@@ -719,7 +719,7 @@ mission "Successors: Released Kijra-pet follow-up"
 						has "language: Successor"
 					goto saajret
 			label communicate
-			`	"Ah, there is that matter. Much as the High Houses might prefer to believe that they---we act all within the veil of secrecy, we are all too intertwined to keep our activities hidden for long. The details of thy arrangement with Sioeora and its consequences were apparent to us soon after its conclusion, as will the details of this meeting eventually be apparent to the other houses in time." Saajret pauses for a moment to straighten some aspects of their clothing, before gesturing to a small wooden pin affixed to an outer layer of fabric. "We keep a number of these ancient translation devices, but very few for thine own language: this is the only one that we possess. I am told it is an art piece, commissioned for a performance of thy own Shakespeare's Tempest so that our predecessors could experience the work in its original language. 'Tis far too old and unique to marry with our equipment; hence the need to contact thee in the language of another."`
+			`	"Ah, there is that matter. Much as the High Houses might prefer to believe that they---we act all within the veil of secrecy, we are all too intertwined to keep our activities hidden for long. The details of thy arrangement with Sioeora and its consequences were apparent to us soon after its conclusion, as will the details of this meeting eventually be apparent to the other houses in time." Saajret pauses for a moment to straighten some aspects of their clothing, before gesturing to a small wooden pin affixed to an outer layer of fabric. "We keep a number of these ancient translation devices, but very few for thine own language: this is the only one that we possess. I am told it is an art piece, commissioned for a performance of thy own Shakespeare's Tempest so that our Predecessors could experience the work in its original language. 'Tis far too old and unique to marry with our equipment; hence the need to contact thee in the language of another."`
 			`	Saajret plucks the device from their outfit and offers it to you.`
 			choice
 				`	(Take it).`
@@ -737,7 +737,7 @@ mission "Successors: Released Kijra-pet follow-up"
 				`	"You mentioned earlier that the Kijran 'belong' to you?"`
 					goto kijran
 			label sioeora
-			`	Saajret hums in a way you can't quite place. "Sioeora will no doubt be upset that one of the New Houses now patronizes the alien that they first met, but they are forced enough to swim in the water they salted. Thou shouldn'st fear any ire from them beyond their politicking, and that is something we are accustomed to handling."`
+			`	Saajret hums in a way you can't quite place. "Sioeora will no doubt be upset that one of the New Houses now patronizes the alien that they first met, but they are forced enough to swim in the water they salted. Thou shouldn'st fear any ire from them beyond their politicing, and that is something we are accustomed to handling."`
 			choice
 				`	"What is next?"`
 					goto end
@@ -756,11 +756,11 @@ mission "Successors: Released Kijra-pet follow-up"
 					goto kijran
 			label premature
 			`	Deciding that you've waited long enough, you activate the <ship>'s repulsor thrusters and return to orbit.`
-				launch
+				flee
 			label end
-			`	Saajret produces a data-sphere and hands that to you as well. "Within this," they say, "is historical data for most of the worlds in our space. Combined with thy newfound ability of our language, thou should'st find the navigation of our worlds and cities more revealing and fruitful. Officially, thou shalt be a patronized guest of House Kaatrij and shall proceed under our protection and with our blessings. Thou may'st be able to purchase a certain number of petty technologies without frustration, but most require some vetting that, as an alien, may take some time and effort to complete. Should'st the prospect interest thee, assisting with jobs and other tasks would doubtless benefit in proving thyself an ally to our people." Saajret pauses to adjust their clothing once again. "I bid thee farewell, Captain <first> <last>. Kaatrij will continue to apprise ourselves of your actions. I hope that next we speak will be on equally positive terms." With this, Saajret and their escort return to the vehicle, which glides back into the lake. By the time that the <ship> is ready to take off, the ripples on the water have almost entirely dissapated and the first glimmers of sunlight are creeping over the distant hills.`
+			`	Saajret produces a data-sphere and hands that to you as well. "Within this," they say, "is historical data for most of the worlds in our space. Combined with thy newfound ability of our language, thou should'st find the navigation of our worlds and cities more revealing and fruitful. Officially, thou shalt be a patronized guest of House Kaatrij and shall proceed under our protection and with our blessings. Thou may'st be able to purchase a certain number of petty technologies without frustration, but most require some vetting that, as an alien, may take some time and effort to complete. Should'st the prospect interest thee, assisting with jobs and other tasks would doubtless benefit in proving thyself an ally to our people." Saajret pauses to adjust their clothing once again. "I bid thee farewell, Captain <first> <last>. Kaatrij will continue to apprise ourselves of your actions. I hope that next we speak we will be on equally positive terms." With this, Saajret and their escort return to the vehicle, which glides back into the lake. By the time that the <ship> is ready to take off, the ripples on the water have almost entirely dissapated and the first glimmers of sunlight are creeping over the distant hills.`
 			action
-				log "People" "Saajret, of Somber Sejra" `Saajret, of Somber Sejra is an archivist, among other things, for the Successor High House Kaatrij. They are a member of the noble lineage of the now-defunct House Sejra, some of whose citizens were absorbed into House Kaatrij during the partial collapse of their predecessors' society.`
+				log "People" "Saajret, of Somber Sejra" `Saajret, of Somber Sejra is an archivist, among other things, for the Successor High House Kaatrij. They are a member of the noble lineage of the now-defunct House Sejra, some of whose citizens were absorbed into House Kaatrij during the partial collapse of their Predecessors' society.`
 				set "known to the successors"
 				event "successors: trust 1"
 				"reputation: Successor" += 5
@@ -799,9 +799,9 @@ mission "Successors: Trusted"
 		set "trusted by the successors"
 		event "successors: trust 2"
 		conversation
-			`Once you have sat down at the spaceport, you are met by another group of Successor naval officers. You notice that this group appears even more diverse than the last, representing several different uniform styles and liveries. Unifying them, however, is their wearing a small white and blue pin on their outfits that does not seem to correspond to the insignia of any one of the High Houses. They guide you, politely but firmly, to one of the monorail trains snaking out from the spaceport to other installations on the planet, and you all shuffle together into one of the cars, which appears to have been completely cleared of normal passengers.`
-			`	Several minutes later, the monorail deposits you at an especially large and well-decorated complex that swarms with both military and well-dressed civilians, some of whom appear so opulent and bejewelled that you suspect their personal effects are worth more than your ship. Each of them without exception wears the same white and blue insignia as your escorts, though many have incorporated it into their clothes' design or even display it as a pattern in skin coloration. As your escort peels off into the crowd, you see a familiar face in the distance: Sieasej, the Successor scholar, who visibly perks up when they see you and approaches.`
-			`	"Captain! Thou hast arrived at a fortuitious time! There are still some minutes before this day's meetings—including thy own audience with the Houses—are scheduled to begin." `
+			`Once you have sat down at the spaceport, you are met by another group of Successor naval officers. You notice that this group appears even more diverse than the last, representing several different uniform styles and liveries. Unifying them, however, is their all wearing a small white and blue pin on their outfits that does not seem to correspond to the insignia of any one of the High Houses. They guide you, politely but firmly, to one of the monorail trains snaking out from the spaceport to other installations on the planet, and you all shuffle together into one of the cars, which appears to have been completely cleared of normal passengers.`
+			`	Several minutes later, the monorail deposits you at an especially large and well-decorated complex that swarms with both military and well-dressed civilians, some of whom appear so opulent and bejeweled that you suspect their personal effects are worth more than your ship. Each of them without exception wears the same white and blue insignia as your escorts, though many have incorporated it into their clothes' design or even display it as a pattern in skin coloration. As your escort peels off into the crowd, you see a familiar face in the distance: Sieasej, the Successor scholar, who visibly perks up when they see you and approaches.`
+			`	"Captain! Thou hast arrived at a fortuitous time! There are still some minutes before this day's meetings—including thy own audience with the Houses—are scheduled to begin." `
 			choice
 				`	"I'm ready to start.`
 					goto start
@@ -810,14 +810,14 @@ mission "Successors: Trusted"
 				`	"What are you doing here?"`
 					goto seiasej
 			label explain
-			`	"This is a diplomatic world for representatives of the High Houses to meet in council, resolve disputes, bicker over policy, and I suspect in as it shall be in thy own case, to offer special dispensation to citizens. I had told thou when we first met that they would be keeping their eyes upon thee, and since they have summoned thou here today, they must clearly want to involve thee in the next stage of their plans."`
+			`	"This is a diplomatic world for representatives of the High Houses to meet in council, resolve disputes, bicker over policy, and I suspect in as it shall be in thy own case, to offer special dispensation to citizens. I had told thou when we first met that they would be keeping their eyes upon thee, and since they have summoned thou here today, they most clearly want to involve thee in the next stage of their plans."`
 			choice
 				`	"I see. We'd better begin, then."`
 					goto start
 				`	"What are you doing here?"`
 					goto seiasej
 			label seiasej
-			`	Sieasej briefly turns a shade of green in a display you might almost characterize as blushing. "I was summoned as well. I suspect the Houses wish to reflect on my involvement as well."`
+			`	Sieasej briefly turns a shade of green in a display you might almost characterize as blushing. "I was summoned. I suspect the Houses wish to reflect on my involvement as well."`
 			choice
 				`	"Indeed. I'm ready to begin, then."`
 					goto start
@@ -825,7 +825,7 @@ mission "Successors: Trusted"
 			`	"Good! We would be wise to be early."`
 			`	Together with Sieasej, you make your way to one of the smaller rooms branching off from the lobby. The doors open to reveal a garden-like area, filled with large long-leafed plants surrounding a centrally-located depression half-filled with water. Several Successors, many well-dressed like before, are gathered in the pool, and while Sieasej takes to it happily, you can't help but wince a little as the frigid water floods your boots.`
 			`	After a few minutes and other Successors have trickled in, the meeting begins in earnest. One of the Successors moves to the center of the pool and addresses you directly.`
-			`	"Captain. House Sioeora, who has supported thee with the gift of our translation device, and continues to recognize thy potential as an ally, wishes to recognize the good thy has done in our space, and proposes thy be awarded purchase rights for our general technology."`
+			`	"Captain. House Sioeora, who has supported thee with the gift of our translation device, and continues to recognize thy potential as an ally, wishes to recognize the good thy have done in our space, and proposes thy be awarded purchase rights for our general technology."`
 			`	That representative then returns to the outer rim of the circle and another takes the center, this time facing the representative who just spoke.`
 			`	"House Sioeora. House Chydiyi recognizes thy perspicacity and the value demonstrated by the captain, and supports thy proposal. The captain has proven themselves a valuable ally."`
 			`	A third representative now takes the center position, addressing the two previous speakers.`
@@ -859,16 +859,17 @@ mission "Successors: People's Houses, First Contact"
 			`	Would you like to ask someone here about this place?`
 			choice
 				`	(Yes.)`
-				`	(No.)`
+				`	(Not yet.)`
 					defer
-			`	You approach one of the crew members disembarking from one of the red-painted ships, who, as you draw closer, you see bears several large burns and scars.`
+			`	You approach one of the crew members disembarking from one of the red-painted ships, which, as you draw closer, you see bears several large burns and scars.`
 			`	"Excuse me, I was wondering if you could tell me about this place. It seems different to the rest of Successor space I've been through."`
 			`	The Successor looks over at the spaceport for a moment before grunting quietly and deciding to reply. Their voice is lower and darker than that of most Successors you have heard, and their skin changes color and texture rapidly, almost with every word.`
 			`	"Thou art the alien vis'tor brought by the Old Houses, art thou not? Their 'noble guest' whom they parade around with such delight?"`
 			choice
-				`	(Next.)`
-			`	You reply to the affirmative, despite the accusation of being "paraded around," and the Successor grunts again; with approval or disgust you cannot tell. They lean against one of the cargo containers on the spaceport floor and continue,`
-			`	"So then thou art an another indolent fool, no doubt decieved by their fine promises, of wealth and power so long as you toe the line? Well, look around and see the value of their noble word! The Houses care but naught for you or I or all of them." The Successor gestures to the crowd in a broad sweeping motion.`
+				`	"Yes."`
+				`	"You could say so."`
+			`	Despite the accusation of being "paraded around," the Successor grunts again at your response; with approval or disgust you cannot tell. They lean against one of the cargo containers on the spaceport floor and continue,`
+			`	"So then thou art another indolent fool, no doubt deceived by their fine promises, of wealth and power so long as you toe the line? Well, look around and see the value of their noble word! The Houses care but naught for you or I or any of them." The Successor gestures to the crowd in a broad sweeping motion.`
 			choice
 				`	"Who are they?"`
 					goto who
@@ -878,19 +879,19 @@ mission "Successors: People's Houses, First Contact"
 				decline
 
 			label who
-			`	"They are the outcasts of the Houses New, who, like the rest, were forced here when the old empire crumbled into ash. But while the rest of the New Houses had ample wealth to move and grow into their new domains, not all of us were able to escape this intermediary place they shoved us while we waited. A thousand years and still they paint us with their scorn and demonize our yearning to be free."`
+			`	"They are the outcasts of the New Houses, who, like the rest, were forced here when the old empire crumbled into ash. But while the rest of the New Houses had ample wealth to move and grow into their new domains, not all of us were able to escape this intermediary place they shoved us while we waited. A thousand years and still they paint us with their scorn and demonize our yearning to be free."`
 			choice
 				`	"Free?"`
 					goto free
 				`	"Thank you. I have no more questions."`
 			`	"Thou would be wise, if thou possesses that rare art, to keep and guard thy back agaist thy new and treacherous 'friends.'`
-			`	Or don't. Another buried fool makes little difference."`
+			`	"Or don't. Another buried fool makes little difference."`
 			`	With that, the Successor leaves, rising from the cargo containers and heading silently towards the spaceport.`
 				decline
 			label free
 			`	"Free, or freer than Old and New permit. The People's Houses stand not for the rich and those of noble blood, but for the true and honest heirs of that which was."`
 			`	The Successor looks over to the spaceport, before returning their attention to you for the last time.`
 			`	"Thou would be wise, if thou possesses that rare art, to keep and guard thy back agaist thy new and treacherous 'friends.'`
-			`	Or don't. Another buried fool makes little difference."`
+			`	"Or don't. Another buried fool makes little difference."`
 			`	With that, the Successor leaves, rising from the cargo containers and heading silently towards the spaceport.`
 				decline
