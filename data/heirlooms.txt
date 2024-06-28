@@ -92,7 +92,7 @@ ship "Valkkyiara-Khorasaqra"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "During the collapse of the Predecessors' empire, the high houses stored away as much of their wealth and property as they could manage, including their private fleets of warships, which were ultimately passed down for over a thousand years as priceless family heirlooms. Despite being far more powerful than anything else in Successor space, these vessels almost never leave the ground, since the high houses have no desire to risk these priceless and irreplacable ships that are so deeply intertwined with their family history."
+	description "During the collapse of the Predecessors' empire, the High Houses stored away as much of their wealth and property as they could manage, including their private fleets of warships, which were ultimately passed down for over a thousand years as priceless family heirlooms. Despite being far more powerful than anything else in Successor space, these vessels almost never leave the ground, since the High Houses have no desire to risk these priceless and irreplacable ships that are so deeply intertwined with their family history."
 
 outfit `"Tijra" Heirloom Lance`
 	category "Secondary Weapons"
@@ -132,7 +132,7 @@ outfit `"Tijra" Heirloom Lance`
 		"hit force" 6000
 		"ion damage" 120
 		"phasing" 1
-	description `Among the largest and most powerful of the Predecessors' weapons, this massive coilgun propels its magnetic projectiles to a sizeable fraction of the speed of light, delivering enough kinetic energy on impact to destroy a small city or alternatively, a large warship.`
+	description "Among the largest and most powerful of the Predecessors' weapons, this massive coilgun propels its magnetic projectiles to a sizeable fraction of the speed of light, delivering enough kinetic energy on impact to destroy a small city or alternatively, a large warship."
 
 outfit "Hypervelocity Spike"
 	category "Ammunition"
@@ -178,7 +178,7 @@ outfit `"Sarija" Heirloom Coilgun`
 		"hit force" 90
 		"cluster"
 		"submunition" "Bimodal Switch" 4
-	description `Secretly stashed away by the High Houses since the collapse of the old empire, this lovingly-maintained coilgun is far more powerful than any of the Successors' modern technology.`
+	description "Secretly stashed away by the High Houses since the collapse of the old empire, this lovingly-maintained coilgun is far more powerful than any of the Successors' modern technology."
 
 outfit "Heirloom Point Defense"
 	category "Turrets"
@@ -217,7 +217,7 @@ outfit `"Ija" Heirloom Reactor`
 	"energy capacity" 18000
 	"shield energy multiplier" -0.5
 	"hull energy multiplier" -0.5
-	description `The Predecessors viewed the mastery of technology as an art rather than a science, and this reactor is a perfect example of that: a graceful, elegant machine easily mistaken for a sculpture. It is also, of course, an extremely efficient and powerful fusion reactor that far outstrips the modern Successors' attempts at replicating it.`
+	description "The Predecessors viewed the mastery of technology as an art rather than a science, and this reactor is a perfect example of that: a graceful, elegant machine easily mistaken for a sculpture. It is also, of course, an extremely efficient and powerful fusion reactor that far outstrips the modern Successors' attempts at replicating it."
 
 outfit `"Jiita" Heirloom Shielding`
 	category "Systems"
@@ -230,7 +230,7 @@ outfit `"Jiita" Heirloom Shielding`
 	"shield generation" 14.0
 	"shield protection" -0.21
 	"shield energy" 15.0
-	"description" "Polished to gleaming for over a thousand years, this ancient shield generator yearns to see combat once again."
+	description "Polished to gleaming for over a thousand years, this ancient shield generator yearns to see combat once again."
 
 outfit "Heirloom Hunter-Killers"
 	plural "Heirloom Hunter-Killers"
@@ -243,4 +243,4 @@ outfit "Heirloom Hunter-Killers"
 	"outfit space" -1
 	"capture defense" 50
 	"unplunderable" 1
-	"description" "One of the nastier inventions of the Predecessors were these miniaturized auto-targeting killer drones, which they used as a defense system on their ships. When intruders are detected, thousands of these will pour out of bulkhead-mounted sockets and hunt down any life-form not entered into their biometric friendlies list, targeting organs if possible but simply perforating the target hundreds of times as a fallback strategy."
+	description "One of the nastier inventions of the Predecessors were these miniaturized auto-targeting killer drones, which they used as a defense system on their ships. When intruders are detected, thousands of these will pour out of bulkhead-mounted sockets and hunt down any life-form not entered into their biometric friendlies list, targeting organs if possible but simply perforating the target hundreds of times as a fallback strategy."
