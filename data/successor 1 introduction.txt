@@ -540,95 +540,40 @@ mission "Successors: First Contact 3"
 			action
 				set "Successors FC3: captured kijra-pet"
 			`	With the larger animals dispatched, you and Sieasej dash into your ship with your quarry safe in tow. The waves of color running over Sieasej's body slowly fade. "Well done, captain," they eventually say. "I'm sure Sioeora will be pleased."`
-				goto languages
+			`	The two of you return to the <ship> and make preparations for takeoff.`
+				goto end
 			label released
-			`	"I confess I hadn't picked thee for such a tender soul, captain," Sieasej eventually says.`
+			`	The waves of color running over Sieasej's body slowly fade once the animals are gone. "I confess I hadn't picked thee for such a tender soul, captain," they eventually say.`
 			choice
 				`	"I only did what I thought would get us back alive."`
+					goto backalive
 				`	"It wasn't right to hurt them."`
-			`	"Ah," they say. "'Tis the same regardless, really." They wave their locator in the air again, and a fresh wave of color ripples down their body shortly after.` 
-				goto languages
-			label languages
-			`	Later that evening, Sieasej approaches you with what you might have characterized as an inquisitive demeanor. "I confess, captain, thou hast enflamed my curiosity about something and I wish to ask thee before we return: if thou hast explored the galaxy to the point where you have found us, surely thou must have encountered other aliens? We have records, of course, of all those who our Predecessors met in their time. If they have endured as we have, tell me, have their languages also?`
-			choice
-				`	"I'm afraid the only language I'm familiar with is my own."`
-					goto naive-monoglot
-					to display
-						and
-							not "First Contact: Bunrodea (Hostile): done"
-							not "Coalition: First Contact: done"
-							not "First Contact: Gegno Vi: done"
-							not "First Contact: Hai: done"
-							not "Discovered Korath Space: done"
-							not "First Contact: Wanderer (Before Hai): done"
-							not "First Contact: Wanderer: done"
-				`	"I've made contact with other aliens, but I'm afraid I can't tell you much about their languages."`
-					goto cognizant-monoglot
-					to display
-						and
-							and
-								not "language: Hai"
-								not "language: Coalition"
-							or
-								has "First Contact: Bunrodea (Hostile): done"
-								has "Coalition: First Contact: done"
-								has "First Contact: Gegno Vi: done"
-								has "First Contact: Hai: done"
-								has "Discovered Korath Space: done"
-								has "First Contact: Wanderer (Before Hai): done"
-								has "First Contact: Wanderer: done"
-				`	"I managed to obtain a translation device for the language of the Hai, who live to the north."`
-					goto hai
-					to display
-						and
-							has "language: Hai"
-							not "language: Coalition"
-				`	"I obtained a translation device for the language of the Coalition, northwest of here."`
-					goto coalition
-					to display
-						and
-							has "language: Coalition"
-							not "language: Hai"
-				`	"I obtained translation devices for the languages of the Hai and the Coalition, but don't speak them myself."`
-					goto both
-					to display
-						and
-							has "language: Hai"
-							has "language: Coalition"
-				`	"Sorry, but I don't have time to talk about language right now."`
-					goto dismissive
-			label naive-monoglot
-				goto end
-			label cognizant-monoglot
-				goto end
-			label hai
-				action
-					set "told sieasej about hai language"
-				goto end
-			label coalition
-				action
-					set "told sieasej about coalition language"
-				goto end
-			label both
-				action
-					set "told sieasej about hai language"
-					set "told sieasej about coalition language"
-				goto end
-			label dismissive
+			`	"Ah," they say. "We are fortunate they thought the same of us."`
+				goto released-2
+			label backalive
+			`	"Ah," they say. "Well I, for one, shall thank thee for thy prudence." After a delay, they add, "Even if Sioeora will not."`
+			label released-2
+			`	Sieasej briefly waves their device in the air unsuccessfully. "Regardless," they say, "thy act of mercy entails us failure. Under threat, the adults shroud the larvae, and so it is now here. It seems we must return with empty arms." They briefly undulate in a manner similar to a laugh. "I do not think I'd take another chase like that again anyway."`
+			`	The two of you return to the <ship> and make preparations for takeoff so that you can, at the very least, return Sieasej to their people.`
 				goto end
 			label end
-			`	End.`
 
 	on complete
 		conversation
-			`Return to Sioeora.`
 			branch capture
 				has "Successors FC3: captured kijra-pet"
 			label release
 			action
 				"reputation: House Sioeora" = 0
-			`	You released the Kijra-pet and are not rewarded.`
+				event "Successors: released kijra-pet wait" 32
+			`As before, you are directed to House Sioeora's private spaceport in the northern hemisphere, where a landing pad has already been cleared for your arrival. You and Sieasej are given fewer escorts than before, and you can't help but wonder if the absence of your quarry is particularly conspicuous to them. Soon enough, you once again arrive in the scions' chamber, where Riijaaora and the others stand waiting for you.`
+			`	"Hark, captain <last>!" Riijaaora says, this time speaking with their own voice. The sounds feel warped and uneven, as if they are being rearranged midair. "Tell us, hast though brought the item of our desire?"`
+			choice
+				`	"No, I have not."`
+			`	A flash of black, ruffled skin passes over Riijaaora's body. Several of the other scions perform similar displays. "'Tis a shame, captain," they say. "If thou offers no utility to this House, then we see little point in retaining thee as an ally, much less rewarding thee for thy absent service. Trouble us no more, and begone." They turn around to face away from you, and the guards slowly peel away from the walls to escort you out. Sieasej remains watching until the door closes shut behind you.`
+			`	As you return to the landing pad, you notice that while your ship has been refueled, you notice that the pad itself is slowly being flooded in a none-too-subtle gesture for you to leave.`
 				goto end
+			
 			label capture
 			action
 				set "known to the successors"
@@ -640,9 +585,8 @@ mission "Successors: First Contact 3"
 				"reputation: House Sioeora" += 5
 				"reputation: House Aqrabe" += 10
 				"reputation: House Seineq" += 10
-			`	You captured the Kijra-pet and are rewarded.`
+			`As before, you are directed to House Sioeora's private spaceport in the northern hemisphere, where a landing pad has already been cleared for your arrival. You hand off the captured Kijra-Riitaa to one of them. You and Sieasej are given fewer escorts than before, and you can't help but wonder if the absence of your quarry is particularly conspicuous to them. Soon enough, you once again arrive in the scions' chamber, where Riijaaora and the others stand waiting for you.`
 			label end
-			`Complete.`
 
 substitutions
 	"<coalition ally>" "Heliarchs"
@@ -657,10 +601,10 @@ mission "Successors: Released Kijra-pet follow-up"
 	description "A Successor data-sphere left in your ship appears to be issuing a summons from a House Kaatrij to <destination>."
 	destination "Raaqa-Puan-Uuoru"
 	to offer
-		has "Successors FC3: released kijra-pet"
+		has "event: Successors: released kijra-pet wait"
 		or
-			has "told sieasej about hai language"
-			has "told sieasej about coalition language"
+			has "language: Hai"
+			has "language: Coalition"
 		random < 30
 	on offer
 		conversation
