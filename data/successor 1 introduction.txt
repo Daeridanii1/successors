@@ -239,14 +239,14 @@ mission "Successors: First Contact 2"
 			choice
 				`	"I accept."`
 					goto accepted
-				`	"I have to do whatever you want? I won't!"`
+				`	"You want me to do your errands? I won't!"`
 					goto rejected
 			label gift
 			`	"The one who speaks this to thee knows very well the value of language, Captain, and we suspect that thou doth as well. There is a world within the scar of broken systems once called Raaqa-Uur-Kaav. We require thee to visit there, where upon its surface, thou shall'st find a specimen of a certain animal to return to us undamaged and whole. The scholar, Sieasej, will accompany thee as an envoy of this House to assist and monitor thee. If thou'st successful in capturing thy quarry and returning it to us, thou shall'st have the reward of our language and all that it confers.`
 			choice
 				`	"I accept."`
 					goto accepted
-				`	"I have to do whatever you want? I won't!"`
+				`	"You want me to do your errands? I won't!"`
 					goto rejected
 			label rude
 				`	"Thy appreciation or lack thereof is immaterial. Thou may'st be an alien, and yet that makes thee even more a guest within our space and even more a, hm... consumer of our hospitality. Thy compliance is expected in return for this generosity.`
