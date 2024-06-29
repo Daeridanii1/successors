@@ -103,7 +103,7 @@ mission "Successors: First Contact 1"
 			`	"Hark... noble visitor! We bid thee... welcome and good tidings." The two eye you closely as they wait for a response.`
 			choice
 				`	"Hello. I am Captain <first> <last>."`
-				`	"<first> <last> is my name, and Captain's my game."`
+				`	"<last> of the <ship>. Pleased to meet you."`
 			`	The two once again proceed slowly and carefully, the speaker briefly conversing with the military officer before each phrase. "I am Sieasej... of House Sioeora among the Successors. Thou'rt a human, art thou not?"`
 			choice
 				`	"Yes, I am."`
@@ -741,7 +741,7 @@ mission "Successors: Released Kijra-pet follow-up"
 				`	"You mentioned earlier that the Kijran 'belong' to you?"`
 					goto kijran
 			label sioeora
-			`	Saajret hums in a way you can't quite place. "Sioeora will no doubt be upset that one of the New Houses now patronizes the alien that they first met, but they are forced enough to swim in the water they salted. Thou shouldn'st fear any ire from them beyond their politicing, and that is something we are accustomed to handling."`
+			`	Saajret hums in a way you can't quite place. "Sioeora will no doubt be upset that one of the New Houses now patronizes the alien that they first met, but they are forced enough to swim in the water they salted. Thou shouldn'st fear any ire from them beyond their politicking, and that is something we are accustomed to handling."`
 			choice
 				`	"What is next?"`
 					goto end
@@ -814,7 +814,7 @@ mission "Successors: Trusted"
 				`	"What are you doing here?"`
 					goto seiasej
 			label explain
-			`	"This is a diplomatic world for representatives of the High Houses to meet in council, resolve disputes, bicker over policy, and I suspect in as it shall be in thy own case, to offer special dispensation to citizens. I had told thou when we first met that they would be keeping their eyes upon thee, and since they have summoned thou here today, they most clearly want to involve thee in the next stage of their plans."`
+			`	"This is a diplomatic world for representatives of the High Houses to meet in council, resolve disputes, bicker over policy, and I suspect in as it shall be in thy own case, to offer special dispensation to citizens. I had told thou when we first met that they would be keeping their eyes upon thee, and since they have summoned thou here today, they must clearly want to involve thee in the next stage of their plans."`
 			choice
 				`	"I see. We'd better begin, then."`
 					goto start
@@ -883,7 +883,7 @@ mission "Successors: People's Houses, First Contact"
 				decline
 
 			label who
-			`	"They are the outcasts of the New Houses, who, like the rest, were forced here when the old empire crumbled into ash. But while the rest of the New Houses had ample wealth to move and grow into their new domains, not all of us were able to escape this intermediary place they shoved us while we waited. A thousand years and still they paint us with their scorn and demonize our yearning to be free."`
+			`	"They are the outcasts of the Houses New, who, like the rest, were forced here when the old empire crumbled into ash. But while the rest of the New Houses had ample wealth to move and grow into their new domains, not all of us were able to escape this intermediary place they shoved us while we waited. A thousand years and still they paint us with their scorn and demonize our yearning to be free."`
 			choice
 				`	"Free?"`
 					goto free
