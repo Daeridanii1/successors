@@ -19,7 +19,7 @@ mission "Successors: Entering the Scar"
 		system
 			attributes "predecessor"
 		dialog 
-			`Shortly after the jump to this system finishes, your ship's sensors begin to register small but progressive damage to its hull and internal systems, despite there being no other ships in the system. Equally confusing, your jump drive seems to still be partially active despite the jump having been completed.`
+			`Shortly after the jump to this system finishes, your ship's sensors begin to register small but progressive damage to the hull and internal systems, despite there being no other ships in the system. Equally confusing, your jump drive seems to still be partially active despite the jump having been completed.`
 	on complete
 		dialog 		
 			`The mass of the planet seems to be shielding you from whatever is damaging your ship in space, offering an opportunity to rest and repair.`		
@@ -62,7 +62,7 @@ mission "Successors: First Contact 1"
 				goto map
 			label map
 			`	After a few more moments of silence, the alien grunts in a gesture something like a sigh of disappointment and then turns away and says something to another uniformed individual waiting on the edges of the now-substantial crowd. The other's skin flashes a bright blue and then they leave, gliding towards one of the interceptors now parked alongside your ship at the spaceport.`
-			`	When they return, they are holding in one of their arms a small spherical device which they hand to the alien in charge, who then in turn offers it to you and burbles an unintelligible phrase with what you might have characterized as an encouraging tone. Several individuals in the crowd by now appear to be taking pictures of the two of you, and you can see more of them in the distance gliding and swimming towards your landing site.`
+			`	When they return, they are holding in one of their arms a small spherical device which they hand to the alien who seems to be in charge, who then in turn offers it to you and burbles an unintelligible phrase with what you might have characterized as an encouraging tone. Several individuals in the crowd by now appear to be taking pictures of the two of you, and you can see more of them in the distance gliding and swimming towards your landing site.`
 			choice
 				`	(Take the device.)`
 				`	(Refuse.)`
@@ -70,10 +70,10 @@ mission "Successors: First Contact 1"
 			`	You take the device from the alien. It liquifies the moment it touches your skin before freezing in mid-splash to project a small but detailed holographic star map of the surrounding systems. A star system a few jumps east of here is highlighted amidst a sea of alien lettering. The individual standing opposite you grunts energetically as the trio of interceptors begins to hover in preparation for takeoff: it would appear that these people, whoever they are, want you to travel there.`
 				accept
 			label refused
-			`	Thinking the device might be a weapon of some sort, you back away from the alien offering it to you and into the safety of the <ship>'s hatch. Though none of the aliens make any move to harm you, you notice from inside that after a couple of minutes, water slowly begins to flow onto the landing pad. It might be wise to take off sooner rather than later.`
-				decline
+			`	Thinking the device might be a weapon of some sort, you back away from the alien offering it to you and into the safety of the <ship>'s hatch. Though none of the aliens make any move to harm you, you notice from inside that after a couple of minutes, water slowly begins to flow onto the landing pad. It might be wise to take off sooner rather than later, so you do so sooner.`
+				flee
 
-	npc save accompany
+	npc accompany save
 		government "House Sioeora"
 		personality timid launching escort
 		ship "Stolsaqra (Mission Escort)" "Kijet-i-khisa"
@@ -84,27 +84,31 @@ mission "Successors: First Contact 1"
 		dialog `At least one of your escorts have been destroyed. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
 
 	on visit
-		dialog `You have reached <planet>, but without your escorts, you are refused landing permission at the spaceport and must return to orbit until they arrive.`
+		conversation 
+			`You have reached <planet>, but without your escorts, you are refused landing permission at the spaceport and must return to orbit until they arrive.`
+				launch
 
 	on complete
 		event "label successor space"
 		event "successors: first contact wait" 5
-		log "Factions" "Successors" `The Successors are a society of aliens occupying a territory on the southwestern outer rim of the galaxy. They are the heirs of a large interstellar empire which collapsed at some point around fifteen hundred years ago, who explored much of the galaxy, as far north as Sol.`
+		log "Factions" "Successors" `The Successors are a society of aliens occupying a territory on the southeastern outer rim of the galaxy. They are the heirs of a large interstellar empire which collapsed at some point around fifteen hundred years ago, after exploring much of the galaxy, even as far north as Sol.`
 		log "People" "Sieasej" `Sieasej is a Successor scholar of historical linguistics and member of the noble House Sioeora. Because of their area of study, they are one of the only Successors who can speak to and understand you without the benefit of a translation device.`
 		"reputation: Successor" += 5
 		"reputation: House Chydiyi" += 5
 		"reputation: House Myurej" += 5
 		"reputation: House Sioeora" += 5
 		conversation
-			`In a similar manner to the last time, you set down your ship at a landing pad at the spaceport on this planet, escorted by the interceptors. Different to last time, however, you have been shuttled to a small, out-of-the way area at a great distance from the main complex, where several uniformed individuals are gathered on the landing pad, standing at attention.`
+			`In a similar manner to the last time, you set down your ship on a landing pad at the spaceport of this planet, escorted by the interceptors. Differently to last time, however, you are shuttled to a small, out-of-the way area at a great distance from the main complex, where several uniformed individuals are gathered on the landing pad, standing at attention.`
 			`	After waiting for several minutes, a shuttle lands on the pad beside yours and several individuals emerge from it. Two of them are moving more quickly than the rest, and the guards allow them to pass and approach you. The one on the left is a uniformed officer wearing what appears to be heavy body armor, shimmering metallic plates that sparkle in the light. On the right is a smaller alien, wrapped up in a dark, cocoon-like outfit from which their head and arms emerge. The officer says something to the smaller one, who quietly replies and then pulls from a pocket on their outfit a smooth sheet which they inspect several times before haltingly addressing you.`
-			`	"Hark ... noble visitor! We bid thee ... welcome and good tidings." The two eye you closely as they wait for a response.`
+			`	"Hark... noble visitor! We bid thee... welcome and good tidings." The two eye you closely as they wait for a response.`
 			choice
 				`	"Hello. I am Captain <first> <last>."`
-			`	The two once again proceed slowly and carefully, the speaker briefly conversing with the military officer before each phrase. "I am Sieasej ... of House Sioeora among the Successors. Thou'rt a human, art thou not?"`
+				`	"<last> of the <ship>. Pleased to meet you."`
+			`	The two once again proceed slowly and carefully, the speaker briefly conversing with the military officer before each phrase. "I am Sieasej... of House Sioeora among the Successors. Thou'rt a human, art thou not?"`
 			choice
-				`	"Yes, I am".`
-			`	This sparks a wave of color among the gathered members, most of all Sieasej, who spends several seconds in a vibrant shade of orange before returning to their resting hue. "Then i'tis confirmed. 'Tis a cause for much excitement, <last>, for thou'rt the first human met by us in fifteen hundred years, since the time before thy species had even left the bounds of thy own planet's gravity. House Sioeora is honored to be the one to make thy acquaitance, as am I." The members of the group splay their free arms towards you and glisten with ripples of blue across their skin. You perform a short bow in return.`
+				`	"Yes, I am."`
+				`	"Who else would I be?"`
+			`	This sparks a wave of color among the gathered members, most of all Sieasej, who spends several seconds in a vibrant shade of orange before returning to their resting hue. "Then i'tis confirmed. 'Tis a cause for much excitement, <last>, for thou'rt the first human met by us in fifteen hundred years, since the time before thy species had even left the bounds of thy own planet's gravity. House Sioeora is honored to be the one to make thy acquaintance, as be I." The members of the group splay their free arms towards you and glisten with ripples of blue across their skin. You perform a short bow in return.`
 			choice
 				`	"What should I do now?"`
 					goto whatnow
@@ -115,8 +119,8 @@ mission "Successors: First Contact 1"
 				`	"What is House Sioeora?"`
 					goto house
 			label language
-			`	"When once our predecessors did explore and look upon the life of the galaxy beyond their borders, they were careful to record its details and its subtleties, for life is precious and rare. And doubly so that which is possessed of sapience and culture---noble in reason, infinite in faculty---as the nascent humanity was and, we pray, still remains. So then, our predecessors waited under inky cloaks to silently observe thee in thy glimmering development. And if 'twere not from the rest of the galaxy untimely ripp'd, we surely would have had the pleasure of watching thy species advance to its present point.`
-			`	I am a scholar of language, and of the worlds our predecessors met so long ago. I am one of very few who learned thy language, among others, at least as 'twas fifteen hundred years ago."`
+			`	"When once our Predecessors did explore and look upon the life of the galaxy beyond their borders, they were careful to record its details and its subtleties, for life is precious and rare. And doubly so that which is possessed of sapience and culture---noble in reason, infinite in faculty---as the nascent humanity was and, we pray, still remains. So then, our predecessors waited under inky cloaks to silently observe thee in thy glimmering development. And if 'twere not from the rest of the galaxy untimely ripp'd, we surely would have had the pleasure of watching thy species advance to its present point.`
+			`	I am a scholar of language, and of the worlds our Predecessors met so long ago. I am one of very few who learned thy language, among others, at least as 'twas fifteen hundred years ago."`
 			choice
 				`	"What should I do now?"`
 					goto whatnow
@@ -127,7 +131,7 @@ mission "Successors: First Contact 1"
 				`	"What is House Sioeora?"`
 					goto house
 			label language-short
-			`	"'Tis true. I am a scholar of language, and of the worlds our predecessors met so long ago. I am one of very few who learned thy language, among others, at least as 'twas fifteen hundred years ago."`
+			`	"'Tis true. I am a scholar of language, and of the worlds our Predecessors met so long ago. I am one of very few who learned thy language, among others, at least as 'twas fifteen hundred years ago."`
 			choice
 				`	"What should I do now?"`
 					goto whatnow
@@ -149,9 +153,9 @@ mission "Successors: First Contact 1"
 					goto whatnow
 				`	"I see. What is House Sioeora?"`
 					goto house
-				`	"I see. "`
+				`	"I see."`
 			label history
-			`	"Twas a time in which the domains of our predecessors did extend far to the north, and the reach of their curiosity and exploration even farther so. Life is precious and rare, doubly so that which is possessed of sapience and culture---noble in reason, infinite in faculty---as thine was and, we pray, still remains. So then, our predecessors waited under inky cloaks to silently observe thee in thy glimmering development. And if 'twere not from the rest of the galaxy untimely ripp'd, we surely would have had the pleasure of watching thy species advance to its present point."`
+			`	"Twas a time in which the domains of our Predecessors did extend far to the north, and the reach of their curiosity and exploration even farther so. Life is precious and rare, doubly so that which is possessed of sapience and culture---noble in reason, infinite in faculty---as thine was and, we pray, still remains. So then, our Predecessors waited under inky cloaks to silently observe thee in thy glimmering development. And if 'twere not from the rest of the galaxy untimely ripp'd, we surely would have had the pleasure of watching thy species advance to its present point."`
 			choice
 				`	"What should I do now?"`
 					goto whatnow
@@ -160,7 +164,7 @@ mission "Successors: First Contact 1"
 				`	"What is House Sioeora?"`
 					goto house
 			label house
-			`	Sieasej translates your query to the military officer this time, who considers for a moment before saying something back and Sieasej speaks again. "Sioeora is the noble house whose estate thou sees around thee. There are many such within the broader realm; the stars this side'f the wormhole, but 'tis Sioeora who has taken patronage on thee, for the keeping of our history is the ... core of its purpose. 'Twere thee apprehended by the arms of another---" Sieasej gestures towards an interceptor landed on another pad "---thou surely would have languished without recognition as a creature from so distant in our past."`
+			`	Sieasej translates your query to the military officer this time, who considers for a moment before saying something back and Sieasej speaks again. "Sioeora is the noble house whose estate thou sees around thee. There are many such within the broader realm; the stars this side'f the wormhole, but 'tis Sioeora who has taken patronage on thee, for the keeping of our history is the... core of its purpose. 'Twere thee apprehended by the arms of another---" Sieasej gestures towards an interceptor landed on another pad "---thou surely would have languished without recognition as a creature from so distant in our past."`
 			choice
 				`	"What should I do now?"`
 					goto whatnow
@@ -183,7 +187,7 @@ mission "Successors: First Contact 2"
 	on offer
 		conversation
 			`As you exit the <ship> to go into the spaceport here, you notice that a group of uniformed Successors are standing at attention on the landing pad. The lead officer approaches you and hands you a small metallic sphere much like the map device you were offered previously. Rather than projecting a map, however, the sphere begins to play a recording when you touch it.`
-			`	"Captain <first> <last>! I am instructed to inform thee of the desire by the honored scions of House Sioeora that thou woulds't appear before them to render thy service and aid. They, hm ... demand thee make haste to fair Staja-Kella-Oa once more, and to prepare thyself as thou mights't for an audience. In confirmation of this message, I do attest myself: Vijaat Ojniis Seiasej, honored historian of the of third ichon in service to the noble academy of Staja-Kella-Oa and to our noble House."`
+			`	"Captain <first> <last>! I am instructed to inform thee of the desire by the honored scions of House Sioeora that thou woulds't appear before them to render thy service and aid. They, hm... demand thee make haste to fair Staja-Kella-Oa once more, and to prepare thyself as thou mights't for an audience. In confirmation of this message, I do attest myself: Vijaat Ojniis Seiasej, honored historian of the of third ichon in service to the noble academy of Staja-Kella-Oa and to our noble House."`
 			`	The recording ends there, and the sphere changes to display a star map as before.`
 				accept
 		event "successors: tardy for sioeora" 14
@@ -192,7 +196,8 @@ mission "Successors: First Contact 2"
 			`Shortly after you enter the atmosphere of <planet>, the <ship> is flanked by a pair of interceptors which lead you to a sprawling complex in the northern hemisphere at the edge of a large lake. Your escorts set down on two small landing pads near the shore, and you see that another landing pad between them has been lit up in colors matching the livery of your ship.`
 			`	As before, your landing site has been surrounded by a cadre of uniformed individuals, but here there must be nearly a hundred standing at attention on the pad's perimeter, of which most appear heavily armed. Once again upon disembarking, a lead officer approaches you, this time accompanied by a group of eight others who follow them in a tight formation. The leader motions with their arm towards the center of the complex as if to instruct you to go.`
 			choice
-				`	(Continue).`
+				`	(Go with them.)`
+
 			`	Your escort relaxes as you move to walk towards the inner complex, and the group of eight follow you as you approach its outer doors.`
 			`	The inside of the complex is opulent and massive, with vaulted ceilings rising on columns out of the lake water. Some mimic the forms and textures of tree trunks, spreading out on the ceiling into a canopy filled with thin metallic leaves that slowly wave and occlude the lights embedded above them. Each successive hall you pass through is a unique and enormous sculpture: the arch of a wave moments before crashing; the spiral of an huge suckered arm. You eventually arrive at a large door; your escort reaches out to touch it and as soon as they do, it begins to liquify and flow into a trench on the floor. When it is finished, you step across the threshold into a final circular room where a group of Successors stand waiting. One you recognize as Sieasej wearing a new set of metallic-looking robes, but the rest are unfamiliar and especially richly dressed.`
 			`	One of the adorned individuals looks at you and speaks, and Sieasej translates a moment later.`
@@ -234,17 +239,17 @@ mission "Successors: First Contact 2"
 			choice
 				`	"I accept."`
 					goto accepted
-				`	"I do not accept."`
+				`	"You want me to do your errands? I won't!"`
 					goto rejected
 			label gift
 			`	"The one who speaks this to thee knows very well the value of language, Captain, and we suspect that thou doth as well. There is a world within the scar of broken systems once called Raaqa-Uur-Kaav. We require thee to visit there, where upon its surface, thou shall'st find a specimen of a certain animal to return to us undamaged and whole. The scholar, Sieasej, will accompany thee as an envoy of this House to assist and monitor thee. If thou'st successful in capturing thy quarry and returning it to us, thou shall'st have the reward of our language and all that it confers.`
 			choice
 				`	"I accept."`
 					goto accepted
-				`	"I do not accept."`
+				`	"You want me to do your errands? I won't!"`
 					goto rejected
 			label rude
-				`	"Thy appreciation or lack thereof is immaterial. Thou may'st be an alien, and yet that makes thee even more a guest within our space and even more a, hm ... consumer of our hospitality. Thy compliance is expected in return for this generosity.`
+				`	"Thy appreciation or lack thereof is immaterial. Thou may'st be an alien, and yet that makes thee even more a guest within our space and even more a, hm... consumer of our hospitality. Thy compliance is expected in return for this generosity.`
 			choice
 				`	"I apologize."`
 				`	"I have no desire to be your servant."`
@@ -286,7 +291,7 @@ mission "Successors: First Contact 3"
 				`	"Thank you. What can you tell me about our mission?"`
 					goto task
 				`	"What do you mean, 'well enough for an alien?'"`
-			`	A ripple of a rough, greenish texture passes over Sieasej's skin before subsiding. "Audiences like that one are subject to a litany of social expectations. Were't thou one of us, thy ignorance of these would seem knavish at best and offensive at worst, but ... the scions are not fools. They are more than willing to endure a little rudeness for the sake of achieving their aims."`
+			`	A ripple of a rough, greenish texture passes over Sieasej's skin before subsiding. "Audiences like that one are subject to a litany of social expectations. Were't thou one of us, thy ignorance of these would seem knavish at best and offensive at worst, but... the scions are not fools. They are more than willing to endure a little rudeness for the sake of achieving their aims."`
 			`	"I see," you say. "I suppose I am too."`
 			`	"Fret not," Sieasej says, "elegance of address was neither required nor anticipated from thee. All has a place and time where it is necessary, and a place and time where it is not."`
 			label task
@@ -303,7 +308,7 @@ mission "Successors: First Contact 3"
 				`	"Is there anything I should watch out for?"`
 					goto watchout
 			label kijra-pet
-			`	Sieasej shivers a little, and choses their words slowly. "The Kijra feature heavily in the old culture. 'Twere popular pets and hunting companions among ... some of our predecessors during their time. The larva is the scale of a ... hm, of thy head, approximately, with a delicate body and glassy skin. Once it mates and lays its eggs, they begin to molt several times into a larger and more fearsome form so that they may defend their nascent flock. The Kijra-Riitaa---the 'pet'---is the larva, and the Kijra-Khora is the adult. If thou art wise," Sieasej emphasizes this with a wave of color, "thou shoulds't attempt to capture the larva and nothing else."`
+			`	Sieasej shivers a little, and choses their words slowly. "The Kijra feature heavily in the old culture. 'Twere popular pets and hunting companions among... some of our Predecessors during their time. The larva is the scale of a... hm, of thy head, approximately, with a delicate body and glassy skin. Once it mates and lays its eggs, they begin to molt several times into a larger and more fearsome form so that they may defend their nascent flock. The Kijra-Riitaa---the 'pet'---is the larva, and the Kijra-Khora is the adult. If thou art wise," Sieasej emphasizes this with a wave of color, "thou shoulds't attempt to capture the larva and nothing else."`
 			choice
 				`	"We'd better get started then."`
 					goto embark
@@ -314,7 +319,7 @@ mission "Successors: First Contact 3"
 				`	"Is there anything else I should watch out for?"`
 					goto watchout
 			label knowledge
-			`	"'Tis a mix of things," Sieasej says. "The ... pathways in space which connect those systems are ever-changing, on the span of years. A hazard of the space. Some years ago, there was a pathway leading to it through which the ships of all the High Houses could pass through and explore. Now, it has been many years since that system was easily accessible. The scions know that thou must possess a jump drive in order for thou to have reach'd us---this technology is quite familiar to us---and so they know that thou cans't acquire that what they desire. "`
+			`	"'Tis a mix of things," Sieasej says. "The... pathways in space which connect those systems are ever-changing, on the span of years. A hazard of the space. Some years ago, there was a pathway leading to it through which the ships of all the High Houses could pass through and explore. Now, it has been many years since that system was easily accessible. The scions know that thou must possess a jump drive in order for thou to have reach'd us---this technology is quite familiar to us---and so they know that thou cans't acquire that what they desire."`
 			choice
 				`	"We'd better get started then."`
 					goto embark
@@ -327,7 +332,7 @@ mission "Successors: First Contact 3"
 				`	"Is there anything I should watch out for?"`
 					goto watchout
 			label youokay
-			`	Splotches of orange color emerge at the tips of Sieasej's arms. "I confess this is irregular, and know the prospect of this ... journey instills within me some degree of trepidation. But to visit the lost worlds is a reward in and of itself, and to do so accompanying the very aliens that I have studied makes it doubly so. Thou must realize: thou'rt a historian's dream. Thou'rt a creature from a distant story-page made flesh."`
+			`	Splotches of orange color emerge at the tips of Sieasej's arms. "I confess this is irregular, and know the prospect of this... journey instills within me some degree of trepidation. But to visit the lost worlds is a reward in and of itself, and to do so accompanying the very aliens that I have studied makes it doubly so. Thou must realize: thou'rt a historian's dream. Thou'rt a creature from a distant story-page made flesh."`
 			choice
 				`	"We'd better get started."`
 					goto embark
@@ -534,7 +539,7 @@ mission "Successors: First Contact 3"
 			label successful
 			action
 				set "Successors FC3: captured kijra-pet"
-			`	With the larger animals dispatched, you and Sieasej dash into your ship with your quarry safe in tow. The waves of color running over Sieasej's body slowly fade. "Well done, captain," they eventually say, "I'm sure Sioeora will be pleased."`
+			`	With the larger animals dispatched, you and Sieasej dash into your ship with your quarry safe in tow. The waves of color running over Sieasej's body slowly fade. "Well done, captain," they eventually say. "I'm sure Sioeora will be pleased."`
 			`	The two of you return to the <ship> and make preparations for takeoff.`
 				goto end
 			label released
@@ -663,7 +668,7 @@ mission "Successors: Released Kijra-pet follow-up"
 						has "language: Successor"
 					goto saajret
 			label communicate
-			`	"Ah, there is that matter. Much as the High Houses might prefer to believe that they---we act all within the veil of secrecy, we are all too intertwined to keep our activities hidden for long. The details of thy arrangement with Sioeora and its consequences were apparent to us soon after its conclusion, as will the details of this meeting eventually be apparent to the other houses in time." Saajret pauses for a moment to straighten some aspects of their clothing, before gesturing to a small wooden pin affixed to an outer layer of fabric. "We keep a number of these ancient translation devices, but very few for thine own language: this is the only one that we possess. I am told it is an art piece, commissioned for a performance of thy own Shakespeare's Tempest so that our predecessors could experience the work in its original language. 'Tis far too old and unique to marry with our equipment; hence the need to contact thee in the language of another."`
+			`	"Ah, there is that matter. Much as the High Houses might prefer to believe that they---we act all within the veil of secrecy, we are all too intertwined to keep our activities hidden for long. The details of thy arrangement with Sioeora and its consequences were apparent to us soon after its conclusion, as will the details of this meeting eventually be apparent to the other houses in time." Saajret pauses for a moment to straighten some aspects of their clothing, before gesturing to a small wooden pin affixed to an outer layer of fabric. "We keep a number of these ancient translation devices, but very few for thine own language: this is the only one that we possess. I am told it is an art piece, commissioned for a performance of thy own Shakespeare's Tempest so that our Predecessors could experience the work in its original language. 'Tis far too old and unique to marry with our equipment; hence the need to contact thee in the language of another."`
 			`	Saajret plucks the device from their outfit and offers it to you.`
 			choice
 				`	(Take it).`
@@ -700,11 +705,11 @@ mission "Successors: Released Kijra-pet follow-up"
 					goto kijran
 			label premature
 			`	Deciding that you've waited long enough, you activate the <ship>'s repulsor thrusters and return to orbit.`
-				launch
+				flee
 			label end
-			`	Saajret produces a data-sphere and hands that to you as well. "Within this," they say, "is historical data for most of the worlds in our space. Combined with thy newfound ability of our language, thou should'st find the navigation of our worlds and cities more revealing and fruitful. Officially, thou shalt be a patronized guest of House Kaatrij and shall proceed under our protection and with our blessings. Thou may'st be able to purchase a certain number of petty technologies without frustration, but most require some vetting that, as an alien, may take some time and effort to complete. Should'st the prospect interest thee, assisting with jobs and other tasks would doubtless benefit in proving thyself an ally to our people." Saajret pauses to adjust their clothing once again. "I bid thee farewell, Captain <first> <last>. Kaatrij will continue to apprise ourselves of your actions. I hope that next we speak will be on equally positive terms." With this, Saajret and their escort return to the vehicle, which glides back into the lake. By the time that the <ship> is ready to take off, the ripples on the water have almost entirely dissapated and the first glimmers of sunlight are creeping over the distant hills.`
+			`	Saajret produces a data-sphere and hands that to you as well. "Within this," they say, "is historical data for most of the worlds in our space. Combined with thy newfound ability of our language, thou should'st find the navigation of our worlds and cities more revealing and fruitful. Officially, thou shalt be a patronized guest of House Kaatrij and shall proceed under our protection and with our blessings. Thou may'st be able to purchase a certain number of petty technologies without frustration, but most require some vetting that, as an alien, may take some time and effort to complete. Should'st the prospect interest thee, assisting with jobs and other tasks would doubtless benefit in proving thyself an ally to our people." Saajret pauses to adjust their clothing once again. "I bid thee farewell, Captain <first> <last>. Kaatrij will continue to apprise ourselves of your actions. I hope that next we speak we will be on equally positive terms." With this, Saajret and their escort return to the vehicle, which glides back into the lake. By the time that the <ship> is ready to take off, the ripples on the water have almost entirely dissapated and the first glimmers of sunlight are creeping over the distant hills.`
 			action
-				log "People" "Saajret, of Somber Sejra" `Saajret, of Somber Sejra is an archivist, among other things, for the Successor High House Kaatrij. They are a member of the noble lineage of the now-defunct House Sejra, some of whose citizens were absorbed into House Kaatrij during the partial collapse of their predecessors' society.`
+				log "People" "Saajret, of Somber Sejra" `Saajret, of Somber Sejra is an archivist, among other things, for the Successor High House Kaatrij. They are a member of the noble lineage of the now-defunct House Sejra, some of whose citizens were absorbed into House Kaatrij during the partial collapse of their Predecessors' society.`
 				set "known to the successors"
 				event "successors: trust 1"
 				"reputation: Successor" += 5
@@ -743,9 +748,9 @@ mission "Successors: Trusted"
 		set "trusted by the successors"
 		event "successors: trust 2"
 		conversation
-			`Once you have sat down at the spaceport, you are met by another group of Successor naval officers. You notice that this group appears even more diverse than the last, representing several different uniform styles and liveries. Unifying them, however, is their wearing a small white and blue pin on their outfits that does not seem to correspond to the insignia of any one of the High Houses. They guide you, politely but firmly, to one of the monorail trains snaking out from the spaceport to other installations on the planet, and you all shuffle together into one of the cars, which appears to have been completely cleared of normal passengers.`
-			`	Several minutes later, the monorail deposits you at an especially large and well-decorated complex that swarms with both military and well-dressed civilians, some of whom appear so opulent and bejewelled that you suspect their personal effects are worth more than your ship. Each of them without exception wears the same white and blue insignia as your escorts, though many have incorporated it into their clothes' design or even display it as a pattern in skin coloration. As your escort peels off into the crowd, you see a familiar face in the distance: Sieasej, the Successor scholar, who visibly perks up when they see you and approaches.`
-			`	"Captain! Thou hast arrived at a fortuitious time! There are still some minutes before this day's meetings—including thy own audience with the Houses—are scheduled to begin." `
+			`Once you have sat down at the spaceport, you are met by another group of Successor naval officers. You notice that this group appears even more diverse than the last, representing several different uniform styles and liveries. Unifying them, however, is their all wearing a small white and blue pin on their outfits that does not seem to correspond to the insignia of any one of the High Houses. They guide you, politely but firmly, to one of the monorail trains snaking out from the spaceport to other installations on the planet, and you all shuffle together into one of the cars, which appears to have been completely cleared of normal passengers.`
+			`	Several minutes later, the monorail deposits you at an especially large and well-decorated complex that swarms with both military and well-dressed civilians, some of whom appear so opulent and bejeweled that you suspect their personal effects are worth more than your ship. Each of them without exception wears the same white and blue insignia as your escorts, though many have incorporated it into their clothes' design or even display it as a pattern in skin coloration. As your escort peels off into the crowd, you see a familiar face in the distance: Sieasej, the Successor scholar, who visibly perks up when they see you and approaches.`
+			`	"Captain! Thou hast arrived at a fortuitous time! There are still some minutes before this day's meetings—including thy own audience with the Houses—are scheduled to begin." `
 			choice
 				`	"I'm ready to start.`
 					goto start
@@ -761,7 +766,7 @@ mission "Successors: Trusted"
 				`	"What are you doing here?"`
 					goto seiasej
 			label seiasej
-			`	Sieasej briefly turns a shade of green in a display you might almost characterize as blushing. "I was summoned as well. I suspect the Houses wish to reflect on my involvement as well."`
+			`	Sieasej briefly turns a shade of green in a display you might almost characterize as blushing. "I was summoned. I suspect the Houses wish to reflect on my involvement as well."`
 			choice
 				`	"Indeed. I'm ready to begin, then."`
 					goto start
@@ -769,7 +774,7 @@ mission "Successors: Trusted"
 			`	"Good! We would be wise to be early."`
 			`	Together with Sieasej, you make your way to one of the smaller rooms branching off from the lobby. The doors open to reveal a garden-like area, filled with large long-leafed plants surrounding a centrally-located depression half-filled with water. Several Successors, many well-dressed like before, are gathered in the pool, and while Sieasej takes to it happily, you can't help but wince a little as the frigid water floods your boots.`
 			`	After a few minutes and other Successors have trickled in, the meeting begins in earnest. One of the Successors moves to the center of the pool and addresses you directly.`
-			`	"Captain. House Sioeora, who has supported thee with the gift of our translation device, and continues to recognize thy potential as an ally, wishes to recognize the good thy has done in our space, and proposes thy be awarded purchase rights for our general technology."`
+			`	"Captain. House Sioeora, who has supported thee with the gift of our translation device, and continues to recognize thy potential as an ally, wishes to recognize the good thy have done in our space, and proposes thy be awarded purchase rights for our general technology."`
 			`	That representative then returns to the outer rim of the circle and another takes the center, this time facing the representative who just spoke.`
 			`	"House Sioeora. House Chydiyi recognizes thy perspicacity and the value demonstrated by the captain, and supports thy proposal. The captain has proven themselves a valuable ally."`
 			`	A third representative now takes the center position, addressing the two previous speakers.`
@@ -803,16 +808,17 @@ mission "Successors: People's Houses, First Contact"
 			`	Would you like to ask someone here about this place?`
 			choice
 				`	(Yes.)`
-				`	(No.)`
+				`	(Not yet.)`
 					defer
-			`	You approach one of the crew members disembarking from one of the red-painted ships, who, as you draw closer, you see bears several large burns and scars.`
+			`	You approach one of the crew members disembarking from one of the red-painted ships, which, as you draw closer, you see bears several large burns and scars.`
 			`	"Excuse me, I was wondering if you could tell me about this place. It seems different to the rest of Successor space I've been through."`
 			`	The Successor looks over at the spaceport for a moment before grunting quietly and deciding to reply. Their voice is lower and darker than that of most Successors you have heard, and their skin changes color and texture rapidly, almost with every word.`
 			`	"Thou art the alien vis'tor brought by the Old Houses, art thou not? Their 'noble guest' whom they parade around with such delight?"`
 			choice
-				`	(Next.)`
-			`	You reply to the affirmative, despite the accusation of being "paraded around," and the Successor grunts again; with approval or disgust you cannot tell. They lean against one of the cargo containers on the spaceport floor and continue,`
-			`	"So then thou art an another indolent fool, no doubt decieved by their fine promises, of wealth and power so long as you toe the line? Well, look around and see the value of their noble word! The Houses care but naught for you or I or all of them." The Successor gestures to the crowd in a broad sweeping motion.`
+				`	"Yes."`
+				`	"You could say so."`
+			`	Despite the accusation of being "paraded around," the Successor grunts again at your response; with approval or disgust you cannot tell. They lean against one of the cargo containers on the spaceport floor and continue,`
+			`	"So then thou art another indolent fool, no doubt deceived by their fine promises, of wealth and power so long as you toe the line? Well, look around and see the value of their noble word! The Houses care but naught for you or I or any of them." The Successor gestures to the crowd in a broad sweeping motion.`
 			choice
 				`	"Who are they?"`
 					goto who
@@ -828,13 +834,13 @@ mission "Successors: People's Houses, First Contact"
 					goto free
 				`	"Thank you. I have no more questions."`
 			`	"Thou would be wise, if thou possesses that rare art, to keep and guard thy back agaist thy new and treacherous 'friends.'`
-			`	Or don't. Another buried fool makes little difference."`
+			`	"Or don't. Another buried fool makes little difference."`
 			`	With that, the Successor leaves, rising from the cargo containers and heading silently towards the spaceport.`
 				decline
 			label free
 			`	"Free, or freer than Old and New permit. The People's Houses stand not for the rich and those of noble blood, but for the true and honest heirs of that which was."`
 			`	The Successor looks over to the spaceport, before returning their attention to you for the last time.`
 			`	"Thou would be wise, if thou possesses that rare art, to keep and guard thy back agaist thy new and treacherous 'friends.'`
-			`	Or don't. Another buried fool makes little difference."`
+			`	"Or don't. Another buried fool makes little difference."`
 			`	With that, the Successor leaves, rising from the cargo containers and heading silently towards the spaceport.`
 				decline

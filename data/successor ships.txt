@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship `Kvelqde`
+ship "Kvelqde"
 	sprite "ship/kvelqde"
 	thumbnail "thumbnail/kvelqde"
 	attributes
@@ -42,6 +42,8 @@ ship `Kvelqde`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 
+	gun 0 -32 "Successor Pulse Laser"
+	turret 0 0
 	engine -8 28
 	engine 8 28
 	"steering engine" 9 -20.5
@@ -70,8 +72,6 @@ ship `Kvelqde`
 	"reverse engine" -12.5 -5
 		zoom .5
 		over
-	turret 0 0
-	gun 0 -32	"Successor Pulse Laser"
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
@@ -80,12 +80,12 @@ ship `Kvelqde`
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "This tiny shuttle is the smallest vessel operating in Successor space, and the first ship that new Successor pilots are able to get their arms on. Despite their small size, they are capable multipurpose vessels, and are frequently used for transporting passengers and cargo, and for short-duration research expeditions."
-	description `	The design of the Kvelqde is, like most Successor vessels, based on originals from the time of the Predecessors. While the modern incarnation is nowhere near as advanced, successive generations of iteration with more limited resources have promoted the cost-efficiency and user-friendliess of the design.`
+	description "	The design of the Kvelqde is, like most Successor vessels, based on originals from the time of the Predecessors. While the modern incarnation is nowhere near as advanced, successive generations of iteration with more limited resources have promoted the cost-efficiency and user-friendliess of the design."
 
-ship `Kvelqde` `Kvelqde (Naive)`
+ship "Kvelqde" "Kvelqde (Naive)"
 	description "This tiny shuttle is the smallest vessel operating in Successsor space, and appears to fulfill much the same role as the human shuttles with which you are familiar, transporting small groups of passengers and quantities of cargo throughout their space. While it has enough space to equip weapons if necessary, its limited internal space and the low energy density of civilian Successor generators make these hardpoints most suitable to mining rather than combat."
 
-ship `Nnesaarau`
+ship "Nnesaarau"
 	sprite "ship/nnesaarau"
 	thumbnail "thumbnail/nnesaarau"
 	attributes
@@ -116,7 +116,7 @@ ship `Nnesaarau`
 		`"Aqra" Inductive Reverser`
 		`3-"Kaska" Betavoltaic Cell`
 		`1-"Uurau" Betavoltaic Cell`
-		`Auxiliary Power Reserve`
+		"Auxiliary Power Reserve"
 		`"Ej" Shield Cortex`
 		"Scram Drive"
 	gun -7.5 -38
@@ -148,10 +148,10 @@ ship `Nnesaarau`
 	"final explode" "final explosion medium"
 	description "Quick and comfortable, the Nnesaarau is among the newest designs utilized in Successor space, having first emerged from House Chydiyi's shipyards no more than twenty years ago. For various reasons, it is also among the least popular; it was designed solely as a luxury passenger transport and sees very little use outside that role because of its high price and restrictive internals. Nonetheless, some hotshot pilots swear by these as racing or fast courier vessels."
 
-ship `Nnesaarau` `Nnesaarau (Naive)`
-	description `These very light vessels don't have much room for passengers or cargo, but move swiftly and elegantly through Successor space. These qualities, combined with their high price and uncommon presence, suggest that these may be luxury craft of some sort, too impractical for use by the majority of Successors.`
+ship "Nnesaarau" "Nnesaarau (Naive)"
+	description "These very light vessels don't have much room for passengers or cargo, but move swiftly and elegantly through Successor space. These qualities, combined with their high price and uncommon presence, suggest that these may be luxury craft of some sort, too impractical for use by the majority of Successors."
 
-ship `Myaede`
+ship "Myaede"
 	sprite "ship/myaede"
 	thumbnail "thumbnail/myaede"
 	attributes
@@ -185,10 +185,11 @@ ship `Myaede`
 		"Pulse Laser Turret" 2
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-	turret -33 -11 "Pulse Laser Turret"
-	turret 33 -11 "Pulse Laser Turret"
+
 	gun -3 -60
 	gun 3 -60
+	turret -33 -11 "Pulse Laser Turret"
+	turret 33 -11 "Pulse Laser Turret"
 	engine -40 10
 	engine 40 10
 	"steering engine" 20 -50
@@ -224,10 +225,10 @@ ship `Myaede`
 	"final explode" "final explosion medium"
 	description `The "Myaede" is neither elegant nor fast, but it has remained the mainstay of Successor commerce since before the collapse of the old empire over a thousand years ago, boasting a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. Much like the grand heirlooms of the High Houses, a familial "Myaede" is often passed down through the lineage of spacefaring low-born Successors, and many of the pilots flying these first took the helm as children under a grandparent's watchful gaze.`
 
-ship `Myaede` `Myaede (Naive)`
+ship "Myaede" "Myaede (Naive)"
 	description `The "Myaede" is neither elegant nor fast, but has cemented itself as the backbone of Successor commerce with a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. The design is robust and dependable; many of the ships you've seen appear old and worn but pass through the spaceport no less smoothly than their newer counterparts.`
 
-ship `Ejniisde`
+ship "Ejniisde"
 	sprite "ship/ejniisde"
 	thumbnail "thumbnail/ejniisde"
 	attributes
@@ -258,8 +259,8 @@ ship `Ejniisde`
 		`"Chyyra" Inductive Reverser`
 		`6-"Ruuv" Betavoltaic Cell`
 		`"Ej" Shield Cortex`
-		`Successor Fuel Sail`
-		`Successor Cooling`
+		"Successor Fuel Sail"
+		"Successor Cooling"
 		"Hyperdrive"
 	gun 0 -106
 	turret 22 10
@@ -297,9 +298,9 @@ ship `Ejniisde`
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `The Successors have a relatively small population and therefore are not in great need of large transport vessels. However, transporting passengers entirely by shuttle lacks a degree of comfort and security, so for longer journeys, the Successors use this dedicated transport ship. While unarmed by default, it is fast enough to escape most ships that might mean it harm.`
+	description "The Successors have a relatively small population and therefore are not in great need of large transport vessels. However, transporting passengers entirely by shuttle lacks a degree of comfort and security, so for longer journeys, the Successors use this dedicated transport ship. While unarmed by default, it is fast enough to escape most ships that might mean it harm."
 
-ship `Nnaatej`
+ship "Nnaatej"
 	sprite "ship/nnaatej"
 	thumbnail "thumbnail/nnaatej"
 	attributes
@@ -338,7 +339,8 @@ ship `Nnaatej`
 		`6-"Ruuv" Betavoltaic Cell`
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		`Successor Fuel Sail`
+		"Successor Fuel Sail"
+
 	turret 0 -10
 	engine 0 62
 	"steering engine" 5 -75
@@ -377,7 +379,7 @@ ship `Nnaatej`
 	description `Owing to their amphibious nature, a substantial portion of the Successor population lives underwater. Most of their ships are built with this in mind and are capable of some degree of underwater operation. However, the "Nnaatej" is a specialist vessel built specifically for this purpose, shuttling passengers from deep ocean to deep space and back again. It is designed with a denser, pressure-stable hull, built-in maintenance systems, and increased resistance to corrosion and slowing effects. These features come at the cost of making it a heavy and expensive ship for its size, but are considered well worth it to ensure the safety and comfort of its passengers and cargo.`
 	description `	While not explicitly designed for it, the unique design of the "Nnaatej" also allows it to enter the atmospheres of gas giants without issue.`
 
-ship `Ojde`
+ship "Ojde"
 	sprite "ship/ojde"
 	thumbnail "thumbnail/ojde"
 	attributes
@@ -407,9 +409,9 @@ ship `Ojde`
 		`"Veusa" Inductive Steering`
 		`"Chyyra" Inductive Reverser`
 		`6-"Ruuv" Betavoltaic Cell`
-		`Auxiliary Power Reserve` 3
+		"Auxiliary Power Reserve" 3
 		"Pulse Laser Turret" 2
-		`Successor Cooling`
+		"Successor Cooling"
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 	gun 28 -110
@@ -449,7 +451,7 @@ ship `Ojde`
 	description `Although it is the largest freighter employed by the Successors, the "Ojde" is still substantially smaller than large human freighters like the Bulk Freighter and Behemoth. While this limits the cargo capacity of any single ship, it also allows these vessels to be surprisingly fast and maneuverable and increases the number of facilities which can effectively tend to them.`
 	description `Rather than built-in cargo holds, the "Ojde" is designed to carry an expandable rack of standardized cargo containers, increasing delivery and loading speed in busy spaceports.`
 
-ship `Kvelqde-Khora`
+ship "Kvelqde-Khora"
 	sprite "ship/kvelqde-khora"
 	thumbnail "thumbnail/kvelqde-khora"
 	attributes
@@ -481,7 +483,7 @@ ship `Kvelqde-Khora`
 		`3-"Kaska" Betavoltaic Cell`
 		"Overcharged Pulse Laser" 2
 		"Overcharged Laser Turret"
-		`Auxiliary Power Reserve` 3
+		"Auxiliary Power Reserve" 3
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
 	engine -8 28
@@ -524,7 +526,7 @@ ship `Kvelqde-Khora`
 	"final explode" "final explosion medium"
 	description `One of the more industrious members of the People's Houses has done their best to ruggedize this "Kvelqde": additional armor plating has been laid over most of the exposed hull, a second gun port has been attached to the underside, and the shield grid has had its capacity substantially increased. While not quite capable of standing toe-to-toe with a production interceptor of the High Houses, it bares enough teeth for a bit of light piracy, and its greater durability is quite welcome for navigating the decaying stations and hostile worlds of southwestern Successor space.`
 
-ship `Stolsaqra`
+ship "Stolsaqra"
 	sprite "ship/stolsaqra"
 	thumbnail "thumbnail/stolsaqra"
 	attributes
@@ -558,7 +560,7 @@ ship `Stolsaqra`
 		"Successor Pulse Laser" 3
 		`"Ej" Shield Cortex`
 		"Hyperdrive"
-		`Auxiliary Power Reserve` 2
+		"Auxiliary Power Reserve" 2
 
 	gun 0 -40
 	gun -10.5 -20
@@ -601,10 +603,10 @@ ship `Stolsaqra`
 	description "The Successors have limited experience in making warships this small, and while their attempt at an interceptor is durable and sports a surprising amount of firepower for a ship of its size, it is also plagued with power and propulsion issues as most of their standard technology is either too large or not powerful enough to yield effective combat performance at this scale. The result is a ship that ambitious pilots call a challenge and prudent pilots call a deathtrap, but continues to see use as a patrol and escort vessel because of its speed and heavy armament."
 	description `	The "Stolsaqra" also has the distinction of being the only purpose-built warship manufactured by the High Houses that is made available to the general public, albeit with significantly downgraded systems compared to the military-exclusive model.`
 
-ship `Stolsaqra` `Stolsaqra (Naive)`
+ship "Stolsaqra" "Stolsaqra (Naive)"
 	description `The Successors' attempt at an interceptor is quite compact and sports a surprising amount of firepower for a ship of its size, though restrictive internal space leaves it plagued with power and propulsion issues if it is equipped to fully utilize its weapons capacity. While it is manufactured by the High Houses, the "Stolsaqra" is made available to the general Successor public, albeit with significantly downgraded systems compared to the military-exclusive model.`
 
-ship `Seiitej`
+ship "Seiitej"
 	sprite "ship/seiitej"
 	thumbnail "thumbnail/seiitej"
 	attributes
@@ -638,7 +640,7 @@ ship `Seiitej`
 		`"Veusa" Inductive Steering`
 		`"Ryuit" Fusion Core`
 		`"Jaase" Shield Cortex`
-		`Auxiliary Power Reserve` 3
+		"Auxiliary Power Reserve" 3
 		"Hyperdrive"
 		"Successor Cooling"
 		`"Ojet" Bimodal Coilgun` 4
@@ -671,9 +673,9 @@ ship `Seiitej`
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description `The "Seiitej" is the High Houses' vessel of choice for transporting small amounts of cargo and passengers throughout Successor space. Though less spacious than a dedicated civilian freighter or transport vessel, it is much more durable while remaining fast and maneuverable. While these vessels support a relatively light armament (by the standards of the High Houses), their speed and flexible internals allow them to frequently serve as patrol craft as well.`
-	description `	Their lighter armor and smaller combat systems also make them significantly less expensive to manufacture than the High Houses' purpose-built warships, which contributes to their growing ubiquity.`
+	description "	Their lighter armor and smaller combat systems also make them significantly less expensive to manufacture than the High Houses' purpose-built warships, which contributes to their growing ubiquity."
 
-ship `Veusade`
+ship "Veusade"
 	sprite "ship/veusade"
 	thumbnail "thumbnail/veusade"
 	attributes
@@ -711,7 +713,7 @@ ship `Veusade`
 		"Successor Cooling"
 		"Drag Cannon" 8
 		"Multimodal Armor: Heavy"
-		`Auxiliary Power Reserve` 2
+		"Auxiliary Power Reserve" 2
 		"Kinetic Rail Rifle" 5
 	gun -25 -32
 	gun -22 -34
@@ -755,12 +757,12 @@ ship `Veusade`
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description `Blessed with the honor of being named with the Successor word for swiftness, the "Veusade" is designed for only one purpose: to carry eight drag cannons as close to an enemy ship's hull as possible.`
-	description `	Vessels of this lineage earned renown in many of the conflicts between the Predecessors' High Houses, catching and killing ships many times their size and escaping before reinforcements could arrive. In the present, such a narrowly-focused design makes these vessels ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly intercept and immobilize fleeing ships.`
+	description "	Vessels of this lineage earned renown in many of the conflicts between the Predecessors' High Houses, catching and killing ships many times their size and escaping before reinforcements could arrive. In the present, such a narrowly-focused design makes these vessels ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly intercept and immobilize fleeing ships."
 
-ship `Veusade` `Veusade (Naive)`
+ship "Veusade" "Veusade (Naive)"
 	description `The "Veusade" bristles with gun ports but has a small overall weapons capacity; in fact, it is just enough to saturate its hardpoints with drag cannons. Such a narrowly-focused design makes these ships ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly catch and immobilize fleeing vessels.`
 
-ship `Vujlet`
+ship "Vujlet"
 	sprite "ship/vujlet"
 	thumbnail "thumbnail/vujlet"
 	attributes
@@ -795,7 +797,7 @@ ship `Vujlet`
 		`"Chyyra" Inductive Reverser`
 		`"Nnesa" Fusion Core`
 		`OC-"Mavra" Betavoltaic Cell`
-		`Auxiliary Power Reserve`
+		"Auxiliary Power Reserve"
 		`"Jaase" Shield Cortex`
 		"Hyperdrive"
 		"Successor Cooling"
@@ -846,10 +848,10 @@ ship `Vujlet`
 	description `Navigating the stars with the grace of a flitting bird, the compact "Vujlet" is a mass-produced High Houses warship flexible enough to serve in a variety of light-duty roles. Large enough to operate as a self-sufficient unit, these vessels serve as a useful bridge between short-ranged and relatively vulnerable interceptors, and larger, more resource-intensive warships that can be much more expensive to build and operate.`
 	description `	The design was originally employed by House Kaatrij as a stealth reconnaissance vessel that made use of their then-recently-developed cloaking techhnology. As the alliance between the New Houses strengthened, the plans for the "Vujlet" were distributed among them, and the light warship rapidly became a mainstay of their fleets.`
 
-ship `Vujlet` `Vujlet (Naive)`
+ship "Vujlet" "Vujlet (Naive)"
 	description `The compact "Vujlet" is a mass-produced High Houses warship flexible enough to serve in a variety of light-duty roles. Large enough to operate as a self-sufficient unit, these vessels serve as a useful bridge between short-ranged, relatively vulnerable interceptors, and larger, more resource-intensive warships that can be much more expensive to build and operate.`
 
-ship `Aaulqra`
+ship "Aaulqra"
 	sprite "ship/aaulqra"
 	thumbnail "thumbnail/aaulqra"
 	attributes
@@ -884,7 +886,7 @@ ship `Aaulqra`
 		`"Chyyra" Inductive Reverser`
 		`"Uoret" Fusion Core`
 		`"Nnesa" Fusion Core`
-		`Primary Power Reserve`
+		"Primary Power Reserve"
 		`"Jorv" Shield Cortex`
 		"Hyperdrive"
 		"Successor Cooling" 2
@@ -893,8 +895,7 @@ ship `Aaulqra`
 		"Kinetic Rail Rifle" 7
 	gun 0 -116
 	gun 0 -109
-		under 
-	gun -14 -74 
+	gun -14 -74
 	gun 14 -74
 	gun -12 -83
 	gun 12 -83
@@ -931,10 +932,10 @@ ship `Aaulqra`
 	"final explode" "final explosion medium"
 	description `The "Aaulqra" is the oldest warship design currently produced by the High Houses in Successor space, with a recognizable lineage continuing back several thousand years to early in the old empire. It is compact, fast, and durable for a ship of its class, but has relatively limited internal space and lacks any significant cargo or passenger facilities. The captains of these vessels are often up-and-coming Successor officers hoping to prove themselves to one of the High Houses by demonstrating their mastery of the vessel; while most, of course, do not, the ship's flexibility and ubiquitious presence make it an excellent starting point for those who do.`
 
-ship `Aaulqra` `Aaulqra (Naive)`
-	description `This medium warship is among the most common designs employed by the High Houses of the Successors. It is compact, fast, and durable for a ship of its class, but limited internal space and fuel capacity restrict it mostly to short-range patrol service.`
+ship "Aaulqra" "Aaulqra (Naive)"
+	description "This medium warship is among the most common designs employed by the High Houses of the Successors. It is compact, fast, and durable for a ship of its class, but limited internal space and fuel capacity restrict it mostly to short-range patrol service."
 
-ship `Kaskhorade`
+ship "Kaskhorade"
 	sprite "ship/kaskhorade"
 	thumbnail "thumbnail/kaskhorade"
 	attributes
@@ -968,7 +969,7 @@ ship `Kaskhorade`
 		`"Veusa" Inductive Steering`
 		`"Veusa" Inductive Reverser`
 		`"Uoret" Fusion Core`
-		`Auxiliary Power Reserve`
+		"Auxiliary Power Reserve"
 		`"Jaase" Shield Cortex`
 		"Hyperdrive"
 		"Successor Cooling"
@@ -978,14 +979,15 @@ ship `Kaskhorade`
 		`Bimodal Coilgun Turret`
 		"Multimodal Armor: Heavy"
 		"Kinetic Rail Rifle" 25
-	turret -31 6
-	turret 31 6
-	turret 0 -15 "Bimodal Coilgun Turret"
-	turret 0 30
+
 	gun -3 -120
 	gun 3 -120
 	gun -19 -74
 	gun 19 -74
+	turret -31 6
+	turret 31 6
+	turret 0 -15 "Bimodal Coilgun Turret"
+	turret 0 30
 	engine -8 80
 		zoom .8
 	engine 8 80

@@ -6,7 +6,7 @@
 #
 # Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 outfit "Successor License"
 	category "Licenses"
@@ -35,7 +35,7 @@ outfit `"Byiaa" Shield Cortex`
 	"shield protection" -0.33
 	"shield energy" 2.92
 	"shield connection point" 1
-	"description" "At their peak, the Predecessors were feared not by how quickly they could overpower their enemies, but by how effectively they could outlast them. Many generations later, this philosophy is still reflected in modern Successor shield cortices, which are exceptionally powerful for their size but weaken the shield's resistance to incoming fire, allowing Successor ships to recover quickly from sustained damage, even if they are slightly more vulnerable to it."
+	description "At their peak, the Predecessors were feared not by how quickly they could overpower their enemies, but by how effectively they could outlast them. Many generations later, this philosophy is still reflected in modern Successor shield cortices, which are exceptionally powerful for their size but weaken the shield's resistance to incoming fire, allowing Successor ships to recover quickly from sustained damage, even if they are slightly more vulnerable to it."
 
 outfit `"Ej" Shield Cortex`
 	category "Systems"
@@ -63,7 +63,7 @@ outfit `"Jaase" Shield Cortex`
 	"shield protection" -0.33
 	"shield energy" 7.4
 	"shield connection point" 1
-	"description" "The technology of their Predecessors was not nearly as modular as the modern Successor equivalents, which must be built with more limited resources and comparatively primitive manufacturing techniques. Nontheless, this medium-sized shield cortex is powerful enough to shrug off the combined damage output of several lesser attackers, and consequently is reserved by the High Houses for use in their private navies."
+	description "The technology of their Predecessors was not nearly as modular as the modern Successor equivalents, which must be built with more limited resources and comparatively primitive manufacturing techniques. Nontheless, this medium-sized shield cortex is powerful enough to shrug off the combined damage output of several lesser attackers, and consequently is reserved by the High Houses for use in their private navies."
 
 outfit `"Jorv" Shield Cortex`
 	category "Systems"
@@ -77,10 +77,10 @@ outfit `"Jorv" Shield Cortex`
 	"shield protection" -0.33
 	"shield energy" 16.1
 	"shield connection point" 1
-	"description" "Bristling with regeneration nodes, this large Successor shield cortex requires a power budget greater than most human warships in their entirety. Many more traditional members of the High Houses disapprove of its design, arguing that such a powerful piece of their technology deserves a more artful form, but there has ultimately been little desire to invest time and money into a redesign for purely aesthetic reasons."
+	description "Bristling with regeneration nodes, this large Successor shield cortex requires a power budget greater than most human warships in their entirety. Many more traditional members of the High Houses disapprove of its design, arguing that such a powerful piece of their technology deserves a more artful form, but there has ultimately been little desire to invest time and money into a redesign for purely aesthetic reasons."
 
-outfit `Shield Cortex Interface`
-	category `Systems`
+outfit "Shield Cortex Interface"
+	category "Systems"
 	cost 250000
 	thumbnail "outfit/shield cortex interface"
 	licenses
@@ -89,7 +89,7 @@ outfit `Shield Cortex Interface`
 	"outfit space" -3
 	"shield protection" 0.33
 	"shield connection point" -2
-	description `This small bundle of additional wiring connects two Successor shield cortices to function as a single unit, preventing the shield-softening effect of one of the generators from unduly reducing the durability of the ship's shields. The effect scales poorly past two connected generators, however.`
+	description "This small bundle of additional wiring connects two Successor shield cortices to function as a single unit, preventing the shield-softening effect of one of the generators from unduly reducing the durability of the ship's shields. The effect scales poorly past two connected generators, however."
 
 outfit `1-"Uurau" Betavoltaic Cell`
 	category "Power"
@@ -143,7 +143,7 @@ outfit `6-"Ruuv" Betavoltaic Cell`
 	"energy capacity" 8500
 	description "This large modular betavoltaic generator is designed to be resilient and dependable: if one of its component cells fails, it can continue to operate at only a slightly reduced output. The Successors eschew its use on warships because of its low energy density, but it sees substantial use aboard their merchant, archaeological, and other civilian craft."
 
-outfit `Auxiliary Power Reserve`
+outfit "Auxiliary Power Reserve"
 	category "Power"
 	cost 60000
 	thumbnail "outfit/small successor battery"
@@ -156,7 +156,7 @@ outfit `Auxiliary Power Reserve`
 	"hull energy" -0.1
 	description "The relatively limited output of the Successors' betavoltaic cells has encouraged them to build efficient batteries to make up for that deficit. In order to gain some additional power overhead, these reserve a portion of their capacity exclusively for use by shield generators and hull repair systems, effectively reducing the amount of power these systems draw from a ship's total energy pool while active."
 
-outfit `Primary Power Reserve`
+outfit "Primary Power Reserve"
 	category "Power"
 	cost 320000
 	thumbnail "outfit/large successor battery"
@@ -210,7 +210,7 @@ outfit `"Uoret" Fusion Core`
 	"heat generation" 35.1
 	"shield energy multiplier" -0.22
 	"hull energy multiplier" -0.22
-	description `Designed in the form of a flowering plant from the ancestral homeworld of the Successors, this largest and most powerful of the High Houses' stellarators demonstrates a mastery of nuclear fusion power far exceeding humanity's. In addition to being powerful and surprisingly efficient, it is also supported by a large and well-integrated power distribution network capable of massively reducing the draw of the Successors' energy-hungry defensive outfits.`
+	description "Designed in the form of a flowering plant from the ancestral homeworld of the Successors, this largest and most powerful of the High Houses' stellarators demonstrates a mastery of nuclear fusion power far exceeding humanity's. In addition to being powerful and surprisingly efficient, it is also supported by a large and well-integrated power distribution network capable of massively reducing the draw of the Successors' energy-hungry defensive outfits."
 
 outfit "Successor Cooling"
 	category "Systems"
@@ -251,7 +251,7 @@ outfit `"Veldt" Combat Scanner`
 	"cargo scan power" 50
 	"cargo scan efficiency" 15
 	description "The High Houses prefer to keep their territories well-monitored, and have a long history of developing powerful and efficient scanners to that end. This scanning system is their latest generation, used to both identify contraband and target potential foes at great distance."
-	description `While restricted for sale to the public, the sheer number of these produced has allowed a few to slip onto black markets; a persistent problem the High Houses are extremely eager to correct.`
+	description "While restricted for sale to the public, the sheer number of these produced has allowed a few to slip onto black markets; a persistent problem the High Houses are extremely eager to correct."
 
 outfit `"Tuur" Scanning Suite`
 	category "Systems"
@@ -479,7 +479,7 @@ outfit "Multimodal Armor: Heavy"
 	"multimodal armor" -1
 	"unplunderable" 1
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "This configuration strengthens the bonds between the atoms making up the armor, increasing its resistance to direct damage."
+	description "	This configuration strengthens the bonds between the atoms making up the armor, increasing its resistance to direct damage."
 
 outfit "Multimodal Armor: Keystone"
 	category "Systems"
@@ -490,7 +490,7 @@ outfit "Multimodal Armor: Keystone"
 	"multimodal armor" -1
 	"unplunderable" 1
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "This configuration allows a vessel equipped with it to safely pass through unstable wormholes. As a side effect, it also substantially interferes with external scans of a vessel's cargo or outfits."
+	description "	This configuration allows a vessel equipped with it to safely pass through unstable wormholes. As a side effect, it also substantially interferes with external scans of a vessel's cargo or outfits."
 
 outfit "Multimodal Armor: Regen"
 	category "Systems"
@@ -499,7 +499,7 @@ outfit "Multimodal Armor: Regen"
 	"multimodal armor" -1
 	"unplunderable" 1
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "This configuration increases the plasticity of the armor, greatly increasing the effectiveness of in-combat repair efforts."
+	description "	This configuration increases the plasticity of the armor, greatly increasing the effectiveness of in-combat repair efforts."
 
 outfit "Multimodal Armor: Resilient"
 	category "Systems"
@@ -513,7 +513,7 @@ outfit "Multimodal Armor: Resilient"
 	"multimodal armor" -1
 	"unplunderable" 1
 	description "The metamaterial armor of Successor warships can be altered in an appropriately equipped spaceport to change its attributes."
-	description "This configuration increases the armor's resilience against certain special types of damage."
+	description "	This configuration increases the armor's resilience against certain special types of damage."
 
 outfit "Kinetic Rail Rifle"
 	category "Hand to Hand"
