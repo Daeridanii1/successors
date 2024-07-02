@@ -209,7 +209,7 @@ mission "Successors: First Contact 2"
 				`	"Hail, captain! Thy tardiness does not reflect well upon thee. I am Riijaaora, an honored Scion of House Sioeora. I shall speak for the House today."`
 			label greet
 			choice
-				`	(Say nothing).`
+				`	(Say nothing.)`
 					goto request
 				`	"Hello. I am <first> <last>.`
 					goto introduce
@@ -218,7 +218,7 @@ mission "Successors: First Contact 2"
 						has "event: successors: tardy for sioeora"
 					goto apologize-tardiness
 			label introduce
-			`	"We are aware of this. Thy introduction is not expected."`
+			`	"We are aware of this. Thy introduction is not unexpected."`
 				goto request
 			label apologize-tardiness
 			`	"Thy apology is noted."`
@@ -226,7 +226,7 @@ mission "Successors: First Contact 2"
 			label request
 			`	Riijaaora continues. "Thy presence has been demanded here so that thou might'st provide service to this House. We have a task for thee, and if thou completes't correctly, a gift for thee as a symbol of our patronage."`
 			choice
-				`	(Say nothing).`
+				`	(Say nothing.)`
 					goto task
 				`	"What sort of task?"`
 					goto task
@@ -386,10 +386,10 @@ mission "Successors: First Contact 3"
 			`	As you approach the coordinates to land, you see that it contains the remains of a substantial complex; over a dozen large buildings and several disused landing pads are present, connected by paths of smooth, untarnished metal. The materials show a curious quality of being both unblemished and overgrown; vines cling to otherwise-spotless walls and the various walkways, though often shaded by large plants, do not show any debris or detritus on their surfaces.`
 			`	You set the <ship> down on one of the landing pads and exit onto the surface, accompanied by Sieasej, who holds aloft a cylindrical device which they wave in the air for several seconds. "I read several calls of the species," they say. "We are fortunate, captain. We will not have to travel far." They wave their device around some more, making slower but wider motions, before they eventually speak again. "The nearest one lies to the west, about a hundred meters."`
 			choice
-				`	(Approach the location).`
+				`	(Approach the location.)`
 			`	You make your way along one of the walkways to the west, brushing aside the enormous leaves of the overgrowing plants. Sieasej continues to wave their triangulation device in the air and quietly relays your progress; as you get closer, you hear a gentle scuffling that you realize precedes every detection by the device. After making your way through one particularly-dense wall of flora, you spot your target: a glassy-winged animal perched in a plant over the walkway's edge, probing the branch it stands on with long feelers extending from its head.`
 			choice
-				`	(Try to tranquilize it).`
+				`	(Try to tranquilize it.)`
 						goto tranq
 					to display
 						or
@@ -419,7 +419,7 @@ mission "Successors: First Contact 3"
 			label lure-1-success
 			`	The animal remains stationary, examining you closely.`
 			choice
-				`	(Tranquilize it).`
+				`	(Tranquilize it.)`
 						goto tranq
 					to display
 						or
@@ -434,7 +434,7 @@ mission "Successors: First Contact 3"
 				( random + has "Pookie, Part 5: offered" * 2 + has "Remnant: Face to Maw 1: completed" * 2 ) < 95
 			`	The animal inspects your hand for a moment before darting away.`
 			label lured-failed
-				`	(Tranquilize it).`
+				`	(Tranquilize it.)`
 						goto tranq
 					to display
 						or
@@ -445,7 +445,7 @@ mission "Successors: First Contact 3"
 			label lure-2-success
 			`	The animal seems curious. It approaches your hand, sniffing it gently.`
 			choice
-				`	(Tranquilize it).`
+				`	(Tranquilize it.)`
 						goto tranq
 					to display
 						or
@@ -460,7 +460,7 @@ mission "Successors: First Contact 3"
 			label lured
 			`	You retrieve a morsel of food and offer it to the animal, which sniffs it gently before starting to eat some.`
 			choice
-				`	(Tranquilize it now).`
+				`	(Tranquilize it now.)`
 						goto tranq-friends
 					to display
 						or
@@ -491,7 +491,7 @@ mission "Successors: First Contact 3"
 			`	You scoop up the immobilized animal and begin to run back to your ship as the wailing behind you increases in pitch and intensity. As you and Sieasej dash through the foliage, the sunlight overhead is suddenly darkened by the shadow of something flying overhead.`
 			choice
 				`	(Keep running.)`
-				`	(Try to shoot at whatever is above you).`
+				`	(Try to shoot at whatever is above you.)`
 					goto shoot-ambush
 			`	Suddenly, the shadow disappears and the wailing stops. You keep running towards your ship, but can't shake the feeling that you are being watched.`
 				goto ambush
@@ -503,7 +503,7 @@ mission "Successors: First Contact 3"
 				`	(Run for it!)`
 				`	(Shoot them with your sidearm.)`
 					goto shoot
-				`	(Order your ship to fire on them).`
+				`	(Order your ship to fire on them.)`
 					to display
 						"flagship base attribute: turret mounts" > "flagship attribute: turret mounts"
 					goto ship-shoot
@@ -590,11 +590,12 @@ mission "Successors: First Contact 3"
 			`	"Hark, captain <last>!" Riijaaora says, this time speaking with their own voice. The sounds feel warped and uneven, as if they are being rearranged midair. "We see that thou hast returned from thy hunt successful!"`
 			choice
 				`	"Yes, I have."`
+				`	"Of course."`
 			`	Riijaaora wriggles their body in what might be an expression of joy before they and the other scions splay their arms before you. "Thou hast done this house great service, captain," they say. "We would be proud to call thee 'ally,' and reward thee for thy usefulness." One of the military officers standing beside the scions moves towards you and gently takes the caged animal from your hands. It chirps quietly as you hand it over and as the officer takes it out of the room.`
 			`	Riijaaora gestures to a small wooden pin affixed to the outer layer of their clothing. "We keep a number of these ancient translation devices, but very few for thine own language. 'Tis an art piece, commissioned many years past for a performance of thy own Shakespeare's Tempest so that our noble Predecessors could experience the work in its original language. 'Tis thy promised gift."`
 			`	Riijaaora plucks the device from their outfit and offers it to you.`
 			choice
-				`	(Take it).`
+				`	(Take it.)`
 			`	The device is made of carved wood, or at least something that appears like it, depicting in well-varnished grain a sailing ship washed against rocks. As you pin it on your jacket, the ship begins to gently rock in place. Riijaaora turns away from you to speak to Sieasej. "And think not, our fair citizen, that thy contributions shall go unrecognized. Thou shalt be rewarded, too, for thy part in this." Riijaaora gestures for another officer to escort them away, though not before Sieasej offers you a short splay of the arms in goodbye.`
 			`	An officer approaches you to offer you a data-sphere. "Within this," Riijaaora says, "is historical data for most of the worlds in our space. Combined with thy newfound ability of our language, thou should'st find the navigation of our worlds and cities more revealing and fruitful than before. Thou shall'st be permitted to gaze upon our technologies and vessels. Should'st the prospect interest thee, we are sure that the other Houses in council would be amenable to offering thee purchase rights, provided thou displays thy beneficence and utility to them as well. There are many minor tasks needing completion in our space; no doubt assisting with these would help thee ingratiate thyself with the others as thou hast with us." Riijaaora wiggles. "'Tis all, unless thou hast more questions thou needeth us resolve?"`
 			choice
@@ -657,20 +658,20 @@ mission "Successors: Kaatrij First Contact 1"
 				has "language: Hai"
 			`Upon landing here, you briefly remember the Successor data-sphere that you found on your ship some time ago. Given that you've recently acquired a Coalition translation box, you might be able to decode its message.`
 			choice
-				`	(Try to decode it).`
-				`	(Maybe later).`
+				`	(Try to decode it.)`
+				`	(Maybe later.)`
 					defer
-				`	(Don't decode it).`
+				`	(Don't decode it.)`
 					decline
 			`	You up the sphere, and it projects its message in a familiar-looking script that you quickly realize belongs to one of the species of the Coalition. After running the text through the translation box you acquired from the <coalition ally>, you are able to decode it:`
 				goto message-coalition
 			label hai-monoglot
 			`Upon landing here, you briefly remember the Successor data-sphere that you found on your ship some time ago. Given that you've recently acquired a Hai translator, you might be able to decode its message.`
 			choice
-				`	(Try to decode it).`
-				`	(Maybe later).`
+				`	(Try to decode it.)`
+				`	(Maybe later.)`
 					defer
-				`	(Don't decode it).`
+				`	(Don't decode it.)`
 					decline
 			`	You up the sphere, and it projects its message in a familiar-looking script that you quickly realize belongs to the Hai. After running the text through the translation box you acquired from them, you are able to decode it:`
 				goto message-hai
@@ -685,16 +686,16 @@ mission "Successors: Kaatrij First Contact 1"
 		conversation
 			`Shortly after you enter the atmosphere of the planet, the data-sphere begins to trill again and projects a different map, this time highlighting a set of coordinates on the night side. You adjust your course to fly there, setting down the <ship> on a patch of land next to a large lake. The data-sphere offers no further guidance.`
 			choice
-				`	(Wait).`
+				`	(Wait.)`
 			`	A couple of animals swim in the water in the distance, making faint honking sounds every once in a while that linger in the starlit air.`
 			choice	
-				`	(Wait).`
-				`	(Leave).`
+				`	(Wait.)`
+				`	(Leave.)`
 					goto premature
 			`	The glow of the <ship>'s lights attract a swarm of flying insect-like creatures that vainly dive at them again and again. A gentle breeze ripples through the leaves of the flora surrounding the lake.`
 			choice
-				`	(Wait).`
-				`	(Leave).`
+				`	(Wait.)`
+				`	(Leave.)`
 					goto premature
 			`	The minutes of the night wear on and, curious, you step out on your ship's boarding ramp to get a better view of your surroundings, to no avail, but you continue to wait. Eventually, after the night has worn on a little more, you hear the sound of water rushing; a small vehicle emerges from the lake and parks itself alongside your ship. A couple of Successors get out, one of whom approaches you.`
 			`	"Captain <first> <last>," they say. Their voice sounds strange, like their words are being carried from a great distance on the wind; the sounds ripple and bend as they speak them.`
@@ -831,7 +832,7 @@ mission "Successors: Trusted"
 		conversation
 			`Once you have sat down at the spaceport, you are met by another group of Successor naval officers. You notice that this group appears even more diverse than the last, representing several different uniform styles and liveries. Unifying them all is a small white and blue pin attached to their outfits; one that does not correspond to the insignia of any of the High Houses. The officers guide you, politely but firmly, to one of the monorail trains snaking out from the spaceport to other installations on the planet, and you all shuffle together into one of the cars, which appears to have been completely cleared of normal passengers if it even carried those in the first place.`
 			`	Several minutes later, the monorail deposits you at an especially large and well-decorated complex that swarms with both military and well-dressed civilians, some of whom appear so opulent and bejeweled that you suspect their personal effects are worth more than your ship. Each of them without exception wears the same white and blue insignia as your escorts, though many have incorporated it into their clothes' design or even display it as a pattern in skin coloration.`
-			`	As your escort peels off into the crowd, you see a familiar face in the distance: Sieasej, the Successor scholar, who visibly perks up when they see you and approaches.`
+			`	As your escort peels off into the crowd, you see a familiar face in the distance: Sieasej, the Successor scholar, who visibly perks up when they see you and then approaches.`
 			`	"Captain! Thou hast arrived at a fortuitous time! There are still some minutes before this day's meetings, including thy own audience with the Houses, are scheduled to begin." `
 			choice
 				`	"I'm ready to start.`
@@ -847,7 +848,7 @@ mission "Successors: Trusted"
 			choice
 				`	"I see. We'd better begin, then."`
 					goto start
-				`	"How has house Sioeora been?"`
+				`	"How has House Sioeora been?"`
 					goto sioeora
 				`	"What are you doing here?"`
 					goto aboutyou
@@ -871,9 +872,11 @@ mission "Successors: Trusted"
 			choice
 				`	"Indeed. I'm ready to begin, then."`
 					goto start
+				`	"Alright. Let's go."`
+					goto start
 			label start
 			`	"Good! We would be wise to be early to our respective events."`
-			`	Sieasej brings you to a concierge of sorts, who eventually informs you that you should make your way to one of the smaller rooms branching off from the lobby. The doors open to reveal a garden-like area, filled with large long-leafed plants surrounding a centrally-located depression half-filled with water. Several Successors, many well-dressed like before, are gathered in the pool; you can't help but wince a little as the frigid water floods your boots.`
+			`	Sieasej brings you to a concierge of sorts, who eventually informs you that you should make your way to one of the smaller rooms branching off from the lobby. The doors open to reveal a garden-like area, filled with large long-leafed plants surrounding a centrally-located depression half-filled with water. Several Successors, many well-dressed like before, are gathered in the pool; but you can't help but wince a little as the frigid water floods your boots.`
 			branch kaatrij
 				has "completed: Successors: Kaatrij First Contact 1"
 			`	After a few minutes and other Successors have trickled in, the meeting begins in earnest. One of the Successors moves to the center of the pool and addresses you directly.`
