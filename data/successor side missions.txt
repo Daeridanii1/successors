@@ -29,13 +29,13 @@ mission "Successors: First Contact Exploration: Raaqa-Kvelq-Ryuit"
 		conversation
 			`One of the Successors in the spaceport here seems to be offering small morsels of food to the others; short cooked strips of a dark green plant vaguely resembling a succulent, impaled on a wooden stick. Though most of the individuals here keep their distance from you, this one takes notice and offers you a stick.`
 			choice
-				`	(Take it).`
-				` 	(Decline).`
+				`	(Take it.)`
+				` 	(Decline.)`
 					goto refused
 			`	You take the stick from them and a wave of color runs up their body before they slither away to a different part of the spaceport.`
 			choice
-				`	(Try a bite).`
-				`	(Hide it away).`
+				`	(Try a bite.)`
+				`	(Hide it away.)`
 					goto hidden
 			`	Though you only take a small bite, the food tastes vile enough for you to gag: it is tough and fishy and far too salty for your palate. You discreetly spit out what little you consumed and consider yourself lucky that you didn't have to pay anything for it.`
 				decline
@@ -67,8 +67,8 @@ mission "Successors: First Contact Exploration: Mavra-Sol-Kvel"
 		conversation
 			`Your ship draws a bit of a crowd when you land here, though most are kept at bay by a set of pre-arranged barriers set up around your landing pad and the occasional patrolling guard. While walking by the barrier, one Successor offers one of their data-spheres to you.`
 			choice
-				`	(Take it).`
-				`	(Refuse).`
+				`	(Take it.)`
+				`	(Refuse.)`
 					goto refused
 			`	The Successor trills warmly when you take the sphere, though they are quickly pushed back by one of the guards. Like previously, the sphere expands into a small star map as soon as you touch it, though this one seems to contain some cultural data in addition to stellar coordinates.`
 				decline
@@ -359,11 +359,12 @@ mission `Successors: Stargazing 1`
 			`	"There's a planet at the edge of the galaxy with the perfect view---"`
 			`	"The sky there's divided into star-studded night and utter void. Could thou take us there?"`
 			`	"And back, of course. And our cargo too," the other one says, gesturing towards the cart of folded fabric.`
-			`	"And back." And our cargo. We can give thee modest pay."`
+			`	"And back. And our cargo. We can give thee modest pay."`
 			choice
 				`	"Sure, I can take you."`
 					goto yes
 				`	"I'm sorry, but you'll have to find a different pilot."`
+					decline
 			label yes
 			`	The two seem thrilled, the larger one turning a dull pink. "Oh! Thour't truly honorable, noble alien. I am Nnesa."`
 			`	"Jaasora. Thank you, Captain. Most pilots here've no appetite to travel to the uninhabited systems."`
