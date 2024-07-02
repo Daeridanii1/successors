@@ -922,7 +922,7 @@ mission "Successors: Trusted"
 			scene "outfit/successor license"
 			`	"This is the mark of our diplomats and our symbol of trust and cooperation," they say. "Our people may remain wary of an alien in their midst, but wherever thou displays this, it shall be known that thou hast recieved the blessing of the High Houses in council and that they may trade with you in amity and without fear."`
 			`	With this, Chydiyi then leaves the room, followed by most of the other representatives and gathered members, the remainder of whom begin to mingle amongst themselves and chat; the meeting is apparently over.`
-			`	Outside, you run into Sieasej again, recently come back from a meeting of their own. "Well, captain, how went thy meeting in council? 'Twas fruitful?"`
+			`	Outside, you run into Sieasej again, who has recently come back from a meeting of their own. "Well, captain, how went thy meeting in council? 'Twas fruitful?"`
 			choice
 				`	"Yes, I was awarded technology purchase rights."`
 				`	"Yes, it was. How was yours?"`
