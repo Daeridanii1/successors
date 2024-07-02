@@ -218,7 +218,7 @@ mission "Successors: First Contact 2"
 						has "event: successors: tardy for sioeora"
 					goto apologize-tardiness
 			label introduce
-			`	"We are aware of this. Thy introduction is not unexpected."`
+			`	"We are aware of this. Thy introduction is not expected."`
 				goto request
 			label apologize-tardiness
 			`	"Thy apology is noted."`
@@ -876,7 +876,7 @@ mission "Successors: Trusted"
 					goto start
 			label start
 			`	"Good! We would be wise to be early to our respective events."`
-			`	Sieasej brings you to a concierge of sorts, who eventually informs you that you should make your way to one of the smaller rooms branching off from the lobby. The doors open to reveal a garden-like area, filled with large long-leafed plants surrounding a centrally-located depression half-filled with water. Several Successors, many well-dressed like before, are gathered in the pool; but you can't help but wince a little as the frigid water floods your boots.`
+			`	Sieasej brings you to a concierge of sorts, who eventually informs you that you should make your way to one of the smaller rooms branching off from the lobby. The doors open to reveal a garden-like area, filled with large long-leafed plants surrounding a centrally-located depression half-filled with water. Several Successors, many well-dressed like before, are gathered in the pool; you can't help but wince a little as the frigid water floods your boots.`
 			branch kaatrij
 				has "completed: Successors: Kaatrij First Contact 1"
 			`	After a few minutes and other Successors have trickled in, the meeting begins in earnest. One of the Successors moves to the center of the pool and addresses you directly.`
