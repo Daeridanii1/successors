@@ -565,7 +565,7 @@ mission "Successors: First Contact 3"
 					goto betterlatethannever
 			action
 				set "Successors FC3: captured kijra-pet"
-			`	You rummage around in the other cargo containers until you find a bit of spare fabric scraps and leaf litter, a couple of handfuls of which you add to the animal's cage. With that sorted, you make your preparations for takeoff.`
+			`	You rummage around in the other cargo containers until you find a bit of spare fabric scraps and leaf litter, a couple of handfuls of which you add to the animal's cage. With that sorted out, you make your preparations for takeoff.`
 				goto end
 			label takeoff
 			action
