@@ -22,7 +22,7 @@ planet Aqra-Kvel-Taaq
 	description `While this planet may have a rocky surface deep down, it is covered by kilometers-thick glaciers composed of water ice. Near the equator, a ring of craters push the ice up into circular ridges that cast long shadows across the landscape.`
 		to display
 			not "known to the successors"
-	description "Covered in glaciers miles thick and bitterly cold, this planet is little more than a bleak ball of ice too far from its sun to be habitable. In the past, the Successors attempted to set up a shipyard here, but it eventually proved too costly to maintain and too poorly positioned to make up for it. Since it was abandoned, the Successors have made no further attempts to establish facilities here."
+	description `Covered in glaciers miles thick and bitterly cold, this planet is little more than a bleak ball of ice too far from its sun to be habitable. In the past, the Successors attempted to set up a shipyard here, but it eventually proved too costly to maintain and too poorly positioned to make up for it. Since it was abandoned, the Successors have made no further attempts to establish facilities here.`
 		to display
 			has "known to the successors"
 	government Uninhabited
@@ -33,7 +33,7 @@ planet Cavaasa-Vasa-Tej
 	description `This planet is hot and dry, and holds on to only a tenuous atmosphere. Several enormous alien installations are present on its surface; semicircular bubbles that smoothly emerge from the rock as if they were grown from it, dotted with small pores, which are each large enough for a starship. Inside them, the temperature is surprisingly quite habitable and you can observe the remains of what look like mines and industrial facilities within.`
 		to display
 			not "trusted by the successors"
-	description "Once an important industrial planet for the High Houses of the core systems, Cavasaa-Vasa-Tej was a hub for the mining of rare elements and for the growth of exotic metal in the superheated corona of the Kasii-Cavaasa star. Without maintenance, most of the stellar metallic gardens have long since fallen into Kasii-Cavaasa's outer layers, but the few that have survived by chance are now completely overgrown with threads of hyperdense alloy; enough to supply the facilities of Cavaasa-Vasa-Tej's industry for years, if they were still operational."
+	description `Once an important industrial planet for the High Houses of the core systems, Cavasaa-Vasa-Tej was a hub for the mining of rare elements and for the growth of exotic metal in the superheated corona of the Kasii-Cavaasa star. Without maintenance, most of the stellar metallic gardens have long since fallen into Kasii-Cavaasa's outer layers, but the few that have survived by chance are now completely overgrown with threads of hyperdense alloy; enough to supply the facilities of Cavaasa-Vasa-Tej's industry for years, if they were still operational.`
 		to display
 			has "trusted by the successors"
 	government Predecessor
@@ -44,7 +44,7 @@ planet Chyyra-Raaqa-Tuur
 	description `This snow-covered planet orbits a dim brown dwarf, making its surface dark and bitterly cold. Near the north pole, there are signs of large-scale excavation, possibly for materials to construct the station that orbits it.`
 		to display
 			not "known to the successors"
-	description "During the arrival of the New Houses, this planet was briefly considered as a location for permanent habitation. However, the brown dwarf it orbits produces very little heat and makes the planet uncomfortably cold, even for the cold-tolerant Successors. Furthermore, its lack of substantial natural resources exempted it from use as an industrial or mining planet, and it continues to remain uninhabited."
+	description `During the arrival of the New Houses, this planet was briefly considered as a location for permanent habitation. However, the brown dwarf it orbits produces very little heat and makes the planet uncomfortably cold, even for the cold-tolerant Successors. Furthermore, its lack of substantial natural resources exempted it from use as an industrial or mining planet, and it continues to remain uninhabited.`
 		to display
 			has "known to the successors"
 	government Uninhabited
@@ -61,7 +61,7 @@ planet Giiq-Sou-Kella
 	description `Small, atmospherically placid, and tectonically stable, this planet is completely covered in a global ocean composed of liquid methane. A few small rock outcrops emerge above the offgassing waves, but there are no dry landmasses larger than a square kilometer or so.`
 		to display
 			not "known to the successors"
-	description "Small, atmospherically placid, and tectonically stable, this planet is completely covered in a global ocean composed of liquid methane. The inherent toxicity of this environmental feature, combined with the frigid temperatures on its surface and the tiny amount of dry land, have made it unsuitable for long-term habitation."
+	description `Small, atmospherically placid, and tectonically stable, this planet is completely covered in a global ocean composed of liquid methane. The inherent toxicity of this environmental feature, combined with the frigid temperatures on its surface and the tiny amount of dry land, have made it unsuitable for long-term habitation.`
 		to display
 			has "known to the successors"
 	government Uninhabited
@@ -211,7 +211,7 @@ planet Myiara-Aret-Iir
 	description `In contrast to the pristine emptiness of the other formerly-inhabited planets in this area of space, this world teems with signs of chaos. The remnants of hastily-built weather-control towers dot much of its surface, and the cities upon it are neither majestic nor well-maintained; none are very large, but most are surrounded by vast expanses of fabric and radiation-bleached temporary constructions.`
 		to display
 			not "trusted by the successors"
-	description `Once a minor colony world, what would come to be known as Myiara-Aret-Iir was the last stop of all those hoping to escape the decay of the Predecessors' space by traveling through the wormhole. Those with wealthy patrons who could afford passage on specially-modified vessels spent little time here, but those without often found the blossoming shanty towns of the planet to be their new homes. With the denounment of the Predecessors' last inter-Houses war and the final push to evacuate, most of those living here eventually made it through. The rest probably perished long ago.`
+	description `Once a minor colony world, what would come to be known as Myiara-Aret-Iir was the last stop of all those hoping to escape the decay of the Predecessors' space by traveling through the wormhole. Those with wealthy patrons who could afford passage on specially-modified vessels spent little time here, but those without often found the blossoming shanty towns of the planet to be their new homes. With the denouncement of the Predecessors' last inter-Houses war and the final push to evacuate, most of those living here eventually made it through. The rest probably perished long ago.`
 		to display
 			has "trusted by the successors"
 	government Predecessor
@@ -255,10 +255,10 @@ planet Mosaa-Ooa-Wyrdd
 	description `This small planet hosts a population of towering octopus-like aliens. They have built several cities across its surface that are highly symmetrical and filled with organic-looking curved buildings draped in colorful fabrics that shimmer in the light. The air is damp and chilly; rainstorms blanket a significant portion of the planet's surface and many of the sleek-looking vessels that set down in the spaceport discharge streams of water upon landing.`
 		to display
 			not "known the successors"
-	description "Mosaa-Oaa-Wyrdd's location in the only hyperspace link between the northern and southern parts of Successor territory has made it a hub for interstellar trade and the center of Successor commerce."
+	description `Mosaa-Oaa-Wyrdd's location in the only hyperspace link between the northern and southern parts of Successor territory has made it a hub for interstellar trade and the center of Successor commerce.`
 		to display
 			has "known the successors"
-	description "Unique among all Successor planets, its primary employer is not one of the High Houses but an independent corporation responsible for manufacturing, among other things, the Pulse Laser. The High Houses are understandably somewhat perturbed by this autonomy, but have allowed independent commerce to continue here in exchange for levying modest taxes on transactions that do not go through their official channels."
+	description `	Unique among all Successor planets, its primary employer is not one of the High Houses but an independent corporation responsible for manufacturing, among other things, the Pulse Laser. The High Houses are understandably somewhat perturbed by this autonomy, but have allowed independent commerce to continue here in exchange for levying modest taxes on transactions that do not go through their official channels.`
 		to display
 			has "known the successors"
 	spaceport `The spaceport is large and busy, and sits situated at the foot of a mountain. Small shops and tents sit abreast advertisements and large metallic statues of various sorts, many of which seem weather-worn and unmaintained.`
@@ -267,10 +267,10 @@ planet Mosaa-Ooa-Wyrdd
 	spaceport `	At the edges of the port, there is a large ongoing construction project to expand it; you can count dozens of half-completed hangars each large enough for several freighters.`
 		to display
 			not "known the successors"
-	spaceport "The spaceport is large and busy, situated at the foot of a mountain, and seems more haphazard than most Successor spaceports you've seen. Small shops and tents sit abreast advertisements for the latest generation of Pulse Laser and statues of important figures in the high houses, many of which seem weather-worn and unmaintained."
+	spaceport `The spaceport is large and busy, situated at the foot of a mountain, and seems more haphazard than most Successor spaceports you've seen. Small shops and tents sit abreast advertisements for the latest generation of Pulse Laser and statues of important figures in the high houses, many of which seem weather-worn and unmaintained.`
 		to display
 			has "known the successors"
-	spaceport "At the edges of the port, there is a large ongoing construction project to expand it; you can count dozens of half-completed hangars each large enough for several freighters."
+	spaceport `	At the edges of the port, there is a large ongoing construction project to expand it; you can count dozens of half-completed hangars each large enough for several freighters.`
 		to display
 			has "known the successors"
 	government Successor
