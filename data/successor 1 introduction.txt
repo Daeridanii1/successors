@@ -570,7 +570,7 @@ mission "Successors: First Contact 3"
 			label takeoff
 			action
 				set "Successors FC3: captured kijra-pet"
-			`	With the animal not having too many problems, you make your preparations for takeoff.`
+			`	With the animal stowed away, you make your preparations for takeoff.`
 				goto end
 			action
 				set "Successors FC3: released kijra-pet"
