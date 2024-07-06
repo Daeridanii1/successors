@@ -20,7 +20,6 @@ planet "  Successors"
 	spaceport ""
 #	Sales
 shipyard "successors"
-	"Valkkyiara-Khorasaqra" #see heirlooms.txt
 	`Aaulqra`
 	`Ejniisde`
 	`Kaskhorade`
@@ -34,7 +33,6 @@ shipyard "successors"
 	`Nnesaarau`
 	`Vujlet`
 	`Nnaatej`
-	`Kijra-Khora` #see extras.txt
 outfitter "successors"
 	"Auxiliary Power Reserve"
 	"Primary Power Reserve"
@@ -44,15 +42,8 @@ outfitter "successors"
 	"High-Velocity Spike"
 	"High-Velocity Spike Rack"
 	"Kinetic Rail Rifle"
-	"Phasing Laser Sidearm"
-	"Heirloom Hunter-Killers"
 	"Heirloom License"
-	"Heirloom Point Defense"
-	`"Sarija" Heirloom Coilgun`
-	`"Jiita" Heirloom Shielding`
 	"High Houses License"
-	`"Tijra" Heirloom Lance`
-	"Hypervelocity Spike"
 	"Multimodal Armor: Heavy"
 	"Multimodal Armor: Regen"
 	"Multimodal Armor: Resilient"
@@ -88,7 +79,6 @@ outfitter "successors"
 	`1-"Uurau" Betavoltaic Cell`
 	`3-"Kaska" Betavoltaic Cell`
 	`6-"Ruuv" Betavoltaic Cell`
-	`"Ija" Heirloom Reactor`
 	`OC-"Mavra" Betavoltaic Cell`
 
 mission "Successors Naive Test"

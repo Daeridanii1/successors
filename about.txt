@@ -1,1 +1,1 @@
-This plugin is an ongoing project which adds a new alien species, the Successors, to the game, located at the south of the galactic map.
+Omnis support for the Successors PR.

@@ -51,14 +51,7 @@ system "Successors "
 		distance 1500
 		offset 0
 		sprite "ship/nnaatej"
-	add object "Valkkyiara-Khorasaqra  "
-		distance 1500
-		offset 30
-		sprite "ship/valkkyiara-khorasaqra"
-	add object "Kijra-Khora  "
-		distance 1500
-		offset 60
-		sprite "ship/kijra-khora"
+
 #	Ships
 planet "Kvelqde "
 	bribe 0
@@ -281,31 +274,3 @@ fleet "Nnaatej "
 	personality "heroic"
 	variant
 		"Nnaatej"
-planet "Valkkyiara-Khorasaqra "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Valkkyiara-Khorasaqra "
-		threshold 0
-planet "Valkkyiara-Khorasaqra  "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Valkkyiara-Khorasaqra "
-		threshold 0
-fleet "Valkkyiara-Khorasaqra "
-	government "Arena"
-	personality "heroic"
-	variant
-		"Valkkyiara-Khorasaqra"
-planet "Kijra-Khora  "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Kijra-Khora "
-		threshold 0
-fleet "Kijra-Khora "
-	government "Arena"
-	personality heroic
-	variant
-		"Kijra-Khora"
